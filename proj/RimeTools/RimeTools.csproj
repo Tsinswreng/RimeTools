@@ -5,4 +5,9 @@
 		<RootNamespace>RimeTools</RootNamespace>
 	</PropertyGroup>
 
+	<ItemGroup>
+		<!-- 本地引用 Tsinswreng.CsCtx：後續 DictLine 的鍵/上下文操作可能用到 ICtxKey/CtxKey。 -->
+		<ProjectReference Include="../../../Tsinswreng.CsCtx/proj/Tsinswreng.CsCtx/Tsinswreng.CsCtx.csproj" />
+	</ItemGroup>
+
 </Project>

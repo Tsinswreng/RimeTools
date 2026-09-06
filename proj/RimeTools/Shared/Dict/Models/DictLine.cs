@@ -1,12 +1,11 @@
 namespace RimeTools.Shared.Dict.Models;
 
-/// dict.yaml 正文的一行：詞/字、編碼、權重。
-/// 權重原樣保留字符串，可能是 "10000%"（dks 表頭）或 "374279"（phrase 頻率）等格式，需要數字時由消費方解析。
-public sealed record DictLine(
-	/// 詞或字（第一列）。
-	str Text,
-	/// 編碼（第二列）。
-	str Code,
-	/// 權重（第三列），可缺省。
-	str? Weight
-);
+/// IDictLine 的默認實現：直接繼承 Dictionary<obj,obj?>，字典成員零成本齊備。
+/// 解析器把「列名 ↔ 格子」配對後塞進本字典即可；不做任何列數/鍵的預設。
+/// 例：
+///   var line = new DictLine{ ["text"]="一個", ["code"]="qkkn", ["weight"]="374279" };
+/// 訪問: line.text 走 DictLineExtn → "一個"。
+public sealed partial class DictLine:Dictionary<obj,obj?>,IDictLine{
+	/// 創建空行。
+	public partial DictLine();
+}
