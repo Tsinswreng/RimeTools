@@ -7,7 +7,7 @@ using static Tsinswreng.CsSh.ShGlobal;
 /// 子命令共用的執行上下文。
 /// dispatcher 統一建立並填入項目固定事實，子命令直接取用，不各自解析路徑。
 public interface ISCtx{
-	/// 模板倉庫根目錄，各命令以此定位 proj/ 下專案。
+	/// 倉庫根目錄，各命令以此定位 proj/ 下專案。
 	public Pth RootDir{get;set;}
 	/// 目標框架（TFM），與 proj/Directory.Build.props 的 TargetFramework 同步；
 	/// 決定構建/發布輸出目錄名（如 net10.0），升級 TFM 時此處需同步更新。
@@ -20,10 +20,9 @@ public class SCtx:ISCtx{
 	public str Tfm{get;set;} = "";
 }
 
-/// 模板維護腳本的命令列入口。
-/// 第一個引數選擇具體腳本；腳本本身負責完整的一次性流程。
+/// 命令列入口。第一個引數選擇具體命令；命令本身負責完整的一次性流程。
 internal static partial class Program{
-	/// 將命令列入口分派至具名腳本。
+	/// 將命令列入口分派至具名命令。
 	internal static async Task Main(str[] Args){
 		var Ct = default(CT);
 		// Program.cs 位於 <根>/proj/RimeTools.Scripts；上推兩級得到倉庫根。
@@ -49,18 +48,21 @@ internal static partial class Program{
 			case nameof(TestAotWin):
 				await TestAotWin.Main(Ctx, Ct);
 				break;
+			case nameof(Dks):
+				await Dks.Main(Ctx, Args[1..], Ct);
+				break;
 			default:
-				throw new ArgumentException($"Unknown RimeTools script: {Args[0]}.", nameof(Args));
+				throw new ArgumentException($"Unknown script: {Args[0]}.", nameof(Args));
 		}
 	}
 
-	/// 列出可由 dotnet run -- <entry> 呼叫的腳本名稱。
+	/// 列出可由 dotnet run -- <entry> 呼叫的命令名稱。
 	private static void PrintUsage(){
 		Console.Error.WriteLine("Usage: dotnet run --project proj/RimeTools.Scripts -- <entry>");
-		Console.Error.WriteLine("Entries: Test, TestAotWin");
+		Console.Error.WriteLine("Entries: Test, TestAotWin, Dks");
 	}
 
-	/// 讓編譯器提供腳本源文件路徑，故腳本不依賴啟動時的當前目錄。
+	/// 讓編譯器提供命令源文件路徑，故命令不依賴啟動時的當前目錄。
 	private static str OwnPath([CallerFilePath] str CallerPath = ""){
 		return CallerPath;
 	}

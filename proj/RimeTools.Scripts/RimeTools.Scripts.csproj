@@ -14,4 +14,10 @@
 		<PackageReference Include="Tsinswreng.CsSh" Version="0.3.0-alpha" />
 	</ItemGroup>
 
+	<ItemGroup>
+		<!-- Dks 命令調用 Dks.Core 流水線；RimeTools 是其依賴鏈上游，直接引用以保鏈完整。 -->
+		<ProjectReference Include="../Dks.Core/Dks.Core.csproj" />
+		<ProjectReference Include="../RimeTools/RimeTools.csproj" />
+	</ItemGroup>
+
 </Project>

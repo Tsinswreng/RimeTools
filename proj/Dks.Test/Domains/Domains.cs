@@ -1,0 +1,1 @@
+// Dks.Core 測試域目錄。按域建子目錄（如 DictYaml/、RegexRules/、Steps/），每個域含測試類與被測對象。

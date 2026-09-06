@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<!-- Dks.Core 是「Dks 輸入法方案」專用邏輯庫，只提供代碼可調用的 API，不是 exe。
+		     依賴 RimeTools 的公用域模型與接口。 -->
+		<RootNamespace>Dks.Core</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="../RimeTools/RimeTools.csproj" />
+	</ItemGroup>
+
+</Project>

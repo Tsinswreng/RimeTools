@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<OutputType>Exe</OutputType>
+		<RootNamespace>Dks.Test</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Tsinswreng.CsTreeTest" Version="0.1.1-alpha" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="../Dks.Core/Dks.Core.csproj" />
+		<ProjectReference Include="../RimeTools/RimeTools.csproj" />
+	</ItemGroup>
+
+</Project>
