@@ -7,7 +7,18 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<!-- 規則數據資源(每行 pattern<TAB>replacement 或 字<TAB>音), AOT 下亦可用。 -->
+		<EmbeddedResource Include="Rules/*.txt" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<!-- RimeTools 公用域（Dict/Phrase/Freq/Tools）。 -->
 		<ProjectReference Include="../RimeTools/RimeTools.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<!-- Svc 方法首參統一 IFnCtx，依賴 Tsinswreng.CsCtx（工作區本地庫）。 -->
+		<ProjectReference Include="../../../Tsinswreng.CsCtx/proj/Tsinswreng.CsCtx/Tsinswreng.CsCtx.csproj" />
 	</ItemGroup>
 
 </Project>

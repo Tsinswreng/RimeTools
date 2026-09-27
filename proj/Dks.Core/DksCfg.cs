@@ -5,11 +5,19 @@ using RimeTools.Shared.Freq;
 
 /// Dks 流水線的配置：輸入/輸出路徑 + 可換的存儲後端（默認內存實現）。
 /// 典型使用（對應 Dks.sh 的默認路徑）：
-///   UserDataDir = "D:/Program Files/Rime/User_Data"
-///   SrcTableDir = "e:/_code/ngaq/src/backend/dict/原表"
+///   new DksCfg() → UserDataDir = "D:/Program Files/Rime/User_Data"
+///                 SrcTableDir = "e:/_code/ngaq/src/backend/dict/原表"
+///                 WordFreq 指向 UserDataDir/essay.txt
+/// 若調用方改 UserDataDir/SrcTableDir，需同步改 WordFreq（或整體用對象初始化器重設）。
 public sealed partial class DksCfg{
+	/// 默認 Rime 用戶目錄（對應 Dks.sh 的 rime_dir）。
+	public const str DefaultUserDataDir = "D:/Program Files/Rime/User_Data";
+
+	/// 默認原表目錄（對應 ngaq 的原表目錄）。
+	public const str DefaultSrcTableDir = "e:/_code/ngaq/src/backend/dict/原表";
+
 	/// Rime 用戶目錄：dks/dkn/dks_v/dkp/dkz/dks_phrase 的輸出目標目錄；essay.txt 的默認所在目錄。
-	/// 例：D:/Program Files/Rime/User_Data。與 Dks.sh 的 cd 目標一致。
+	/// 例：D:/Program Files/Rime/User_Data。
 	public str UserDataDir { get; set; }
 
 	/// 原表目錄：saffes/dkp/dkz/cangjie 等源碼表所在目錄（流水線的輸入側）。
@@ -25,7 +33,6 @@ public sealed partial class DksCfg{
 	/// 詞頻源（可換；默認讀 UserDataDir/essay.txt 的內存實現 EssayWordFreqSource）。
 	public IWordFreqSource WordFreq { get; set; }
 
-	/// 構造默認配置：Parser/Writer 用默認內存實現，WordFreq 指向 UserDataDir/essay.txt。
-	/// 需先用相對路徑填 UserDataDir/SrcTableDir 再調用；路徑在構造後可改。
+	/// 構造默認配置：路徑用 DefaultUserDataDir/DefaultSrcTableDir，後端用默認內存實現。
 	public partial DksCfg();
 }

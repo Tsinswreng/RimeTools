@@ -8,19 +8,19 @@ public static class DictLineExtn{
 	extension(IDictLine z){
 		/// text 鍵：詞或字。等價 z["text"]；無鍵返回 ""。
 		public str text{
-			get => z["text"] as str ?? "";
+			get => z.TryGetValue("text", out var v) ? v as str ?? "" : "";
 			set => z["text"] = value;
 		}
 
 		/// code 鍵：編碼。例：一個→qkkn；essay 兩列表無此鍵 → ""。
 		public str code{
-			get => z["code"] as str ?? "";
+			get => z.TryGetValue("code", out var v) ? v as str ?? "" : "";
 			set => z["code"] = value;
 		}
 
 		/// weight 鍵：權重字符串（"10000%" / "374279"）；無鍵返回 null。
 		public str? weight{
-			get => z["weight"] as str;
+			get => z.TryGetValue("weight", out var v) ? v as str : null;
 			set => z["weight"] = value;
 		}
 	}
