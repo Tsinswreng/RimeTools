@@ -1,0 +1,8682 @@
+dks 對比：舊 Dks 流程 vs 新 Dks2 流程（只列有變化的字，按漢字頻率降序）
+頻率定義：該字在 essay.txt 的單字條目頻數 ÷ 全部單字條目頻數之和（合計 47138505），再乘 100000
+舊表 21334 字、新表 17491 字、有變化 8678 字
+頻率(十萬分之,3位小數)	字	舊碼(Dks)	新碼(Dks2)
+2064.083	你	nku	
+522.412	個	kzn	
+521.139	看	xzc/xzd	xzc
+388.916	等	tlu/tlw	tlw
+328.581	做	czm	
+214.549	買	mpu	myy
+167.349	找	cyq	
+165.616	及	gjp	gkp
+139.158	喫	xxk	
+133.863	並	bxw	
+126.816	它	ezh	ozh
+115.441	哈	hlp/wlp	
+103.994	走	cvm/cvu	cvu
+96.146	您	nkf	
+95.453	所	squ	;qu
+88.749	寫	snu	sau
+87.644	啥	jqj	jaj
+86.418	搞	kyq	
+77.569	賣	mpm	myn
+67.314	卡	xyy	
+65.842	幫	pzs	
+60.000	改	klu	ilu
+55.439	拉	rmp	
+48.425	住	drm/trm	trm
+39.846	撒	szt	
+38.650	哎	qzi/wzi	
+37.019	塊	xbn/xun	xbn
+36.280	黃	uzs	yzs
+35.701	豬	tqj	
+33.452	定	dxx/txx	dxx
+31.009	站	tpf/tpv	
+30.101	據	kam	
+29.903	查	cyh/zyh	zyj
+28.586	唔	wzj	
+28.488	遠	yac/yae	yae
+27.326	額	wyk	
+25.624	飯	bac/bae	
+25.154	賺	dpv	
+24.712	間	kpc/kpd	
+19.082	咩	mnj/msu	
+18.798	套	ezz	
+18.015	色	skk	;kk
+17.504	操	svu/vza/vzz	vza/vzz
+17.014	噢	qfu/qgk	qgk
+16.956	傻	son/soy	
+16.893	呃	qmm/qpk	
+16.367	砸	zlp	
+15.130	噶	kzt	
+14.595	廠	eaw/eax	eaw
+13.963	庫	xzm	azm
+13.689	丟	tea	
+13.647	劍	kav	
+13.409	咱	zlf	
+13.049	推	ebh/egh	ebh
+12.985	笨	ble/ple	bje/ple
+12.896	丫	qyh	
+12.805	耍	soy	
+12.767	許	hau	;au
+12.690	咁	kzf	
+12.540	姐	cnu	cau
+11.562	蘇	szj	;zj
+11.477	嘴	cfy	
+11.422	果	kvy	ivy
+11.345	挖	apt	
+11.201	戲	hah/han/hzj	;ah/;an/hzj
+10.609	捏	nxt	nck
+10.437	客	xyk	
+10.393	沙	syh/syn	syh
+10.380	哼	hys	
+9.926	設	ost	;st
+9.903	猜	vlj	
+9.773	滾	kbe	
+9.667	呆	tlj/wlj	
+9.192	足	cfk/cfm	cfk
+9.137	精	css/csx	css
+8.974	咧	rwt	
+8.836	鍵	gae/gwd/gwe	gae/gqd/gqe
+8.804	冇	mzq	
+8.713	吖	qyh	
+8.549	嚇	hyk/hyn	hyg/hyk
+8.447	曬	spm/swm	esm
+8.248	社	dnu	dau
+8.172	兼	kxf/kxv	ixf
+8.157	娘	nqs	
+8.006	瓦	won/woy	woy
+7.864	佢	gaj	
+7.828	囧	iww	
+7.750	穩	qbe	
+7.720	曉	hxq	
+7.673	蛋	dze	
+7.652	宮	kgs	
+7.643	碰	byx/fpx	
+7.639	塞	slk/slm	slg/slk
+7.544	屁	fdm	
+7.478	餵	ajn	
+7.446	砍	xlr	
+7.304	母	mvu	mlu
+7.300	橫	izs/uys/uyx	izs/yys/yyx
+7.162	拆	eyk	
+7.026	榜	bys/pyx/pzw	bys/pzw
+6.789	仁	ndd	nds
+6.551	拼	fxs/pps	pps
+6.477	乜	mnu	
+6.438	扯	enu	
+6.436	鑽	cvc/cvd	cvd
+6.277	噸	tbd	
+6.192	樑	rqs	
+6.186	休	hgj	,gj
+6.169	喇	ryt	
+6.152	泰	ezi	ozi
+6.021	虛	haj	haj/xaj
+5.984	略	rqk	
+5.978	吶	nlp	
+5.953	托	ezk	
+5.857	薩	szt	
+5.758	怎	ckr	
+5.590	速	csk/svk	svk
+5.484	透	evm/ogk	
+5.452	叼	txa	
+5.420	窗	vos	
+5.418	搜	stj/syq	stj
+5.380	岩	wyf	
+5.378	逗	drm/dvm	dvm
+5.335	嫌	gxf	
+5.304	哩	rku	
+5.304	稿	kzq	
+5.236	妖	qqa	qaa
+5.229	甩	sry	
+5.193	顏	wyd	
+5.015	犬	axe	ace
+5.000	撐	eys	
+4.970	殼	xok	
+4.962	趟	tys/tyx	
+4.824	滬	gzu	uzu
+4.822	暖	nve	
+4.765	爹	dzy/tqh	
+4.748	刺	vsk/vsm	vsg/vsk
+4.739	躺	ezw	
+4.693	妞	ntj	
+4.625	牠	ezh	
+4.586	辛	sdd	sds
+4.544	吼	hvm/hvu	
+4.519	嗨	hlj	
+4.497	豔	lav	
+4.474	晃	uzw	yzw
+4.474	歪	.pj/quh	
+4.400	逸	ldt	ldk
+4.393	顆	xvy	avy
+4.389	染	nar/nav	nar
+4.379	粘	nwf	
+4.340	勾	kvj	
+4.281	嗲	tnu	
+4.266	瞧	zsa	
+4.203	碧	pwk	
+4.145	鈣	klm/kzi	
+4.141	菌	gte/uae	gte
+4.075	勢	osi	;si
+4.031	岳	wok	
+3.992	渡	dzm	dzg
+3.982	浜	pps/pyw	
+3.980	齣	egt	
+3.973	拽	dsi/lst	
+3.942	酶	mlj	
+3.910	尖	csf	
+3.886	耗	hzz	
+3.874	晉	cdc	cdx
+3.863	漆	vdt	vdk
+3.857	獃	wlj	wlh
+3.819	凝	wjs/wjx	wjs
+3.785	枕	dkf/tjr/tjv	dkf/tjr
+3.782	郝	esk/hzk/osk	aak/hzk/oak
+3.778	綁	pow	
+3.749	幻	upc	yic
+3.721	茲	cjj/zjj	
+3.710	萌	mps	
+3.681	渣	cyh	cyj
+3.649	婷	dxs	
+3.645	菸	qam/qxd	qam
+3.625	攢	czc/cze/zvd	czc/zvc
+3.566	髒	czw	
+3.562	薰	hgc/hgd	.jc/.jd
+3.553	泵	plx	
+3.532	噻	slj	
+3.524	磊	ruy	
+3.515	癌	wpf	
+3.492	撮	cvt/vvt	
+3.447	蒂	txm	
+3.439	捉	cok	crk
+3.430	釣	txz	
+3.426	蔥	vvs	
+3.367	灑	spu/swm/swu/syy	esm/esu
+3.335	叉	vpj/vyh	vyh
+3.314	叻	rmk	
+3.295	臟	zzx	
+3.292	賬	tqx	
+3.252	扛	gos/kos	kos
+3.246	宿	sgk/sgm	sgg/sgk
+3.246	統	ebx	ebs
+3.214	鋅	sdd	
+3.195	箇	kzn	
+3.167	寨	slk/zyi	slk
+3.155	啵	pzh	
+3.129	姆	mvm/mvu	
+3.127	捱	wpj	
+3.110	翹	gsa/gsz	
+3.101	嘞	rmk	
+3.087	趴	fpt	
+3.048	遮	tnj	
+3.034	忒	elk	olk
+3.010	署	dam	
+3.000	邢	gxs	gxs/xxd
+2.995	擰	nxw	
+2.993	嵐	rmf	
+2.957	涅	nxt	nck
+2.942	帆	baf/bav	baf
+2.934	棚	bls/bps/bys	bls/bms
+2.932	蹦	blx	
+2.921	几	dfj/kky	kky
+2.915	咒	tgm	
+2.908	湧	lfw	
+2.908	潑	fzt	
+2.904	缸	gos/kzs	gos
+2.877	倩	vcc/vsx	vcx/vsx
+2.858	植	djk/dkm	djk/dkg
+2.836	焉	qad/qwd/ywd	qad/qqd
+2.824	癡	ekj	
+2.813	艙	vzs	
+2.813	謙	xxf	
+2.811	万	mac/mlk	
+2.790	杖	dqw	lqw
+2.781	竄	vvc/vvd	vvc
+2.749	屢	rrm	
+2.705	擱	kzk	
+2.681	刊	xzd	
+2.681	郁	qgk	
+2.662	崖	wah/wpj	wpj/wwj
+2.650	氫	xss	
+2.650	鞍	qzd	
+2.635	棵	gve/xve/xvh/xvy	
+2.635	瑟	set	sek
+2.633	癮	qje	
+2.624	咦	hdj	
+2.618	侃	xzc/xze	azc/aze
+2.616	卸	snm	
+2.601	楞	rms	
+2.597	媛	yad/yrc	yad/yqc
+2.590	黴	mkh/mlm	mkh
+2.584	憐	rpd	
+2.571	巢	zya/zyz	zya
+2.561	裹	kvn/kvy	ivn/ivy
+2.546	燥	szq	
+2.522	酥	szj	;zj
+2.497	蒜	svc	svd
+2.495	鈦	ezi	
+2.491	氟	pjt	
+2.474	彤	dbs	lbs
+2.459	曦	hah	;ah
+2.459	虫	.jy	hgy
+2.435	氯	rrk	
+2.416	荊	kws	
+2.414	桿	kze	
+2.408	氨	qzd	
+2.406	愣	rmx	
+2.384	撇	fxt	
+2.382	翅	osm	
+2.382	蔚	ajn/qgt	qgi/qgt
+2.382	鎂	mky	
+2.376	勳	hgd	.jd
+2.376	莖	gps/qps	gps
+2.370	噓	haj/ham	haj
+2.355	滄	vqx/vzs	vzs
+2.302	鈺	wfk	
+2.291	呦	qea	qda
+2.283	捆	xbe	
+2.283	鬆	sbs/sfs/svx/vfs	sfs
+2.272	籽	cju	
+2.270	膝	sdt	sdk
+2.268	嗦	szh	
+2.259	胺	qzc/qzt	qzt
+2.251	擾	nsq	
+2.249	璐	rym	ryg
+2.240	掰	pmj/ppk	
+2.236	蛙	apj/qoh	apj
+2.234	祛	xaj	
+2.225	迦	kqh/kyh	kyh
+2.221	党	tzw	
+2.221	杉	spf	sqf
+2.215	曏	haw/hax/oaw/oax	,aw/,ax/haw/hax
+2.208	掂	txf	
+2.206	鎳	wxt	
+2.196	蘸	cpv	
+2.194	簿	bzk/bzu	bzk
+2.191	胤	ldc	ldx
+2.191	鎚	dth/dtn/tbh	dth/tbh
+2.174	嗆	vas/vax	
+2.174	販	pac	
+2.172	嵌	xyf/zzr	
+2.168	沫	mzt	mzi/mzt
+2.166	臻	ced	ces
+2.149	涯	wah/wpj	wpj/wwj
+2.121	麵	mxc	
+2.119	痘	dvm	
+2.117	嫣	hwd/qac/qwd/qwe	had/qac/qqd
+2.096	裘	ggj	ujj
+2.087	迥	uxw	yxw
+2.085	蔔	blk	blg
+2.075	剎	vyt	
+2.073	埠	bzm	
+2.073	酚	fjd	
+2.068	濾	rqm	
+2.064	佰	myk/pyk	myk
+2.058	綸	ipd/rtd	kud/rtd
+2.054	涮	soc	
+2.054	肽	ezi	
+2.047	搵	qbc	qbc/qbt/qge
+2.045	摁	qlc	
+2.041	淌	ezw	
+2.041	琛	ekf	
+2.037	崎	gjh/xah	xah
+2.037	掠	rqk/rqx	rqx
+2.028	諗	ojr	
+2.022	崑	kbd	
+2.011	嘟	tzj	
+2.011	椰	lnj	laj
+2.009	槐	gbh/guh	gbh
+2.007	唆	svh	
+1.996	堰	qac/qae/qwc	qac/qae/qsc
+1.994	吏	rkm	
+1.990	剖	fau/fvu	ffu/fvu
+1.988	扳	fyd/pyd	
+1.986	喀	xyk	
+1.984	撰	zoe/zre	zre
+1.973	佘	dnj/jhj	
+1.969	懿	qkn	qei
+1.964	錐	tgh	
+1.962	絹	kfc	isc
+1.956	巳	jju/ljm/lju	jju
+1.956	柒	vdt	vdk
+1.956	棧	zpe/zwe/zyc	zqe/zyc
+1.956	硯	wxc	wxc/wxd
+1.956	錳	myw	
+1.952	嗒	ezp/tlp	tlp
+1.952	摺	rmp/tap	rmp
+1.941	鱉	pst	
+1.937	鶯	qps	
+1.933	憨	gzv/hzf	gzv
+1.933	搽	dyh	
+1.933	燜	mlc	
+1.928	鉢	pzt	
+1.928	黏	nwf	
+1.926	甭	bls	
+1.926	錚	vps	
+1.922	禿	evk	ovk
+1.922	諦	txm	txg
+1.918	軋	qpt	qit
+1.901	腮	slj	
+1.899	褚	equ/tqu	
+1.894	鍍	dzj/dzm	dzg
+1.888	撬	xxz	
+1.888	絃	gcd/hʰcc	gcd/hcc
+1.888	鉑	bzk	
+1.884	俐	rem	
+1.882	胚	flj	
+1.880	嵩	sgs	
+1.875	穫	uzk	yzk
+1.873	芮	nfi	njb
+1.869	槓	kox	
+1.867	梭	svh	
+1.865	砼	dvs	
+1.860	唑	zvn	
+1.860	鋰	rku	
+1.856	嚷	naw	
+1.856	焱	.xk/lav	
+1.856	釵	vpj	
+1.854	榆	lfj/lsa	lfj
+1.854	罕	hzc/hze	
+1.848	肇	dqq	
+1.846	濕	elp/ojp	ojp/olp
+1.846	窪	qoh	
+1.841	摞	roh/ron	roh
+1.839	嘀	tpk/txk	
+1.839	糸	mxk	
+1.824	嚎	gza	
+1.824	涇	gsw/kxs	kxs
+1.822	噗	fvk	
+1.818	卟	kxj/xxu	kcj/xcu
+1.818	硒	sxj	
+1.818	筠	ltd	yed
+1.814	釗	kxa/taa	kca/taa
+1.812	嚕	ryj	
+1.810	烹	fys	
+1.793	嬸	ojr	
+1.793	溴	hgm	
+1.793	縛	bak/bzn	bak
+1.793	葡	bzj	
+1.784	噁	qzm	qzg
+1.782	灬	hvy	
+1.782	箍	kzj	izj
+1.780	滷	dxk/esk/ryu	ryu
+1.778	癱	ezd	
+1.773	躥	vvc/vvd	
+1.773	鉬	mgk	
+1.773	銨	qze	
+1.773	銹	sgm	
+1.771	墅	dau	
+1.769	釩	far	
+1.767	醃	qaf/qwf	qqf
+1.765	囡	nlf	
+1.763	鷺	rym	ryg
+1.759	丨	kbe/uat	
+1.757	倘	ezw	
+1.754	饃	mzj	
+1.752	尉	ajn/qgt	qgi/qgt
+1.752	睏	xbc	
+1.752	絳	kox	kux
+1.750	屄	pdj	
+1.750	礁	csa	
+1.746	悄	vsq	
+1.744	厘	rkj	
+1.744	炯	ixw/uxw	ixw/yxw
+1.742	砷	odd	
+1.740	仟	vcd	vcs
+1.737	盔	xbh	alj
+1.737	艷	lav	
+1.737	莘	sed	ses
+1.735	奢	onj	
+1.733	贖	jrk	
+1.731	憾	glv	
+1.729	孓	iat/kfw	
+1.727	囿	ygk/yjm	yjm
+1.727	錨	mza	
+1.723	喏	nnu	
+1.723	烯	hjh	
+1.720	町	dxw/exe/exs/exw	dxw/exs/exw
+1.720	薯	dam	
+1.718	冼	sce	
+1.712	伱	nku	
+1.710	莽	mvu/mzu/mzw	mzu/mzw
+1.708	咚	tbs	
+1.708	馱	dzh/dzn	
+1.703	恪	xzk	
+1.701	噹	tzs	
+1.701	峩	wzh	
+1.701	錒	qzh	
+1.699	歉	xpr/xpv/xxr	axr
+1.699	窖	kyz	kug
+1.697	啟	xxu	
+1.697	岔	vyn	
+1.697	帘	rwf/zed	
+1.695	歆	hjf	
+1.693	枴	ipu	
+1.693	纜	rmr/ryv	ryv
+1.689	撼	glr	
+1.687	崢	zps/zys	
+1.687	瘟	qbd	
+1.684	咀	cau/qyt/zau	cau/zau
+1.684	肏	vzz	
+1.682	确	gok	
+1.682	醛	vrt/zfd	
+1.680	硼	bls	
+1.680	鄺	.zs/izw	izw
+1.678	啤	bsj	
+1.678	嘮	eya	
+1.678	捌	ppt/pyt	ppt
+1.678	柺	ipu	
+1.676	糯	nvn	
+1.665	凜	gjf/rkr	rkr
+1.659	跺	tvn	
+1.657	埔	fzu	
+1.657	扼	qpk	
+1.655	竺	tbk/ttk/tvk	tbk/ttk
+1.655	鉉	uxe	yce
+1.648	吋	vbc	
+1.644	嗄	qyi/syn	
+1.642	攥	cvt	
+1.640	喆	twt	tqt
+1.640	拈	nxf	
+1.636	叭	fpt	
+1.631	孬	nya	
+1.627	罡	kzs	
+1.619	挎	xzj	azj
+1.617	淞	jfs/sfs	sfs
+1.617	茉	mzt	
+1.614	頹	dbh	lbh
+1.610	焙	blm	
+1.610	甦	szj	
+1.610	鍀	tlk	
+1.608	亼	zjp	
+1.608	匝	clp	
+1.604	夯	ble/how/hzs	
+1.602	蔫	qad/qwd	qad/qqd
+1.600	簧	uzs	yzs
+1.600	脲	nxz	
+1.597	嘲	tya	
+1.597	弒	ojm	
+1.597	昰	dsu	
+1.597	甕	qvx	qvs
+1.595	斟	ejp/tjf	
+1.591	汲	kjp	kkp
+1.589	侄	tdt	tdk
+1.589	銑	sce	sle
+1.585	丐	kzi/kzt	kzi
+1.585	檸	nyw	
+1.585	蝨	set	sek
+1.583	炊	efh	afh
+1.578	薔	skk/zas	ejk/zas
+1.574	抒	jau/jqu	jau
+1.572	榭	jnm	jag
+1.572	氖	nlu	
+1.572	膨	bys/byx	bys
+1.572	鐺	tzs/vys	tzs
+1.568	咎	ggu/kza	ggu/kbj
+1.568	潞	rym	ryg
+1.568	莓	mgm/mlj/mlm	mjm/mlj/mlm
+1.568	馥	bgk/bjk	bgk
+1.566	褂	ipm	
+1.563	娼	eas	
+1.561	僦	cgm	cgg
+1.561	羲	hah	;ah
+1.559	丿	fxt/lsi	
+1.557	郅	tdt	tdk
+1.555	熨	ajn/qgt	qgi/qgt
+1.553	吡	bdt/fsu	bdt
+1.551	咂	clp	
+1.551	釹	nqu	
+1.551	頜	glr/klp	klp
+1.549	擂	ruh/run	
+1.549	疝	spd/syc	sqd/syc
+1.547	卹	sgt	.dt
+1.547	咕	kzj	
+1.547	槌	drn/dth	drh/dth
+1.547	芊	vcc/vcd	vcs
+1.544	厂	hzc/hze	
+1.544	嗡	qvs/qvw	
+1.544	妤	laj	
+1.544	烴	exs/kxw	kxw
+1.542	訟	jfs/jfx	jfs
+1.538	尕	kyy	
+1.538	聆	rps	
+1.536	偈	gwi/gwt	gqi/gqt
+1.536	冪	mxk	
+1.536	刂	tza	
+1.536	燴	gvi	
+1.536	甙	dlm	
+1.536	蒽	qld	
+1.530	曙	dam	
+1.530	瘺	rom	
+1.527	氰	zss	
+1.527	綻	dpc	
+1.527	闞	hpr/hyv/xzv	hyv/xzv
+1.525	啜	dfi/eft/tri/trt	tri/trt
+1.525	拇	mvu	mlu
+1.525	汕	spe/syc	sqe/syc
+1.525	磺	uzs	
+1.525	羥	xaw/xpd/xps	xps
+1.525	踮	txr	
+1.523	嘖	cpk/cyk/zpk	cpk/zpk
+1.521	嗪	zdd	
+1.521	濂	rpf	
+1.521	驪	rpj/rwj	rwj
+1.517	厝	vzk/vzm	vzg/vzk
+1.517	捨	onu	oau
+1.517	鄢	qac/qae/qwd	qac/qae/qqd
+1.510	孒	iat/kfw/kgt	iat
+1.508	鈥	hvy	
+1.506	紳	odd	ods
+1.506	鱷	wzk	
+1.502	乒	fxs	
+1.502	宓	mdt/mkt	mdt/met
+1.502	朦	mvs/mvw	mvs
+1.500	嶴	qzz	
+1.498	膘	bsq/csq/fsq	bsq/fsq
+1.496	畦	uxj	yxj
+1.493	颯	slp	
+1.491	夲	eza	
+1.489	傈	ret	
+1.487	佷	gle	
+1.487	塹	vsv	vav
+1.487	昶	eqw/eqx	
+1.485	傭	ers/lfs	lfs
+1.485	嗖	stk/stm	
+1.485	幌	uzw	yzw
+1.485	广	war/wwr	war/wqr
+1.485	鍺	tvy	
+1.483	扈	gzu	uzu
+1.483	磬	xxx	axx
+1.483	萘	nzi	
+1.481	擀	kze	
+1.479	叱	edt	
+1.476	晰	sxk	
+1.474	鐗	kyc	
+1.472	歹	tlu	
+1.472	矗	etk/vtk	
+1.472	罈	dlf	
+1.470	嘜	mpk	
+1.470	鈈	pjt	
+1.470	銻	dxj	lcj
+1.468	戇	hvx/tox	
+1.468	淖	nyz	ny,
+1.466	蔗	tnm	tag
+1.466	黒	hlk	
+1.464	嗓	szw	
+1.464	膛	dzs	
+1.462	娑	szh/szy	szh
+1.462	浠	hjh	
+1.462	菿	tok/tzz	tp,/tzz
+1.460	剿	csq	caq
+1.460	噌	vps	vms
+1.460	瓚	zzc/zze	zae
+1.455	俑	evs/lfw	lfw/ovs
+1.455	癒	lfu	
+1.453	沏	vct	vck
+1.451	璜	uzs	yzs
+1.451	腚	dxx	
+1.451	郴	ekf	
+1.449	嗽	sok/svk/svm	sok/svg/svk
+1.449	撂	rqk	
+1.449	曇	dlf	
+1.447	焗	gfk	
+1.447	覷	vam	
+1.447	鬍	gzj	
+1.445	勐	myw	
+1.445	瀦	tqj	
+1.445	罘	bgj	bjj
+1.443	蔻	hvm	
+1.443	蹺	xsa	
+1.443	鍘	zpt/zyt	
+1.440	筏	bat/pzt	bat
+1.440	芣	bgj	bjj
+1.438	榛	ced	ces
+1.438	燊	sed	ses
+1.436	仆	blk/fam/fgm/fvm	ffg/fgg/fvg
+1.436	呲	csj/zsj	
+1.436	唰	sot/srt	
+1.436	煊	.ad	
+1.436	煸	pxd	
+1.436	痢	rem	reg
+1.434	汰	ezi	ozi
+1.434	疃	eve	
+1.434	髖	xbd/xvd	ald/azd
+1.432	亍	erk/trm	
+1.432	圳	tgc	
+1.432	槎	zyh/zyy	
+1.430	煉	rpc	
+1.430	顳	nap	nsp
+1.428	捺	nzt	
+1.428	魘	qap/qar	qsp/qsr
+1.428	齲	xfu	
+1.426	罄	xxx	axx
+1.423	丅	gyy	gyu
+1.419	擼	ryj	
+1.419	熠	ldp/yep	ljp
+1.417	仝	dvs/zfd	
+1.417	斕	rpd	
+1.417	瀧	ros/sos	ros
+1.417	袂	msi	
+1.415	銼	vvn/zvh/zvk	zvh
+1.413	囝	kwe/nlf	
+1.413	殑	gjs/gjw/gjx	
+1.413	澍	dfm/tfm	dfm
+1.411	欏	ryh/ryy	ryh
+1.411	泌	bdt/pkn/pkt	bdt/pei/pet
+1.411	菀	aae/qgt	aae
+1.411	襬	fan/pah	pqh
+1.409	畈	pac	
+1.409	苄	bwc	
+1.409	蠡	roh/rpu/rwj	rpu/rwj
+1.409	邰	elj	olj
+1.406	啶	dxx	
+1.406	嘣	pls	
+1.406	彧	qgk	ajk
+1.406	琍	rem	
+1.406	鑣	pqa	paa
+1.406	鷲	zgm	zgg
+1.404	晌	oaw	
+1.404	芾	pjn/pjt/pzi	pai/pjt/pzi
+1.402	氦	glu	
+1.402	鑒	kxd/kyv	kyv
+1.402	靛	dxc	
+1.400	凈	vps	
+1.398	咣	izs	
+1.398	腑	pau	pfu
+1.398	謾	msd/myc/myd/mzc/mzd	myc/myd/mzc/mzd
+1.394	荐	zcc	zlc
+1.394	鉭	eze	
+1.394	鍶	sjj	
+1.392	亻	ndd	
+1.392	媳	sjk	
+1.392	熏	hgd	.jd
+1.392	肟	qzm	
+1.392	蠹	tzm	tzg
+1.392	髂	xyn	
+1.387	俟	gjh/jku	
+1.387	哏	gld	
+1.387	抻	odc	
+1.385	厙	onm	
+1.385	朲	ndd	nds
+1.385	滸	hzu	;zu
+1.385	澶	dsd/dzc	dad/dzc
+1.385	鴛	aad/qbd	aad
+1.383	喱	rkj	
+1.383	嵇	gxj	gcj
+1.383	廴	lde	ldw
+1.383	熳	myc/mzc	
+1.381	屙	qzh	
+1.381	梔	tsj	ksj
+1.381	芡	gwr	gqr
+1.381	銥	qjh	
+1.379	俸	bfx/pvw	pvw
+1.379	氽	ebe	
+1.377	玟	mkd/mlj	
+1.375	氡	tbs	
+1.375	髁	xoy/xvh/xvn	avh/avn/xoy
+1.373	硎	gxs/xys	gxs
+1.370	忄	sjf	
+1.368	懟	dtn	
+1.366	僳	svk	
+1.366	卍	mac	
+1.366	綣	aac/aae	xfc/xfe
+1.364	嚄	uyk	
+1.364	宀	msd	
+1.364	鮎	nxf	
+1.362	儺	nzh	
+1.362	圻	gjh/wjd/wld	gjh/wjd
+1.362	嬈	hxz/nsq/nxq	nxq/wsq
+1.362	桉	qzd	
+1.362	滘	kyz	
+1.362	綃	ssa/sya	spa/ssa
+1.362	蠔	gza	
+1.360	亾	mas	
+1.360	佣	lfs	
+1.360	吢	vjv	
+1.360	喳	cyh	
+1.360	庋	kay/kry	
+1.360	熗	vax	
+1.360	鋈	qbk	qz,
+1.360	饢	nzs	
+1.358	囍	hju	
+1.358	崾	qsq	
+1.358	檫	vpt	
+1.358	畲	onj	
+1.358	糰	dvd	
+1.358	蒞	rem	
+1.358	饕	eza	oza
+1.356	亙	klx	
+1.356	灩	lav	
+1.356	縉	cdc	cdx
+1.356	蘑	mzh	
+1.356	鉍	pkn/pkt	pei/pet
+1.353	汊	vyn	
+1.353	鍙	hvk	
+1.351	乓	fzs	
+1.351	嘬	voi	
+1.351	碴	cyh/zyh	
+1.349	啷	rys	
+1.347	岬	kyp	
+1.347	汏	dzi/ezt	lzi
+1.345	伈	sjr	
+1.345	煬	las/lax	las
+1.345	羧	svh	
+1.343	呿	xam/xap/xqh	xam/xap
+1.343	緲	msq	
+1.343	魷	yjj	
+1.341	掱	byh	
+1.341	殮	rwv	rqv
+1.341	菈	rmp	
+1.341	諼	.ad/.ae	.ad
+1.339	惢	csj/svy/zfy	svy
+1.339	慵	dfs	
+1.339	瘓	eve	
+1.339	銦	qdd	
+1.336	喹	axt	
+1.336	崛	ggt/wgt	ggt
+1.336	洅	cby	
+1.336	蜇	twt	tqt
+1.334	偌	nnm	
+1.334	哐	aas	
+1.334	橇	xqa	xwa
+1.334	纈	gxt	gct
+1.334	莒	kau	kqu
+1.334	褉	hxt	
+1.334	釧	efc	
+1.334	鈮	nkh	
+1.334	靨	qap	qsp
+1.332	廕		qjv
+1.332	斡	qvt	
+1.332	虻	mys	
+1.330	傣	tlu	
+1.330	婊	pqq	
+1.330	懺	vyv	
+1.330	攴	fok/fvk	fog/fvk
+1.330	銫	skk	
+1.328	噔	tls	
+1.328	崮	kzm	
+1.328	嶠	gqz	gqa/gqz
+1.328	璁	vvs	
+1.328	酵	kyz	
+1.326	唻	rmj/rmu	
+1.326	笫	cku	
+1.326	膦	rwe	
+1.326	蛔	gbh	
+1.326	鮭	axj/gpj/ixj	axj/ixj
+1.326	齦	wjd/xle/xpe	wjd/xle
+1.324	庥	hgj	,gj
+1.324	濰	lgh	ydj
+1.324	鈐	gwf	gqf
+1.324	鑊	uzk	yzk
+1.322	紓	jqu/oaj	oaj
+1.322	蓴	dgd	
+1.320	咻	hfu/hgj	,gj
+1.320	嫦	das	
+1.320	淙	sox/zbs/zos	zbs
+1.320	賒	onj	
+1.317	斫	tak	
+1.317	櫛	cet	cek
+1.317	萜	exp	
+1.317	蔸	tvj	
+1.317	郗	ekh	eej
+1.317	饌	zoe/zrc	zrc
+1.315	壅	qfs/qfw	qfs/qfw/qfx
+1.315	攵	fvk	
+1.315	楮	equ/tzu	tzu
+1.315	邯	gzd/gzf	gzf
+1.313	僮	dox/dvs	dvs
+1.313	懦	nfj/nvn	nfj
+1.313	摑	ipk	imk
+1.313	綹	rtu	
+1.313	銪	yju	
+1.313	鴕	dzh	
+1.311	炔	ixm	ixi
+1.311	鋮	dss	
+1.309	釺	vcd	
+1.307	匭	kty	ktu
+1.307	卮	tsj	
+1.307	莜	dxz	
+1.305	尢	azs/yjj	azs
+1.305	縝	edd/eed/tde	eds/ees/tdw
+1.305	蜆	gxe/hxe/xxc	gxe/xxc
+1.305	頦	glj/klu	glj
+1.303	砦	zyi	
+1.303	芰	gan	gwm
+1.303	菘	sgs	
+1.303	諂	ewr	oqr
+1.300	擻	svu	
+1.300	榫	sge	
+1.300	祉	eku	
+1.300	菏	gzh/kzh	gzh
+1.300	葯	qak/qok	qs,
+1.298	呔	tlj	
+1.298	崧	sgs	
+1.298	浹	cxp	
+1.298	瀋	ejr	
+1.298	稔	ndr	
+1.298	箸	dqm/tqm	
+1.298	鈧	xzx	
+1.298	闆	fpe/pye	
+1.298	黽	mde/mpw/mse	mde/mxw
+1.296	坭	nxu	ncu
+1.296	崙	rud	
+1.296	庹	ezk	
+1.296	怛	tzt	tzc/tzt
+1.296	芐	gyn/gzu	gym
+1.294	凇	sfs/svx	jfs/sfs
+1.294	呋	paj	
+1.294	碇	dxx	
+1.294	禛	tdd	tds
+1.294	鄄	kfc	
+1.292	嬤	kvy/mzy	
+1.292	袒	dpc/dze	dze
+1.292	軆	exu	ecu
+1.290	夂	tky	
+1.290	夨	ckk/rpt	ckk
+1.290	惲	qge	
+1.290	焐	wzm	
+1.290	蕎	gqa/kqa	gqa/kaa
+1.288	噝	sjj	
+1.288	垃	rmp	
+1.288	簣	gtn/xun	gtn/xuh
+1.288	腈	css	
+1.288	跖	tsk	tak
+1.288	邏	ryn	
+1.288	鱟	gvm/qbk	
+1.286	挹	qjp	
+1.286	燻	hgd	.jd
+1.286	讖	vkv	
+1.286	鎏	rtj	
+1.283	篪	dwj	lwj
+1.283	螅	sjk	
+1.281	炅	ixm/ixw	ixw
+1.281	獺	eyt/ezt	
+1.281	苫	oaf/oav	
+1.281	薜	bxm/ppk	bxg/ppk
+1.281	贇	qtd	
+1.279	嚦	rpk	
+1.279	恠	kun	imm
+1.279	摶	dre/dvd/tfd	dre/dvd
+1.279	苊	qpk	
+1.279	鬩	hxk	;xk
+1.279	鮃	bws	
+1.277	罹	rwj	rqh
+1.277	肼	csw	
+1.277	迓	wyn	wym
+1.275	呎	esk	
+1.275	哊	ygk	
+1.275	噲	xoi	
+1.275	媼	qzq	qbu
+1.275	鏨	zpf/zsr/zzf/zzr/zzv	zar/zzf/zzv
+1.273	冗	nfw	
+1.273	嘫	npd	nmd
+1.273	浼	mlu	
+1.271	礻	jem	
+1.271	罅	hyn	
+1.271	莈	mbt	mlt
+1.269	厴	qar	qsr
+1.269	嘁	clp	
+1.269	痧	syh	
+1.269	釔	qkt	
+1.269	黿	uad/wvd	wfd/wvd
+1.266	佤	woy	
+1.266	嘭	bys	
+1.266	尜	kyt	
+1.266	擷	gxt/hxt	gct/hct
+1.266	賂	rym	ryg
+1.266	鎩	smm/spt/swi	sqi/syi/syt
+1.266	鼾	gzc/hzd	gzc
+1.264	乩	kxj	
+1.264	呶	nya	npa
+1.264	壎	.ad	
+1.264	菓	kvy	ivy
+1.264	逺	yac/yae	
+1.264	閿	mjd	
+1.264	齪	vok	vrk
+1.262	佶	gkt	get
+1.262	岜	pyh	
+1.262	慟	dvx	
+1.262	慳	xpd	xid
+1.262	檠	gws/gwx	gws/gwx/kww
+1.262	蛐	xfk	
+1.262	詿	ipm/upm	ipm/ypm
+1.262	赭	tnu	
+1.260	舐	jwu	
+1.260	鱘	jjf	
+1.258	嘵	hxa	;xa
+1.258	砧	tkf	
+1.258	窠	xvh	avh
+1.258	蟀	stt	egt
+1.258	袞	kbe	ibe
+1.258	褔	fgm	fjg
+1.256	唚	vjv	
+1.256	惦	txv	
+1.256	杈	vpm/vyh	vyh
+1.256	櫱	wwt/wzt	wqt/wzt
+1.256	鈰	dju	
+1.256	飫	qam	
+1.256	餼	hjn	hji
+1.254	孿	rrd/soc/src	
+1.254	鋨	wzh	
+1.252	碚	blu	
+1.252	豉	dsm	
+1.250	佉	xqh	
+1.250	圪	wjt/wkt	wjt
+1.250	諢	wbc	
+1.250	鉺	nju	
+1.250	餳	dzs/jss	
+1.250	駢	bxd	bcd
+1.247	嗇	skk	ejk
+1.247	嗥	gza	gbj
+1.247	棰	tfy	
+1.247	藪	svu	
+1.247	詵	sed	skd
+1.245	嗵	evs	
+1.245	婀	qzh	
+1.245	氹	dzr	
+1.245	砩	pai	
+1.245	蟑	tas	
+1.245	齠	dxa	
+1.243	俁	wfu	uau
+1.243	囪	vos/vvs	vos
+1.243	昝	clr	
+1.243	沌	dbd/dbe/dre	dbd/dbe
+1.243	簟	dxr	lcr
+1.243	茤	tzh	
+1.243	葫	gzj/hzj	gzj
+1.243	蚓	lde	ldw
+1.243	麝	jhm/jwk	jqg/jqk
+1.241	毖	pkn	pei
+1.241	爨	vvc/vvd	vvc
+1.241	詪	gxe/klc/kle	klc/kle
+1.241	骷	xzj	
+1.239	廄	kgm	
+1.239	悽	vxj	vcj
+1.239	愫	szm	
+1.239	醪	rya	ruj
+1.237	囟	sdc	sdx
+1.237	慊	xxr	axr
+1.237	羶	osd	
+1.237	閼	qat/qwd/qxd/qzt	qat/qzt
+1.237	齜	cwj/zpj	cwj
+1.235	儔	dtj/dzz	dbm/dtj
+1.235	媯	krh	
+1.235	閽	hbd	.ld
+1.235	鰳	rmk	
+1.233	氪	xlk	
+1.233	溱	ced	ces
+1.233	穡	skk	ejk
+1.233	裉	xlc	
+1.230	嚓	vpt	
+1.230	溏	dzs	lzs
+1.230	瞑	mxc/mxd/mxs	mcc/mcd/mxs
+1.230	穌	szj	;zj
+1.230	艉	mjy	
+1.230	醮	csa/csz	csz
+1.230	阡	vcd	vcs
+1.228	戸	gzu	
+1.228	涑	sfk/svj/svk	sfk/svk
+1.228	琺	pap	
+1.228	糍	zdj/zjj	
+1.228	釷	ezu	
+1.228	閙	nyz	
+1.226	屾	sed	
+1.226	泫	uxe	yce
+1.226	涪	bgj	bjj
+1.226	莔	hjt/mys	mys
+1.226	躉	tbe	
+1.226	齔	vec/vee	
+1.224	哞	mgj	
+1.224	憒	kbn	
+1.224	檄	gxk	gx,
+1.224	瑗	yrc	yqc
+1.224	逖	exk	oxk
+1.224	鍆	mld	
+1.224	闐	dxc/dxd	dcs/dcx
+1.222	吩	pjd	
+1.222	羆	pah	pqh
+1.222	邋	rwp/ryp	rqp/ryp
+1.222	靼	tst/tzt	tat/tzt
+1.220	垌	evw	
+1.220	猓	kvy	ivy
+1.220	瞋	edd	eds
+1.220	縋	drn	drh
+1.220	鍩	nzk	
+1.218	倥	xvs/xvw/xvx	xvs/xvx
+1.218	嬖	pxm	pxg
+1.218	瑀	yru	yau
+1.218	璀	vby	
+1.218	芨	kjp	kkp
+1.218	驄	vvs	
+1.218	鮒	bam	bfm
+1.218	鱈	sft	
+1.216	鈄	evu	
+1.213	撳	xjv	
+1.213	溧	ret	rek
+1.213	潷	pkt	ptt
+1.213	菠	pzh	
+1.213	豸	dpu/dwu	lpu
+1.213	鷸	lgt	ydt
+1.211	唲	nsj	wsj
+1.211	樘	dzs/eys	eys
+1.211	潶	hlk	.lk
+1.211	瓁	uzk	
+1.211	磋	vvn/vzh	vzh
+1.211	絠	klu	
+1.211	胂	eed/odd	ods
+1.211	蓑	sbh/svh	svh
+1.211	虺	.jy/hbh/huh	hbh/hgy/huh
+1.211	襉	kpc	
+1.211	鄹	ctj/jve/zfu	coj/zfu
+1.211	酢	vzm/zzk	zzk
+1.209	吽	hvu	
+1.209	梘	kxc/kxe	
+1.209	楦	.ac	
+1.209	醌	kbd	
+1.209	鐿	qjm	
+1.209	鸛	kvc	izc
+1.207	嬛	hfd/qfd/uss	.sd/uss
+1.207	癜	txc	
+1.207	蚝	vjm	
+1.207	踴	lfw	
+1.207	酞	ezi	
+1.205	蜡	vam/zyn	vag/zyg
+1.205	鍖	ekr	
+1.205	鏊	wza/wzz	wzz
+1.205	鏍	roh	
+1.203	剡	dar/lar	lar
+1.203	珅	odd	
+1.203	錈	kre	
+1.203	鯀	kbe	ibe
+1.201	匚	pas	
+1.201	嬙	skk/zas	ejk/zas
+1.201	皚	wlj	wlh
+1.201	萿	kvt	izt
+1.201	蜱	bsj/msa	bsj
+1.201	蟛	bys	
+1.201	衩	vpm/vyn	
+1.201	譮	hmm	
+1.199	伲	nku	
+1.199	倬	tok	ty,
+1.199	彳	ewk	
+1.199	浞	zok	zrk
+1.199	爿	bpd/zas	
+1.199	痱	bjh/bjn/blu	bjh/bjn/bly
+1.199	苴	caj/cau/vaj/zyh	caj/cau/vaj/zyj
+1.199	袷	kap/kpp	kmp
+1.199	驤	sas	,as
+1.196	咼	apj	
+1.196	櫫	tqj	
+1.196	湔	ccd/csc/csd/zcd	csc/csd/cxd/zxd
+1.196	蕗	rym	
+1.194	冄	naf	
+1.194	厾	tea	
+1.194	堃	xbd	
+1.194	觶	tsj/tsm	tah/tan
+1.194	鋟	csf/vjr	caf/vjr
+1.194	閂	sod	
+1.192	坍	ezf	
+1.192	獯	hgd	.jd
+1.192	耪	fzw	
+1.192	蚶	hzf	
+1.190	杴	haf	
+1.190	瞽	kzu	izu
+1.190	稹	tdd/tde	tds/tdw
+1.190	蠆	eyi	
+1.190	髙	kza	
+1.188	曛	hgd	.jd
+1.188	耷	tzp	
+1.188	錸	rmj	
+1.186	尷	kyf	
+1.186	擤	ssw	
+1.186	曈	dvs/evs/evw	dvs
+1.186	澩	gok/gyq/zok	guk
+1.186	虼	klt	
+1.184	倮	roy	
+1.184	宄	kty	ktu
+1.184	弢	eza	laa
+1.184	砑	wyn	wym
+1.184	粿	kvy	ivy
+1.184	芤	xvj	
+1.184	蝴	gzj	
+1.182	嶗	rya	
+1.182	獰	nys	
+1.182	碭	dzs/dzx	
+1.182	窸	sdt	sdk
+1.182	聵	wun	
+1.182	褡	tlp/tzp	tlp
+1.182	釅	wav	
+1.180	哚	tvy	
+1.180	楂	cyh/zyh	zyj
+1.180	疳	kzf	
+1.180	薺	zdj/zxu	zcu/zdj
+1.180	蘄	gjd/gjj/kjh	gjd
+1.180	訃	fam	ffg
+1.180	銣	naj	
+1.180	闍	dnj/tzj	tzj
+1.180	餛	gbd	
+1.177	呻	odd	ods
+1.177	嬗	dsc/ezd/tze	ezd/tze
+1.177	惴	tfn	
+1.177	煋	sxs	
+1.177	燚	lsk	
+1.177	癤	cct	cck
+1.177	眭	.dj/hfh/sfh/uxj	.sj/yxj
+1.177	蕈	zjr	
+1.177	酐	hzw	
+1.175	歙	hjp/oap	
+1.175	腖	tvx	
+1.175	蠲	ixd	icd
+1.173	嗉	szm	szg
+1.173	涳	nos/xos/xvs	xos/xvs
+1.173	湢	pjk	pkk
+1.173	瓮	qvx	
+1.173	碲	txm	
+1.173	粞	slj/sxj	slh
+1.173	藎	jdc	zdx
+1.173	觜	cfy/csj	csj
+1.173	鍤	ewp/vpp	vqp
+1.173	鏇	jfc/jfd	ysc/ysd
+1.173	麩	faj	
+1.171	巛	xbd	
+1.171	彐	kwi	
+1.171	氚	efd	
+1.171	潢	uzs/uzx	yzs/yzx
+1.171	瓿	baj/bvu	bfj/bvu
+1.171	砹	qzi	
+1.169	悻	gpw/gxw	
+1.169	旮	kyh	
+1.169	朮	dtt/jtt	jtt
+1.169	笤	dxa	
+1.169	菪	dzx	
+1.169	跣	sce	sle
+1.169	辶	eqk	
+1.167	嫘	rth	
+1.167	嵯	vwj/zzh	vqh/zzh
+1.167	牐	zpp	
+1.167	頊	hfk/wfk	;fk/wfk
+1.167	骱	gzt/kpt	kpt
+1.167	鴇	pzq	pbu
+1.165	圾	slp	
+1.165	樗	eqj	
+1.165	淠	fkn	fcm/fem
+1.165	笸	fzy	
+1.165	糶	exz	
+1.165	繻	nfj/sfj	,fj/nfj
+1.165	蠼	gfj/iak	
+1.165	餮	ext	elt
+1.163	倀	eqs/tyx	eqs
+1.163	倜	exk	
+1.163	奩	rwf	
+1.163	皈	ijh	
+1.163	謅	vtj/vyq	voj/vou
+1.163	銩	tea	
+1.160	槁	xzq	
+1.160	羰	ezs	
+1.160	鯛	txa	tca
+1.158	夤	ldd	lds
+1.158	朐	gfj	
+1.158	杼	dqu/jqu	dqu
+1.158	磽	wyz/xxq/xya	
+1.158	翕	hjp	
+1.158	踅	jft	
+1.156	砉	.xk/.yk	.xk
+1.156	蘧	gaj/gfj	gaj
+1.156	蚋	nfi/nft	
+1.156	跗	bam/paj	bfm/pfj
+1.156	迣	tsi	
+1.154	嶁	rou/rru	rou/rrj/rru
+1.154	臁	rwf	
+1.154	醺	hgd	.jd
+1.154	鵜	dxj	lcj
+1.152	旯	ryh	
+1.152	瑭	dzs	lzs
+1.152	跎	dzh	lzh
+1.152	邳	bkh	bkj
+1.150	両	rqw	
+1.150	夬	koi	ipi
+1.150	翮	gpk	
+1.150	苾	bdt/bxt	bct/bdt
+1.150	趵	pok	
+1.150	霑	twf	
+1.148	嗗	apt	
+1.148	犧	hah	;ah
+1.148	蝽	egd	
+1.148	邴	pww/pwx	pqw/pqx
+1.148	靑	vxs	
+1.148	鷯	rpa/rwz	rpa/rqz
+1.146	岈	hyh	
+1.146	愎	bjk	
+1.146	犍	gwd/kad	gqd/kad
+1.146	畬	laj/onj	laj
+1.146	茚	qdc	
+1.146	萆	bsk/sju	bsk
+1.146	軛	qpk	
+1.146	鐾	bsm/bxm	
+1.143	儭	vdc/vec	vdx/vex
+1.143	庀	fsu	
+1.143	罱	ryr	
+1.143	臃	qfs/qfw	
+1.141	儕	zmj	zij
+1.141	湓	bld/fjc/flc	bld/fjc
+1.141	硨	enj	aaj
+1.141	苜	mgk/mzt	mjk
+1.141	苽	kzj	izj
+1.141	茭	kya	kpa
+1.141	薱	dbn	dlb
+1.141	鮁	pzt	
+1.139	搧	osd	
+1.139	炆	mjd	
+1.139	菑	ckj	ckj/clj
+1.139	葰	sgh/soy/svy	,gh
+1.139	錁	kvy	
+1.137	亅	uat	
+1.137	瀠	axw/yss	
+1.137	獍	kwx	kqx
+1.137	礤	vzt	
+1.137	綈	dxj	lcj
+1.137	萣	dxx	
+1.137	蓁	ced	ces
+1.137	酹	roi/run	roi/rui
+1.135	搡	szw	
+1.135	棏	dlk/tpk	
+1.135	簌	svk	
+1.135	韝	bmm/kvj/xvj	kvj/xvj
+1.133	儻	ezw/ezx/tzw	ezw
+1.133	凵	aar	knr
+1.133	嘏	kyy	kyu
+1.133	薟	rwf/rwr	rqf/rqr
+1.133	阝	bgu	
+1.131	晷	kty	ktu
+1.131	炻	dsk	
+1.131	鷚	gea/mea/mgj/rtm	mea/mtj/rtm
+1.129	圇	rtd	
+1.129	氘	tza	
+1.129	罨	qap/qlp/qwr	qap/qlp/qqr
+1.129	艏	ogu	
+1.129	逶	qrh	qfh
+1.129	鞔	mzd	
+1.126	丌	kjj	
+1.126	倗	bls/blx/flw	bls/flw
+1.126	狷	ixc/kfc	isc/ixc
+1.126	瓠	gzj/gzm	yzj/yzm
+1.126	簋	kty	ktu
+1.126	縲	rth	
+1.126	鯖	tss/vxs	vxs
+1.124	夼	azw	
+1.124	濞	fkn/fxm	fcm/fem
+1.124	蠕	nfe/nfj	
+1.124	釙	fok	
+1.124	鈽	pzj	
+1.122	婼	eqk/nnj/nsj	,qk
+1.122	愬	spk/szm	;zg
+1.122	暌	axj	
+1.122	砘	dbc	
+1.122	窶	gfu	
+1.122	螫	osk	oak
+1.122	鍑	pgk/pgm	pgg/pgk
+1.122	鎪	stj/svj	stj
+1.122	馘	ilk/ipk	imk
+1.120	傛	lfs/lfw	lfs
+1.120	冋	ixs/uxw	ixs/yxw
+1.120	吲	lde	
+1.120	泐	rkk/rmk	rmk
+1.120	縑	kxf	ixf
+1.120	衽	ndv	njv
+1.120	釓	kpt	
+1.120	鋶	rtu	
+1.120	鏰	plx	
+1.120	颺	las/lax	las
+1.118	榿	kjh/xah	
+1.118	硇	nya	
+1.118	綪	cps/vcc	cps/vcx
+1.118	舾	sxj	
+1.118	薍	woc	
+1.118	錆	vas	
+1.118	闘	tvm	
+1.116	潒	dzw/jaw	jaw
+1.116	舯	tts	
+1.116	蟈	ilk/ipk	imk
+1.114	佧	xyy	
+1.114	淸	vss	
+1.114	胙	zzm	zzg
+1.114	薤	gmm	gmi
+1.114	鵡	mau/mvu	mau
+1.112	甏	byx	
+1.112	舎	onm/onu	
+1.112	輅	rym	ryg
+1.112	醅	fgj/flj	fjj/flj
+1.109	曌	taz	
+1.109	涘	jku	
+1.109	瘩	tlp	
+1.109	鋽	exz	
+1.107	搿	glp	
+1.107	摭	tsk	tak
+1.107	紇	glt/gxt	glt
+1.107	萑	gvd/tgh	tgh
+1.107	葜	xpt	
+1.107	醢	hlu	
+1.105	烀	hzj	
+1.105	痌	evs	ovs
+1.105	葚	jkr	djr
+1.105	鵂	hgj	,gj
+1.103	巰	ggj	
+1.103	紾	tde/twe	tje
+1.103	鐠	fzu	
+1.103	餷	vyh	
+1.103	鬨		gox/gvx
+1.103	鬯	eqx	oqx
+1.101	湁	ekp	
+1.101	烜	.ae/hry	.ae/.ay
+1.101	鶼	kxf	ixf
+1.099	佾	ldt	ldk
+1.099	暹	ssf	
+1.099	栢	pyk	
+1.099	湴	byv	
+1.099	酡	dzh	lzh
+1.099	鑔	vpt	
+1.099	髟	pea/psa/syf	pgj/syf
+1.097	翥	tam	
+1.097	螂	rys	
+1.097	颶	gfm	
+1.097	鷥	sjj	
+1.095	俓	kxx/wps/wxd	kxx/wps
+1.095	慄	ret	rek
+1.095	薷	nfj/nfu	
+1.095	鵓	bbt	blt
+1.093	柁	dzy	lzy
+1.093	櫬	vec	vex
+1.093	襝	rwf	
+1.093	鵯	fdt/psj	psj
+1.093	黠	gpt	git
+1.090	乗	jks/jkx	
+1.090	噉	dzr	
+1.090	囔	nzs	
+1.090	庡	qjy	
+1.090	畎	ixe	ice
+1.090	碣	gat/gwt	gat/gqt
+1.090	胩	xyy	
+1.090	鉲	xyy	
+1.088	毽	kac	
+1.088	湉	dxf	lxf
+1.088	熸	csf	
+1.088	舴	cyk/tyk	cyk
+1.088	躒	rpk/ryk	rp,/ry,
+1.088	醵	gaj/gak/gam	gaj/gam
+1.086	屮	ewt	oqt
+1.086	湞	dps/tws	tws
+1.084	兠	tvj	
+1.084	戧	vax/vqs	
+1.084	癍	pyd	
+1.084	纛	dbk/dzz	dbg/dbk
+1.084	謦	xxw	
+1.082	噱	gak	
+1.082	戕	czs/kzh/zas	czs/zas
+1.082	缽	pzt	
+1.080	傕	kok	ky,
+1.080	尥	bya/rpz	
+1.080	庢	tet	tek
+1.080	渫	dxp/sst/zpp	
+1.080	琤	vps/vys	
+1.080	痋	dbs	lbs
+1.080	禸	ngu/ntu	ngu
+1.080	縌	wwk	wqk
+1.080	菝	bpt/bzt	bmt/bzt
+1.080	蓶	lgh/lgy	ydj/ydu
+1.080	蕹	qfs/qvx	
+1.078	仯	vyq/vyz	vpz
+1.078	坩	xzf	
+1.078	嫼	qpt	
+1.078	戡	tkr/xlf	xlf
+1.078	瘞	qwi	qwb
+1.078	筘	xvm	
+1.078	鍰	god	
+1.076	堖	nzq	nbu
+1.076	廋	stj/svu	stj
+1.076	愔	qjf	
+1.076	楁	gyk	
+1.073	漯	elp/ron	olp
+1.073	窀	dbd/dpd/ttd	dbd/ttd
+1.073	翾	hfd	.sd
+1.073	鐃	nya	npa
+1.073	闄	qsq	
+1.073	騸	osc	
+1.073	鶓	mqa	
+1.073	鷓	tnm	tag
+1.071	坌	blc	bjc/bje/blc
+1.071	峇	xlp	
+1.071	崦	qwf	qqf
+1.071	皛	fyk/gxq	fyk
+1.071	笢	mde/mkd	mde/med
+1.071	舨	pye	
+1.071	蓍	odj	
+1.071	訆	kxz	kcz
+1.071	詤	.aw/.zw	
+1.069	嫿	upk	ypk
+1.069	岌	wjp	wkp
+1.069	榀	fkr	
+1.069	榍	sct	sck
+1.069	檁	rkr	
+1.069	滈	gzq/hok	gzq/hy,
+1.069	畊	bxs	
+1.069	癯	gfj	uaj
+1.069	笉	vde	
+1.069	萋	vxj	vcj
+1.069	諎	cyk/vvn	cyk
+1.067	剴	klj/wlj	klh/wlh
+1.067	嚭	fky	fku
+1.067	幛	tax	
+1.067	汻	hzw	
+1.067	籜	ezk	
+1.067	莛	dxs/dxw	lxs/lxw
+1.067	鱅	dfs/lfs	lfs
+1.067	鷳	gpd	
+1.065	呺	hqa	haa
+1.065	敤	xvn/xvy	avn/avy
+1.065	桴	bgj/faj	bgj/fgj
+1.065	筅	sce	sle
+1.065	胬	nzu	
+1.065	腙	cbs	
+1.065	螓	zdd	zds
+1.065	跽	gky	gju
+1.063	仫	mzm	
+1.063	傯	cvw/cvx	cvw
+1.063	箝	gwf	gqf
+1.063	黱	dlm	llm
+1.061	儿	ndd	
+1.061	琲	blu	bly
+1.061	疔	txs	
+1.059	匐	bgk/blk	bjk/blg
+1.059	暀	uzx/yaw/yax	yaw/yax/yzx
+1.059	糴	dxk	lx,
+1.059	肭	nbt/npt/ntk	nbt/nut
+1.059	鐔	dlf/jjf/ldf	ljf/llf
+1.059	馹	ndt	ndk
+1.059	髭	csj	
+1.056	偝	blm	blg
+1.056	傖	vzs/zys	
+1.056	懨	qaf	
+1.056	錇	blj	
+1.056	鎄	qlj	
+1.054	乀	fjt	
+1.054	慪	qvm/qvu	
+1.054	甡	sed	
+1.054	鸀	dok/tfk	dok/dvk/tfk
+1.052	仳	bdj/bky/fsu	bdj/beu
+1.052	厎	tdu/tju	tdu
+1.052	悊	twt	tqt
+1.052	薫	hgc/hgd	
+1.052	魼	ezp/xaj	xaj
+1.050	丠	xgj	ajj
+1.050	嗻	tnm	tag
+1.050	夐	.sx/.xc	
+1.050	蛸	ssa/sya	spa/ssa
+1.050	鑳	gwe	
+1.048	桎	tdt	tdk
+1.046	亠	dvj	
+1.046	窞	dlr	llr
+1.046	臯	kza	
+1.046	蒎	fpm	
+1.046	邶	blm	blg
+1.044	勹	pya	puj
+1.044	壢	rpk	
+1.044	犖	rok	
+1.044	訐	kat/kwi/kwt	kat/kqi/kqt
+1.044	贔	bkn	bem
+1.042	籪	dve	
+1.042	蘀	ezk	
+1.042	鰈	dxp/ezp	
+1.039	嘂	kxz	kcz
+1.039	箹	qok/qyz	qiz
+1.039	苝	blm	blg
+1.039	駙	bam	bfm
+1.037	嗾	svm/svu/vvm	
+1.037	囩	ltd	
+1.037	奭	osk	oak
+1.037	妁	dak/tak	ds,/ts,
+1.037	滆	gpk	
+1.037	迡	nxm	ncm
+1.037	鋱	elk	
+1.035	悝	rku/xbh	rku
+1.035	憍	kqa/xqa	kaa
+1.035	楀	kfu/yru	yau
+1.035	洊	zcc	zlc
+1.035	牎	vos	
+1.035	臸	ndt/tjj	
+1.035	鴞	yqa	gaa
+1.033	奓	tyh/tyn	
+1.033	帑	ezw/nzj	,zu/nzj
+1.033	毘	bdj	
+1.031	呭	lsi	lab
+1.031	嚜	mkn	
+1.031	簬	rym	ryg
+1.031	駘	dlj/dlu	llj/llu
+1.029	呪	tgm	tgg
+1.029	嫙	jfc/jfd	ysc/ysd
+1.029	忚	hxj	
+1.029	揶	lnj	
+1.029	枃	cdc	
+1.029	洫	hjk	.dt
+1.029	豿	hok/kvu	kvu
+1.027	呬	hkn	
+1.027	誩	elv/gaw/gwx	gqx
+1.027	髹	hgj	
+1.025	矓	ros	
+1.025	貟	yjc/yjd/yrd	
+1.020	犴	wzc/wzd	wzc
+1.020	臌	kzu	
+1.020	酗	hfm	
+1.020	鑺	gfj	uaj
+1.018	曽	cls	
+1.018	睽	axj	acj
+1.018	穠	nfs/nrs	nrs
+1.018	箅	pxm	pcm
+1.018	謓	edd	eds
+1.018	譩	qjh/qjj/qju	
+1.016	仉	taw	
+1.016	剰	jkx	
+1.016	塄	rms	
+1.016	枘	nfi	njb
+1.016	栫	zbc/zcc	zlc
+1.016	鍝	wfj	
+1.014	刳	xzj	azj
+1.014	粄	pze	
+1.014	紲	sst	
+1.014	緍		mkd
+1.012	厸	mxr	
+1.012	榎	kyy	kyu
+1.012	槻	kfh	isj
+1.012	瓘	kvc	izc
+1.012	稞	goy/xvh	avh/goy
+1.012	黟	qdj/qxj	
+1.010	忑	elk	
+1.010	汭	nfi	njb
+1.010	濇	skk/skp	ejk
+1.010	隩	qgk/qzz	qbg/qgk
+1.010	鯗	saw	
+1.008	傺	ewi	
+1.008	挻	osd	oad
+1.006	抯	cnu/cyh/jnu	cau/cyj
+1.006	枵	hqa	haa
+1.006	瑨	cdc	cdx
+1.006	祆	hxd	
+1.006	脡	exw	oxw
+1.006	葃	zpk/zsk/zzk	zzk
+1.006	蒖	tdd	tds
+1.006	鮞	ngk/njj	njj
+1.003	丼	csw/tlr	
+1.003	捜	stj	
+1.003	殧	cgk/vgk/zgm	cgk/vgk/zgg
+1.003	犳	qxa/tak	
+1.003	茌	zkj	
+1.003	荹	bzj/bzm	bzm
+1.003	鞨	gzt/jwt	gzt
+1.003	髎	rpa/rwa	ria
+1.001	儇	hfd	.sd
+1.001	寎	pwx	pqx
+1.001	欐	rpm/rpu/swj	rpm
+1.001	艶	lav	
+1.001	詺	msx	
+1.001	黌	uys	yys
+0.999	儰	yry	yay
+0.999	吂	mzs/mzx	mzs
+0.999	喠	efw/tfw	tfw
+0.999	埴	djk/ejm	djk
+0.999	孥	nzj/nzu	nzj
+0.999	掊	bgj/bvj/bya/pvu	bjj/bvj/pvu
+0.999	汚	qzj	azj
+0.999	犛	mya/rkj/rmj	rkj/rmj
+0.999	蒛	xft	ast
+0.999	藸	dqj/tqj	
+0.999	蟋	sdt/set	sdk/sek
+0.999	訇	.ps/uxd	.ps/ycd
+0.997	喨	rqx	
+0.997	屨	kfm	krm
+0.997	瘳	etj	
+0.997	紑	fgj/fgu/pgj	fjj/fju/pjj
+0.997	趔	rwt	
+0.997	靦	exe	
+0.997	騭	tdt	
+0.997	鶺	csk	
+0.995	拶	czt	
+0.995	琊	lnj	
+0.995	躇	dqj	
+0.995	餄	kpp	kmp
+0.993	呣	mvj	
+0.993	愙	xzk	
+0.993	萏	dlr	llr
+0.993	覿	dxk	
+0.993	錑	run	
+0.991	圬	qzj	azj
+0.991	弇	klf/qwr	klf/qqr
+0.991	慜	mke	mkw
+0.991	滀	etk	otk
+0.991	潧	ced	
+0.991	痦	wzm	
+0.991	蒨	vcc	vcx
+0.989	偙	txm	txg
+0.989	懮	qgu	
+0.989	拰	nkr	
+0.989	搛	kxv/rwf	
+0.989	楯	etd/jgd/jte	jgd/jte/otd
+0.989	樨	sxj	
+0.989	渧	txm	txg
+0.989	舭	pdu	
+0.989	貅	hgj	,gj
+0.986	姞	gkt	get
+0.986	撟	kqa/kqq/xzq	kaa/kaq
+0.986	澉	ezv/kzr	kzr
+0.986	牂		czs
+0.986	簨	sge	
+0.986	紝	ndf/nkf	njf
+0.986	蒴	sok	;yk
+0.986	魨	dbd	
+0.984	啁	ttj/tya	
+0.984	怩	nkh	nej
+0.984	樼	ced	
+0.984	氿	kty	ktu
+0.984	疒	npk/zqs	
+0.984	阼	zzm	zzg
+0.982	垎	gyk	
+0.982	墠	dse	
+0.982	岠	gau	
+0.982	沴	rpm	
+0.982	滉	uzw	yzw
+0.982	鮋	dgj/dtj/lgj	lda/lea
+0.980	噏	hjp	
+0.980	戁	nse/nye	
+0.980	熻	hjp	
+0.978	庣	exa	oxa
+0.978	潸	syd/sye	
+0.978	褑	yrc	yqc
+0.978	鯿	psd/pyd	ppd/psd
+0.976	嗛	xxr	axr
+0.976	燠	qgk/qzq/qzz	qbg/qgk
+0.976	郪	vdj/vxj	vcj/vdj
+0.974	侉	qzn	
+0.974	慝	elk	,lk
+0.974	濊	aai/hvi/hvt/qvi	.zi/.zt/aai
+0.974	牾	wzj/wzm	
+0.974	玀	ryh	
+0.974	瘥	cnj/vpm/zzh	zzh
+0.974	褙	plm	
+0.972	彲	ewj	
+0.972	悗	mzd	
+0.972	掤	pjs	
+0.969	匜	lsj/lsu	lah/lay
+0.969	愽	pzk	
+0.969	曡	dxp	llp
+0.969	殸	xps/xxx	axx
+0.969	皵	vak/vsk	vak
+0.969	蕆	ewe	
+0.969	蕒	mpu	myy
+0.967	忕	dsi/dzi/ezi	lzi/ozi
+0.967	祅	hxd/qqa	qaa
+0.967	肄	ldm	ldg
+0.967	賻	bam	
+0.965	丮	kwk	kqk
+0.965	巜	kvi	izi
+0.965	縁	lfc/lfd	
+0.965	鄜	faj/rok	rok
+0.963	欑		zvd
+0.963	蕢	gtn/xun	gtn/xuh
+0.963	鐒	rya	
+0.961	侳	caj/cvn	cvn
+0.961	忪	svs/tfs	ifs
+0.961	扂	dxr	
+0.961	璿	jfd	ysd
+0.961	睚	wpm	
+0.961	鏐	rea/rtj	rtj
+0.959	伋	kjp	kkp
+0.959	堥	mgj/mza	mbj/mgj
+0.959	忮	tsm	ksm
+0.959	攛	vvd	
+0.959	瘮	skr	
+0.959	礐	gbk/gvk/rpk/xok	
+0.959	祧	exa	oxa
+0.959	襻	fyc	
+0.957	唴	xax	
+0.957	惈	kvy	ivy
+0.957	戥	tlw	
+0.957	禚	tak	
+0.957	菻	rkr	
+0.957	萫	hax	
+0.957	褕	lfj/lsa	lfj
+0.957	褫	dwj/dwu/eku/ewu	lwj/lwu/owu
+0.957	鋥	dyx	
+0.957	鮀	dzh	lzh
+0.955	戭	lde/lse	ldw/lse
+0.955	攮	now	
+0.955	犽	wyn	wym
+0.955	瑱	exc/tec	ecx/tex
+0.955	盵	xjn	xji
+0.955	籐	dls	
+0.955	耱	mzn	
+0.955	餜	kvy	
+0.953	倻	lnj	
+0.953	偛	cpp	cqp
+0.953	嫜	tas	
+0.953	潪	dwk/twm	twm
+0.953	瀙	ced/vdc/vec	vdx/vex
+0.953	灄	oap	,sp
+0.953	砢	ryy	
+0.953	箰	sge	.de
+0.953	緢	mqa/myq/myz	maa/myq/myz
+0.953	釃	sqj/swj/swu	esu
+0.950	夎	cbn/cvn	cvn
+0.950	姏	mzf	
+0.950	弆	kau/xau	xau
+0.950	槧	vsf/vsv/zsr/zzr	vav/zar
+0.948	嚌	zxm	zcm
+0.948	蜮	ulk/ykk	ykk/ylk
+0.948	褓	pzq	pbu
+0.948	鞤	pzs	
+0.946	崁	xlv	
+0.946	殠	egm/hgu	agm/hgu
+0.946	涴	qvn	
+0.946	癀	uzs	yzs
+0.946	脧	cbh	cbh/cfd
+0.946	薀		qbd/qgc/qge
+0.946	鋣	lnj	
+0.946	鑥	ryu	
+0.946	钀	wat/wwt	wqt
+0.946	闅	mdd/mjd/mkd	mjd/mkd
+0.944	僸	kjv/wjr	kkv
+0.944	罽	kwi	kqi
+0.944	鏖	qza	qbj
+0.944	驫	pea/psa	pda/psa
+0.942	吅	.ad/jfx	.ad
+0.942	檑	ruh/run	
+0.942	脥	xar	
+0.942	衪	lsj/lsu	lah/lsu
+0.942	銱	txz	
+0.940	妯	dtk/etj	le,/otj
+0.940	犤	bah/bpj	bqh
+0.940	瘰	roy	
+0.940	癉	dzd/tzd/tzn/tzy	dzd/tzd/tzn
+0.940	縼	jfc	ysc
+0.940	莙	gte/kgd/ktd	gte/igd/ktd
+0.940	菗	dtj	lea
+0.940	衞	yri	
+0.940	譞	hfd	.sd
+0.940	鯴	set	
+0.938	伿	lsm/tsm	ksm
+0.938	劓	wkn	wei
+0.938	畼	eqx	oqx
+0.938	篥	ret	rek
+0.938	虵	jhj/lnu/lsj	jqh/lah/lau
+0.936	姺	sce/sed	skd/sle
+0.936	尯	xtn	
+0.936	炵	dbs/ebs	dbs
+0.936	蘫	hzv/ryf	ryf
+0.936	酎	dtm	
+0.933	嗿	elr	
+0.933	埏	lsd/osd	lad/oad
+0.933	嬮	qaf/qap/qav	qsf/qsp/qsv
+0.933	嶉	cgh	cgh/cgy
+0.933	悆	lam	
+0.933	楢	eaq/lgj	lgj
+0.933	犦	bok/pbk	by,/pz,
+0.933	珽	exw	oxw
+0.933	皢	hxq	
+0.933	羼	vpe/vyc	vpe
+0.933	脟	rre/rrt	rrt
+0.933	苖	dxk/etk	lc,
+0.933	魊	ykk	ykk/ylk
+0.933	齁	hvj	
+0.931	矧	ode	odw
+0.931	綎	dxs/exs	lxs
+0.931	胼	bxd	bcd
+0.931	虓	hya	huj
+0.931	趲	czc/cze/zze	czc/zae
+0.931	騩	ijh/kth/ktn	kgh/kth/ktn
+0.931	鰹	kxd	kcd
+0.929	惣	cvw	
+0.929	礅	tbd	
+0.929	窅	qxq/qya	qxq
+0.929	竝	bxw	
+0.929	笘	txp	
+0.929	跂	gsj/xsm/xsu	gsj/xsm
+0.929	鮓	cyy	
+0.929	黹	tky	teu
+0.927	傞	szh/vzh	vzh
+0.927	姽	kry/wry	kfy/wfy
+0.927	椄	csp	cap
+0.927	獮	sse	,se
+0.927	皝	uzw	yzw
+0.927	蒹	kxf	ixf
+0.927	藒	xwt	xqt
+0.927	衎	xzc/xze	xzc
+0.925	埆	xok	
+0.925	怤	faj	ffj
+0.925	潗	cjp	clp
+0.925	矞	lgt	ydt
+0.925	鵺	lnm	lag
+0.923	勲	hgd	
+0.923	厜	csj	
+0.923	嘓	ipk	imk
+0.923	忐	ezr	
+0.923	梏	kbk/kok	kbk/kuk
+0.923	穼	skf	
+0.923	薢	kmj/kpm/kpu	kpm/kpu
+0.923	蜑	dze	lze
+0.923	郛	faj	fgj
+0.923	頔	asw/dxk	lc,
+0.923	駄	dzn	
+0.921	壒	qzi	qzb
+0.921	揑	nxt	
+0.921	晹	osk	
+0.921	瀣	glm/gmm	gmi
+0.921	綝	ekf	
+0.919	叿	hvs	
+0.919	捔	kok/zok	kok
+0.919	罣	ipm/ixm/upm	ipm/ixm/ypm
+0.919	翯	gbk/gok/hok	gy,/gz,/hy,
+0.919	袓	cnj/zau	caj/zau
+0.919	訷	odd	ods
+0.919	諴	gpf	gmf
+0.919	譫	dzp/tzp	
+0.919	輊	tkn	teg
+0.919	遹	lgt	ydt
+0.916	堢	pzq	pbu
+0.916	堧	nfd/nvn	nfd/nvh
+0.916	嬒	qvi/qvt	qvi
+0.916	弸	bps/fps	bms
+0.916	恧	nkk/ntk	
+0.916	捊	bvj/bya	buj
+0.916	睃	cgc	
+0.916	禘	dxm	
+0.916	脪	ekh/hde/hjc	eej/hjc/hke
+0.916	蘞	haf/rwf/rwr	rqf/rqr
+0.916	詀	dpv/eap/tpf/txf	txf
+0.916	頲	exw	oxw
+0.914	怓	nya	npa
+0.914	掮	gsd/gwd	
+0.914	菦	kje	
+0.914	蜾	kvy	ivy
+0.912	棈	vcc	vcx
+0.912	橀	hlu/hxj	hxj
+0.912	涀	gxc/hxu/xxc	gxc/xxc
+0.912	甃	ctm	cez
+0.912	祔	bam	bfm
+0.912	糬	dam	
+0.912	莰	xlr	
+0.912	謉	ktn/tby	ktn
+0.912	跕	exp/txp	exp
+0.912	鶲	qvs	
+0.910	倷	nlu	
+0.910	吜	etu	
+0.910	嚱	han	;an
+0.910	枹	baj/bgj/pya	bgj/puj
+0.910	眔	dlp	llp
+0.910	赯	dzs	lzs
+0.910	郫	bah/bpj/bsj	bpj/bsj/bwj
+0.910	靷	ldc/lde	ldw/ldx
+0.908	惛	hbc/hbd/hbe	.lc/.ld/.le
+0.908	揵	gwd/kae	gqd/kae
+0.908	棓	bgj/blj/bow	bjj/blj/bmw
+0.908	浡	bbt	blt
+0.908	灺	jnu	
+0.908	脦	elk	
+0.908	藠	gxq/kxz	
+0.908	讃	czc	
+0.906	彶	kjp	kkp
+0.906	挵	rox	
+0.906	斝	kyy	kyu
+0.906	渃	nnm	
+0.906	瘵	cmm	cyi
+0.906	緥	pzq	pbu
+0.906	舖	fzm	
+0.906	萭	kfu/yru	yau
+0.906	鰵	mke	mkw
+0.904	囃	vzp	
+0.904	埫	erw	
+0.904	尰	dfw	
+0.904	挼	sbh	nvh
+0.904	栯	qgk/yju	yju
+0.904	舺	gyp	
+0.904	訞	qqa	qaa
+0.902	嘪	mpu	myy
+0.902	嚛	hbk/hvk	
+0.902	姸	wxd	
+0.902	嫋	nxq	
+0.902	炶	gzf	
+0.902	苨	nxu	ncu
+0.899	吷	hrt	.wt
+0.899	墘	gwd	
+0.899	櫕	zvd	
+0.899	猹	zyh	
+0.899	祏	dsk	dak
+0.899	靐	bjx	
+0.897	倂	psx	
+0.897	卝	uyw	
+0.897	浵	dbs	lbs
+0.897	臑	nfj/nza	nfj
+0.897	轢	rpk/ryk/ryt	rp,/ry,
+0.895	圎	yrd	
+0.895	堽	kzs	
+0.895	樿	tse	
+0.895	蓇	kbt	ilt
+0.895	鎈	vyh	
+0.893	伀	tfs	ifs
+0.893	婥	eak	ea,
+0.893	惝	eaw/ezw	
+0.893	磾	txj	
+0.893	稃	faj	fgj
+0.893	賱	qge	
+0.893	颸	vkj	
+0.893	鮐	elj	olj
+0.893	鮚	gkt	get
+0.891	橪	nse/qxd	nae
+0.891	殢	exm/hxm	
+0.891	縡	clm/clu	clu
+0.891	繦	kaw	
+0.891	脠	ewd/osd	oad/oqd
+0.891	閟	pkn	pei
+0.889	嗩	svy	
+0.889	垬	gvs	
+0.889	娕	vok	
+0.889	娖	vok	vrk
+0.889	懆	vzq/vzz	vzq
+0.889	栞	xzd	
+0.889	煕	hjj	
+0.889	爇	nft	
+0.889	猁	rem	
+0.889	遰	dxm	dxi
+0.887	垝	krn/kry	kfn/kfy
+0.887	垵	qlr	
+0.887	墬	ddm	
+0.887	庨	hya	
+0.887	彴	tak	ts,
+0.887	揲	dxp/jwt/lap	lap/lxp
+0.887	攄	eqj	
+0.887	欻	hgt	.jt
+0.887	舢	spd	
+0.887	誺	ekm/ekn/ewj/rmm	rmm
+0.885	冘	ldf/lgj	lgj
+0.885	巘	wae/wwe	wae/wqe
+0.885	扠	epj	
+0.885	泦	kgk	
+0.885	皕	pjk	
+0.885	眛	mlm	mli
+0.883	坫	tkf/txv	txv
+0.883	埍	ixe/uxe	ixe/yxe
+0.883	寣	hbt	.lt
+0.883	廒	wza	
+0.883	懠	zxj/zxm	zcj/zcm
+0.883	搢	cdc	cdx
+0.883	滣	jtd	
+0.883	珛	hgm	
+0.883	臦	iax	
+0.883	鮂	cgj/jgj	jgj
+0.880	弶	gax	
+0.880	彠	aak/awk/upk	aak/ayk
+0.880	氌	ryu	
+0.880	瓅	rpk	rp,
+0.880	纇	run	rui
+0.880	谻	kwk	gqk/kqk
+0.880	鋹	eqw	
+0.878	唼	clp/csp/syp	
+0.878	杻	etu/ntu	,tu/ntu
+0.878	溘	xlp/xzi	xlp/xzb
+0.878	臢	czd	
+0.878	苶	nst/nxp/nxt	
+0.876	俬	sdj	
+0.876	怞	dtj	lea
+0.876	盻	fpc/gxm/wxm	gxm/wxm
+0.876	跢	tzi/tzn	
+0.876	鈏	ldc/lde	ldw/ldx
+0.876	黢	vgt	
+0.874	悇	eqm/ezj/lam	ozj
+0.874	漻	rpa	ria
+0.874	膮	hxa/hxq	;xa
+0.874	荍	gsa	
+0.874	觔	kjd	
+0.874	霙	qas/qws	qas/qqs
+0.872	姌	nar/nxr	nar
+0.872	庳	bsu	bsu/psj
+0.872	沄	gbd/yjd	yjd
+0.872	澫	mac	
+0.872	灡	rye	
+0.872	矻	xbt	
+0.872	綅	cjf/ssf/vjf	cjf/saf/vjf
+0.872	軺	daa/lsa	daa
+0.872	辬	pyd	
+0.872	髈	bzs/fzw	bzs
+0.870	冖	mxk	
+0.870	滐	gwt	gqt
+0.870	濧	dbn	dlb
+0.870	瑧	cdd	
+0.870	脞	vaj/vvy	
+0.870	齕	glt/gxt	glt
+0.868	圡	ezu	
+0.868	檵	kxm	kxg
+0.868	沝	tfy	
+0.868	黶	qar	qsr
+0.866	儗	hlm/wjm/wju/wlm	wjm/wju/wlm
+0.866	朿	vsm	vsg
+0.866	楅	pgk/pjk	pjk/pkk
+0.866	瞍	svu/sxa	sca
+0.866	簠	fam/paj/pau	fam/pau
+0.866	葖	dbt	lbt
+0.866	輠	gby/goy/gvy/kvy	goy/gvy/ivy
+0.866	駰	qdd/qkd	qdd/qed
+0.863	嵁	wlf/wlr/xlf/xpf/zpr	xlf
+0.863	瑒	dyw/las	las
+0.863	眙	ekm/ljj	ljj/okm
+0.863	篈	pfs	
+0.863	譾	cse	
+0.863	踺	gac	
+0.863	錋	bls	
+0.863	鼽	ggj/hbh	ggj
+0.861	仸	qqq	qaq
+0.861	恝	kpt/xxm	
+0.861	戽	gzu/hzm/hzu	.zm/uzu
+0.861	挒	rwt	rqt
+0.861	欥	ldt/lgt	
+0.861	歺	wzt	
+0.861	氕	fxt	
+0.861	藨	bqq/fza/pqa	baq/fza/paa
+0.861	賛	czc	
+0.861	踣	blk/fvm	blk
+0.861	頋	kzm	izm
+0.861	黰	qpd/tde	tdw
+0.859	嫪	rya/ryz	ruj
+0.859	弳	kxx	
+0.859	柎	paj	pfj
+0.859	牮	ccc	
+0.859	眎	ddm/ddu/jem	ddm/ddu
+0.859	瞘	qvj/xvj	qvj
+0.859	硏	wxd	
+0.859	蔱	spt/swi	sqi/syt
+0.859	觖	ixt/xfn	ixt
+0.859	鱺	rpu	
+0.857	慹	nxp/tap/tjp/zjp	ncp/tdp
+0.857	敺	qvu/xfj	xfj
+0.857	柉	baf	
+0.857	瘂	qyy	qyu
+0.857	蔕	txm	txi
+0.857	躪	rec	
+0.857	遦	kvc	ivc
+0.857	頠	wby/wry	wby/wfy
+0.855	咟	upk	
+0.855	喦	nap	nsp
+0.855	夵	lar	
+0.855	婸	dzw	lzw
+0.855	懜	mgs/mlx/mvs	mjs/mlx
+0.855	攃	szt/vzt	
+0.855	暅	.ae/klx	.ae
+0.855	洈	kry/wrh	kfy/wfh
+0.855	玪	kpf	kmf
+0.855	踽	kfu/xfu	
+0.853	俻	bkn	bkg
+0.853	楱	vvm/zvm	vvm
+0.853	檟	kyy	kyu
+0.853	殈	.xk	
+0.853	泂	uxw	yxw
+0.853	燹	htn/sce/sse	.kn
+0.853	瘑	kvh	izh
+0.853	袦	not	
+0.853	賏	qss/qwx	qss
+0.853	躄	psk	bsk/psk
+0.853	鑴	hfh/uxj	.sj/yxj
+0.851	坶	mgk	
+0.851	幬	dtj/dzz	dbm/dtj
+0.851	敹	rpa	
+0.851	歃	spp/swp	sqp
+0.851	烠	gbh	
+0.851	璄	qww	qqw
+0.851	躦	zvd/zzh	
+0.851	鍎	dbt	lbt
+0.851	鎕	dzs	lzs
+0.851	颭	tar	
+0.849	俖	flu	
+0.849	圣	xbt	
+0.849	坏	flj	
+0.849	摰	wxt	
+0.849	撚	nxe	nle
+0.849	擭	awk/gzm/uzk	ayk/yzg/yzk
+0.849	敊	etk	
+0.849	昚	ddc	ddx
+0.849	殙	hbd	.ld
+0.849	沲	dzh/dzy	
+0.849	涻	onm	oam
+0.849	濙	axw	
+0.849	燋	cak/csa	cs,/csa
+0.849	繶	qjh/qjk	qjk
+0.849	覅	msz	
+0.849	趯	exk	ox,
+0.846	墚	rqs	
+0.846	暎	qwx	qqx
+0.846	璈	wza	
+0.844	啙	csu/cxj/zxu	csu/zxu
+0.844	堛	fjk	fkk
+0.844	琁	jfd	ysd
+0.844	璆	gea/ggj	
+0.844	瓟	bok/bya	buj/buk
+0.844	筲	sya	spa
+0.844	莿	vsm	vsg
+0.844	蜍	daj/laj	laj
+0.844	褌	kbd	
+0.844	訬	msq/vya	msq/vpa
+0.844	鏶	vsp/zjp	zlp
+0.844	陊	dwu/dzy	
+0.844	頇	hzd/wzc/wzt	wzc
+0.844	餤	dzf	lzf
+0.842	俛	mwe	mqe
+0.842	僜	dlx/eks	dlx
+0.842	抳	nwu	
+0.842	棑	bmm/bpj	
+0.842	殍	bky/bqq/faj	btu/bwq
+0.842	玊	sfk/sgk	sgk
+0.842	秷	tet	tek
+0.842	箢	aae	
+0.842	紭	ups	yms
+0.842	綷	cbn	cbi
+0.842	鋀	evj	
+0.840	曪	ryy	
+0.840	曵	lsi	
+0.840	紞	tzr	
+0.840	紨	faj	ffj
+0.840	遝	dlp	llp
+0.840	鉕	fzy	
+0.838	僋	elf/elv/rmv	
+0.838	咮	tfj/trm/ttj/ttm	tfj/ttj/ttm
+0.838	掔	xpd/xxd	xcd/xid
+0.838	敮	hpp	
+0.838	毪	mgj	
+0.838	纚	swu	esu
+0.838	葍	pgk	pjk
+0.838	輇	dfd/vfd	dfd
+0.838	鉐	dsk	dak
+0.838	鷟	zok	
+0.836	孨	crc/nkp/tfe	nep
+0.836	摋	swt/szt	szt
+0.836	燂	dlf/zsf	llf
+0.836	皐		kbj
+0.836	秏	hbn/hzz	
+0.836	臗	xbd	ald
+0.836	虂	rym	ryg
+0.836	阨	qpk	
+0.836	靬	kad/kpd/xzc/xzd	kad/xzc
+0.836	鱓	dse	
+0.836	龖	dlp	
+0.834	嫽	rpa/rpz/rwq	rpa/rpz/rqq
+0.834	懽	hvd/kvc	.zd/izc
+0.834	猰	kyt/qpt/xxt	qpt/xxt
+0.834	蟥	uzs	yzs
+0.834	踟	dwj	
+0.834	鄠	gzu	yzu
+0.832	呾	qyt/tzt	tzt
+0.832	唶	cnm	cag
+0.832	濩	awk/gzm/uzk	ayk/yzg/yzk
+0.832	燏	lgt	ydt
+0.832	糨	gax	
+0.832	貑	kyh	kyj
+0.829	嗢	apt/qbt	qbt
+0.829	嚲	tzy	
+0.829	婔	yjh	fjh
+0.829	嫻	gpd	
+0.829	寖		cjr
+0.829	弜	gah/gaw	gaw
+0.829	抮	hxe	
+0.829	眕	tde	tje
+0.829	眵	esj/tsj	
+0.829	簵	rym	ryg
+0.829	耮	ryz	
+0.829	蟓	jaw/oax	jaw
+0.829	蟜	gqa/kqq	gqa/kaq
+0.829	騍	kvn/xvn	
+0.827	兟	sed	skd
+0.827	嚆	hya	
+0.827	廙	ljk/ljm	ljg/ljk
+0.827	潽	fzj	
+0.827	獚	uzs	yzs
+0.827	瓨		gos
+0.827	甗	wad/wwc/wwe	wad/wqc/wqe
+0.827	鞓	exs	oxs
+0.825	佮	elp/klp/qlp	klp
+0.825	剅	roj/tvj	tvj
+0.825	墺	qgk/qzz	qbg/qgk
+0.825	焄	hgd	
+0.825	煚	iww	
+0.825	珆	ldj	
+0.825	肈	dqq	lqq
+0.825	脁	eqz/exa	
+0.825	臩	iaw/iww	iaw/iqw
+0.825	舚	exf/exv	
+0.825	錼	nzi	
+0.823	媣	kzf	nar
+0.823	敻	.sx	.cc/.sx
+0.823	欬	qyi/xlm	xlm
+0.823	洨	gya	gpa
+0.823	眢	aad/qvd	aad/azd
+0.823	窊	qoh/qon	ayj/aym
+0.823	粖	mxt/mzt	mzt
+0.821	僽	ztm	
+0.821	厗	dxj	
+0.821	妬	tzm	tzg
+0.821	桲	bbt	blt
+0.821	汋	dak/zok	ds,
+0.821	疎	sqj/sqm	sqj
+0.821	緵	cvs/cvx	cvs
+0.821	銍	tdt/tet	tdk/tek
+0.821	鞕	wpx	
+0.819	乚	qje	
+0.819	伃	laj	
+0.819	侁	sed	skd
+0.819	垻	pyn	
+0.819	妠	nlp/nlv/not	nlp
+0.819	嶨	gok/xok	guk
+0.819	嶲	sfy	
+0.819	敳	wlj	wlh
+0.819	枻	lsi	lab
+0.819	椆	dtj/tgm	dtj
+0.819	潣	mke/mlu	mke
+0.819	煓	evd	tvd
+0.819	猞	onj	
+0.819	畧	rqk	
+0.819	羍	ezt	ozt
+0.819	艴	bbt/fjt	fjt
+0.819	蝻	nlr	
+0.819	遶	nsq	wsq
+0.819	邅	dwc/dwe/twd	dqc/tqd
+0.817	侹	exw/exx	oxw
+0.817	墝	xya	
+0.817	嵔	ajh/ajy/qby	qby/qgh
+0.817	璯	xoi	
+0.817	穭	rqu	
+0.817	膣	tet	
+0.817	賲	pzq	pbu
+0.817	酇	zvd	cve/czc/zvd
+0.817	霅	gyp/slp/tap/typ	gmp
+0.815	妶	uxd/uxe	
+0.815	攱	krn/kry	
+0.815	脮	eby/nby	,by/nby
+0.815	蔤	mkt	met
+0.815	鴏	dlk	llk
+0.812	岊	cct/zct	
+0.812	掫	cfj/ctu/cvj	cfj/cou/cvj
+0.812	桯	exs/gxs	oxs
+0.812	棎	daf	
+0.812	泝	szm	;zg
+0.812	澣	gve	
+0.812	瘝	ipd	
+0.812	盩	ttj	
+0.812	罝	cnj	caj
+0.812	腷	bjk	bkk
+0.812	驌	sgk	sd,
+0.812	骹	xya/xzt	xpa
+0.810	圌	dfd/dfh	dfd
+0.810	廌	dpu/dwu	lpu
+0.810	皪	rpk	rp,
+0.810	荸	bbt	
+0.810	袣	lsi	lab
+0.808	偞	hxp/lap	lap
+0.808	卙	ejp	xdp
+0.808	嚫	vec	vex
+0.808	塭	qbd	
+0.808	狴	pxj	pcj
+0.808	祂	ezh	
+0.808	筊	gya/kyq	gpa/kpq
+0.808	綖	lsd	lad
+0.808	贐	jdc/zde	
+0.808	輣	bys	bms
+0.808	鄮	mvm	mtm
+0.806	傃	szm	szg
+0.806	娀	sgs	,gs
+0.806	屓	hkn	
+0.806	掞	oav	
+0.806	歛	hzf	
+0.806	聅	dzd/ewt	lzd/oqt
+0.806	茝	elu/tju	
+0.806	讘	nap	nsp
+0.804	囅	ewe	
+0.804	宊	ebt	
+0.804	晊	tdt	tdk
+0.804	玭	bdd/bxd	bcd/bdd
+0.804	簜	dzw/ezs	lzw/ozs
+0.804	簻	toh/xvh	
+0.804	賮	jdc	zdx
+0.804	鏓	vvs	
+0.802	撖	gyr/xlf/xpr	
+0.802	腃	xtn	
+0.802	苪	pww	pqw
+0.802	鼔	kzu	
+0.802	齵	wfj/wvj	
+0.800	榲		qbt
+0.800	窉	pww	pqw
+0.800	笚	gyp/tzp	gyp
+0.800	蒈	xmu	
+0.800	蕫	dvs/tvw	dvs
+0.798	汥	gan/gsj/tsj	gsj/gwm/ksj
+0.798	牃	dxp	lxp
+0.798	眹	dee	
+0.798	筢	byh	
+0.798	耥	ezw	
+0.798	阢	wbh/wbt	
+0.796	咇	bdt/bxt/pkt	bct/bdt/pet
+0.796	帇	nwp	
+0.796	椪	fpx	
+0.796	爞	dbs/dts	lbs/lts
+0.796	腝	nbc/nfe/nzz	nbd/nfe
+0.796	螗	dzs	lzs
+0.796	蟌	vvs	
+0.796	酄	hvd	.zd
+0.796	騂	,ss	.ss
+0.796	鬪		tvg
+0.793	倅	cbt/vbn	cbt/vbi
+0.793	妎	gxm/gzi	gxi
+0.793	弰	sya	spa
+0.793	朅	xwt	xqt
+0.793	珝	hfu	.au
+0.793	葻	rmf	
+0.793	藞	ryy	
+0.793	錩	eas	
+0.793	鸊	bxk	
+0.791	丯	kmm	
+0.791	怮	qea/qeq/qgj/qxa	qca/qda/qdq
+0.791	犋	gfm	
+0.791	罛	kzj	izj
+0.791	蘈	dbh	lbh
+0.791	黁	nbd	
+0.789	儃	dsd/dzd	dad/dzd
+0.789	嚖	.xm	.xi
+0.789	晬	cbn	cbi
+0.789	璡	cdc/cdd	cds/cdx
+0.789	羴	hpd	
+0.789	耖	vyz	vpz
+0.789	裞	evi/ofi	ofi/ovi
+0.789	裲	rqw	
+0.789	錍	fxj/pah/psj	fxj/psj
+0.789	餀	hzi	;zi
+0.787	叀	dfc/tfd	
+0.787	姇	faj	ffj
+0.787	崒	zgt	zbt/zgt
+0.787	搋	emj	
+0.787	榶	dzs	lzs
+0.787	瓛	gvd	
+0.787	祴	klj	
+0.787	謵	eap	
+0.787	頵	ktd/qtd	ktd
+0.787	鮷	dxj	lcj
+0.785	峛	rwu	
+0.785	幠	hzj	.zj
+0.785	朏	fjy/flm/flu	fjy/fly
+0.785	溓	rpf/rpr/rwr	rpf
+0.785	牦	mza	
+0.785	疨	hyh	
+0.785	砏	fjd/fkd/pkd	fjd/pkd
+0.785	砡	wgk	
+0.785	罜	dvk/tfm	tfm
+0.785	脎	spt	
+0.785	腍	ndr	
+0.785	蔉		ibe
+0.785	謣	yrj	yaj
+0.785	阽	laf	
+0.783	仚	hwd	
+0.783	吰	ups	yms
+0.783	湩	tbw/trx/tvx	trx
+0.783	灊	jjf/zjf/zsf	zaf/zjf
+0.783	瓕		msj
+0.783	稊	dxj	lcj
+0.783	茮	csa	cda
+0.783	荲	ekk/etk/hgk	
+0.783	薖	xvh	
+0.783	蠵	lfh/uxj	ysj/yxj
+0.783	衸	gmm/kmm	gpi/kpi
+0.783	襾	hyy/qyn	
+0.781	亄	qkn/qkt	qei/qet
+0.781	佖	bdt/bkt	bdt/bet
+0.781	揜	qwr/qzr	qqr/qzr
+0.781	棽	ekf/skf	
+0.781	槪	klm	
+0.781	熇	hbk/hvk/hzk/xzz	hz,
+0.781	牚	eyx	
+0.781	盨	squ	
+0.781	篸	clf/clv	
+0.781	緫	cvw	
+0.781	繑	xsa	xaa
+0.781	蓷	ebh/egh	ebh
+0.781	鑚	cvc/cvd	
+0.779	孎	tok/trk	trk
+0.779	杕	dxm	lxi
+0.779	杫	ssm	
+0.779	櫎	uzw	yzw
+0.779	瑳	vzh/vzy	vzh
+0.776	塙	xok	xy,
+0.776	昄	bye/pye/pze	bye/pye
+0.776	煻	dzs	lzs
+0.776	珖	izs	
+0.776	琄	uxe	yxe
+0.776	畞	mvu	mlu
+0.776	睾	kza	
+0.776	碞	wjf/wpf	wmf
+0.776	箉	gpu	
+0.776	簺	slm	slg
+0.776	荵	nde	nje
+0.776	蔎	ost	;st
+0.776	蚖	uad/wvd	wfd/wvd
+0.776	褨	szy	
+0.776	觫	svk	
+0.776	鷁	wxk	
+0.774	嘒	.xm	.xi
+0.774	敠	tvt/vft	tvt
+0.774	栿	bgk	bjk
+0.774	笭	rps/rpw	rps
+0.774	絍	ndv	njv
+0.774	緤	sst	
+0.774	踇	mvu	mlu
+0.774	頣	ode	
+0.774	鸆	wfj	
+0.772	尣	azs	
+0.772	巇	hah	;ah
+0.772	揞	qlr/qpv	qlr
+0.772	朹	ggj/kty	ggj/ktu
+0.772	枲	sju	
+0.772	渮		kzh
+0.772	珓	kyz	kpa
+0.772	蚚	gbn/gjh	gjh
+0.772	醡		cyg
+0.772	饐	qkn	qei
+0.772	驎	red	rkd
+0.772	鳦	qkt	qet
+0.770	嚈	qap	
+0.770	嬜	hjf/hzf/qlf	qlf
+0.770	摖	vxm	
+0.770	摪	cas	
+0.770	浟	lgj	lda
+0.770	涒	ebd	
+0.770	漼	vby	
+0.770	皻	cyh	cyj
+0.770	稵	cea/cjj	cjj
+0.770	窻		vos
+0.770	筯	dqm	
+0.770	箑	spp/swp	sqp
+0.770	袚	pai/pzt	pzt
+0.770	邘	yrj	yaj
+0.768	僿	ojm	
+0.768	噑	gza	
+0.768	婏	fam	
+0.768	桸	hah/hjh	hjh
+0.768	泭	baj/faj	bfj/ffj
+0.768	筥	kau	kqu
+0.768	篟	vcc	vcx
+0.768	臿	vpp	vqp
+0.768	蒚	gpk/rpk	rpk
+0.768	螡	mjd	
+0.768	訦	djf/djr	djf
+0.768	轀		qbd
+0.766	嚞	twt	tqt
+0.766	旍	css	
+0.766	毹	srj	
+0.766	皠	vby	
+0.766	鯫	vfj/zvj/zvu	vfj/zvj
+0.764	夆	bfs/gzi	bfs
+0.764	帨	ofi/vfi	ofi
+0.764	灥	efd/jgd	
+0.764	熜	vvs	cvw
+0.764	礞	mvs	
+0.764	紃	jgd/jtd	jgd
+0.764	酨	dlm/zlm	llm/zlm
+0.764	龏	kfx/qok	kfx
+0.762	勨	jaw/law	jaw
+0.762	媖	qws	qqs
+0.762	愲	kbt	ilt
+0.762	杬	uad	wfd
+0.762	瑉	mkd	
+0.762	禷	rtn	rti
+0.762	螝	gbn/kth/ktn	gbn/kth
+0.762	裓	klk	
+0.762	襡	dfk/dvk/dvu/tvm/tvu	dfk/dvk/tvg/tvu
+0.762	鄗	gzq/hzk/xya	gzq/hz,/xya
+0.762	髧	dlr	
+0.759	嗰	gzh	
+0.759	堗	dbt	lbt
+0.759	彇	sxa	sca
+0.759	殭	kas	kas/kax
+0.759	浤	ups	yms
+0.759	眫	fzc	
+0.759	繀	sbn	
+0.759	艒	mbk/mlk/mvk	mbk/mvk
+0.759	菾	dxf	
+0.759	蘹	guh	
+0.759	虩	hwk/spk	ezk/hqk
+0.759	觱	pdt/yjt	pdt
+0.757	嫭	gzm	
+0.757	寪	yry	yay
+0.757	嵃	wwe	wqe
+0.757	懪	bok	by,
+0.757	拑	gwf	gqf
+0.757	暜	exm	,cg
+0.757	柅	nkh/nky	nej/neu/nwu
+0.757	矟	sok	sp,
+0.757	繛	eak	ea,
+0.757	臞	gfj/gfm	uaj/uam
+0.757	萺	mbk/mgk	mbk
+0.757	鮡	dqq/dxa	lqq/lxa
+0.755	夘	cxu	
+0.755	橚	sgk/sxa	sca/sd,
+0.755	氍	gfj	uaj
+0.755	獦	kzt/rwp	kzt/rqp
+0.755	觿	hfh/uxj	.sj/yxj
+0.755	蹱	ers/erx/tfs	tfs
+0.755	酏	lsj/lsu	lah/lsu
+0.755	閇	pxm	pci
+0.755	齛	sst	
+0.753	忥	hjn	hji
+0.753	搩	gwt	gqt
+0.753	瓈	rpj	rij
+0.753	鐋	ezx	ozx
+0.753	閷	smm	syi
+0.751	塥	kpk	
+0.751	朘	cfd	
+0.751	檛	toh	
+0.751	睳	.xj	
+0.751	箷	lsj	lah
+0.751	絻	mjc/mwe/mzd	mqe
+0.751	纕	sas	,as
+0.751	蟰	sgk/sxa	sca/sd,
+0.749	傗	etk	otk
+0.749	呞	ojj	
+0.749	柛	odd	ods
+0.749	楬	gat/gwt/xyt	gat/gqt
+0.749	烋	hea	
+0.749	甿	mps	
+0.749	砯	fjs	
+0.749	聱	wea/wya/wza	wza
+0.749	蓪	evs	ovs
+0.749	蝪	ezs	ozs
+0.749	颵	sya	spa
+0.749	鱣	twd	tqd
+0.747	倐	ogk	
+0.747	匽	qac/qae	qae
+0.747	圱	vcd	vcs
+0.747	妋	paj/qgj	paj
+0.747	嫇	mps/mxs/mxw	mxs/mxw
+0.747	搷	dxd	dcs
+0.747	斅	gyz	gug
+0.747	棯	ndr	
+0.747	熅		qgd
+0.747	甶	pjt	
+0.747	笴	kze/kzy	kzy
+0.747	緼	qbd/qgc/qgd/qge	
+0.747	繣	.pk/upm	.pk/ypg
+0.747	胕	bam	bfm
+0.747	腯	dbt	lbt
+0.747	蟼	kws/kww/kyh	kws/kww
+0.747	蹨	nse/nxe	nae/nle
+0.747	鎐	cvk	
+0.747	韎	mmm/mzt	mzt
+0.747	鶤	kbd/yjc	yjc
+0.745	儦	pqa	paa
+0.745	卂	sdc/tri	sdx
+0.745	嚚	wkd	wed
+0.745	寴	vdc/vdd	vds/vdx
+0.745	弽	hxp/oap	oap
+0.745	抾	xap/xjj	xap
+0.745	摡	hjn/klm	hji/kli
+0.745	漴	zox	
+0.745	狣	dqq	lqq
+0.745	盌	qve	aze
+0.745	簉	vtm	
+0.745	糌	clf	
+0.745	縎	kbt	ilt
+0.745	肁	dqq	lqq
+0.745	膍	bdj/bxj	bcj/bdj
+0.745	靾	lsi	lab
+0.742	哰	rya	ruj
+0.742	抇	gbt	
+0.742	摴	eqj	
+0.742	穄	csi	cai
+0.742	篬	vas	
+0.742	蔲	hvm	
+0.742	裯	drj/dtj/tza	dtj/tbj
+0.742	褭	nxq	ncq
+0.740	壝	lgh/lgy	lgh
+0.740	昞	pww	pqw
+0.740	栵	rwi/rwt	rqi/rqt
+0.740	槩	klm	
+0.740	璶		zdx
+0.740	籔	sru/svu	efu
+0.740	萐	spp/swp	sqp
+0.740	蝃	tft/txm	tft/txi
+0.740	邲	bdt/bkt/pkn	bdt/bet
+0.740	颲	rwt	rqt
+0.740	骳	may	
+0.740	鰒	bgk	bgk/buk
+0.738	佁	ekm/lju/ylu	lju/okm
+0.738	僀	txm	txi
+0.738	嘼	hgm	
+0.738	摤	vaw	
+0.738	杽	etu	,tu
+0.738	棸	dtj/dtu	
+0.738	槮	skf/skr/slr/vkf	skf/slr/vkf
+0.738	湼	nxt	
+0.738	痆	npt	nik
+0.738	芧	dqu	
+0.738	詧	vct/vpt	vpt
+0.738	讋	tap	
+0.738	靃	.zk/sfy	.zk
+0.736	峘	gls/gvd	gls/yzd
+0.736	懕	qaf	qsf
+0.736	极	gap/gwp	gqp
+0.736	柤	cyh	cyj
+0.736	檇	cgh/cgn/zbh	cgh
+0.736	歁	xlp/xlr	xlr
+0.736	沶	ljj	
+0.736	畁	gjj/gjm	
+0.734	噣	tfk/tok/ttm/tvm	tfk/tvg
+0.734	壄	lnu	
+0.734	擸	rwp/ryp	rqp/ryp
+0.734	瑮	ret	rek
+0.734	磑	wbh/wbn	
+0.734	罞	mvs/mya	muj
+0.734	翉	fle	
+0.734	肧	fgj/flj	fjj/flj
+0.734	臛	hbk	hz,
+0.734	蟫	dlf/ldf	ljf/llf
+0.734	裛	qap/qjp/qwp	qjp
+0.734	迆	lsj/lsu	lah/lsu
+0.732	僝	zpd/zrc	zqd
+0.732	儠	rwp	rqp
+0.732	劜	qyt	
+0.732	媟	sst	
+0.732	慴	dxp/tap	llp
+0.732	扢	gbt/kbt/kjt	kjt
+0.732	擳	cet	cek
+0.732	煆	hyh/hyn	hyj
+0.732	璗	dzw	lzw
+0.732	竵	.pj	hoh
+0.732	筻	kyx	
+0.732	篴	dtk/dxk	lc,/le,
+0.732	緀	vxj/vxu	vcj/vcu
+0.732	胑	tsj	ksj
+0.732	芺	qqq/qzq	qaq/qzq
+0.732	莬	mjc	
+0.732	螠	qsm	
+0.732	訄	ggj/nza/xgj/xza	ggj/xbj/xgj
+0.732	跅		ezk
+0.732	蹛	dwi/tzi	dqi/tzi
+0.732	釪	yrj	yaj
+0.732	鰅	wfj/wfs	wfs
+0.730	圤	fok	fog
+0.730	垶	,ss	.ss
+0.730	奤	fzk	
+0.730	璱	set	sek
+0.730	矖	rwj/swu	esu/rwj
+0.730	袝	bam	
+0.730	銊	sgt	.dt
+0.728	倰	rms/rmx	rms
+0.728	嫈	ass/qps/qpx	ass
+0.728	嵨	qzu	
+0.728	惄	nxk	nc,
+0.728	慒	jgj/zbs	zbs
+0.728	歠	eft	
+0.728	狶	hjy	
+0.728	皀	has/kjp/pjk/pkp	has
+0.728	籑	zrc	
+0.728	胐	flm/xbt	xbt
+0.728	鯈	dtj	lda
+0.726	䲁	ajn	qgi
+0.726	偒	ezw	
+0.726	儓	dlj/elm	dlj
+0.726	帓	myt	
+0.726	廲	rpj	
+0.726	捄	ggj/kfj	ggj
+0.726	榤	gwt	gqt
+0.726	禫	dlr	llr
+0.726	臮	gkn	gkb
+0.726	蠙	bdd/bxd	bcd/bdd
+0.726	豭	kyh	kyj
+0.726	鈒	skp/slp	ejp/slp
+0.726	鐁	sdj/ssj	ssj
+0.726	頟	wyk	
+0.726	鵻	sge/tgh	.de/tgh
+0.723	帒	dlm	llm
+0.723	愓	dzw	lzw
+0.723	憯	vlr/vxr	vlr
+0.723	旐	dqq	lqq
+0.723	楴	exm	
+0.723	穘	hya	
+0.723	窐	ixj/uxj	ixj/yxj
+0.723	襃	pza	pbj
+0.723	郉	xxd	
+0.723	魿	gkd/rps	rps
+0.721	嗊	hvw	
+0.721	垐	zdj/zjk	zdj
+0.721	嵆	gxj	
+0.721	杄	vcd	vcs
+0.721	瀺	zpr	zqr
+0.721	犏	fsd	
+0.721	窂	rya	ruj
+0.721	褢	guh	
+0.721	軎	jfi/yri	ysi/ywi
+0.721	魶	nlp/nzp	nlp
+0.719	拵	zbd	zld
+0.719	殜	dwp/lap	lap
+0.719	浰	rpc	
+0.719	澟	rkr	
+0.719	疕	fky/fsu/pdu	feu/pdu
+0.719	痓	edm	
+0.719	盷	uxd	ycd
+0.719	碪	ldf/tkf	tkf
+0.719	籛	ccd/csc/cse	cac/cae/cxd
+0.719	緁	vsp	vap
+0.719	蚘	gbh	
+0.719	谺	hyh	
+0.719	踈	sqj/sqm	
+0.719	邎	lgj	
+0.719	闤	god	ypd
+0.717	嚂	hzr/ryv/xzv	ryv
+0.717	姶	qlp	
+0.717	溹	spk/swk/szk	sqk/szk
+0.717	爁	rwv/ryr/ryv	ryr/ryv
+0.717	犚	ajn	qgi
+0.717	狦	syc/syd	syd
+0.717	瞤	ngd	
+0.717	踼	dzs/dzx/ezs/ezw	ozs
+0.717	輴	etd	otd
+0.717	鐻	gaj/gau/kam	gaj/gau
+0.717	騊	dza	lbj
+0.715	嶃	zpr/zyf	
+0.715	玈	ryj	
+0.715	礉	xya/xyz	
+0.715	肂	sdm	sdg
+0.715	臔	gxe	
+0.715	莤	stk	
+0.715	誜	son	
+0.715	颿	baf/bav	baf
+0.713	僴	kpe	
+0.713	卛	iac	
+0.713	杘	ekn	,em
+0.713	楇	kvh	izh
+0.713	淲	bea	
+0.713	絓	apj/upm	ipj/ypm
+0.713	羇	kah	kah/kqh
+0.713	駣	dqq/dza/dzq	lqq/lza
+0.713	黚	gjf/gwf	gkf/gqf
+0.711	喛	.ad/hvc	.ad
+0.711	墡	dse	dae
+0.711	愊	fjk	fkk
+0.711	憭	rpa/rpq/rwq	rpa/rpq/rqq
+0.711	斮	cok/cqk	cqk
+0.711	棦	vps	
+0.711	滍	dky	
+0.711	絙	gvd/kls	kls/yzd
+0.711	繓	cvt	
+0.711	飬	krc/xrc	
+0.711	鬒	tde	tdw
+0.709	塤	.ad	
+0.709	尠	sfm/sse	
+0.709	戤	glm	
+0.709	搰	gbt	ylt
+0.709	洬	sbk	
+0.709	浿	fmm/fzi	fyi/fzi
+0.709	秞	lgj	lda
+0.709	篘	vtj	voj
+0.709	籺	gxt	
+0.709	釥	vsq	
+0.709	鴋	bas/pas	bas/faw/pas
+0.706	垽	wjc/wkc	wkc
+0.706	埻	ipk/izk/tge	imk/izk/tge
+0.706	殕	fau/pgu/qlk	ffu/pju
+0.706	泑	qea/qeq	qda/qdq
+0.706	泒	kzj	izj
+0.706	睧		mkd
+0.706	祰	kbk/xzq	kbk/xbu
+0.706	臽	gpv/xlr	gmv/xlr
+0.706	艖	vyh/zzh	zzh
+0.706	莦	ssa/sya	spa/ssa
+0.706	衺	jnj	jaj
+0.706	鷫	sgk	sd,
+0.706	鷶	mpu	myy
+0.706	麌	wfu/wzj	uau/uzj
+0.704	傔	xxv	
+0.704	儳	vyv/zpf/zpv	vyv/zqf/zqv
+0.704	墤	dbh/xun	lbh/xuh
+0.704	婽	kyy	kyu
+0.704	嫢	csj/gxe/udu	
+0.704	搉	kok/xok	ky,/xy,
+0.704	椵	kyy	kym/kyu
+0.704	檈	jfd/sgd	ysd
+0.704	淴	qbt	
+0.704	狤	gkt/kdt/kxt	get/kct/kdt
+0.704	礿	lak	
+0.704	罃	qps	
+0.704	蟅	tnm	
+0.704	鞙	ixd/uxe	ixd/yxe
+0.704	髢	dxm	lxm
+0.702	劔	kav	
+0.702	孡	elj	olj
+0.702	愼	ddc	
+0.702	笯	nyh/nzj/nzm	nyj/nzj/nzm
+0.702	肊	qjk	
+0.702	蜰	bjh/pjy	bjh/bjn
+0.702	郲	rmj/ruy	rmj
+0.702	鼆	mpw	mxw
+0.700	儑	wlp/wlv/wzp	
+0.700	啅	tok	ty,
+0.700	孼	wwt	wqt
+0.700	屸	ros	
+0.700	旓	sya	spa
+0.700	楶	cct	cck
+0.700	瀌	bea/pqa	paa
+0.700	笝	nzp	
+0.700	覞	lsz	
+0.700	鬭	tvm	
+0.698	囋	zzc/zzt	
+0.698	巎	nza	nbj
+0.698	憀	rpa/rtj	ria/rtj
+0.698	捳	wok	
+0.698	汫	zxw	
+0.698	焀	gvk	
+0.698	瞶	ijn/lgn	kgn/lgn
+0.698	茢	rwt	rqt
+0.698	衃	fgj/flj	fjj/flj
+0.698	鋜	zok	zrk
+0.698	鱯	gon/gzm/upk	yyg/yzg
+0.698	鶬	vas/vzs	vzs
+0.696	侐	.dm/hjk	.di/.dt
+0.696	侲	tdc/tdd	tjc/tjd
+0.696	咶	got/hoi/hun	yyt
+0.696	栔	xxm/xxt	xxi/xxt
+0.696	硊	wry	wfy
+0.696	竢	jku	
+0.696	簁	swj/swu	sqh/sqy
+0.696	罯	qlp/qlr	qlr
+0.696	苙	gjp/rkp	rkp
+0.696	蕼	sdm	sdg
+0.696	蚎		yat
+0.696	豃	hyr	
+0.696	馝	bdt/bxt	bct/bdt
+0.694	徎	exw/tww	
+0.694	揊	fjk	fkk
+0.694	柲	bdt/bxt/pkn/pkt	bct/bdt/pei/pet
+0.694	榾	kbt	ilt
+0.694	磳	cls/zks	cls
+0.694	綌	xwk	xqk
+0.694	襋	kjk	kkk
+0.694	醧	qam/qvj	qvj
+0.694	鋻	kxc/kxd	kcc/kcd
+0.694	飡	vzd	
+0.694	麃	bya/fqq	bya/faq
+0.692	愒	xwi/xwt/xzi	xqi/xqt
+0.692	漍	ipk	imk
+0.692	痁	oaf/txv	txv
+0.692	癊	qjv	
+0.692	矠	vpk/zpk	vmk/zmk
+0.692	穟	jgn	jgi
+0.692	翵	gfj/gvj	gvj
+0.692	蓨	exk	oc,
+0.692	豷	htn/qxm	qci
+0.692	踖	csk/vak/zsk	cak/vak/zak
+0.692	踾	bjk/fjk/pgk	bkk/fkk/pjk
+0.692	錀	fjd	
+0.692	飊	psa	
+0.692	馠	hlf	
+0.692	髽	coh	
+0.692	鷇	xvm	xvg
+0.689	凔	vzs	vqx/vzs
+0.689	哳	tyt	
+0.689	啺	dzs	
+0.689	坋	bjc/bje	
+0.689	媢	mbk/mdm/mzq/mzz	mbg/mbk
+0.689	帟	lsk	lak
+0.689	摥		ozx
+0.689	櫜	kza	kbj
+0.689	碡	dbk/dtk/dvk	dbk
+0.689	穽	zsw/zsx	zsw
+0.689	絥	bgk/bkn	bjk/bkg
+0.689	翄	gsj/osm	gsj
+0.689	膕	ilk/ipk	imk
+0.689	芛	lfy/lgt	
+0.689	蔾	rej/rpj	rej/rij
+0.689	軑	dxm/dzi	lxi/lzi
+0.689	鞳	ezp	
+0.689	飵	zzk/zzm	zzg/zzk
+0.687	戺	zku	
+0.687	挃	tet	tek
+0.687	揗	jgd/jtc/jte	jgd/jtc
+0.687	暤		gbu
+0.687	橾	srj	
+0.687	溎	qxc	
+0.687	痗	hbn/mlm	.lm/mlm
+0.687	鈜	ups	yms
+0.687	騇	onm/onu	oam/oau
+0.685	凷	xbn/xun/xvi	
+0.685	噧	ezt/hmm	
+0.685	嵥	gwt	gqt
+0.685	抎	yje	
+0.685	捇	.pk	
+0.685	摷	cya/rpa	cya
+0.685	猇	gya/hya	huj
+0.685	豝	pyh	pyj
+0.685	鞢	sxp/typ	sxp
+0.685	鬬	tvm	tvg
+0.685	齇	cyh	
+0.683	屵	wae/wzt	
+0.683	忺	haf	
+0.683	檝	csp/zjp	cap/zjp
+0.683	溔	lsq	
+0.683	盓	qzj	azj
+0.683	繂	rtt	
+0.683	蘤	yry	yay
+0.683	螋	srj/stj	stj
+0.683	衋	hjk	
+0.683	邥	ojr	;jr
+0.683	飰	bac	
+0.681	僎	cgd/zrc/zre	zrc/zre
+0.681	岝	zyk/zzk	zzk
+0.681	彸	tfs	ifs
+0.681	摲	vyv	
+0.681	朌	bjd/pyd	
+0.681	朒	ngk/ntk	
+0.681	榥	uzw	yzw
+0.681	歜	efk/zlr	efk
+0.681	渰	qwr	qqr
+0.681	磌	dxd/tdd	dcs/tds
+0.681	磹	dxv	
+0.681	衱	gwp/kap	gqp
+0.681	詨	gyz/hyz/kya	gpz/hpz/kpa
+0.681	隒	wwr	
+0.681	驏	zye	
+0.679	俇	uaw	iax
+0.679	偫		dku
+0.679	娗	dxs/dxw	lxs/lxw
+0.679	巵	tsj	ksj
+0.679	暭	gzq	
+0.679	桼	vdt	vdk
+0.679	煛	ixw	
+0.679	猫	mqa	maa
+0.679	痄	cyy	
+0.679	瘇	dfw	
+0.679	盄	taa	tsa
+0.679	硰	cvy/syh/vzy	syh
+0.679	莝	vvn	
+0.679	藋	dxz	
+0.679	蘱	rtn/run	rti/rui
+0.679	譶	dkp/dlp	lkp/llp
+0.679	讆		yqi
+0.679	輑	xtd	
+0.679	黫	qpd	qid
+0.677	俋	dkp	
+0.677	凚	gjr/gjv	gkr/gkv
+0.677	劀	ipt/kot	
+0.677	啑	syp/txm	tcg
+0.677	寱		wsi
+0.677	昢	fbt	
+0.677	柧	kzj	izj
+0.677	楥	.ac	
+0.677	濢	cgy/vgn	vgi
+0.677	焫	nft	
+0.677	犌	kyh	kyj
+0.677	硞	xbk/xok	xbk
+0.677	罧	sjr/skv	
+0.677	翿	dza/dzz	dbj/dbm
+0.677	聻	nku	
+0.677	菭	dkh/dlj	llj
+0.677	訮	hxd	wpd
+0.677	飍	hea	
+0.675	梀	erk/svk/vvk	erk/svk
+0.675	潫	qfd/qod/qrd	qod/qrd
+0.675	羓	pyh	
+0.675	蔋	dxk	dc,
+0.675	鄦	hau	.au
+0.675	醂	rmr	
+0.675	錭	dza	dbj
+0.675	餧	nby/qrn	nby/qfn
+0.672	壿		vgd
+0.672	棔	hbd	.ld
+0.672	毃	xok	xy,
+0.672	珿	vtk	
+0.672	禜	yws/ywx	yws
+0.672	箾	sok/sxa	sp,/sxa
+0.672	胵	edj	
+0.672	莏	svh	
+0.672	褷	swj	sqh
+0.672	閠	ngc	
+0.672	餲	gzt/qwi/qyi/qzt	gzt/qqi/qyi/qzt
+0.672	驒	dzd/dzh/txd	dzd/dzh/tcs
+0.670	妜	axt/qft	ast/axt
+0.670	拕	dzy/ezh	lzy/ozh
+0.670	樒	mkt	met
+0.670	淈	glt/kbt	kbt
+0.670	芀	dxa	dxa/txa
+0.670	蔄	mpc/rom	
+0.670	襚	jgn	jgi
+0.670	赩	hjk	hkk
+0.670	黦	aat/qat/qgt	aat
+0.668	嵙	xvh	
+0.668	悞	wzm	uzm
+0.668	抌	lfu/lgj/tlr	lgj/tlr
+0.668	撏	daf/jjf/zlf	jjf
+0.668	焢	hvs	
+0.668	牰	jgm/lgm	jdz/ldz
+0.668	猲	aap/hat/hzt	hat/hzt
+0.668	硍	gpe	gle
+0.668	碈	mkd	
+0.668	蘪	mkh	mej
+0.668	褯	znm	
+0.668	襈	grc/zrc	zrc
+0.668	髷	xfk	
+0.666	圛	lsk	lak
+0.666	壻	sxm	slb
+0.666	婤	etj/tgj	tgj
+0.666	嬱	vsv	vav
+0.666	嬹	hjx	hjs/hjx
+0.666	嶊	cby	
+0.666	猘	kwi	
+0.666	盠	rpj/rpu	rpu
+0.666	礩	tdm/tdt	tdk
+0.666	窡	tot/tpt	tot
+0.666	緷	gbe/kbe/yjc	ile/yjc
+0.666	肨	fox	
+0.666	蜼	lgm/lgn/rty	ydm
+0.666	螾	ldd/lde	lds/ldw
+0.666	袸	zbd/zcc	zlc/zld
+0.666	謑	hpm/hxu/hyn	hxu
+0.666	謶	tak	
+0.666	谽	hlf	
+0.666	貤	jem/ldm/lsm	
+0.666	闟	hjp	
+0.666	霣	lte	yke
+0.666	顑	wpv/xlr	xlr
+0.666	駜	bdt/bkt	bdt/bet
+0.664	攩	ezw/tzw/uzw/uzx	ezw
+0.664	欂	bpk/bwk/pzk	bmk/pzk
+0.664	臎	cgy/vgn	vgi
+0.664	荁	gvd	yzd
+0.664	鐄	uys	yys
+0.664	齽	gjv	gkv
+0.662	挮	exu	ocu
+0.662	槀	kzq	kzq/xzq
+0.662	檿	qar	qsr
+0.662	灈	gfj	uaj
+0.662	穤	nvn	
+0.662	菨	csp	cap
+0.662	郋	gxj	
+0.662	郔	lsd	lad
+0.662	鋧	gxe	
+0.662	鎁	lnj	laj
+0.662	鑐	sfj	,fj
+0.662	閵	rec	rkc
+0.662	齰	zyk/zyn	zyg/zyk
+0.660	枍	qxm	
+0.660	漹	qac/ywd	qac
+0.660	獡	oak	
+0.660	禴	lak	ls,
+0.660	筟	faj	fgj
+0.660	莚	lsc/lsd	lac/lad
+0.660	鄸	mgx	mjx
+0.660	鼸	gxr	
+0.658	娔	xlk	
+0.658	尟	sse	
+0.658	峮	xtd	
+0.658	幯	cct	cck
+0.658	廐	kgm	
+0.658	擥	ryr	ryf/ryr
+0.658	敜	nxp	
+0.658	旵	epr	
+0.658	猪	tqj	
+0.658	秨	zzk/zzm	zzg/zzk
+0.658	糒	bkn	bkg
+0.658	綑	xbe	
+0.658	葀	kvt	izt
+0.658	衟	dzq	lbu
+0.658	轃	ccd/ced	ccs/ces
+0.658	鄝	rpq	riq
+0.658	鈎	kvj	
+0.658	闒	dzp	lzp
+0.658	魦	svh/syh	syh
+0.658	齹	zwj/zzh	vqh/zzh
+0.656	偳	evd/tvd	tvd
+0.656	儶	uxm	
+0.656	勊	xlk	
+0.656	慉	hgk	htk
+0.656	撍	ckf/clf/clr/clv	ckf/clf
+0.656	杹	hon	.yn
+0.656	榑	baj	
+0.656	膼	toh	
+0.656	覂	pfw	
+0.656	誖	bbt/blm/plm	bli/blt/pli
+0.656	轇	kya	kia
+0.656	邍	uad	
+0.656	錊	cbk	
+0.656	鑋	xss/xxx	axx/xss
+0.656	骭	gyc/kzc	kzc
+0.656	鼫	dsk	dak
+0.653	嘐	hya/kya	kia
+0.653	奿	fac	
+0.653	嶞	dvy	lvy
+0.653	悋	rec	rkc
+0.653	捈	dzj/ezj	lzj/ozj
+0.653	揕	tkv	
+0.653	汘	vcd	vcs
+0.653	潨	tgs/zbs/zvs	tgs/zbs
+0.653	祩	tfm	tfj
+0.653	簥	kqa	kaa
+0.653	糦	ejm	ajm
+0.653	膞	dfe/tfd/tfe	tfd/tfe
+0.653	蕀	kjk	kkk
+0.653	躣	gfj	uaj
+0.651	淢	hjk/ykk	.kk/ykk
+0.651	狿	lsc/lsd	lac/lad
+0.651	紽	dzh	lzh
+0.651	縒	szy/vwj/vzk	vqh
+0.651	臶	zbc/zcc	zlc
+0.651	裪	dza	lbj
+0.651	貒	evc/evd	tvd
+0.651	躙	rec	rkc
+0.651	逷	exk	oxk
+0.651	飋	set	sek
+0.651	鼶	dxj/ssj	lxj/ssj
+0.649	俌	fau/pau	pau
+0.649	嗃	hya/hyz/hzk	hya/hz,
+0.649	壍	vsv	vav
+0.649	揥	ewi/txj	exg
+0.649	欋	gfj	uaj
+0.649	氆	fzu/pzw	
+0.649	汃	fpt/pkd	fpt
+0.649	漘	jtd	dgd
+0.649	琕	bxd	
+0.649	璚	uss	
+0.649	皷	kzu	izu
+0.649	眒	odc/odd	ods
+0.649	碻	xok	xy,
+0.649	膌	zsk	zak
+0.649	陓	qfj	aaj
+0.649	韾	qjf	
+0.649	髳	mvs	
+0.649	鸜	gfj	uaj
+0.647	唌	dzd	
+0.647	囐	zzt	
+0.647	宖	aps/ups	ams/yms
+0.647	抐	nbc/nbt	nbt
+0.647	掝	.pk	.mk
+0.647	櫭	gwt	
+0.647	畮	mvu	mlu
+0.647	笡	vnm	
+0.647	絏	sst	
+0.647	虙	bgk	
+0.647	蛥	jwt	
+0.647	赥	hxk	
+0.647	韍	bkn/pjt	pjt
+0.647	餩	qlk	
+0.647	騽	jjp/yep	jjp
+0.647	鸅	dyk	lyk
+0.647	黇	exf	
+0.645	剸	dvd/tfc/tfd/tfe	dvd/tfe
+0.645	噅	hrh	.ah
+0.645	噳	wfu	uau
+0.645	囏	kpd	kmd
+0.645	壗	jdc	
+0.645	歊	hbk/hqa	hqa/hz,
+0.645	瀎	mxt/mzt	mxt
+0.645	翏	rpa/rtm	ria/rtm
+0.645	蓘	kbe	
+0.645	覣	qrh	qfh
+0.645	趖	svh	
+0.645	髾	sya/syq	spa
+0.645	鴀	pgj/pgu	pjj/pju
+0.645	麐	rec/red	rkc/rkd
+0.643	壷	gzj	
+0.643	姰	sgd/uxc	.dd/ycc
+0.643	娾	wmj/wmu	
+0.643	捒	sqm/srm	sqm
+0.643	棷	ctj/cvj/svu/vvu	coj/cvj/vvu
+0.643	欃	zpf/zyv	zqf/zyv
+0.643	浻	ayw	
+0.643	漦	jkj	
+0.643	牏	drm/dvj/lfj	lfj/lrm/lvj
+0.643	畂	rtm	
+0.643	睖	eks	
+0.643	薚	ezs	ozs
+0.643	蠎	mzw	
+0.643	蠥	wwt	wqt
+0.643	覴	ekx	
+0.643	誗	dwf	
+0.643	跧	cgd/cod/crd	crd
+0.643	馶	gsj/ksm/osm/tsj	gsj/ksj
+0.641	咰	stt	
+0.641	恱	lft	
+0.641	扤	uat/wbt	wbt/wft
+0.641	摣	nyh	
+0.641	涏	dxc/dxw	lxw
+0.641	瘹	txz	
+0.641	胏	cku	
+0.641	腣	txj/txm	txg
+0.641	觼	ixt	ict
+0.641	醎	gpf	gmf
+0.641	韽	qlf/qpv	qlf
+0.641	鱊	ipt/jtt/lgt	ydt
+0.639	圠	qpt	qit
+0.639	嵤	ups	
+0.639	撎	qkn	qei
+0.639	擽	rpk/rqk	rp,
+0.639	橝	dlf/dxr	lcr/llf
+0.639	熂	hjn	hji
+0.639	爓	jaf/lav	lav
+0.639	獝	hgt	
+0.639	蠰	naw/nzs/oax/sqs	,ax/naw/nzs
+0.639	贀	lfn	
+0.639	醰	dlr/dlv	llr
+0.639	鈱	mkd	med
+0.639	雭	skp	ejp
+0.636	偘	xzc	azc
+0.636	冟	osk	
+0.636	撗	uzs	
+0.636	撨	sxa/zsa	zsa
+0.636	昷	qbd	
+0.636	栛	rpm	rpb
+0.636	磝	wya	
+0.636	膫	rpa/rwz	rpa/rqz
+0.636	菆	ctj/vrm/zvd	coj/vrj
+0.636	蚔		gsj
+0.636	蛈	ext	ock
+0.636	軱	kzj	izj
+0.636	韺	qws	qqs
+0.636	飷	cnu	cau
+0.636	鷀	cjj/zjj	
+0.634	坿	baj/bam	bfj/bfm
+0.634	奫	qtd	aed
+0.634	寗	nxx	
+0.634	昋	ixm	
+0.634	欗	ryd	
+0.634	沜	fzc	
+0.634	濽	czc	
+0.634	犕	bkn	bkg
+0.634	膁	xxr	axr
+0.634	膋	rpa	
+0.634	蟧	rpa/rya	rya
+0.634	謷	wya/wza/wzz	wza/wzz
+0.634	雴	ekp	
+0.634	鮆	csj	csj/zxu
+0.632	姴	rwt	rqt
+0.632	敶	dec/ded	les/lex
+0.632	殩	vvc	
+0.632	渒	fxm/psj	psj
+0.632	焸	kzu	
+0.632	稌	daj/ezj/ezu	ozj
+0.632	箃	ctj	coj
+0.632	粊	pkn	pem
+0.632	纅	lak	la,
+0.632	纉	cve	
+0.632	詑	dzh/dzy/evh/hsj/lsj	lah/lzh/lzy
+0.632	馞	bbt/fbt	blt/flt
+0.632	鬇	zps/zys	
+0.630	卶	esm/osm	
+0.630	楲	ajh	qgh
+0.630	濥	ldc/lde	ldw
+0.630	烾	esk	aak
+0.630	獜	red/rps	rkd
+0.630	篅	dfd/dfh	dfd
+0.630	緎	hjk/ykk	.kk/ykk
+0.630	苰	uls	yls
+0.630	蓫	dtk/etk/hgk	hgk/le,/otk
+0.630	虈	hqa	
+0.630	衼	tsj	ksj
+0.630	躠	szt	
+0.630	鐰	vsa/zza	vaa
+0.630	閧	gox/gvx	
+0.630	靫	vpj/vyh	vyh
+0.630	鼵	dbt	lbt
+0.628	劋	cxq	
+0.628	匳	rwf	rqf
+0.628	摬	qww	qqw
+0.628	湆	xjp	xkp
+0.628	烕	hrt	.st
+0.628	疓	nlu	
+0.628	眅	fyd/fye	
+0.628	膇	drn	drh
+0.628	膪	tpm/tyn	
+0.628	荺	ltd/lte	yed/yee
+0.628	襮	pbk/pzk	pz,
+0.628	賔	pdd	
+0.628	逿	dzx	
+0.628	鞟	azk	
+0.628	韐	klp/kpp	klp/kmp
+0.628	魫	ojr	;jr
+0.628	齩	wyq	wpq
+0.626	傏	dzs	lzs
+0.626	刴	tvn	
+0.626	奲	enu/tzy	eau
+0.626	媕	qlf/qlp/qwr	qlf/qlp/qqr
+0.626	枖	qqa	qaa
+0.626	癏	kod	ipd
+0.626	碢	dvh	
+0.626	穋	rtk	re,
+0.626	竳	tls	
+0.626	蜨	sxp	
+0.626	迾	rwt	rqt
+0.626	骽	eby	,by
+0.626	鵮	tpf/xpf	
+0.624	埿	byv/nxj/nxm	ncj/ncm
+0.624	奃	txj	tcj
+0.624	奊	gxt	gxk
+0.624	摎	kya/rtj	kia/rtj
+0.624	敡		lsg
+0.624	枮	ssf/tkf	
+0.624	歈	dvj/lfj	lfj/lvj
+0.624	猈	bmj/bpu	bpu
+0.624	瓡	tjp	tdp
+0.624	礏	wlp	
+0.624	蔪	zsr	zar
+0.624	裺	qav/qwr	qav/qqr
+0.624	襛	nfs/nrs	nrs
+0.624	詍	lsi	lab
+0.624	邩	hvy	.ly
+0.624	韢	vfi	
+0.624	鰶	csi	cai
+0.624	麖	kws	kqs
+0.622	戫	qgk	
+0.622	搤	qpk	
+0.622	榝	spt/swt	sqt/syt
+0.622	犿	hvd	
+0.622	胦	qas/qos	qas
+0.622	藳	kzq	
+0.622	蠨	sxa	
+0.622	詉	nyh	nyj
+0.622	酅	uxj	yxj
+0.622	閜	hyy	
+0.622	鮩	bdt/bxw/byw	bxw
+0.619	勩	ldm/lsi	lab
+0.619	呁	kgc	idc
+0.619	埐	cjf/zjf	cjf
+0.619	巊	qxw	
+0.619	朁	vlr/zsf	vlr/zaf
+0.619	瑇	dbk/dlm	dbk
+0.619	磍	kpt/xyt	
+0.619	臡	nxj/nzh	
+0.619	酳	ldc	ldx
+0.619	霱	lgt	ydt
+0.619	鬾	gah/gan	gwj/gwm
+0.619	鯬	rej/rpj	rej/rij
+0.617	倃	ggu/kza	ggu/kbj
+0.617	嵈	gve	yze
+0.617	揔	cvw	
+0.617	搮	ret	rek
+0.617	撋	nfd	
+0.617	擟	msj	
+0.617	椷	gpf	gmf
+0.617	獿	nyq/nza	nbj/nuu
+0.617	瞫	dlv/ojr	ojr
+0.617	聝	ipk	imk
+0.617	蛫	kry	kfy
+0.617	覶		roh
+0.617	趡	csz/vgy/zsz	
+0.617	鄁	blm	blg
+0.617	鑕	tdt	tdk
+0.617	頍	ktn/xfy	
+0.615	傓	osc	oac
+0.615	憢	hxa	;xa
+0.615	抭	lsq/yjt	
+0.615	棅	pwx	pqx
+0.615	汱	ixe	ice
+0.615	甤	nfy/ngh/ngy	ngh
+0.615	蚇	esk	eak
+0.615	蠾	dfk/drk/tfk	dfk/tfk
+0.615	賖	onj	
+0.615	鋖	sdj	
+0.615	鱀	gjm/gkn	gki
+0.613	孴	ldp/wju	ldp
+0.613	暳	.xm	.xi
+0.613	椻	qac	
+0.613	瀤	guh/quh	guh
+0.613	爟	kvc	izc
+0.613	竮	bxs/fxs	bxs
+0.613	繗	red	rkd
+0.613	螆	vjm	
+0.613	衵	ndt/net	ndk/nek
+0.613	趍	dwj/vfj	vfj
+0.613	迱	dzh	lzh
+0.613	銴	dsi/lfi	
+0.613	顖	sdc	sdx
+0.611	壴	trm	
+0.611	挬	bbt	blt
+0.611	挰	dys	
+0.611	朆	mls	
+0.611	檆	spf	
+0.611	洕	ldc	ldx
+0.611	瀄	cet	cek
+0.611	瓽	tzw/tzx	tzx
+0.611	砐	wlp	
+0.611	鈆	lfd/tfs	lfd
+0.611	鵔	sgc	
+0.609	奣	ayw	
+0.609	檧	svs/svw	
+0.609	漅	csq	caq
+0.609	獋	gza	
+0.609	縰	swu	sqy
+0.609	蛓	vjm/vsm	vjm
+0.609	贙	uxc/uxe	ycc/yce
+0.609	醓	elr	
+0.609	頪	roi	
+0.609	鰜	gpf/kxf	ixf
+0.607	倄	gya/yby	gya
+0.607	厈	enm	
+0.607	堁	xbn/xvn/xvy	avn/avy/xbn
+0.607	巏	kvc	
+0.607	忂	gfj	uaj
+0.607	揢	xyk	
+0.607	擖	kyt/typ/xpt	
+0.607	瑵	cyq	cuu
+0.607	盭	rpt	rmi
+0.607	耣	rte	
+0.607	薓	skf	
+0.607	蠉	hfd/hfe	.sd/.se
+0.607	覵	kpc/kpd/pwe	
+0.607	躧	spu/swu	esu
+0.607	醔	vtj	
+0.607	雃	wzd/xxd	xxd
+0.607	髺	kvt	izt
+0.607	鶝	bjk/pgk	bkk/pjk
+0.605	傂	dwj/dwu/ssj	lwj/lwu/ssj
+0.605	墌	tsk	tak
+0.605	崪	zbt	
+0.605	攨	qon	aym
+0.605	昅	gap	
+0.605	梴	ewd	oqd
+0.605	楧	qws	qqs
+0.605	欿	elf/glr	glr
+0.605	溠	cyh/cyn/vzh	vzh
+0.605	犙	sea/slf/stj	slf
+0.605	珤	pzq	pbu
+0.605	磈	ajy/xby	xby
+0.605	穵	apt/qpt	qit
+0.605	艐	cvs/kmm/xzn	cvs
+0.605	藈	axj	acj
+0.605	蘬	ajh/xth/xty	xgh/xth/xty
+0.605	跈	dxe/nxe	dle
+0.605	邖	spd	sqd
+0.605	陫	bjy	
+0.605	靧	hbn	
+0.605	鱑	uzs	yzs
+0.605	鵄	edj	
+0.605	麷	fgs/fgx	fgs
+0.602	寁	clr/zsp	zap
+0.602	捀	bfs/bfx	bfs
+0.602	瞡	idm/kfn	
+0.602	礊	.pk/xpk/xyk	xpk
+0.602	絩	exz	oxz
+0.602	耾	ups	yms
+0.602	賉	sgt	.dt
+0.602	鑈	nxp/nxu	nxu
+0.602	鵖	kwp/pkp	
+0.602	齅	hgm	
+0.600	姭	hav	
+0.600	庿	mqz	maz
+0.600	懘	esi/esu	eai
+0.600	搸	ced	ces
+0.600	摨	nmj	
+0.600	瘒	wbd	
+0.600	篞	nxt	nck
+0.600	縍	pzs	
+0.600	蓎	dzs	lzs
+0.600	蓻	cjp	
+0.600	釱	dxm/dzi	lxi/lzi
+0.600	鷧	qkn	qei
+0.600	齭	squ/vqu	;qu
+0.598	儩	ssm	ssg
+0.598	咅	evm	
+0.598	婣	qdd	
+0.598	獆	gza	gbj
+0.598	睗	osk	
+0.598	豏	gpr	
+0.598	貣	dlk/elk	llk/olk
+0.598	醶	rpr/vyr	rmr
+0.598	阸	qpk/qpm	qpg/qpk
+0.598	顩	dkr/wwr	wqr
+0.596	匌	klp/xlp	klp
+0.596	啒	hbt/kbt	kbt
+0.596	梜	kxp/kyp	kxp
+0.596	泧	.at/hvt/yat	.at/.zt/yat
+0.596	灙	tzw	
+0.596	狾	tsi	
+0.596	硉	rut	
+0.596	穨	dbh	lbh
+0.596	誱	zsp	zap
+0.596	邧	uad/uae	wfd/wfe
+0.594	宲	pzq	pbu
+0.594	尳	gbt/kbt	ilt/ylt
+0.594	嵽	dxt	
+0.594	忀	sas	,as
+0.594	牕		vos
+0.594	砅	rwi	rqi
+0.594	箲	sce	sle
+0.594	緅	cfm/ctj/cvj	cfm/coj/cvj
+0.594	羛	hah/way	;ah/way
+0.594	舓	jwu	
+0.594	菬	taq/zsa	taq
+0.594	薞	sbd	
+0.594	蜹	lfi/nfi/nft	njb
+0.594	酓	qar/qxv	qar
+0.594	隺	gbk	gz,
+0.594	頮	hbn	.li
+0.594	餋		krc
+0.594	駪	sed	skd
+0.594	鬄	ssk	
+0.594	鷕	lsq	ydu
+0.594	齾	wyt/wzt	wzt
+0.592	噮	axc	
+0.592	嬻	dvk	lvk
+0.592	怴	htt	
+0.592	杝	dwu/lsj	lah/lwu
+0.592	濵	pdd	
+0.592	瓪	pye/pze	pye
+0.592	笍	nfi/tri	njb
+0.592	糉	cvx	
+0.592	菐	bvk/pgk	bvk
+0.592	蜪	dza/eza	lbj
+0.592	訍	vpm	
+0.592	諹	las/lax	las
+0.592	貆	.ad/gvd/hvd	.ad/.zd/yzd
+0.592	顤	hya/wxa/wxz	wxa/wxz
+0.592	鬛	rwp	
+0.590	喗	wge	
+0.590	嗺	cbh/cfj/cgy/sbh	cgy
+0.590	崵	dzw/las	las/lzw
+0.590	憗	wkc	
+0.590	枔	jjf	
+0.590	椱	bgk/bgm	bgg/bgk
+0.590	橯	ryz	
+0.590	澽	gam/kam	gam
+0.590	聐	wyt	
+0.590	胿	gxj/ixj	ixj
+0.590	蟉	gea/geq/rea	
+0.590	覎	qav	
+0.590	豰	bok/hvk/tvk	hok/hvk/tvk
+0.590	趬	xqz/xsa	xqz
+0.590	鄅	yru	yau
+0.590	鄐	etk/hgk	htk/otk
+0.590	鞈	klp/kpp	klp/kmp
+0.590	饎	ejm	ajm
+0.590	驔	dxr	lcr
+0.588	埩	cps/zps	cps
+0.588	屳	hwd	
+0.588	珕	rpm/rwm	rpb
+0.588	禶	zze	zae
+0.588	稸	etk/hgk	htk/otk
+0.588	籈	ksd/tdd	kdd
+0.588	籊	dxk/exk	lx,/ox,
+0.588	糂	slr	
+0.588	臄	gak	
+0.588	芁	kya	
+0.588	芇	msd/mxe/mzd	
+0.588	蛅	naf	
+0.588	軐	scc	scx
+0.588	鶶	dzs	lzs
+0.586	匫	hbt	.lt
+0.586	厱	xaf/xpf	
+0.586	妐	tfs	ifs
+0.586	幧	vsa/vza	vaa/vza
+0.586	斒	ppd/pyd	ppd
+0.586	晭	tgu	
+0.586	欦	hpr/hxf/xar	hmr
+0.586	淊	glr/lar/qpf/qpv	glr/lar
+0.586	猳	kyh	kyj
+0.586	瓻	ekh	eej
+0.586	羬	gwf/wpf	wmf
+0.586	肒	gvc	
+0.586	菙	dfy	
+0.586	蕇	txe	
+0.586	袉	dzh/dzy/ezy	lzh/lzy
+0.586	賝	ekf	
+0.586	辥	sst	;at
+0.586	錎	gpv/xlr	gmv/xlr
+0.586	隵	hah	;ah
+0.586	雺	mbx/mgj/mvm/mvs	mgj/mtm
+0.586	駗	red/tde	tje
+0.586	髶	ndm/nfs	
+0.586	麚	kyh	kyj
+0.583	愞	nfe/nvc/nvn	nfe/nvc/nvh
+0.583	昒	hbt/mjt	.lt/mjt
+0.583	絬	sst	sat
+0.583	罻	ajn	qgi
+0.583	聧	axj	acj
+0.583	詽	exd/hxd/wpd	ocs
+0.583	躃	bsk	
+0.583	驡	czw/rrs	rrs
+0.583	鷽	gok/qok	guk
+0.581	丳	vpe	
+0.581	勠	rtj/rtk/rtm	re,/rtj/rtm
+0.581	奝	txa	tca
+0.581	攅	czc/zvc	
+0.581	眓	hvt	.zt
+0.581	虉	wpk/wxk	
+0.581	蝷	rpk	
+0.581	蠽	cst	
+0.581	鄳	mys/myw	
+0.581	鱦	jks/jkx/ljx/myw	jks/jkx/ljx
+0.581	鶆	rmj	
+0.581	鼃	apj/upj	apj/ypj
+0.579	峗	wrh	wfh
+0.579	挅	tvn	
+0.579	摫	kfh	isj
+0.579	撽	xxz	
+0.579	斣	tvm	tvg
+0.579	昈	gzu	uzu
+0.579	樏	rry/rth	rry
+0.579	熝	qza	
+0.579	瑘	lnj	laj
+0.579	痑	ezd/ezh/tzn	
+0.579	矤	ode	odw
+0.579	罬	krt/trt	trt
+0.579	謍	.ys/aps/yss	yss
+0.579	輤	vcc	vcx
+0.579	雟	uxj	
+0.579	駴	gmu	
+0.579	鱎	kqq	kaq
+0.579	鷐	ddd	djd
+0.579	鸃	wah	
+0.579	齘	gmm	gpi
+0.577	冔	hfu	.au
+0.577	凓	ret	rek
+0.577	夽	wge	
+0.577	甈	wxm/xwi	wxi
+0.577	畖	qoh	ayj
+0.577	睴	gbe/kbc	
+0.577	蛃	pww	pqw
+0.577	觟	goy	
+0.577	邔	xju	gjm/xju
+0.577	韛	bmm	bmg
+0.577	頀	gzm	yzg
+0.575	厬	kty	ktu
+0.575	嶻		zxt
+0.575	攈	kgc	
+0.575	毢	slj	
+0.575	潝	hjp	
+0.575	絭	aac/iac/kfk/krc/xrc	kfc/krc/xfc/xrc
+0.575	蘻	kxm	kxg
+0.575	諣	.pm/hon	
+0.575	跲	gap/kap/kpp	kmp
+0.575	鈵	pwx	pqx
+0.575	鞉	dza	lza
+0.575	駞	dzh	lzh
+0.573	侺	djv	
+0.573	圼	nxt	nck
+0.573	垒	rry/rtn	rry
+0.573	恘	xgj	
+0.573	悐	exk	oxk
+0.573	柹	zku	
+0.573	梌	dyh/dzj/ezj	lyj/lzj/ozj
+0.573	欀	nax/sas	,as/nax
+0.573	浨	rmr	
+0.573	漐	ekp	
+0.573	獑	zpf/zyf	
+0.573	簈		pss
+0.573	虘	zzh	
+0.573	螱	ajn	qgi
+0.573	襩	dfk	
+0.573	頨	hfd/yru	
+0.573	骫	qry	
+0.573	鵹	rwj	
+0.571	儢	rqu	
+0.571	剻	flw	
+0.571	圢	exe/exw	exw
+0.571	壐	ssu	,su
+0.571	夡	xdm	xdi
+0.571	庪	kry	
+0.571	廏	kgm	kgj
+0.571	怚	cam/cnj/zau	caj/cam/zau
+0.571	懫	tdt/tkn	tdk/teg
+0.571	毨	sce	sle
+0.571	稺	dkn	lem
+0.571	篖	dzs	lzs
+0.571	葘	ckj	
+0.571	蕛	dxj	lcj
+0.571	褹	nmm/wsi	wsi
+0.571	諯	dfd/efc/tfd/vfc	dfd/tfd
+0.571	豻	gzc/wzc/wzd/xyd	gzc/wzc/xyd
+0.571	趭	csz/lsz/zsz	csz/zsz
+0.571	韅	hxc/hxe	hxe
+0.571	髤	hgj	,gj
+0.569	㩵	wzt/zzt	wzt
+0.569	宎	qxa	
+0.569	峱	nza	
+0.569	撜	tjw	
+0.569	檡	dyk/osk	lyk/oak
+0.569	湱	.pk/.yk	.pk
+0.569	眲	njm/npk	njm
+0.569	蓲	qfj/qfm/qvj/xgj	qfj/qfm/qvj
+0.569	郩	qzq	
+0.569	醙	sgu/stj	stj
+0.569	醷	qjk/qju	qjk
+0.569	韰	gmm	gmi
+0.566	嬽	apd/qrd	
+0.566	巤	rwp	rqp
+0.566	枾	zku	
+0.566	梑	dxk	lxk
+0.566	溰	wjh	
+0.566	灱	hya	
+0.566	璛	sgk	sd,
+0.566	簝	rpa/rya	rpa
+0.566	糳	czk	cz,
+0.566	藊	pxe	
+0.566	蛕	gbh/hby	
+0.566	裖	tde	tje
+0.566	襭	gxt	gct
+0.566	譠	ezd/tpd	ezd
+0.566	赨	dbs	lbs
+0.566	郰	ctj	coj
+0.566	韏	aac/grc/kre	grc/kre/xfc
+0.564	嚃	elp	
+0.564	嬥	dok/dxa/dxq/dxz	lp,
+0.564	尵	dbh/duh	lbh/luh
+0.564	摦	gon	yym
+0.564	撊		gye
+0.564	櫍	tdt	tdk
+0.564	睰	mpt	
+0.564	瞚	ogc	
+0.564	硱	xbe/xjs	xbe
+0.564	襑	elr/jjf	jjf/olr
+0.564	襱	drw/ros/row	ros/row
+0.564	謺	tap	
+0.564	鐼	bjd/hgc	bjd
+0.564	顈	axw/gxe	axw
+0.564	鰄	ajh	qgh
+0.562	匤	xfk	
+0.562	嚾	hvc	.zc
+0.562	娋	sya/syz	spa/spz
+0.562	恲	fys	
+0.562	抍	ojs/tjw	;js
+0.562	樝	cyh	cyj
+0.562	欇	dap/oap	,sp/dsp
+0.562	獘	bsi	
+0.562	琟	lgh	ydj
+0.562	眗	gfj/kfj	kfj
+0.562	砈	qpk	
+0.562	篧	cok/zok	
+0.562	纗	csj/lfn/upm/uxj	ypm/ysm/yxj
+0.562	觕	efk/vzj/zzu	
+0.562	鈂	dkf/zjf	dkf
+0.562	鬎	ryt	
+0.560	噆	clp/vlr	vlr
+0.560	悂	fdj/pxj	fdj/pcj
+0.560	懀	qoi/qvi	qvi
+0.560	槹	kza	
+0.560	樌	kvc	ivc
+0.560	狋	grd/wkh	
+0.560	狧	ezp	
+0.560	硩	ewt/exk	
+0.560	繬	skk	ejk
+0.560	蚹	bam	bfm
+0.560	襊	vvi/vvt	
+0.560	譱	dse	dae
+0.560	鰝	gzq/hzk	gzq/hz,
+0.560	鶧	qws	qqs
+0.560	鷏	dxd	dcs
+0.560	麎	ddd	djd
+0.558	叜	svu	
+0.558	嫷	dvy/evn	lvy/ovn/ovy
+0.558	庴	csk/zsk	cak/zak
+0.558	檖	jgn	jgi
+0.558	犔	hjn	hji
+0.558	甹	fxs/lgj	fxs
+0.558	磭	eak/wak/wke	
+0.558	蘥	lak	ls,
+0.558	蠚	eqk/hzk	,qk/,zk
+0.558	隇	ajh	qgh
+0.558	隑	wlj	wlh
+0.558	鬕	myn	mym
+0.556	嶀	ezj	
+0.556	搇	xjv	
+0.556	曃	elm	
+0.556	澅	upm	ypg
+0.556	澋	uyw	
+0.556	瀳	ccd/zcc	cld/zlc
+0.556	矐	.zk/hzk	.zk
+0.556	穚	kqa	kaa
+0.556	罤	dxj	lcj
+0.556	藖	gpc/gpd	gid
+0.556	褽	ajn	qgi
+0.556	贉	dlr/dlv	llr
+0.556	鄪	pkn	pki
+0.556	陒	kry	kfy
+0.556	駤	tkn	teg
+0.556	鹷	rps	
+0.556	鼜	vxk/vzz	
+0.556	齫	wge/xbe	xbe
+0.554	仢	dak	ds,
+0.554	奯	hvt	.zt
+0.554	嬐	wwr	wqr
+0.554	愵	nxk	nx,
+0.554	芆	vpj	
+0.554	荾	sgh	,gh
+0.554	蟁	mjd	
+0.554	覮	fxs	
+0.554	詃	ixe	ice
+0.554	軵	nfw	
+0.554	逫	ttt	
+0.554	駽	.xc/.xd	.xd
+0.554	鮹	ssa/sya	spa/ssa
+0.554	鵽	tot/tpt/tvt	tot/tvt
+0.552	堶	dvh	lvh
+0.552	擪	qap/qar	qsp/qsr
+0.552	翑	gfj	
+0.552	薧	hza/xzq/xzz	hza/xzq
+0.552	襫	osk	oak
+0.552	銐	dwi/esi	
+0.552	霋	vxj	vcj
+0.552	鱏	jjf/ldf	ljf
+0.549	噿	cgy	
+0.549	寏	gvd	yzd
+0.549	摗	svj	
+0.549	栙	gos	gus
+0.549	澞	wfj	
+0.549	焁	hah/hsj	
+0.549	硦	rzk	
+0.549	稴	gpf/gxf/rpr/rpv	
+0.549	籭	spj/swj	
+0.549	緰	dvj/sfj	lvj/sfj
+0.549	翷	red	rkd
+0.549	蕄	mls/mps	
+0.549	觘	vyz	vpz
+0.549	豤	xbd/xle/xxe	xle
+0.549	跰	bxd/pyx	bcd
+0.549	蹃	nqk/nyk	nqk
+0.549	輚	zpe/zyc	zqe/zyc
+0.549	黖	hjn	hji
+0.547	嵳	zzh	
+0.547	揬	dbt	lbt
+0.547	燩	xok/xxk	xp,/xx,
+0.547	甔	tlf/tzf/tzv	tzf/tzv
+0.547	碯	nzq	nbu
+0.547	籋	nwp/nxp	
+0.547	襹	swj/swm	esm
+0.547	顲	rkr/rmr/rmv	rkr
+0.547	髊	zsm	
+0.545	憛	elv	
+0.545	憼	kaw/kww	kww
+0.545	泎	zyk	
+0.545	珬	sgt	.dt
+0.545	鄑	csj	
+0.545	鉜	bgj	
+0.545	馲	ezk/ryk/tyk	ezk/tyk
+0.545	鸐	dok	lp,
+0.543	媆	nbc	nbd
+0.543	峔	mzu	
+0.543	懎	skk	ejk
+0.543	燖	jaf	
+0.543	玸	baj	
+0.543	睅	goe	
+0.543	翜	skp/syp	hep
+0.543	蓩	mvk/mzq	mbu/mvk
+0.543	覱	cyv	
+0.543	鐆	jgn	jgi
+0.543	鬵	jjf/zjf/zsf	zaf/zjf
+0.543	鱐	sgk	sd,
+0.543	鼂	dqa	
+0.541	佅	myi	
+0.541	劖		zyf
+0.541	嚵	vyv/zsr/zyf	vyv/zar/zyf
+0.541	奰	bkn	bem
+0.541	撠	kwk	kqk
+0.541	焆	axt/ixd/qwt	ixd
+0.541	燘	hby/mlu	
+0.541	瞉	xvm	xvg
+0.541	磩	vxk	vc,
+0.541	穛	cok	cp,
+0.541	胟	mvu	mlu
+0.541	鄽	dwd	dqd
+0.541	駵	rtj	
+0.541	鴅	hvd	
+0.541	鵃	taa/txq/tya	
+0.541	齞	wxe	
+0.539	匘	nzq	
+0.539	憽	svs	
+0.539	瓉	zze	
+0.539	畽	ebe	eve
+0.539	稬	nvc/nve/nvn	nvc/nve/nvh
+0.539	跮	eet/ekn	eeg/eek
+0.539	輼	qbd	
+0.539	遻	wzm	wzg
+0.539	鞾	.aj	
+0.539	鬹	kfh	isj
+0.537	剏	vqx	
+0.537	剹	rtk	re,
+0.537	匓		kgj
+0.537	厇	tpk	tmk
+0.537	墆	dxm/dxt	dxi
+0.537	捪		mkd
+0.537	瀴	mxw/qxw/qyx	
+0.537	皫	fsq	
+0.537	蒀	qgd	
+0.537	鏳	zps	
+0.537	鵛	kxs	
+0.537	鼮	dxs	lxs
+0.535	乺	squ	
+0.535	俒	gbc/gbd	
+0.535	嘺	gsa	gaa
+0.535	噞	wwr/wwv	wqr/wqv
+0.535	愡	vvx	
+0.535	栚	dkr	lkr
+0.535	耴	twp/wkt	twp
+0.535	蔧	jgn	ydi
+0.535	觩	gea	gda
+0.535	觰	tyh/tyy	
+0.535	譑	kqq/xqz	kaq/xqz
+0.535	鼛	kza	kbj
+0.532	厏	cyy/zyy	
+0.532	婱	gxd	gcd
+0.532	掽	bpx	
+0.532	揘	yws	yqs
+0.532	欭	qkn	
+0.532	矕	mye	
+0.532	萈	gvd	yzd
+0.532	蒮	lgk	
+0.532	虨	fkd/pkd/ppd	pkd/pmd
+0.532	螕	pxj	pcj
+0.532	螲	tet	tek
+0.532	褺	dxp	dcp
+0.532	豦	gaj/kam	gaj
+0.532	豽	npt	nut
+0.532	跉	rps/rws	rps
+0.532	蹹	dlp	
+0.532	邟	gzs/xzs/xzx	gzs/xzx
+0.532	鞼	gtn/kbh	gtn
+0.532	齱	ctj/vok	coj
+0.530	厒		xlp
+0.530	姂	aap/bap/fav	bap/fav
+0.530	嬎	fac	
+0.530	帍	gzu	uzu
+0.530	瞕	tax	
+0.530	磟	rok/rtk	re,
+0.530	窙	hya	
+0.530	脄	mlj/mlm	
+0.530	蛚	rwt	rqt
+0.530	貛	hvd	.zd
+0.530	辴	eee/ekh	eke
+0.530	鬊	ogc	;gc
+0.528	劕	tdt	tdk
+0.528	扝	qzj/xzj	azj
+0.528	煼	vyq	vou
+0.528	瓃	rth/rtn/ruh	rth/ruh
+0.528	靀	mvs	
+0.528	頛	ruy	
+0.526	厀	sdt	sdk
+0.526	唈	qjp/qlp	qjp
+0.526	氄	nfw	
+0.526	竁	efc/vfi/vri	vfi/vri
+0.526	箳	bxs/pss	bxs
+0.526	膗	zuh	
+0.526	藫	dlf	llf
+0.526	藬	ebh	
+0.526	蘉	mzs	
+0.526	訙	sdc	sdx
+0.526	訠	ode	odw
+0.526	躽	qac/qwc/qxe	qsc/qxe
+0.526	騺	tkn	teb
+0.526	鼁	xam	
+0.524	喢	eap/spp/swp/vpp	sqp/vqp
+0.524	彋	ups/uys	yps
+0.524	斀	tok	
+0.524	樜	oam/tnm	;ag/tag
+0.524	礥	gxd/yed	gcd
+0.524	讗	ipk/uxj	yxj
+0.524	跜	nkh	nej
+0.524	踸	ekr	
+0.524	鉵	dbs	lbs
+0.524	鬌	drh/dvy/tvy	lvy
+0.524	鯼	cvs/cvx	cvs
+0.524	鰀	gve	yze
+0.522	崨	zsp	zap
+0.522	恑	kry	kfy
+0.522	挆	tvy	tvn/tvy
+0.522	擉	vok	
+0.522	毾	ezp	ozp
+0.522	臕	pqa	paa
+0.522	袕	jtt/uxt	yct
+0.522	謆	osc	
+0.522	郣	bbt	blt
+0.522	銲	gzc	
+0.522	髿	svh/syh	syh
+0.522	鴤	tgs	tbs/tgs
+0.520	僓	eby/gbn	gbn
+0.520	坅	xjr	
+0.520	墄	vlk	
+0.520	娧	evi/lft	lft/ovi
+0.520	忶	gbd/yjc	
+0.520	怲	pww/pwx	pqw/pqx
+0.520	慏	msw	
+0.520	敆		klp
+0.520	朻	kea/keq/kgj	kda/kdq/kgj
+0.520	烗	xmm	
+0.520	覝	rwf	
+0.520	醦	spr/vkr	smr/vkr
+0.518	嚊	fkn	fem
+0.518	巐	eqq	
+0.518	椺	gxk	
+0.518	毸	sbh	
+0.518	竘	xfu/xvu	xvu
+0.518	簄	gzu	uzu
+0.518	紖	dee	lew
+0.518	蒘	naj/nqj/nyh	nqj/nyj
+0.518	蛂	bxt	
+0.518	觻	rok/rpk	rp,
+0.518	賿	rya	
+0.518	阠	odc/sdc/sed	sdx/ses
+0.518	駾	evi	ovi
+0.518	鮛	ogk	;gk
+0.516	嵣	dzw/dzx	
+0.516	嶭	wxt/wzt	wzt
+0.516	巀	zct/zzt	
+0.516	溳	lte/yjd	yjd/yke
+0.516	濜	cdd/jdc/zde/zee	cds/zdw/zdx
+0.516	硹	sgs	
+0.516	磄	dzs	lzs
+0.516	磤	qje	
+0.516	蔖	vzu/zzh	vzu
+0.516	虣	bzz	bz,
+0.516	鬁	rem	
+0.513	傁	svu	
+0.513	刱	vqx	
+0.513	庩	ezj	ozj
+0.513	瑼	tfd	
+0.513	蜁	jfd	ysd
+0.513	貖	qpk	
+0.513	馦	hxf	
+0.511	嬇	gbn/xun	gbn/xuh
+0.511	斢	evu	
+0.511	璷	rqj	
+0.511	艗	wxk	
+0.511	蚭	nkh	nej
+0.511	駂	pzq	pbu
+0.511	魗	dgj/egu	agu/dgj
+0.509	嘾	dlr	llr
+0.509	嬚	rwr	
+0.509	矨	wxw	
+0.509	蟤	crd	
+0.509	觷	gok/qbk/wok	guk
+0.509	趪	uzs	yzs
+0.509	頢	got/kvt	izt/yyt
+0.509	齳	wge	
+0.509	龡	efh	
+0.507	湽	ckj	
+0.507	濲	kvk	
+0.507	稫	fjk	fkk
+0.507	萒	gre/lfe	
+0.507	蜲	qrh/qry	qfh/qfy
+0.507	蟗	vgj	
+0.507	詇	qaw/qax/qwx	qaw/qax/qqx
+0.507	謯	cnj/cyy	caj/cyu
+0.507	輱	gpf	gmf
+0.507	轥	rec	rkc
+0.507	醏	ddm/tzj	tzj
+0.507	鋑	cfd/vvd	cfd
+0.507	鳹	gwf	gqf
+0.507	鼥	bzt	
+0.505	傶	cbk	
+0.505	娎	hwt/hxz	
+0.505	瓝	bok	bp,
+0.505	睔	gbe/kbc/rue	rue
+0.505	觢	dsi	gxi
+0.505	輎	sya	spa
+0.505	鷮	gqa/kqa	gqa/kaa
+0.503	俕	slv	
+0.503	嗋	hap	hsp
+0.503	榰	tsj	
+0.503	浽	nby/sgh	,gh/nby
+0.503	涆		kzc
+0.503	焃	.pk	
+0.503	璙	rpa/rpz/rwq	rpa/rpz/rqq
+0.503	翨	ksm/osm	
+0.503	螹	zsf/zsr	zar
+0.503	鱁	dtk	le,
+0.503	鳭	tya	
+0.501	娺	tpt/tth	
+0.501	婟	gzm/gzu	gzu
+0.501	庍	hjc/ppm	
+0.501	筄	lsz	
+0.501	頕	tzf	
+0.501	頯	gth/kty	gtj/ktu
+0.501	麜	ret	rek
+0.499	僁	sct/sdt	sck/sdk
+0.499	娨	gyc	
+0.499	嵦	wlj	wlh
+0.499	揫	cgj	cda
+0.499	睼	exc	dxj/exc
+0.499	裷	aad/aae	qfd/xfe
+0.499	謞	hok/hzk	hy,/hz,
+0.499	跇	ewi/lsi	lab
+0.499	踥	vsp	vap
+0.499	顅	xpd	kpd
+0.499	飶	bdt/bxt	bct/bdt
+0.499	驨	uxj	yxj
+0.499	齨	ggu	uju
+0.496	嫸	tse	tae
+0.496	屔	nxj	ncj
+0.496	峉	wyk	
+0.496	汆	vvd	
+0.496	矔	koc/kvc	iyc/izc
+0.496	蘨	lgj/lsa	lda/lsa
+0.496	覕	mxt/pdc	mct/pdc
+0.494	傚	gyz	gpz
+0.494	儧	cve	
+0.494	磇	fxj	fcj
+0.494	聎	exa	oxa
+0.494	膆	szm	szg
+0.494	蜦	rpm/rtd	rtd
+0.494	觪	,ss	.ss
+0.494	馽		tep
+0.492	塺	mlj/mzn	mlh/mzn
+0.492	搚	rmp/ryp	
+0.492	猚	rty/wpj	wpj
+0.492	糱	wwt	wqt
+0.492	蒬	aad	qfd
+0.492	謈	bok/fok	by,/fy,
+0.492	隤	dbh	lbh
+0.492	鷆	dxd	
+0.492	齴	wwe	wqe
+0.490	剶	cfd/erd	
+0.490	嘕	hwd	had
+0.490	庱	eks/ekw	
+0.490	懤	dtj/dtm/tzq	dtj/dtm/tbu
+0.490	槉	zdt	zdk
+0.490	煔	exv/gzf/oav	
+0.490	爒	rpq/rwq	rpq/rqq
+0.490	糔	sgu/szq	
+0.490	觤	kry	kfy
+0.490	谸	vcd	vcs
+0.490	釫	goh/qzj	azj
+0.490	麅	bya	
+0.488	塎	lfw	
+0.488	擃	now	
+0.488	橰	kza	
+0.488	秜	rej	
+0.488	蝑	saj/snm	saj
+0.488	趥	vgj/vgx	vgj
+0.488	躷	qpu	
+0.488	鄟	dfe/dvd/tfd	dvd/tfd
+0.488	顨		sbc
+0.488	鶈	vxj	vcj
+0.486	弴	tbd/txa	tbd
+0.484	丵	zok	
+0.484	刏	gjh/kbn/kjh	
+0.484	灓	roc/rod/rrc	rod/rrc
+0.484	矺	ezk/tpk/tzp	ezk/tmk
+0.484	竛	rps	
+0.484	膱		tjk
+0.484	臐	hgc/hgd	.jc/.jd
+0.484	莡	vzk	
+0.484	轖	skk	ejk
+0.484	郀	xzj	azj
+0.484	頾	csj	
+0.484	颬	hyh	
+0.484	龤	gmj	gmh
+0.482	噊	jtt/lgt	ydt
+0.482	扟	sed	ses
+0.482	櫾	lgj/lgm	lda
+0.482	裻	sbk/tbk	tbk
+0.482	鵌	dzj/laj	laj/lzj
+0.482	鹻	kpr	
+0.482	麡	cxj/zmj/zxj	ccj/zcj/zij
+0.479	廀	svu	
+0.479	弞	lde/ode	ldw/odw
+0.479	恜	ekk	okk
+0.479	疛	dtm/ttu	ttu
+0.479	祽	cbn	cbi
+0.479	蒫	cdj/cnj/zzh	zzh
+0.479	趗	vfk/vvk	vfk
+0.479	醟	.sx/ywx	
+0.479	雂	gjf/gwf	gjf/gqf
+0.479	韄	gzm	yzg
+0.479	髉	pok	
+0.479	齚	zyk	
+0.477	剆	ryh/ryy	
+0.477	岯	bkh	bkj
+0.477	橠	nzy	
+0.477	蔩	ldd/ldj/lse	ldj/lds/lse
+0.477	譧	dpv	
+0.477	躸	kah	kah/xah
+0.477	鴢	qxq/qyq	qcq/qiq
+0.475	塛	ret	rek
+0.475	慸	dxm/ewi/eyi	dxi/eqi/eyi
+0.475	旞	jgn	jgi
+0.475	淁	vsp	vap
+0.475	縜	ltd	
+0.475	聥	kfu/yru	yau
+0.475	菣	xdc/xxc	xcc/xdc
+0.475	葏	csd	
+0.475	訵	ekh/ekn	oej
+0.475	郼	qjh	
+0.475	鞃	uls	yls
+0.475	顟	rya	
+0.475	鼧	dzh/ezh	lzh/ozh
+0.473	嘳	xtn/xun	xtn/xuh
+0.473	欘	dfk/trk	dok/trk
+0.473	欼	vku	
+0.473	爂	psa	
+0.473	疶	sst	
+0.473	藣	pah/pan	pqh
+0.473	襳	skf/ssf/swf	ssf/swf
+0.473	豄	dvk	lvk
+0.473	踕	zsp	zap
+0.473	骬	yrj	yaj
+0.473	齺	zok	
+0.471	慀	gpj/gxm	gxm
+0.471	攗	mkh	mej
+0.471	糏	sct	sck
+0.471	罋	qfs/qvx	qfs/qvs
+0.471	翢	dza/eza	dbj
+0.471	藮	zsa	
+0.471	觓	gea	gda
+0.471	踜	rmx	
+0.471	銵	xps	
+0.471	顪	.ai	
+0.471	鷾	qjm	qjg
+0.469	嵰	xwr	
+0.469	澰	rwr	
+0.469	澻	jgn	jgi
+0.469	爋	hgc	.jc
+0.469	膟	rtt	
+0.469	膭	gbn/kbh	gbn
+0.469	艞	lsz	
+0.469	蜸	xxe	xce
+0.469	蝹	qgd/qtd/qzq	qbu/qgd
+0.469	謕	dxj/exj/ssj	lxj/oxj/ssj
+0.469	讇	ewr	oqr
+0.469	谾	hos/hvs	hos
+0.469	鎎	hjn	hji
+0.469	鞂	kpt	
+0.469	鷣	ldf/lsz	ljf
+0.469	鷤	dxj/dxm/dzd	dzd
+0.467	俲	gyz	
+0.467	嬔	fac	
+0.467	揱	sok/ssa/syz	sp,/spz/ssa
+0.467	焷	bsj/pah	bsj
+0.467	蝛	ajh	qgh
+0.467	豑	det	
+0.467	赶	gad/uat	gad
+0.467	鏔	ldj/ljj	ldj
+0.465	徢	sxp	
+0.465	慃	qow	
+0.465	檴	gon/uzk	yyg/yzk
+0.465	瀢	dby/lgy	
+0.465	瞇	msu	
+0.465	藃	hqa/hya/hzz	hqa/hya
+0.465	蠷	gfj	uaj
+0.465	顝	xbh/xbt/xby	
+0.462	屖	sxj	scj
+0.462	欰	sgt	.dt
+0.462	耫	zpk/zyt	zpk
+0.462	謴	kbc	
+0.462	輺	ckj	
+0.462	遃	wwe	wqe
+0.462	鶟	dbt	lbt
+0.462	鷅	ret	rek
+0.462	麠	kws	kqs
+0.462	黀	ctj	coj
+0.460	傄	.pt	
+0.460	坹	.xt/uxt	.ct/yct
+0.458	懛	tlj	
+0.458	摕	dxm/dxt/txm/tzi	dxi/txi
+0.458	槏	xpr	
+0.458	樈	gws	
+0.458	蠞	zct	
+0.458	駷	sfw/svu	sfw
+0.458	鴘	fwe/pwe	
+0.458	鵵	ezm	ozm
+0.456	孂	klk/kqq/kxr	
+0.456	嶘	zpe	zqe
+0.456	掚	rqw	
+0.456	攑	xad	
+0.456	礘	wlp	
+0.456	祪	kry	kfy
+0.456	薂	gxk	gx,
+0.456	躤	znm	zag
+0.456	遳	vvh	
+0.456	馯	gzc/xyd	gzc
+0.456	駠		rtj
+0.454	欈	lfh	ysj
+0.454	浾	cyh	
+0.454	瞗	txa	tca
+0.454	轚	kxk/kxm	kxg/kxk
+0.454	鈯	dbt	
+0.454	黊	goy/upm/uxj	ypm/yxj
+0.454	龣	kok/rok	rok
+0.452	讑	lsz	
+0.452	貗	gfu	
+0.452	雈		yzd
+0.452	骿	bxd	bcd
+0.452	齂	hkn/hmm/mpt	
+0.450	弲	axd/hfd	axd
+0.450	懖	kvt	izt
+0.450	瀱	kwi	kqi
+0.450	甉	gpr/gyf	
+0.450	籢	rwf	rqf
+0.450	豂	rpa	ria
+0.450	鍿	ckj	
+0.450	鶞	etd	otd
+0.448	懬	azw/xzw	azw
+0.448	螸	lfj	
+0.448	豣	kxd	
+0.448	鍲	mkd	
+0.448	頝	xya	xpa
+0.448	驈	jtt/lgt	ydt
+0.448	鬀	dxm/exm	lcm/ocm
+0.448	鱹	kvc	
+0.445	暆	lsj	lah
+0.445	稛	xbe	
+0.445	穳	zvd/zzc	zvd
+0.445	蘳	goy/hfh	.sj
+0.445	貀	npt	
+0.445	遚	vtm	
+0.445	鴓	mxt	mct
+0.443	傡	bpw/bpx	
+0.443	塐	szm	szg
+0.443	擨	lnj	
+0.443	燣	rmf/rmr	
+0.443	蒕		qgd
+0.443	衳	tfs	ifs
+0.443	驙	dzd/twd	dzd/tqd
+0.443	鴪	lgt	ydt
+0.443	鵫	dok/tyz	dy,/ty,
+0.443	麙	wpf	wmf
+0.441	恗	hzj	
+0.441	犣	rwp	rqp
+0.441	虥	zpd/zpe/zyc	zqe/zyc
+0.441	螙	tzm	tzg
+0.441	謒	vas	
+0.441	鉠	qas/qws	qas/qqs
+0.439	嚝	.ys	
+0.439	峹	dzj	lzj
+0.439	簎	vwk/zok/zsk	zak
+0.439	籸	sed	ses
+0.439	齓	vee	
+0.437	壣	red	rkd
+0.437	瓗	lfn	ysm
+0.437	皾	dvk	lvk
+0.437	稶	qgk	ajk
+0.437	糫	god	ypd
+0.435	甐	rec	rkc
+0.435	簅	spe	;ye
+0.435	翓	gxt	gct
+0.435	茰	lfj	
+0.435	螼	xde/xkc	xkc
+0.433	蠌	dyk	lyk
+0.433	衒	uxc	ycc
+0.433	踓	lgy/vgy	ydu
+0.433	鵧	bdj	
+0.431	遪	dlp/vlp	
+0.431	韴	zlp	
+0.431	鸙	lak	ls,
+0.429	譨	nos	
+0.429	鮬	bzm/xzj	azj
+0.429	鷎		kbj
+0.429	鸍	msj/osj	,sj/msj
+0.426	竀	ews/eys	ews
+0.426	飻	ext	elt
+0.426	馾	tlv	
+0.424	凄	vxj	vcj
+0.424	榸	tmj	
+0.424	橏	tse	tae
+0.424	毤	evn	
+0.424	猎	zsk	zak
+0.424	疈	fjk	fkk
+0.424	疴	qzh/xyn	xyn
+0.424	遡	szm	;zg
+0.424	鄼	cve/czc/zvd	
+0.424	鯜	csp/vsp	cap/vap
+0.424	黬	kpf/wpf	kmf/wmf
+0.422	戵	gfj	uaj
+0.422	滰	gaw	
+0.422	炢	dtt	
+0.422	疀	vpp	
+0.422	翖	hjp	
+0.422	鬞	nos	
+0.422	魱	gzj	
+0.420	嬆	hjp	
+0.420	瞨	bbk	
+0.420	蛝	gpd	
+0.420	豧	faj/fam/fvm/fzj	faj/fam
+0.420	鮤	rwi/rwt	rqi/rqt
+0.418	暬	nxp/sst	;st/ncp
+0.418	柼	tyx	
+0.418	焎	hwt	
+0.418	霼	hjn/hjy	hji/hjy
+0.418	靗	ewx	
+0.416	榩	gwd	gqd
+0.416	犥	fsa/fsq	
+0.416	聉	eby/tpt/upt/wkt	
+0.416	詜	eza	laa
+0.416	韗	.ac/yjc	yjc
+0.414	胊		gfj
+0.412	歬	zcd	zxd
+0.412	羻	xax	
+0.412	蹮	scd	
+0.412	郺	qfs/qvw	qfs
+0.412	鯅	osd	oad
+0.409	瀥	hok	hy,
+0.409	蜭	glr/glv	glr
+0.409	貚	dxd/dzd	dzd
+0.409	𩓥	wok	
+0.407	瘱		qxb
+0.407	蝆	law/msu	
+0.407	裫	axc	
+0.407	鷝	fdt/pdt	pdt
+0.405	槆	sgd	.dd
+0.405	癄	csz/cyz	
+0.405	覢	oar	
+0.405	蹪	dbh	lbh
+0.405	躛	hun	
+0.405	鄓	qap	
+0.403	孈	hfn/lgy/lsu/upm	ypm
+0.403	樬	vvs	
+0.403	磰	dse	dae
+0.403	麯	xgk	
+0.401	蘮	kwi	kqi
+0.401	蠗	dok	lp,
+0.399	梎	qya	
+0.399	毻	evi/evn	ovn
+0.399	烼	hgt	
+0.397	瑻	kbd	
+0.397	穕	vsp	
+0.397	跒	xyy	
+0.397	鶜	mya	muj
+0.395	熮	rpa/rtu/rwz	ria
+0.395	瘶	svm	svg
+0.395	魝	kxt	kst
+0.392	焥	qvt	
+0.390	殬	tzm	
+0.388	讂	.xc/ixc	.cc/icc
+0.388	鰬	gwd	gqd
+0.386	鬜	xpd/xpt/xyd	
+0.384	轏	zpe	
+0.382	嶩	nza	nbj
+0.382	捾	qvt	
+0.382	璭	kbc	
+0.375	痻		mkd
+0.375	祼	kvc	ivc
+0.373	瓄	dvk	lvk
+0.371	熩	gzu	
+0.369	矎	.sx/.xd	.cd/.sx
+0.369	縯	lde/lse	ldw/lse
+0.369	賆	bxd	bcd
+0.369	鷱	kza	
+0.367	痺	pdm/psj	
+0.367	羷	rwr	rqr
+0.363	炂	tfs	ifs
+0.363	贃	qoc	
+0.356	錉		mkd
+0.354	酁	zpf/zyf	zqf
+0.352	壾	mzw	
+0.346	殔	ldm	
+0.331	獔	gza	
+0.316	甪	rok	
+0.303	趝	kxv	
+0.299	痴	ekj	
+0.299	礡	bzk	
+0.297	珮	blm	blg
+0.297	駮	pok	pp,
+0.286	鄻	rwe	rqe
+0.278	虱	set	
+0.274	籥	lak	ls,
+0.261	欞	rps	
+0.242	玆	uxd	ycd
+0.235	昵	net	nek
+0.233	査	cyh/zpj/zyh	
+0.212	偬	cvw/cvx	
+0.212	决	ixt	
+0.212	吕	rqu	
+0.212	壜	dlf	
+0.212	庄	bps	
+0.212	恒	gls	
+0.212	携	uxj	yxj
+0.212	无	maj/mzj	maj
+0.212	栀	tsj	
+0.212	胶	gya	
+0.212	贋	wyc	
+0.212	鰌	vgj/zgj	zgj
+0.210	耤	zsk	zak
+0.195	嚡	gpj	
+0.195	苺	mvm	
+0.191	体	ble	bje
+0.191	怜	rpd/rps	rps
+0.191	篱	rwj	
+0.191	羡	jsc/lsc	
+0.191	邮	dxk/lgj	lc,/lda
+0.185	粧	cqs	
+0.182	鑵	kvc	
+0.180	媮	evj/lfj	lfj/ovj
+0.170	厨	drj	
+0.170	忾	hdj	
+0.170	蹰	drj	
+0.161	饟	oas/oaw/oax	,as/,aw/,ax
+0.157	欸	hmm/qlj/qlu	qlj/qlu
+0.153	卄	kfs	
+0.138	拃	cye	
+0.134	煖	.ad/nve	.ad
+0.123	喎	apj	
+0.123	蹠	tsk	tak
+0.121	鉆	exp/gwf	exp
+0.119	釆	bpc	
+0.117	摀	qzu	
+0.106	伕	paj	
+0.106	籴	dxk	lx,
+0.100	眞	tdd	
+0.091	嵒	wpf	wmf
+0.091	詻	rqk/wyk	
+0.091	餽	gtn/ktn	gtn
+0.087	嬀	krh	iah
+0.076	湣	mke	
+0.070	俵	pqz	
+0.064	录	rok	
+0.064	茍	kjk	
+0.062	偪	pgk/pjk	pjk/pkk
+0.062	僣	ext	
+0.059	瓖	sas	,as
+0.055	栒	sgd/sge	
+0.055	譔	vfd/zrc/zre	zrc/zre
+0.053	撦	enu	eau
+0.053	鐉	vfd	
+0.051	榘	kfu	iau
+0.051	殰	dvk	lvk
+0.051	鎯	rys	
+0.025	㩒	gjf	
+0.023	鏆	kvc	ivc
+0.021	灵	rps	
+0.019	濬	sgc	
+0.017	洟	exm/ldj	ldj
+0.017	蟺	dse	dae
+0.013	剉	vvn	
+0.013	彊	gas/gaw/kax	gas/gaw
+0.013	絺	ekh	eej
+0.011	啗	dzr/dzv	
+0.011	敌	got	yyt
+0.011	浬	rku	
+0.011	紬	dtj	lea
+0.011	魟	gvs/hvs/kvs	gvs/kvs
+0.008	劄	tpp	
+0.008	壈	rmr	
+0.008	薳	yry	
+0.008	蹻	gak/gqa/kak/kqq/xsa	ga,/gqa/ka,/kaq/xaa
+0.006	堿	kpr	
+0.006	墫	vgd	
+0.006	婬	ldf	ljf
+0.006	撝	hrh	.ah
+0.006	楙	mvm/mza	mtm
+0.006	檷	nxu	msj/nxu
+0.006	汍	gvd	yzd
+0.006	碕	gah/gjh/xah/xay	gah/xah/xay
+0.006	緑	rrk	
+0.006	纁	hgd	.jd
+0.006	蘗	ppk	
+0.006	詶	dgj/dgm	dgj
+0.006	賰	oge	
+0.006	録	rrk	
+0.006	駃	ixt/xoi	api/ixt
+0.006	鮸	mwe	mqe
+0.004	㩧	bok/fok	by,/fy,
+0.004	勦	csq/zya	caq/zya
+0.004	啣	gyf	
+0.004	噚	jjf	
+0.004	搯	eza	obj
+0.004	撢	elf/elv/ldf	ljf
+0.004	毌	kvc/kvd	ivc/ivd
+0.004	溈	krh/yrh	
+0.004	諰	sju/spj	sju
+0.004	譊	nya	npa
+0.004	軏	uat/wbt	wbt/wft
+0.002	㐁	elv/exv	olv
+0.002	㓤	xpt	xit
+0.002	㗾	.aj	
+0.002	㜺	czc/zzc	czc
+0.002	㧾	xbt	
+0.002	㿺	pok	py,
+0.002	咷	dza/exz	lza/oxz
+0.002	囌	szj	
+0.002	圞	rod	
+0.002	坵	xgj	
+0.002	屩	kak	ka,
+0.002	杇	qzj	azj
+0.002	殀	qqq	qaq
+0.002	玨	kok	
+0.002	罦	bgj/faj	bgj/fgj
+0.002	藷	dam/taj	taj
+0.002	蚕	exe	
+0.002	螮	txm	txi
+0.002	謏	stk/svm/svu/sxq	scq/stk
+0.002	謼	hzj/hzm	hzj
+0.002	鍮	evj	ovj
+0.002	頽	dbh	
+0.002	騃	jku/wmu	wmu
+0.002	騝	gwd/kad	gqd/kad
+0.002	鳷	tsj	ksj
+0.002	鴃	ixt	
+0.002	鴷	rwt	rqt
+0.002	鵁	kya	kpa
+0.002	鷨	goh/hoh	yyj
+0.002	𡰪	tbk/tvk	
+0.002	𣲷	nkp	
+0.002	𦢊	bok/pok	by,/py,
+0.002	𧿁	uat	wft
+0.000	㐆	qje/qjh	
+0.000	㐱	tde	tje
+0.000	㐲	dzi	lzi
+0.000	㑗	odd	ods
+0.000	㑛	ofk/svk	;fk/svk
+0.000	㑜	ewi/lsi	
+0.000	㑟	pyw	
+0.000	㑥	lsm	lsg
+0.000	㑮	gbd/wbd	yld
+0.000	㑰	lax	
+0.000	㑳	crj/npp/ztm	
+0.000	㑵	zdt	zdk
+0.000	㑻	mpt	
+0.000	㑿	zyq	
+0.000	㒄	nse/ose	,ae/nae
+0.000	㒅	xxu	
+0.000	㒓	ezt	ozt
+0.000	㒚	qbe/qjc	qjc
+0.000	㒟	nxq	ncq
+0.000	㒠	gmm	gmi
+0.000	㒸	jgn	jgi
+0.000	㒾	lsm/osm	
+0.000	㓄	tkv	
+0.000	㓘	sgk	
+0.000	㓱	dvj	lvj
+0.000	㓹	vfi	
+0.000	㓺	kad	
+0.000	㓼	vet/vku	vek
+0.000	㓽	zts/ztx	zts
+0.000	㔂	rec	
+0.000	㔆	zlr	
+0.000	㔊	tse	tae
+0.000	㔋	gyr/kyv/ryv	gyr/kyf/kyv/ryv
+0.000	㔍	vot/vwt	
+0.000	㔎	sst/wkt	;at
+0.000	㔏	rpk	
+0.000	㔒	uxj	yxj
+0.000	㔓	kae	
+0.000	㔙	pys	
+0.000	㔞	xuh	
+0.000	㔠	hyt	
+0.000	㔡	pxt	pct
+0.000	㔮	nzh	
+0.000	㔯	jfd	
+0.000	㔲	kty	
+0.000	㔸	exj	oxj
+0.000	㕆	gzu/tzu	gzu
+0.000	㕇	rmp	
+0.000	㕈	qbn/qlu	qjy
+0.000	㕒	wrh	
+0.000	㕚	cyq	cuu
+0.000	㕟	xun	xui
+0.000	㕢	gyi/klm	gyi
+0.000	㕦	gon	yzm
+0.000	㕧	hkn	
+0.000	㕬	tfs	ifs
+0.000	㕯	nbt/nft/npt	nbt/nut
+0.000	㕰	hok	
+0.000	㖅	sgt	.dt
+0.000	㖏	nxt	nck
+0.000	㖑	hmm	
+0.000	㖒	dxj	lcj
+0.000	㖘	tdd	tjd
+0.000	㖪	.pk	.mk
+0.000	㗉	rqk	
+0.000	㗊	ckp	
+0.000	㗗	pah/pay	pwu
+0.000	㗙	npp	
+0.000	㗚	ret	rek
+0.000	㗛	ssz	saz
+0.000	㗢	dvx/gbs/gbx	
+0.000	㗦	rya	
+0.000	㗧	tet/txt	tck/tek
+0.000	㗨	hpj	
+0.000	㗫	vct	
+0.000	㗬	eyh	
+0.000	㗱	cjp	clp
+0.000	㗲	upk	ypk
+0.000	㗴	wpd	
+0.000	㗵	hgt	.jt
+0.000	㗻	gvh/kvh	izh
+0.000	㗿	hyn/hyy/hzy	hzy
+0.000	㘀	czk	cz,
+0.000	㘆	elu	
+0.000	㘉	cet	cek
+0.000	㘋	gxd/yed	gcd
+0.000	㘌	gwk	
+0.000	㘍	cdt	
+0.000	㘙	wwk	
+0.000	㘝	nkp/npp	npp
+0.000	㘠	pjk	
+0.000	㘣	.xd/jfd	.xd
+0.000	㘥	lgj	lda
+0.000	㘨	nxp	
+0.000	㘰	tjf	
+0.000	㘲	kgk	
+0.000	㘿		nck
+0.000	㙀	rtm	
+0.000	㙁	mgk	
+0.000	㙄	bxu	bcu
+0.000	㙙	rrw	
+0.000	㙤	hyn	
+0.000	㙩	rpa/rwz	rpa/rqz
+0.000	㙪	qkn/qxm	qci/qei
+0.000	㙱	gzz	uzz
+0.000	㙲	qfx	
+0.000	㙷	dkp/dwp	
+0.000	㙻	dwd	dqd
+0.000	㚀	hah	;ah
+0.000	㚆	bgk	
+0.000	㚇	cvs/cvx	cvs
+0.000	㚋	txa	tca
+0.000	㚍	xby	
+0.000	㚒	oar/osk	oar
+0.000	㚔	gpw/nwp	
+0.000	㚖	esk/kzq	kbu
+0.000	㚗	znj	
+0.000	㚠	hxa/xsa	hxa
+0.000	㚲	eaf/eap	
+0.000	㛂	nvy/wvy	wvy
+0.000	㛆	tvn	
+0.000	㛊		tvn
+0.000	㛍	hwr/hxp/xxp	hxp/xxp
+0.000	㛐	szq	sbu
+0.000	㛗	svh/vaj	
+0.000	㛘	fbt	flt
+0.000	㛧	mzr	
+0.000	㛮	szq	sbu
+0.000	㛳	lsi	
+0.000	㛴	nzq	nbu
+0.000	㛼	vpp	vqp
+0.000	㜂	pfs	
+0.000	㜅	hgk	htk
+0.000	㜌	xvm	xvg
+0.000	㜘	cnj	caj
+0.000	㜛		nbc
+0.000	㜣	nsd/nxc/ose	,ae/nad/nlc
+0.000	㜤	nxr/ojr	ojr
+0.000	㜪	sed	ses
+0.000	㜰	lak/oak	la,/oa,
+0.000	㜵	nxq	ncq
+0.000	㜸	wwt	wqt
+0.000	㝂	tsi	
+0.000	㝅	kvm/nvu	kvg
+0.000	㝈	soc/src	srd
+0.000	㝌	kgm/lgu	ijm/lgu
+0.000	㝏	kmm	kpi
+0.000	㝢	yru	yau
+0.000	㝣	qxm/qxt	qxi/qxt
+0.000	㝪	txp/txv	tcv
+0.000	㝱	mgx	mjx
+0.000	㝸		bqc
+0.000	㝼	qfj	aaj
+0.000	㞁	lsz	
+0.000	㞂	eby	,by
+0.000	㞋	nfe/nwe	nfe/nqe
+0.000	㞏	dkp	
+0.000	㞒	hmm	him
+0.000	㞕	sbt	
+0.000	㞙	nxz	nx,
+0.000	㞚	cpp/syp/vkp	cqp
+0.000	㞛	kky	
+0.000	㞜	ebh	
+0.000	㞟	dxc/txw	dcx/txw
+0.000	㞡	twe	tqe
+0.000	㞥	zkf	
+0.000	㟅	ros/wos/wvs	
+0.000	㟉	rya	ruj
+0.000	㟎	eby/evy	,by/,vy
+0.000	㟏	hlf	
+0.000	㟐	mzw/mzx	
+0.000	㟛	zzr	
+0.000	㟞	zpe	zqe
+0.000	㟪	ajh	
+0.000	㟳	ret	rek
+0.000	㟸	kza	kbj
+0.000	㟺	rrj	
+0.000	㠇	zgm	zgg
+0.000	㠍	cjp	clp
+0.000	㠐	gqa	
+0.000	㠑	zby/zgy	zby
+0.000	㠔	ppm	
+0.000	㠛	awk	ayk
+0.000	㠝	zvd	
+0.000	㠢	guh	
+0.000	㠴	ndt	
+0.000	㠹	kmm	kpi
+0.000	㡅	nzy	
+0.000	㡇	exp/twp/txf	twp
+0.000	㡉	kxd	
+0.000	㡏	srj/srm	
+0.000	㡑	cxq/vsa	ccq/vsa
+0.000	㡒	dbe/dtd/ttd	lbe
+0.000	㡓	kbd	
+0.000	㡔	mam/mvk/mzj	mfm/mvk
+0.000	㡗	dxj/hxj	lxj
+0.000	㡙	pxj	pcj
+0.000	㡜	sft/sst/swi	
+0.000	㡝	bfx	
+0.000	㡧	tyx	
+0.000	㡲	god	
+0.000	㡹	vsm	
+0.000	㡼	ldm	
+0.000	㡿	esk	eak
+0.000	㢀	vsm	vsg
+0.000	㢊	qpu	
+0.000	㢏	dvj	lvj
+0.000	㢒	zyh	zyj
+0.000	㢝	szj	;zj
+0.000	㢟	ewd/ewe	oqd
+0.000	㢥		lvx
+0.000	㢧	kea	
+0.000	㢪	qzj/xzj	
+0.000	㢯	tbd	
+0.000	㢵	hap	
+0.000	㢾	ixc	
+0.000	㣁	bkn	bkg
+0.000	㣂	wpk	
+0.000	㣅	zlr	
+0.000	㣆	msj	
+0.000	㣇	dxm/ldm	lcg/ldg
+0.000	㣈	sdm	sdg
+0.000	㣎	mgk	me,
+0.000	㣙	dxk	lc,
+0.000	㣝	sgs	,gs
+0.000	㣥	dku	
+0.000	㣶	tpd	
+0.000	㣿	tak/txk/txq	ts,/tx,/txq
+0.000	㤄	fai/fat/fzi/pzi/pzt	fai/fzi/pzt
+0.000	㤉	xyh	
+0.000	㤊	gya/gyz	gya
+0.000	㤍	xya	
+0.000	㤒	kza	kbj
+0.000	㤠	rwt	rqt
+0.000	㤤	lfj/lfu	
+0.000	㤩	xzk	
+0.000	㤱	fgm/fgu	
+0.000	㤴	eap/ewp	
+0.000	㤸	hxk	
+0.000	㤻	rue	
+0.000	㤾	slv	
+0.000	㤿	qaf/qav	qav
+0.000	㥁	tlk	
+0.000	㥆	ebn/ebt	
+0.000	㥈	dxp	
+0.000	㥊	bps	bms
+0.000	㥟	gpj	
+0.000	㥨	dfy	
+0.000	㥮	vyq	
+0.000	㥴	lsj/lsu	lsj
+0.000	㥷	qxm	qxb
+0.000	㥾	elk/net/nkk	nkk
+0.000	㦅	dxt	
+0.000	㦌	hbt	
+0.000	㦒	rpj	
+0.000	㦓	gxe	
+0.000	㦚	pse	bse/pse
+0.000	㦜	uzk	yzk
+0.000	㦣	csi/wsi/yri	yqi
+0.000	㦦	hxk	;xk
+0.000	㦬	ryy	
+0.000	㦼	sox	
+0.000	㦿	xpr	
+0.000	㧀	gjp	gkp
+0.000	㧄	aar	knr
+0.000	㧆	kjc	
+0.000	㧉	klm	
+0.000	㧒	ltt/yjt	
+0.000	㧔	kun	
+0.000	㧘	gan/zpj/zsm	zpj/zsm
+0.000	㧳	dpu	
+0.000	㧶	xps	
+0.000	㨁	djk/dkm	djk/dkg
+0.000	㨅	nrn	
+0.000	㨉	mkd	
+0.000	㨊	lgy	
+0.000	㨋	enu	eau
+0.000	㨍	pzs	
+0.000	㨏	ezd	
+0.000	㨖	tkn/tku/tky/twu	teg
+0.000	㨝	sct	sck
+0.000	㨞	szm	szg
+0.000	㨟	glj/klj	glh/klh
+0.000	㨠	mxe	
+0.000	㨤	xuh	aij
+0.000	㨧	ble	
+0.000	㨨	etj	
+0.000	㨹	cfi/sft	sft
+0.000	㨻	syr/zzf	zzf
+0.000	㨼	rqk	
+0.000	㩇	.pk/cpk	.pk
+0.000	㩉	rmp/tzp	
+0.000	㩊	sfd	.sd
+0.000	㩋	sgk/stk/sxa/sxq/sxz	sca/scq/scz/sd,/se,
+0.000	㩓	hry	.ay
+0.000	㩜	ryf	
+0.000	㩹	dxp	llp
+0.000	㩺	bky/fdj	
+0.000	㩻	krn/xah	kfn
+0.000	㩼	tsj/tsm	ksj/ksm
+0.000	㩽	gah	gwj
+0.000	㩿	xbt	
+0.000	㪁	gjf/xaf/xav/xlf	gjf/xlf
+0.000	㪇	scc	slc
+0.000	㪉	klp	
+0.000	㪋	gzc/hzy	gzc
+0.000	㪌	svw	
+0.000	㪍	bbt	blt
+0.000	㪐	rut	
+0.000	㪑	qap	qap/qqp
+0.000	㪙	xvn	
+0.000	㪥	cyh	cyj
+0.000	㪩	sgk	sd,
+0.000	㪪	szp	
+0.000	㪺	kfj	iaj
+0.000	㪻	fac	
+0.000	㪾	kyk	
+0.000	㫂	tam	
+0.000	㫃	qae/qwe	
+0.000	㫍	lsa	
+0.000	㫚	hbt	.lt
+0.000	㫹	sqm	
+0.000	㬄	eyc	
+0.000	㬊	gve	yze
+0.000	㬎	hxe/wlp	
+0.000	㬗	nxc	nlc
+0.000	㬜	cdc	cdx
+0.000	㬝	svs	
+0.000	㬤	xjp	
+0.000	㬮	npd/nzc	nzc
+0.000	㬰	lfj	
+0.000	㬱	exm	,cg
+0.000	㬵	gya	gpa
+0.000	㭑	mzi	
+0.000	㭔	ryj	ryj/ryu
+0.000	㭘	gap/glp/gwp/klp	glp/klp
+0.000	㭛	fpm	fpg
+0.000	㭠	sce	sle
+0.000	㭩	rot/rrt/ryu	rot/rrt
+0.000	㭭	pxt/pyt	
+0.000	㭰	cfh/cfy/csj	
+0.000	㭸	dzj	lzj
+0.000	㭺	qwr	qqr
+0.000	㮀	gpf	
+0.000	㮃	qrh	qfh
+0.000	㮍	ccd	cxd
+0.000	㮖	kpt	
+0.000	㮘	mza	mbj
+0.000	㮚	ret	rek
+0.000	㮝	gpk	gyk
+0.000	㮥		ble
+0.000	㮫	gzt	
+0.000	㮭	gpf	gmf
+0.000	㮰	bdj/bxt	bdj
+0.000	㮲	vtj	voj
+0.000	㮶	sok	;yk
+0.000	㮷	kxj	kcj
+0.000	㯁	blj	
+0.000	㯃	vdt	vdk
+0.000	㯄	tsj	ksj
+0.000	㯅	bah/bsj/pxj	bsj/bwj/pxj
+0.000	㯉	eqj	
+0.000	㯊	gld	
+0.000	㯓	ezp	
+0.000	㯙	dwt	lqt
+0.000	㯛	gzj	yzj
+0.000	㯜	sed	
+0.000	㯞	kfc	isc
+0.000	㯠	xxc	xcc
+0.000	㯡	bya	buj
+0.000	㯬	rwr	
+0.000	㯱	fza	fbj
+0.000	㯲	kjv	kkv
+0.000	㯳	kww	
+0.000	㯸	cde	cdw
+0.000	㯺	gyv/hzr	gyv
+0.000	㯽	pdd	
+0.000	㯿	lap/rwp	rqp
+0.000	㰁	ryy	
+0.000	㰈	rwr	
+0.000	㰥	hxm	
+0.000	㰦	xam/xqh	xam
+0.000	㰨	hpj	
+0.000	㰬	sgd	.dd
+0.000	㰭	hfj	.aj
+0.000	㰯	evm/hvm	evm
+0.000	㰰	hpp	
+0.000	㰲	hjk/qgk/tfk	.kk/ajk
+0.000	㰳	qyn	qym
+0.000	㰴	fvm	
+0.000	㰶	bqq	
+0.000	㰹	hpf	
+0.000	㰻	qky	
+0.000	㰼	swp	
+0.000	㰾		kx,/kxz
+0.000	㱀	vku	
+0.000	㱄	hlk	.lk
+0.000	㱇	skk	ejk
+0.000	㱕	ijh	kgh
+0.000	㱚	wot/zzd	uyt/zzd
+0.000	㱜	cpt	
+0.000	㱞	wjp	
+0.000	㱡	sks/skw	
+0.000	㱣	eby	,by
+0.000	㱥	rks/rmx	rks
+0.000	㱯	klj/wlj	klh/wlh
+0.000	㱲	qsm	
+0.000	㱳	myk	
+0.000	㱴	zsm	zsg
+0.000	㱻	roi/ron	ron
+0.000	㱽	gjf/tkr	
+0.000	㲀	tdd/zed	tjd
+0.000	㲃	kgm/xgj	
+0.000	㲅	kxm	kxg
+0.000	㲋	eqk	oqk
+0.000	㲍	tsj	ksj
+0.000	㲏	fza	
+0.000	㲔	ssd	
+0.000	㲗	faj	fgj
+0.000	㲟	qww	
+0.000	㲥	dzs	lzs
+0.000	㲰	nys	
+0.000	㲱	rwp	rqp
+0.000	㲲	dxp	
+0.000	㲳	tet	
+0.000	㲺	cdt	
+0.000	㲽	nxc/oas	nlc
+0.000	㳀	kvn	
+0.000	㳄	jsd	jad
+0.000	㳐	zyt	
+0.000	㳗	vpm	
+0.000	㳙	ixd	
+0.000	㳛	lfj/lgj	lfj
+0.000	㳦	gmm	gmg
+0.000	㳧	eap	
+0.000	㳨	czt	
+0.000	㳬	jfc/jfd	ysc/ysd
+0.000	㳹	azw	
+0.000	㳻	cyk/spk/vzm	cyk/smk/vzg
+0.000	㴂	ezf	,zf
+0.000	㴄	ayw	
+0.000	㴒	lsk	lak
+0.000	㴦	kgs	
+0.000	㴫	kbc	
+0.000	㴬	jnm	jag
+0.000	㴽	sct	sck
+0.000	㵂	oam	;ag
+0.000	㵅	elf	
+0.000	㵋	mpu/mxk	mxk/myy
+0.000	㵎	kyc	
+0.000	㵗	bjs	bks
+0.000	㵝	lsi	lai
+0.000	㵞	ztj	zea
+0.000	㵨	fsm	fsg
+0.000	㵩	lsi	lab
+0.000	㵫	nkp	nep
+0.000	㵻	hgj	
+0.000	㵾	vwx/zsx	zsx
+0.000	㵿	gxq	
+0.000	㶀	kya	kia
+0.000	㶇	uys/uyx	yys/yyx
+0.000	㶏	qjc/qjd/qje	qjc/qje
+0.000	㶔	bmm	bim
+0.000	㶘	dxr	lcr
+0.000	㶣	dwf/dzf	lqf/lzf
+0.000	㶧	nbe	
+0.000	㶳	jdc	zdx
+0.000	㶿	bbt	blt
+0.000	㷄	hby/kvc	hby/ivc
+0.000	㷅	vpp	vou
+0.000	㷇	xbh	alj
+0.000	㷉	ajn	qgi
+0.000	㷒	wfj	
+0.000	㷓	cvw/vvs	vvs
+0.000	㷟	ebh	
+0.000	㷠	red	rkd
+0.000	㷳	wzc	
+0.000	㷷	cfh	
+0.000	㷹	dyz	
+0.000	㸃	txr	
+0.000	㸅	cct	cck
+0.000	㸒	ldf	ljf
+0.000	㸙	tnj	
+0.000	㸚	rpm/rwu	
+0.000	㸢	bkn	bkg
+0.000	㸪	jgd/jtd	jgd
+0.000	㸰	dvh/xvh	
+0.000	㸶	qpd	
+0.000	㸸	hvu/qvu/xvu	hvu
+0.000	㹂	gpe/gxt/xse	gie/gxk
+0.000	㹊	wok	wy,/wz,
+0.000	㹌	spe	;ye
+0.000	㹗	elj/eza	ebj
+0.000	㹛	nsa	
+0.000	㹜	wjd	
+0.000	㹭	lsi	lai
+0.000	㹯	hgj	,gj
+0.000	㹱	vak/vfk	vfk
+0.000	㹲	hya	
+0.000	㹶	dxs	lxs
+0.000	㹽	vye	
+0.000	㹾	bqq	
+0.000	㺁	nzq	nbu
+0.000	㺂	wpf	wmf
+0.000	㺌	gpr/gxr	
+0.000	㺑	spf/spr/syr	smf/smr
+0.000	㺒	gyq/nyq	
+0.000	㺔	hzi	
+0.000	㺖	gzv/hyr/vyv	gzv
+0.000	㺗	epd	
+0.000	㺝	gpr/gyr	gyr
+0.000	㺟	dok	lp,
+0.000	㺣	hah	;ah
+0.000	㺥	zpf	zqf
+0.000	㺧	hqa	;aa
+0.000	㺪	fok	fog
+0.000	㺴	ppt	
+0.000	㺺	mzz	
+0.000	㻀	lfj	
+0.000	㻆	uxe	
+0.000	㻌	ezj	ozj
+0.000	㻗	blm	
+0.000	㻞	pkd	
+0.000	㻬	ezj	
+0.000	㻯	ezj	
+0.000	㻶	pkt	ptt
+0.000	㻷	kjk	kkk
+0.000	㼎	bok	bp,
+0.000	㼒	ezw	
+0.000	㼠	dzh	lzh
+0.000	㼥	xzq	
+0.000	㼧	dvs	lvs
+0.000	㼪	cxp	
+0.000	㼭	dxv	
+0.000	㼮	vpj	
+0.000	㼲	rpp/rwp	
+0.000	㼹	xos/xzs	xos
+0.000	㼺	dzs	lzs
+0.000	㼻	zbs/zos	
+0.000	㼿	dvs/tfx	dvs
+0.000	㽇	gvk	
+0.000	㽎	dlf/hjf	dlf
+0.000	㽐	hxf	
+0.000	㽑	dlf	llf
+0.000	㽕		lda
+0.000	㽘	kzw	
+0.000	㽚	ekk	
+0.000	㽡	pah	
+0.000	㽦	jgd	
+0.000	㽬	fjk	fkk
+0.000	㽱	kea/kgj/kyq	kda/kgj/kiq
+0.000	㽳	hfj	.aj
+0.000	㽴	dqw	lqw
+0.000	㽷	ogn	
+0.000	㽺	hlp/hzp/kjp	kkp
+0.000	㽻	tsj	ksj
+0.000	㽾	wbt	
+0.000	㽿	kvh/xvh	
+0.000	㾁	hbt	
+0.000	㾄	dvk	
+0.000	㾆	eaf/naf	naf
+0.000	㾇	mgk	
+0.000	㾈	bau	bfu
+0.000	㾉	rps	
+0.000	㾋	hgj	,gj
+0.000	㾍	nlj	
+0.000	㾏	kpm	
+0.000	㾐	rwi	rqi
+0.000	㾑	hlp/tlp/wlp	tlp
+0.000	㾕	sbe/sed/skr	ses
+0.000	㾙	hde/hjc	hjc/hke
+0.000	㾧	xvn	avn
+0.000	㾩	kuh	iij
+0.000	㾭	ctm/cyz	cez
+0.000	㾶	kbt	ilt
+0.000	㾷	ssj/sxj	ssj
+0.000	㾾	hxf	
+0.000	㿃	twi/tzi	tzi
+0.000	㿄	qjj/qpm	qjj
+0.000	㿉	dbh	lbh
+0.000	㿊	vsd	
+0.000	㿌	haf	
+0.000	㿎	bjc/bje	bje
+0.000	㿑	lak	ls,
+0.000	㿒	dtm/tzq	dtm/tbu
+0.000	㿖	ryj/rym	ryj
+0.000	㿙	fkn	fem
+0.000	㿚	ryn	
+0.000	㿛	rpm/rwm	rpm
+0.000	㿟	kxq	
+0.000	㿥	gbk/gok	gy,/gz,
+0.000	㿪	gvd	yzd
+0.000	㿬	pyh	pyj
+0.000	㿮	qax/qws	qax/qqs
+0.000	㿳		ckj
+0.000	㿴	tzp	
+0.000	㿷	vtn/vzz	
+0.000	㿸	mac/mae	mac
+0.000	䀄	mvs	
+0.000	䀅		dau
+0.000	䀈	hjn/xjm/xjn	hji/xji
+0.000	䀊	gyq/kyq	
+0.000	䀌	hjk	
+0.000	䀍	dlv	
+0.000	䀏	uxc/uxe	ycc/yce
+0.000	䀐	spf/syv	sqf/syv
+0.000	䀓	gvc	
+0.000	䀕	dee	lew
+0.000	䀘	uxj	
+0.000	䀙	vxm	vcg
+0.000	䀛	mmm/mzt	mmi/mzt
+0.000	䀠	kfj/kfm	iaj/iam
+0.000	䀢	ogc/ojj/ojr	
+0.000	䀣	mpt/pkn	pei
+0.000	䀨	.pt	
+0.000	䀩	rqk/ryk	ryk
+0.000	䀫	kpp	kmp
+0.000	䀴	wpp/wxw	
+0.000	䀵	ojj	
+0.000	䀸	ewi/tsi	tat
+0.000	䀹	csp	
+0.000	䀼	ndc	
+0.000	䀽	lsd	lad
+0.000	䀿	tst	
+0.000	䁂	gpe	gie
+0.000	䁅	mpw/myx	myx
+0.000	䁇	mjk/mlk	
+0.000	䁈	tzu/xxm	xxm
+0.000	䁊	nkn/qvt	qot/qvt
+0.000	䁋	dxp/hxp	lxp
+0.000	䁓	cvw/cvx/kmm	cvw
+0.000	䁔	.ad/.ae/gve	.ad/yze
+0.000	䁕	mdd/mkd	
+0.000	䁘	lsq	
+0.000	䁜	.zw	
+0.000	䁢	jfd	ysd
+0.000	䁤	.dm/.du	
+0.000	䁮	zsf/zxv	zaf
+0.000	䁱	qvj/xvj	
+0.000	䁲	mpj	
+0.000	䁴	ose/tse	tae
+0.000	䁵	pwe	
+0.000	䁷	kok/qbk	kuk
+0.000	䁸	nos	
+0.000	䁺	osk	oak
+0.000	䁻	oak	oa,
+0.000	䁽	rwp	rqp
+0.000	䁾	mxt	
+0.000	䂈	dbs	lbs
+0.000	䂎	cvc/cve/vvc/vvd	cve
+0.000	䂑	cxj	
+0.000	䂒	xpt	xit
+0.000	䂪	xxq	
+0.000	䂭	xya	xpa
+0.000	䂮	rqk	
+0.000	䂳	voy/vvy	
+0.000	䂸	ipk	imk
+0.000	䂹	kky/swk	
+0.000	䂻	dyx	
+0.000	䂽	dxq	
+0.000	䃀	vbn	
+0.000	䃊	cau/csk	cau
+0.000	䃍	dbn	lbi
+0.000	䃒	gpk	
+0.000	䃔	gbs/gbx	
+0.000	䃕	rok	
+0.000	䃗	vok	
+0.000	䃤	sgk/sxq	scq/sd,
+0.000	䃧	rus	
+0.000	䃩		nuj
+0.000	䃳	rwp	rqp
+0.000	䃵	nxq	ncq
+0.000	䃸	sxv	
+0.000	䃽	kry	
+0.000	䄍	zyn	zyg
+0.000	䄓	uys	yys
+0.000	䄠	dsc	
+0.000	䄬	lsj	lah
+0.000	䄲	nfn	
+0.000	䄶	bbt/bkt	bkt
+0.000	䄷	dsk	dak
+0.000	䄻	dya	
+0.000	䄼	exr	oxr
+0.000	䄿	lsi	lai
+0.000	䅀	rwi/rwt	rqi/rqt
+0.000	䅃	gfs/gfw	gfs
+0.000	䅑	ngh/sgh	,gh/ngh
+0.000	䅗	sfn	
+0.000	䅚	aae	xfe
+0.000	䅡	sfu	
+0.000	䅢	cgm	
+0.000	䅥	kwt/xzt	kqt/xzt
+0.000	䅧	qaf/qjv	qjv
+0.000	䅵	kbk/tak	
+0.000	䅷	dzj	lzj
+0.000	䅾	gjf/zkf	zkf
+0.000	䆀	mlm/mlu	
+0.000	䆁	kza	kbj
+0.000	䆃	dzq/dzz	lbm/lbu
+0.000	䆄	tse	tae
+0.000	䆊	zgn	
+0.000	䆎	sxv	
+0.000	䆏	bjn/bjy	
+0.000	䆞	qxq/qxz	qxq
+0.000	䆟	xlp	
+0.000	䆨	nxs	
+0.000	䆫	vos	
+0.000	䆱	ezf/ezv	ozf
+0.000	䆵	dps	
+0.000	䆸	tps	
+0.000	䆿	wsi	
+0.000	䇂	xwd	
+0.000	䇐	rem/rkp/rtn	rkp
+0.000	䇗	tfs	ifs
+0.000	䇜	xar	
+0.000	䇝	csf	
+0.000	䇞	kzf/kzr	kzf
+0.000	䇩	lsi	lai
+0.000	䇫	kjj	ijj
+0.000	䇽	tsi	
+0.000	䈀	szc/szd	szd
+0.000	䈇	tyz	ty,
+0.000	䈉	csp/spp	cap
+0.000	䈎	ewp/lap	lap
+0.000	䈏	bok	
+0.000	䈐	kbn	
+0.000	䈗	svy	
+0.000	䈚	dlj/dlu/sju	llj/llu
+0.000	䈛	koi/xun	xui
+0.000	䈜	vjv	
+0.000	䈠	gve	yze
+0.000	䈪	hxk	
+0.000	䈰	sya	spa
+0.000	䈱	eza	obj
+0.000	䉈	sze/szt	sze
+0.000	䉉	gzj/kzj	izj/yzj
+0.000	䉌	jgn	jgi
+0.000	䉔	vzd	
+0.000	䉚	mps	mms
+0.000	䉞	tlr	
+0.000	䉢	skk	ejk
+0.000	䉣	snm	sag
+0.000	䉥	svw	
+0.000	䉨	wjn	wji
+0.000	䉭	rwp	rqp
+0.000	䉮	rec	rkc
+0.000	䉰	gyq/kya/kyq	gpq/kpa/kpq
+0.000	䉽	pze	
+0.000	䉾	pkn	pem
+0.000	䊋	cqs/cqx	cqs
+0.000	䊎	aae	xfe
+0.000	䊝	sdt/sst	sdk
+0.000	䊠	hjn	hji
+0.000	䊤	dlf/dlr	llf/llr
+0.000	䊦	qxt	qct
+0.000	䊫	vby	
+0.000	䊬	eoy	
+0.000	䊭	dzz	dbm
+0.000	䊮	dxk	lx,
+0.000	䊲		;ye
+0.000	䊼		eju
+0.000	䋀		uyu
+0.000	䋈	nyy	
+0.000	䋉	uxt	yct
+0.000	䋎	dpc	
+0.000	䋏		zzk
+0.000	䋢	fxt/pxt	
+0.000	䋣		bad
+0.000	䋤	lak	
+0.000	䋨	fau	ffu
+0.000	䋵	qwi/ryp	qqi
+0.000	䋷	mea/mgj	mgj
+0.000	䋻	nkf	
+0.000	䋼	exs	
+0.000	䋾	tyy	
+0.000	䌌	vsp	
+0.000	䌎	rqk	
+0.000	䌑	kxd	kcd
+0.000	䌖	cjp/zsp	clp
+0.000	䌜	nwp	
+0.000	䌞	rwr	rqr
+0.000	䌠	hxf/klf/kpf/xxf	kmf
+0.000	䌦	dxk/dzz	lx,
+0.000	䌨	vzt	
+0.000	䌳	esj/osj/ssj	,sj
+0.000	䍃	lgj	lda
+0.000	䍇	dzp	
+0.000	䍊	kya/xxk	kpa
+0.000	䍌	bgj/bvj/bvu	bjj/bvj/bvu
+0.000	䍍	pgj/xvk/xvm	xvg/xvk
+0.000	䍎	vbc/vcc	vlc
+0.000	䍐	hzc/hze	hze
+0.000	䍔	iys	
+0.000	䍖	bgj/fya	bgj/fuj
+0.000	䍙	mau/mlj/mlm	mfu/mlj/mlm
+0.000	䍜	tyz	ty,
+0.000	䍤	cxu	ccu
+0.000	䍫	dzh	lzh
+0.000	䍮	dqq	lqq
+0.000	䍴	qrn/qry	qfn/qfy
+0.000	䍶	ded/tvs/tvx	les/tvs/tvx
+0.000	䍻	jfc/sfc	sfc
+0.000	䍼	clf/clp	clf
+0.000	䎂	pzq	
+0.000	䎃	nar	nar/nlr
+0.000	䎄	hxa	
+0.000	䎈	lsi	lai
+0.000	䎉	htt	
+0.000	䎌	vtk	
+0.000	䎎	nap	
+0.000	䎒	cye/tse	cye
+0.000	䎕	.ps/.ys	
+0.000	䎗	gsa	gaa/gqa
+0.000	䎘	sgk/stk	sd,/se,
+0.000	䎠	gvd/njj/nvh	njj/yzd
+0.000	䎧	bow	bmw
+0.000	䎪	nlk	
+0.000	䎮	exm	exg
+0.000	䎰	zzk	
+0.000	䎳	wot	uyt
+0.000	䎷	fam/tfm	
+0.000	䎿	cgj/zgj	cda
+0.000	䏂	svu	
+0.000	䏃	mxd	mcd
+0.000	䏄	txu	
+0.000	䏅	vxm	
+0.000	䏍	axc	
+0.000	䏖	dee/ldc/lde	ldw/ldx/lew
+0.000	䏙	elr	
+0.000	䏟	bxt	bct
+0.000	䏧	nyn	
+0.000	䏨	hby	tby
+0.000	䏰	ngc	
+0.000	䏳	tst	tat
+0.000	䏵	mbw	
+0.000	䏼	zzc/zzd	zzd
+0.000	䏽	bvj/bvm/bvu	bvj/bvu
+0.000	䐄	glv/gpv/gzv	gmv
+0.000	䐇	mde	
+0.000	䐈	dkk/tjk	dkk
+0.000	䐎	dxj/txj	txj
+0.000	䐑	dwp	
+0.000	䐒	tyh/tyn	
+0.000	䐗	tqj	
+0.000	䐘	gak	
+0.000	䐚	cjk	cdk
+0.000	䐜	edd	eds
+0.000	䐝	svn	
+0.000	䐞	nak	ns,
+0.000	䐠	hzs	
+0.000	䐣	sbe	.le
+0.000	䐤	vpj/vyh	
+0.000	䐯	ruh	
+0.000	䐲	dkp	
+0.000	䐴	kbn/kvi	
+0.000	䐺	elv	
+0.000	䐼	gxm/gxt	gxi/gxt
+0.000	䐾	dzk	lzk
+0.000	䐿	qgk/qzq/qzz	qbg/qgk
+0.000	䑁	qbk/qvk	
+0.000	䑂	ylu	
+0.000	䑃	mvs	mvw
+0.000	䑄	bdm/bkn/fkn	bdm/bem/fem
+0.000	䑇	tdt	tdk
+0.000	䑈	pok	
+0.000	䑔	bat/fai	fai
+0.000	䑕	oau	
+0.000	䑗	dzw	lzw
+0.000	䑜	exp	
+0.000	䑣	ekf	okf
+0.000	䑥	wlp	
+0.000	䑶	vcc	vcx
+0.000	䑹	sza	
+0.000	䑼	ctj	coj
+0.000	䒀	bzm/faj	ffj
+0.000	䒆	ewt	oqt
+0.000	䒊	hxj	
+0.000	䒍	fzw	
+0.000	䒒	txa	
+0.000	䒓	xpu	
+0.000	䒚	osq	;sq
+0.000	䒞	dkf/ldf/tzr	dkf
+0.000	䒨	jdu	
+0.000	䒶	exd	
+0.000	䒷	kvt	izt
+0.000	䓈	lfy/ysk	ysk
+0.000	䓉	lnj	laj
+0.000	䓏	faj	ffj
+0.000	䓘	kza	kbj
+0.000	䓙	apj	
+0.000	䓣	rqw	
+0.000	䓭	vyt	
+0.000	䓮	mvm/mzq	mbu/mvm
+0.000	䓳	gle/gmj	gle
+0.000	䓵	faj	
+0.000	䔁	ret	rek
+0.000	䔄	lsa/lsz	lsa
+0.000	䔇	gbn/xjy	xjy
+0.000	䔌	kza	kbj
+0.000	䔏	vtm	
+0.000	䔑	jnj/lnj	jaj
+0.000	䔚	jtd	dgd
+0.000	䔞	rtt	
+0.000	䔠	syq	
+0.000	䔬	ljm	ljg
+0.000	䔰	fgk/pgm	fjk/pjg
+0.000	䔴	vkk	
+0.000	䔵	kyd	
+0.000	䔷	gjf/gjs	gjf
+0.000	䔸	pqq	
+0.000	䔽	qwi/qzi	qqi/qzi
+0.000	䔾	mzt/xwi	xqi
+0.000	䕃	qjv	
+0.000	䕅	szq	sbu/stj
+0.000	䕆	dvu	lvu
+0.000	䕍	lsi	lai
+0.000	䕙	zct	zxt
+0.000	䕧	gyq/kyq	gpq/kpq
+0.000	䕪	dyk	lyk
+0.000	䕸	gpt/kmj	git
+0.000	䕹	zlp/zxp	zlp
+0.000	䕼	nsd	
+0.000	䖀		;aa
+0.000	䖃	lak	
+0.000	䖑	mxk	mck
+0.000	䖒	hah	;ah
+0.000	䖔	hzv/xzr	xzr
+0.000	䖘	dzj	lzj
+0.000	䖙	dxj/exj	lxj/oxj
+0.000	䖧	nzt	
+0.000	䖲	jgd	ydd
+0.000	䗏	stj	
+0.000	䗐	osj/osm	oah
+0.000	䗠	jfd	ysd
+0.000	䗡	ywd	
+0.000	䗣	gzf/gzv	gzf
+0.000	䗪	tnm/tsk	tag/tak
+0.000	䗯	cdc	cdx
+0.000	䗰	kvc	
+0.000	䗲	rec	rkc
+0.000	䗽	lgn	ydm
+0.000	䘁		cst
+0.000	䘄	tam	
+0.000	䘆	hae/hje	hae
+0.000	䘌	net	
+0.000	䘓	xlv	
+0.000	䘯	sya	spa
+0.000	䘰	lsd/osd	lad/oad
+0.000	䘱	lfm	lfg
+0.000	䙃	dvn	
+0.000	䙄	cpp/vkp	cqp
+0.000	䙐	xpk	
+0.000	䙡	ajn/xtn	xtn
+0.000	䙬	qpx	
+0.000	䙭	kwe/xwd	kqe/xqd
+0.000	䙲	uxd	
+0.000	䙵	uxj	yxj
+0.000	䙷	tlk/wlm	tlk
+0.000	䙾	osj	oah
+0.000	䚈	kfc	
+0.000	䚌	kza	kbj
+0.000	䚐	exk/zxk	
+0.000	䚕	rem/rpm	rpm
+0.000	䚙	.ad/hah	.ad
+0.000	䚢	ewi/ewt	
+0.000	䚥	nok	np,
+0.000	䚦	dwu	lwu
+0.000	䚩	kqq	kaq
+0.000	䚫	gxk/kok	gx,/kok
+0.000	䚳	tsm	ksm
+0.000	䚴	wot	uyt
+0.000	䚶		ocs
+0.000	䚷	qxj/qxu	
+0.000	䚹	fsu	
+0.000	䚻	lgj	lda
+0.000	䛈	odm	
+0.000	䛋	gan/vsm	
+0.000	䛌	dza	
+0.000	䛕	lfj	
+0.000	䛗	tdu	kdu
+0.000	䛚	rqk	
+0.000	䛝	nza	
+0.000	䛠	tvm	
+0.000	䛢	evh/evk	ovk
+0.000	䛬	dza	lbj
+0.000	䛭	hyx	
+0.000	䛹	vcc	
+0.000	䛻	lgu	
+0.000	䛽	cpp	cqp
+0.000	䛾	szm	szg
+0.000	䜅	dgh/lgh/vvj	cgh
+0.000	䜆	tap	
+0.000	䜈	vya	
+0.000	䜉	vet	vek
+0.000	䜋	gbn/gby	gbn
+0.000	䜏	evh	ovh
+0.000	䜑	qzm	qzg
+0.000	䜒	qzz	qbg
+0.000	䜕	hmm/hyi/myi	myi
+0.000	䜙	wlf	
+0.000	䜚	dlp	llp
+0.000	䜜	lfn	
+0.000	䜝	eve	
+0.000	䜮	rpa/rya	ruj
+0.000	䜲	rwp	rqp
+0.000	䜴	vrm	
+0.000	䜶	gos	gus
+0.000	䜸	mlu	
+0.000	䜺	vwk	
+0.000	䜼	kvk	
+0.000	䝍	kgc	
+0.000	䝑	ers	
+0.000	䝒	zru	
+0.000	䝕	tap	tsp
+0.000	䝖	cyq	cuu
+0.000	䝚	nkh	nej
+0.000	䝤	ryq/tyq	ryq
+0.000	䝸	gan	gwm
+0.000	䝹	qve	aze
+0.000	䝼	zss/zsx	zsx
+0.000	䞃	tkn	teg
+0.000	䞈	krn	ian
+0.000	䞋	vec	vex
+0.000	䞓	ews	
+0.000	䞗	vlj/vmj	vlj
+0.000	䞘	gjt	
+0.000	䞚	gsj/xay	gsj
+0.000	䞠	tsk	tak
+0.000	䞣	enm/vnm	eag/eyk
+0.000	䞤	fau/gfj	gfj/xfu
+0.000	䞦	gyk	
+0.000	䞩	gpp	gmp
+0.000	䞭	vgm	
+0.000	䞮	ezj	ozj
+0.000	䞯	fam	fgm
+0.000	䞰	zpk	
+0.000	䞳	blk/fam/fvm	blk
+0.000	䞴	tya/tyz	
+0.000	䞵	krt	
+0.000	䞷	uat	
+0.000	䞽	swk	sqk
+0.000	䞾	dwj	lwj
+0.000	䟂	mld/mzd	mzd
+0.000	䟄	vsk/zpk	vsk
+0.000	䟅	zsr	zar
+0.000	䟌		zxt
+0.000	䟍	pxd/qwe	pxd
+0.000	䟎	czc/zze	
+0.000	䟏	oak/rpk	oa,/rp,
+0.000	䟑	lak	ls,
+0.000	䟓	ews/eys/tps	ews/tps
+0.000	䟔	fam	ffg
+0.000	䟕	vyn	
+0.000	䟘	gzw/kzw	gzw
+0.000	䟙	vct	vck
+0.000	䟛	bzt/pjn	pai
+0.000	䟝	evm	
+0.000	䟧	dxd	lcs
+0.000	䟫	dys/eaw	eaw
+0.000	䟯	xvt	azt
+0.000	䟴	tdc	tjc
+0.000	䟷	ewi	
+0.000	䟸	gth/kth	gtj/ktj
+0.000	䟽	sqj/sqm	
+0.000	䠄	exe	ele
+0.000	䠈	ebt	
+0.000	䠗	hgx/xez	hgx
+0.000	䠘	fxm	fcm
+0.000	䠚	qon	aym
+0.000	䠟	dxp	dcp
+0.000	䠠	txm	txi
+0.000	䠡	zzh	
+0.000	䠢	mgx	mjx
+0.000	䠣	sfc/xrc	sfc
+0.000	䠧	dyh	
+0.000	䠯	lak	la,
+0.000	䠵	bam	bfm
+0.000	䠶	jhm	jqg
+0.000	䠽	glj	glh
+0.000	䡀	tse	tae
+0.000	䡅	etd	otd
+0.000	䡈	kok	
+0.000	䡉	azw/xzw	xzw
+0.000	䡋	tsj	ksj
+0.000	䡐	dzh	lzh
+0.000	䡓	ixc	icc
+0.000	䡔	xxu	
+0.000	䡘	dxd	lcs
+0.000	䡝	aad/qgd/qge	aad
+0.000	䡣	gbd/had	yld
+0.000	䡭	sgj	,gj
+0.000	䡯	vvs	
+0.000	䡰	xps	
+0.000	䡲	zpd/zwd	
+0.000	䡵	jgn	jgi
+0.000	䡾	wwt/wzt	wqt/wzt
+0.000	䢅	ddd	djd
+0.000	䢒	kya	kpa
+0.000	䢓	yrj	yaj
+0.000	䢝	qyn	qym
+0.000	䢡	sxp	
+0.000	䢦	stt	egt
+0.000	䢭	jsc/lsc/lsd	jac/lac
+0.000	䢮	dxk	
+0.000	䢰	exk	ox,
+0.000	䣀	gty/kry	kfy
+0.000	䣁	yru	yau
+0.000	䣂	run/ruy	run
+0.000	䣄	dzj/jaj	jaj/lzj
+0.000	䣅	ddd	djd
+0.000	䣍	qwf/qwr	qqf/qqr
+0.000	䣗	kza	kbj
+0.000	䣛	vdt	vdk
+0.000	䣜	zzh	
+0.000	䣝	dyh/dzj	dzj
+0.000	䣟	zlf/zlp	zlf
+0.000	䣠	znm	zlf
+0.000	䣢	zsk	zak/zzk
+0.000	䣩	dgd/dtd	dgd
+0.000	䣵	njm/nkn	njm
+0.000	䣸	nar	
+0.000	䣿	hfj/qfj/yrj	.aj/aaj/yaj
+0.000	䤁	ldf/zjf	
+0.000	䤅	dvj/dzj	lvj
+0.000	䤇	sgu/stj	
+0.000	䤍	mxj	
+0.000	䤎	kgt	idt
+0.000	䤐	cjr/vjr	cjr
+0.000	䤑	azx	
+0.000	䤔	zsr	zar
+0.000	䤕	hok	
+0.000	䤙	rpk	
+0.000	䤛		kca
+0.000	䤥	kry	kfy
+0.000	䤨	fxk	
+0.000	䤮	dap	dsp
+0.000	䤳	znm	
+0.000	䤹	stj	
+0.000	䤻	dvy	lvy
+0.000	䤽	ipd	kud
+0.000	䥉	aad	qfd
+0.000	䥍	bxm/sst/tdm/tjp	
+0.000	䥗	xvc/xve	xve
+0.000	䥝	qza	qbj
+0.000	䥡	dxp	lxp
+0.000	䥢	rus	
+0.000	䥵	hxq/kxq	
+0.000	䦈	cnj	
+0.000	䦌	erm	
+0.000	䦍	wbt	
+0.000	䦏	gmm/gxm	gpi/gxi
+0.000	䦐	exw	oxw
+0.000	䦖	gpt/gxt	gct/git
+0.000	䦗	hjk	.dt
+0.000	䦘	gpe	gle
+0.000	䦝	.pk	
+0.000	䦧	hxk	
+0.000	䦪	qyt	
+0.000	䦱	apj/yry	yay
+0.000	䦵	msu/nxu	
+0.000	䦼	fjk	
+0.000	䧊	kbk/xvk	kbk
+0.000	䧎	uxe	yxe
+0.000	䧑	txj	tcj
+0.000	䧜	dzs	lzs
+0.000	䧪	eap	
+0.000	䧰	gbe	
+0.000	䧴	osm/tsj	ksj
+0.000	䨁	mam	mfm
+0.000	䨂	vgj	vda
+0.000	䨊	axd	acd
+0.000	䨐	gpp	gmp
+0.000	䨒	yrm	yam
+0.000	䨕	qfj	
+0.000	䨘	scc	sxc
+0.000	䨛	spk	
+0.000	䨞	yru	yau
+0.000	䨣	kpk	
+0.000	䨤		lc,
+0.000	䨥	tsk/uzk	tsk/yzk
+0.000	䨰	fzk	
+0.000	䨲	mac/nvj	nvj
+0.000	䨳	hkn	
+0.000	䨴	dbn	dlb
+0.000	䨻	bpx	
+0.000	䨼	gzm	yzg
+0.000	䨽	bkn/fjy	bjh/fjy
+0.000	䩃	dsm	
+0.000	䩆	cye	
+0.000	䩇	tpf	
+0.000	䩊	qvt	
+0.000	䩍	rwq	rqq
+0.000	䩐	hbt	
+0.000	䩒	hfj/qfj/yrj	.aj/aaj/yaj
+0.000	䩙	uxe	yce
+0.000	䩞	exp/txp	exp
+0.000	䩠	exs	
+0.000	䩢	tsi/tst	tat
+0.000	䩣	ezj	ozj
+0.000	䩥	dze	lze
+0.000	䩲	tzj	
+0.000	䩳	svj	
+0.000	䩶	ewe/eww	oqe
+0.000	䩹	wpk/wyk	
+0.000	䪁	pfk/pvk	pvk
+0.000	䪂	kpk/spk	kmk
+0.000	䪆	exu	ecu
+0.000	䪉	rwp	rqp
+0.000	䪌	zpv/zyv	zqv/zyv
+0.000	䪎	sbh/srh	
+0.000	䪐	pkn	pei
+0.000	䪚	tzp	
+0.000	䪝	awk/ayk	ayk
+0.000	䪡	cxj	ccj
+0.000	䪤	bad	
+0.000	䪥	gmm	gmi
+0.000	䪧	dwj	
+0.000	䪬	fbt	flt
+0.000	䪸	mkd	med
+0.000	䪾	tde	tje
+0.000	䫂	tzy	
+0.000	䫄	eot	
+0.000	䫅	slv	
+0.000	䫆	dss/gws	dss
+0.000	䫒	mld	
+0.000	䫔	xxm/xxt	xxi/xxt
+0.000	䫖	ekr	
+0.000	䫜	qya	qia
+0.000	䫞	hxa/xsa	hxa
+0.000	䫟	gbe/yje	
+0.000	䫡	kpv/wpf/xpr/xpv/xyr	
+0.000	䫧	gza	gbj
+0.000	䫲	hlr/hlv	
+0.000	䫴	gjr/yev	gkr
+0.000	䫸	eya	
+0.000	䫻	ltt	yqt
+0.000	䫽	fza	
+0.000	䫾	fxt/pjk	fxt
+0.000	䬀	qeq/qgu	qdq
+0.000	䬁	lsj	lah
+0.000	䬂	.at/htt	.at
+0.000	䬆	rem/ret	reg/rek
+0.000	䬇	lfc	
+0.000	䬉	.pk	
+0.000	䬊	syp	
+0.000	䬌	fgj	
+0.000	䬍	hbt/hgt	.lt
+0.000	䬎	ipk	imk
+0.000	䬐	nfh	
+0.000	䬒	stj	
+0.000	䬝	uys	yys
+0.000	䬞	dtj/dza	dbj/dtj
+0.000	䬡	tam	
+0.000	䬦	tvm	
+0.000	䬧	uad	wfd
+0.000	䬫	dxj/txj	dxj/tcj
+0.000	䬯	nwf/nxf	
+0.000	䬳	pze	
+0.000	䬵	klj/qyi	klj
+0.000	䬷	onu	
+0.000	䬽	ofi/roi	ofi
+0.000	䬾	dxj	lcj
+0.000	䭁	tsi	
+0.000	䭃	ndr	
+0.000	䭑	rwr	
+0.000	䭓	wlc	
+0.000	䭕	czr	
+0.000	䭖	tam	
+0.000	䭘	qww	qqw
+0.000	䭡	qbc/qlc	qlc
+0.000	䭨	ofi/srh	
+0.000	䭬	xxu	xcu
+0.000	䭮	fjt	
+0.000	䭴	god/uxe	ypd/yxe
+0.000	䭾	dzh/dzn	
+0.000	䮀	bok	buk
+0.000	䮄	uxd	ycd
+0.000	䮉	rqj	
+0.000	䮋	rwi	
+0.000	䮔	cfh/tfy	tfy
+0.000	䮝	gbd	yld
+0.000	䮟	stj	
+0.000	䮠	pjk	pkk
+0.000	䮢	zpp	
+0.000	䮤	gzk/kok	gz,/ky,
+0.000	䮩	kbt	ilt
+0.000	䮱	dtk	le,
+0.000	䮸	kok/qbk/qok	kuk
+0.000	䮽	rok	
+0.000	䮾	bvs/ros	
+0.000	䯂	sed/zkp	
+0.000	䯇	apt/xbt	
+0.000	䯉	apt/qbt	
+0.000	䯋	bzt/xzt	bzt
+0.000	䯏	kvt	izt
+0.000	䯑	azs	
+0.000	䯗	bxu	bcu
+0.000	䯘	gvc	
+0.000	䯜	exk/ssk	oxk
+0.000	䯟	dbn	lbi
+0.000	䯠	qzq	qbu
+0.000	䯦	mpt	
+0.000	䯬	tzy	
+0.000	䯰	kmm	kpi
+0.000	䯳	sbs	
+0.000	䯷	sgs	
+0.000	䯹	ssf	saf
+0.000	䯽	bvj/fau/fvu	bvj/ffu/fvu
+0.000	䯾	dxa/tgm/txa	dca/tca
+0.000	䰃	bys/pzw	
+0.000	䰈	vzy/zzh	zzh
+0.000	䰍	hgj/vdm	vdg
+0.000	䰏	cxm	cst
+0.000	䰖	czc/cze/czt	czc
+0.000	䰘	kxq	rtj
+0.000	䰙	way	
+0.000	䰟	gbd	
+0.000	䰠	odd	ods
+0.000	䰥	ulk	
+0.000	䰩	enu	eau
+0.000	䰫	vya/zyq	
+0.000	䰲	qpt	qit
+0.000	䰼	ojr/zjf/zlr	zjf
+0.000	䱂	qgu/qxa	qca
+0.000	䱐	bgj/faj	bgj/fgj
+0.000	䱒	qap	
+0.000	䱔	lgj	
+0.000	䱕	mgj	
+0.000	䱡	ggk/kgk/xfk	ggk/kgk
+0.000	䱤	gpv/kxv	gmv
+0.000	䱮	wyk	
+0.000	䱺	glj	glh
+0.000	䲀	tdm	tdb
+0.000	䲌	xvc/xve	xve
+0.000	䲓	wwr	wqr
+0.000	䲔	gas/gws	gas
+0.000	䲙	cct	cck
+0.000	䲚	ezt/ryi	ryi
+0.000	䲜	wap	
+0.000	䲦	dzi	lzi
+0.000	䲯	gjp	gkp
+0.000	䲰	yjc	
+0.000	䲱	faw	
+0.000	䲸	kmm	kpi
+0.000	䲹	bkh	bkj
+0.000	䲽	dsk/txq	dak
+0.000	䲾	xyq	xuu
+0.000	䳅	tsu	ksu
+0.000	䳇	mau/mvu	mfu/mlu
+0.000	䳉	tbs	
+0.000	䳋	dbs	lbs
+0.000	䳌	ixd	
+0.000	䳎	ggu	uju
+0.000	䳚	xzc/xzi/xzt	xzc
+0.000	䳟	mws	mqs
+0.000	䳦	.ad/sfd	.ad
+0.000	䳲	tdc	tjc
+0.000	䳳	sgt	
+0.000	䳴	dzp	
+0.000	䳻	zyv/zzf	zzf
+0.000	䴁	wfj/wfm	wfm
+0.000	䴃	nya	npa
+0.000	䴑	dxp	llp
+0.000	䴚	kzw	
+0.000	䴝	voi	
+0.000	䴟	gvd	yzd
+0.000	䴧	qrh	qfh
+0.000	䴰	jrk	
+0.000	䴳	upt	yit
+0.000	䴷	gbd/goe	goe
+0.000	䴹	goy/kvy	goy/ivy
+0.000	䴼	vyc	
+0.000	䴽	bsj/pah	bsj
+0.000	䵌	hxf	
+0.000	䵎	evd	tvd
+0.000	䵏	ryq	
+0.000	䵐	ese	eae
+0.000	䵑	net	
+0.000	䵒	net	nek
+0.000	䵖	xxc/xxe	xcc/xce
+0.000	䵗	blk	blg
+0.000	䵘	spm	
+0.000	䵝	qjm	
+0.000	䵞	gws	gqs
+0.000	䵤	gxe/txe	gxe
+0.000	䵦	jnu	
+0.000	䵮	lax/oas	oas
+0.000	䵳	qoi/qvi	qvi
+0.000	䵵	crt/vot	
+0.000	䵸	vgj	vda
+0.000	䵼	oas	
+0.000	䵽	vzp	
+0.000	䶀	elp/xzp	
+0.000	䶂	cak/pyz/tak/txk	pp,/ts,/tx,
+0.000	䶎	hpp	
+0.000	䶐	qoi/qvi	qvi
+0.000	䶒	zxj	zcj
+0.000	䶔	dwj	
+0.000	䶗	xyh	
+0.000	䶘	rkp/ryp	rkp
+0.000	䶛	ryt	
+0.000	䶜	gvk/kbk	kbk
+0.000	䶣	klj	klh
+0.000	䶥	cqj/cyh/zyh	cqj/cyj/zyj
+0.000	䶩	zxm	zcm
+0.000	䶳		ls,
+0.000	䶴	efh/efn	afh/afn
+0.000	䶵	dwj	lwj
+0.000	丢	tea	
+0.000	个	kzn	
+0.000	侣	rqu	
+0.000	兖	lfe	
+0.000	内	nbn	
+0.000	凙	dzk	lzk
+0.000	别	bwt/pwt	
+0.000	刹	vyt	
+0.000	刾	vsm	vsg
+0.000	剥	pok	
+0.000	匀	lgd	
+0.000	卤	sxj	slh
+0.000	呐	nrt	
+0.000	嘘	ham	
+0.000	囱	vos/vvs	vvs
+0.000	埯	qar/qzr	
+0.000	奥	qzz	
+0.000	媪	qzq	
+0.000	嫑	psz	
+0.000	嬝	nxq	
+0.000	尔	nsu	
+0.000	尲	kpf	
+0.000	峕	djj	
+0.000	幷	psx	
+0.000	弑	ojm	
+0.000	弥	msj	
+0.000	彞	ldj	
+0.000	彦	wwc	
+0.000	悮	wzm	
+0.000	愠	qgc	
+0.000	抴	lsi/lst	lab
+0.000	捠	pps	
+0.000	揾	qbc/qbt/qge	
+0.000	敽	kqq	kaq
+0.000	斆	gyz	
+0.000	斓	ryd	
+0.000	断	tvc	
+0.000	术	dtt/jtt	
+0.000	栐	yww	yqw
+0.000	桗	tvh/tvn	
+0.000	棁	ebt/evt	
+0.000	榅	qbt	
+0.000	殁	mbt	
+0.000	氎		llp
+0.000	氲	qgd	
+0.000	没	mbt	
+0.000	洼	ixj/qoh/qpj/quh	ixj/qpj
+0.000	渌	rok/rrk	
+0.000	温	qbd	
+0.000	漤	rmr	
+0.000	灧	lav	
+0.000	炖	dbc	
+0.000	煴	qgd	
+0.000	燷	rmf	
+0.000	瑶	lsa	
+0.000	疍	dze	
+0.000	礼	rpu	riu
+0.000	禄	rok	
+0.000	秃	evk	
+0.000	秌	vgj	vda
+0.000	秼	tfj	
+0.000	稏	qyn	qym
+0.000	籨	rwf	
+0.000	粜	exz	
+0.000	粤	yat	
+0.000	緐	bad	
+0.000	緔	dax	
+0.000	缫	sza	
+0.000	肀	lgt	
+0.000	腽	qbt	
+0.000	膯	els	
+0.000	芈	msu	
+0.000	苘	asw/axw	axw
+0.000	蔂		roh
+0.000	蕰	qbd/qgc/qge	
+0.000	藴	qgc/qgd/qge	
+0.000	蘖	wwt/wzt	
+0.000	虚	haj/xaj	
+0.000	衚	gzj	
+0.000	衤	qjh	
+0.000	衮	kbe	
+0.000	覀	hyy/qyn	
+0.000	覸	kpc/kpd/pwe	kpc/kpd
+0.000	讏	yri	
+0.000	軿	bxd/bxs	bcd/bxs
+0.000	迁	vcd	vcs
+0.000	迩	nsu	
+0.000	酰	scd	
+0.000	醖	qgc/qge	
+0.000	釾	lnj	laj
+0.000	鍁	had	
+0.000	鏉	stm/svj/svm	stm/svg
+0.000	锸	ewp	
+0.000	镟	jfc	
+0.000	閐	slv	
+0.000	鞲	kvj	
+0.000	飤	jjm	jjg
+0.000	饣	jkk	
+0.000	騚	zcd	zxd
+0.000	鬝	xpd/xpt	
+0.000	魥	wlp/xap	
+0.000	鯶	gbe	
+0.000	鳠	gon	
+0.000	鵚	evk	ovk
+0.000	鷈	exj	oxj
+0.000	麨	eaq	
+0.000	麫	mxc	
+0.000	麽	mzh	
+0.000	鼗	dza	lza
+0.000	鼟	els	
+0.000	齄	cyh	
+0.000	𠀐	gtn	
+0.000	𠀒	gzj	
+0.000	𠀔	kgt	
+0.000	𠀘	exd	ocs
+0.000	𠀽	rut	
+0.000	𠁥	ipu/koy	
+0.000	𠁫	xgj	
+0.000	𠁭	gsj	
+0.000	𠂄	hvd	
+0.000	𠂆	lsi	
+0.000	𠂔	cku	
+0.000	𠂢	fpm	fpg
+0.000	𠂷	gpw	
+0.000	𠂹	dfh	
+0.000	𠂼	dxr	
+0.000	𠃀		dfh
+0.000	𠃚	kea	kda
+0.000	𠃸	qjm	
+0.000	𠃾	kth	ikj
+0.000	𠄈	rec	rkc
+0.000	𠄌	iat	
+0.000	𠄔	gxq	
+0.000	𠄖	rps	
+0.000	𠅬	pza	
+0.000	𠆩	baf/fav	baf
+0.000	𠆴	nyz	npz
+0.000	𠆵	wxj	
+0.000	𠆺	uxd	ycd
+0.000	𠈵	mos/mow	mos
+0.000	𠈺	bxu	bcu
+0.000	𠉫	iax	
+0.000	𠊧	bpw/bpx	
+0.000	𠊩	zpe	
+0.000	𠊬	gak/xwk	gak/xqk
+0.000	𠊯	svu	
+0.000	𠊷	dkn	deg
+0.000	𠊾	gth/udm	udm/uej
+0.000	𠋢	svu	
+0.000	𠋧	xqh	
+0.000	𠋫	gvm	
+0.000	𠌪	eza	obj
+0.000	𠌭	stt	egt
+0.000	𠌮	tnj	
+0.000	𠌰	klm	kli
+0.000	𠌶	hfj/yrj	.aj/yaj
+0.000	𠍜	dkm	dkg
+0.000	𠍹	tpp	
+0.000	𠎝	xwd	xqd
+0.000	𠏀	xvh	
+0.000	𠏃	aaj	
+0.000	𠏢	ron	
+0.000	𠏤	iaw	
+0.000	𠏭	zvx	
+0.000	𠏮	tbn	tlb
+0.000	𠐋	fya/rya	
+0.000	𠐌	pay	
+0.000	𠐩	epr	
+0.000	𠐻	gae/kwe	gae/kqe
+0.000	𠐽	gth/ijn	kgn
+0.000	𠑅	tps	
+0.000	𠑆	ear	
+0.000	𠑹		izu
+0.000	𠒂	kzu	
+0.000	𠒆	nsj	wsj
+0.000	𠒜	uae	
+0.000	𠓋	lsk	lak
+0.000	𠓗	fam/fyk	
+0.000	𠓛	zjp	
+0.000	𠓜	rqw	
+0.000	𠓭	rmr	
+0.000	𠔯	pyd	
+0.000	𠔺	xpf	
+0.000	𠔼	mvm/mzq	
+0.000	𠕋	vpk	
+0.000	𠗉	cxp/gxp/gyp	gxp
+0.000	𠗊		gsw
+0.000	𠗨	dxp/typ	lxp
+0.000	𠘂	svj	
+0.000	𠘯	ngu/ntu	
+0.000	𠘱	tde	tje
+0.000	𠙶	qvu	
+0.000	𠚜	eza	
+0.000	𠚡	eza	obj
+0.000	𠛂	vqs	
+0.000	𠛉	xpt	
+0.000	𠛑	gxd	gcd
+0.000	𠛱	czt/rwt	rqt
+0.000	𠛺	fau	
+0.000	𠜂	syd	
+0.000	𠜓	exk	oxk
+0.000	𠜶	nzq	nbu
+0.000	𠜻	.pk	.mk
+0.000	𠜾	kgt/kri	kgt
+0.000	𠝟	qww	
+0.000	𠞂	sxj	scj
+0.000	𠞇	fxm	fcm
+0.000	𠞈	tzp	
+0.000	𠞉	ret	rek
+0.000	𠞊	vpj/vyh	
+0.000	𠞩	stt/vet	egt/vek
+0.000	𠞰	csq	
+0.000	𠟉	tse	
+0.000	𠟌	fau	
+0.000	𠟪	vsp/wap	wap
+0.000	𠟯	csq	
+0.000	𠟴	vku	
+0.000	𠟼	god	ypd
+0.000	𠟽	ipt	
+0.000	𠟿	csq	
+0.000	𠠌	rwp	
+0.000	𠠗	rwp	rqp
+0.000	𠠜	qps	
+0.000	𠠵	fac	
+0.000	𠡝	wkt	
+0.000	𠢅	gwd	
+0.000	𠢈	kau	knu
+0.000	𠢕	gza	
+0.000	𠢲	xmu	
+0.000	𠢳	skk	ejk
+0.000	𠣑	qya	
+0.000	𠣙	jgd	ydd
+0.000	𠣤	sge	
+0.000	𠣬	sge	.de
+0.000	𠣵	blk	
+0.000	𠣾	flk	
+0.000	𠣿	kgm	
+0.000	𠤈	bgx	
+0.000	𠤎	hon	.yn
+0.000	𠤏	pzq	pbu
+0.000	𠤦	nfe	
+0.000	𠥗	kty	ktu
+0.000	𠥙	vfd	
+0.000	𠥸	exj	oxj
+0.000	𠦂	eza	
+0.000	𠦃	slp/szp	
+0.000	𠦄	slp	
+0.000	𠦎	eza	
+0.000	𠦒	pdt/pzd	pdt
+0.000	𠦪	hgt	
+0.000	𠦬	kuh	iij
+0.000	𠧚	esk	
+0.000	𠧞	dqq	lqq
+0.000	𠧧	sxj	slh
+0.000	𠧩	hbn	.lm
+0.000	𠧪	dxa/sxj	
+0.000	𠧵	esk	
+0.000	𠧷	lgj	
+0.000	𠨘		pei
+0.000	𠨧	vsd	vad
+0.000	𠨲	lak	
+0.000	𠨴	kmm	kpi
+0.000	𠩃	lak	
+0.000	𠩄	squ	;qu
+0.000	𠩘	kyp	
+0.000	𠩧	xlp	
+0.000	𠩰	tbh	
+0.000	𠩺	hjj	
+0.000	𠪗		lsj
+0.000	𠪙	sju	
+0.000	𠪚	ezr/wjf/xzr	wkf
+0.000	𠪮	tsk	fsk
+0.000	𠪻	bam	
+0.000	𠫓	ebt	
+0.000	𠬛	mbt	mlt
+0.000	𠬝	cct/nwe	cck
+0.000	𠬢	eza	laa
+0.000	𠬨	cct	
+0.000	𠬪	bqq	bwq
+0.000	𠭇	mvu	mlu
+0.000	𠭙		ods
+0.000	𠭥	sgn/tfi	sgi/tfi
+0.000	𠭴	ctt/tft	ift/tft
+0.000	𠮟	edt	
+0.000	𠯋	qxu	
+0.000	𠯑	got	yyt
+0.000	𠯘	pzc	
+0.000	𠰒	nnu	
+0.000	𠱘	wwk	wqk
+0.000	𠱝	qwt	
+0.000	𠱡	syi/szt	
+0.000	𠲎	bat	
+0.000	𠲳	odd	ods
+0.000	𠳊	xzh	
+0.000	𠳌	xyn	xyn/xzh
+0.000	𠳲	hfu	
+0.000	𠴨	kod	
+0.000	𠴺	qpj	
+0.000	𠵭	qwt	
+0.000	𠶸	gak/xwk	gak/xqk
+0.000	𠷂	dlu	llu
+0.000	𠷏	hry/qry	
+0.000	𠷔	szx	
+0.000	𠷾	hjk	
+0.000	𠸹	qgk	ajk
+0.000	𠹈	nzh	
+0.000	𠹋	zdt	zdk
+0.000	𠹑	wxz	
+0.000	𠹝	qvm	
+0.000	𠺛	dzz	
+0.000	𠻛	svu	
+0.000	𠻜	sri/srt	
+0.000	𠻡	ryy	
+0.000	𠻤	lde/lsc/lse	ldw/lse
+0.000	𠽶	voi	
+0.000	𠽽	nys	
+0.000	𠿈	ctj/cya	
+0.000	𠿊	xxk	
+0.000	𠿍	txc	tlc
+0.000	𠿎	.pj	hoh
+0.000	𠿜		goy
+0.000	𠿝	vqj	
+0.000	𠿟	qok	
+0.000	𠿡	tpt	
+0.000	𡀾	wlp	
+0.000	𡀿	rrm	
+0.000	𡁆	rok	
+0.000	𡁉		tep
+0.000	𡁋	qbe	
+0.000	𡁑	.pj	
+0.000	𡂏	rwp	rqp
+0.000	𡂐	zzc/zzt	
+0.000	𡂒	tdt	tdk
+0.000	𡂕	ryq	
+0.000	𡂖	ryi	
+0.000	𡂣	tkp	
+0.000	𡂩	rpp	
+0.000	𡄑	csf/csv	csf
+0.000	𡄴	uyk	
+0.000	𡅽	hvc/hzc	.zc
+0.000	𡇠	tpk	
+0.000	𡇰	tfe	
+0.000	𡇱	xok	
+0.000	𡇼	qyt	
+0.000	𡈋	xbe/xtd	xbe
+0.000	𡈣	sfd	.sd
+0.000	𡈼	exw	oxw
+0.000	𡊁	qjk	qek
+0.000	𡊞	bwx	
+0.000	𡊫	nfw	
+0.000	𡊻	rwt	rqt
+0.000	𡋡	yad	
+0.000	𡋯	bbt	blt
+0.000	𡌨	bsj	
+0.000	𡌪	kun	imm
+0.000	𡍖	dlm	llb
+0.000	𡍤	nxt	
+0.000	𡍦	god	yld
+0.000	𡍨	dzu	
+0.000	𡍩	eyk	
+0.000	𡍪	vkp	
+0.000	𡎎		slb
+0.000	𡎬	cau	
+0.000	𡎸	kje	
+0.000	𡎺	ctk	
+0.000	𡎻	zpd/zwd	
+0.000	𡐔	ldd	lds
+0.000	𡐤	xwt	
+0.000	𡐨	lnu	lau
+0.000	𡑜	red	
+0.000	𡑟	qvh	
+0.000	𡑠		ejg
+0.000	𡑧	gyt/xbt	
+0.000	𡒓	hzr	
+0.000	𡔇	run	rui
+0.000	𡔢	kxt/xxt	kct/xct
+0.000	𡔣	kxt/xxt	
+0.000	𡕒	xon/xoy	
+0.000	𡕗		gzi
+0.000	𡕡	bvk	
+0.000	𡕢	mar/mxr	mar
+0.000	𡕥	hjk	
+0.000	𡕮	kjk/rks	rks
+0.000	𡖾		xjj
+0.000	𡗷	kzj	izj
+0.000	𡘌	hmm/vsu	vsu
+0.000	𡘷	ezq/ezz	
+0.000	𡙁	sqw	
+0.000	𡙮	det	
+0.000	𡙷	qac	
+0.000	𡚁	bsi	
+0.000	𡚊	hvd	.zd
+0.000	𡚤	bkn	bem
+0.000	𡚮	kgu	iju
+0.000	𡚰	kgu	
+0.000	𡚼	esu	
+0.000	𡛗	pkn	pem
+0.000	𡛷	cdu	
+0.000	𡜂	gzu	yzu
+0.000	𡜉	nar	
+0.000	𡜊	flj/pgu	pgu
+0.000	𡜜	szd	
+0.000	𡝐	dyh	lyj
+0.000	𡝙	dyh	
+0.000	𡝠	mxj	
+0.000	𡝡	mxj	
+0.000	𡝤	roj/rrj	
+0.000	𡝫	ewf/oaf	ewf
+0.000	𡞘	sxp	
+0.000	𡞣	gpr	gmr
+0.000	𡟰	aad	qfd
+0.000	𡠆	xvm	
+0.000	𡠖	gzz	
+0.000	𡠗	tdm/tjp	tdb/tdp
+0.000	𡠼	svj	
+0.000	𡡏	sya/syq	spa
+0.000	𡡕	aat	
+0.000	𡡗	rre	
+0.000	𡢑	ttt	
+0.000	𡢕	hry	.ay
+0.000	𡢖	xpm/xpu/xxm	xpg/xxg
+0.000	𡣊	glr	
+0.000	𡣔	glr	
+0.000	𡣪	osk	;sk
+0.000	𡣬	qfd	qrd
+0.000	𡤙	npp	
+0.000	𡤫	xyh	
+0.000	𡤬	aak	
+0.000	𡤼	kwt	
+0.000	𡥀	pzq	pbu
+0.000	𡦳	hyz	hum
+0.000	𡧘	zxk	zc,
+0.000	𡧮	qxa/qxq	qxq
+0.000	𡧯	zxk	zc,
+0.000	𡨀	dyh	lyj
+0.000	𡨥	xvm	
+0.000	𡨾	qxd	qcd
+0.000	𡩁	vdd	
+0.000	𡩆	dzh	lzh
+0.000	𡩡	spk/swk	sqk
+0.000	𡩻	cjr	
+0.000	𡪁	wlf	
+0.000	𡪔	vdd	vds
+0.000	𡪛	pdd	
+0.000	𡪶	hlf	
+0.000	𡫏	cjv	
+0.000	𡫺	fgj	fjj
+0.000	𡫽	naj/nau/qam	naj/nau
+0.000	𡬄	udm	
+0.000	𡬇		fjj
+0.000	𡬍	may/mxu	may/mcu
+0.000	𡬖	hlf	
+0.000	𡬙	slx	
+0.000	𡬲	dzq	
+0.000	𡬹	dzq	lbu
+0.000	𡭐	dfe	
+0.000	𡭪	bwc	
+0.000	𡭴	xwk	xqk
+0.000	𡮞	tkk	
+0.000	𡯱	uae	
+0.000	𡯵	ebn	
+0.000	𡰅	gbt	ylt
+0.000	𡰝	trd/upd	
+0.000	𡰟	ron/rrh	
+0.000	𡰠	ron/rpd/rrh	ron/rrh
+0.000	𡰢	uxj	yxj
+0.000	𡱂	dbd/dxc	dbd/dlc
+0.000	𡱏	goy	
+0.000	𡱼	xvn	avn
+0.000	𡲁	jam	
+0.000	𡲕	exm	
+0.000	𡲣	kox	kux
+0.000	𡳅	xwi	
+0.000	𡳋	czc	
+0.000	𡳭	ekn/eky	,em
+0.000	𡴊	xok	
+0.000	𡴎	wwt	wqt
+0.000	𡴛	dbk	
+0.000	𡴺	cct	cck
+0.000	𡶅	fzh	
+0.000	𡶇	mkt	met
+0.000	𡶫	wxt	
+0.000	𡷝	nap	
+0.000	𡷡	qfd	asd
+0.000	𡸂	ezj	ozj
+0.000	𡸓	xas	xns
+0.000	𡸔	uxj	yxj
+0.000	𡸦	zkk	
+0.000	𡹮	qwr	qqr
+0.000	𡹴	jkx	
+0.000	𡹼	wzc	
+0.000	𡺮	bky/fky	fky
+0.000	𡻠	tam	
+0.000	𡻮	gzu	uzu
+0.000	𡼗	kza	
+0.000	𡽐	rpa	ria
+0.000	𡽜	wzd	
+0.000	𡽧	nya	npa
+0.000	𡾰	gwe/kwe	kqe
+0.000	𡿖	wxt/wyt	wxt
+0.000	𡿨	ixe	ice
+0.000	𡿪	rwt/wkt	rqt
+0.000	𡿮	dbt/ebt	
+0.000	𡿯	ltt	yqt
+0.000	𡿿	ulk	ylk
+0.000	𢁘	szf	slf
+0.000	𢁦	bky	beu
+0.000	𢁬	cyq	cuu
+0.000	𢁮	gwf	gqf
+0.000	𢂊	qyq	qiq
+0.000	𢂤	blm/rut	
+0.000	𢂥	rwi	rqi
+0.000	𢂷	klp/kpp	klp/kmp
+0.000	𢂺	vcc	vxc
+0.000	𢂻	ndc	njc
+0.000	𢂼	lsi	
+0.000	𢂿	xpp	
+0.000	𢃒	cbn/cvi	cbi
+0.000	𢃓	tfw	
+0.000	𢃔	eaf	
+0.000	𢃤	.lk	
+0.000	𢃬	ccd	cxd
+0.000	𢃭	kbd/tfw	
+0.000	𢃳	daa	
+0.000	𢄏	mlk	
+0.000	𢄐	mvs/mvx	mvx
+0.000	𢄢	ofi/tdm	
+0.000	𢄳	xoy	
+0.000	𢄴	nzy	
+0.000	𢄹		xqa
+0.000	𢄺	csq/rpq	
+0.000	𢅰	hyk	
+0.000	𢅹	lak	ls,
+0.000	𢅼	nbh/nzc	
+0.000	𢆃	nzc	
+0.000	𢆉	ndr	
+0.000	𢆶	qea/qgj	qda
+0.000	𢆷	qxa	
+0.000	𢆸	pps	
+0.000	𢇌	ssu	say
+0.000	𢇓	gjt	
+0.000	𢇫	pfw	
+0.000	𢈉	dvs	lvs
+0.000	𢈌	krn	kfn
+0.000	𢈔	lfu	
+0.000	𢈠	ryt	
+0.000	𢉙	tam	
+0.000	𢉛	cvw/vvs	vvs
+0.000	𢉨		ryt
+0.000	𢊁	dpu/dwu	
+0.000	𢊕	vvs	cvw
+0.000	𢊰	scc	sxc
+0.000	𢋇	lsa	
+0.000	𢋒	uzk	yzk
+0.000	𢋱	zok	
+0.000	𢌨		lad
+0.000	𢌳	gth	gtj
+0.000	𢌻	lgk	
+0.000	𢌿	pdm	
+0.000	𢍚	yjn	
+0.000	𢎛	cct	cck
+0.000	𢎞	uls	
+0.000	𢎢	lde	ldw
+0.000	𢎰	qzj/xzj	azj
+0.000	𢏕	dvs	lvs
+0.000	𢐂	dsm/tkm	dsm
+0.000	𢑢	hbt	.lt
+0.000	𢑦	daa	
+0.000	𢓈	jgc	ydc
+0.000	𢓕	ldf	
+0.000	𢓠	sed	skd
+0.000	𢓪	jku	
+0.000	𢓬	hmj	hmh
+0.000	𢓴	ebn	,bi
+0.000	𢔠	vsk	
+0.000	𢔭	dxj	
+0.000	𢕒	bgm	bgg
+0.000	𢕚	tkk	
+0.000	𢕬	slp/vkp	
+0.000	𢕮	tpm/tyn	
+0.000	𢕶	qgj	
+0.000	𢖔	pyz	py,
+0.000	𢖫	wjn	wji
+0.000	𢖳	hfj	.aj
+0.000	𢗊	hmm	hpi
+0.000	𢗋	dgd/uss	uss
+0.000	𢘁	ssf	
+0.000	𢘆	gls/gvd	
+0.000	𢘇	tzc	
+0.000	𢘋	elk	
+0.000	𢘌	uys	
+0.000	𢘐	tvs	
+0.000	𢘽	ewi/lsi	lai
+0.000	𢘿	svh	
+0.000	𢛁	tzt	
+0.000	𢛆	gxd	gcd
+0.000	𢛈	eaf	
+0.000	𢛓	rpd	
+0.000	𢜩	xpr/xwf	
+0.000	𢜭	gwk/kwk	gqk/kqk
+0.000	𢜮	maj/mau/mzu	
+0.000	𢜰	qav/qwv	
+0.000	𢜳	esi	
+0.000	𢜸	nza	
+0.000	𢝃	tsi	
+0.000	𢝇	.yk	
+0.000	𢝹	exm	oxi
+0.000	𢞎	bmm/bpu	bmg
+0.000	𢞏	xgs	
+0.000	𢞒	exk/xxk	
+0.000	𢞝	slm	slg
+0.000	𢞦	baj	
+0.000	𢟇	qxm	
+0.000	𢟡	bmm/bpu	
+0.000	𢟤	rkj/rkm	rkj
+0.000	𢟪	hjn/qlm	hji/qli
+0.000	𢟰	wmm	
+0.000	𢠜	bbt	blt
+0.000	𢠶	goc	
+0.000	𢠽	dzw	
+0.000	𢡤	kpk	
+0.000	𢡹	dfw	
+0.000	𢢝	sgn	sgi
+0.000	𢢞	xxm	xxg
+0.000	𢣎	eve	
+0.000	𢣏	qzi	qzb
+0.000	𢣑	bse	
+0.000	𢣒	gbd	yld
+0.000	𢣘	lgn	ydm
+0.000	𢤇	nxm	
+0.000	𢤉	dtj	
+0.000	𢤋	hjk	
+0.000	𢤦	tvw	
+0.000	𢥎	cxj	ccj
+0.000	𢥘	uxj	yxj
+0.000	𢥞	dbs	lbs
+0.000	𢦅	hvw	
+0.000	𢦒	clj	
+0.000	𢦔	clj	
+0.000	𢦚	goy	
+0.000	𢦧		mgj
+0.000	𢦭	ljk	
+0.000	𢦵	mgj	
+0.000	𢧖	tyt	
+0.000	𢧧	klk	
+0.000	𢧵	zct	
+0.000	𢨀	djk	
+0.000	𢨒	ejm	
+0.000	𢨔	mar	
+0.000	𢨛	hah	;ah
+0.000	𢨪	zku	
+0.000	𢨸	erm	
+0.000	𢪃	vbt	
+0.000	𢪍	cdt/cst	cst
+0.000	𢪎	.aj	
+0.000	𢪏	gbt	
+0.000	𢫷	nvy	
+0.000	𢬆	vtj	voj
+0.000	𢬳	evk	ovk
+0.000	𢭆	etj	otj
+0.000	𢮂	gxd/kxd	gcd
+0.000	𢮇	mlu	
+0.000	𢮛	dfc	
+0.000	𢮨	dfc	
+0.000	𢯩	ckk/zjk	ckk
+0.000	𢯲		qvc
+0.000	𢯳		jft
+0.000	𢯴	kyq	kpq
+0.000	𢯼	ldc/lde	
+0.000	𢯽	vvn	
+0.000	𢯾	mzz	mbg
+0.000	𢰂	dxm/txm	
+0.000	𢰇	qmj	
+0.000	𢱈	kyn	
+0.000	𢱧		bct
+0.000	𢲵	zzz	zbm
+0.000	𢳁	blu	bly
+0.000	𢳄	jfc	ysc
+0.000	𢳚	kad	
+0.000	𢴄	tzp	
+0.000	𢴧	dkn	
+0.000	𢴩	pkt	ptt
+0.000	𢴲	gxt/hxt	gxt
+0.000	𢴵	lav	
+0.000	𢴶	nxq	
+0.000	𢵈	kwe	
+0.000	𢵿	xxz	
+0.000	𢶀	zuh	
+0.000	𢶉	fpk	
+0.000	𢶡	xxk/xxz	xx,/xxq
+0.000	𢷎	pmm	pyi
+0.000	𢷐	tkn	
+0.000	𢷘	kwe	kqe
+0.000	𢷟		teg
+0.000	𢷤	pdc	
+0.000	𢷾	,pk	
+0.000	𢸣	nxq	ncq
+0.000	𢹍	hah	;ah
+0.000	𢹎	nsq	
+0.000	𢹖	ipk	imk
+0.000	𢺡	dok	
+0.000	𢺰	rps/rpx	rps
+0.000	𢺷	gah	gwj
+0.000	𢺻	baj	
+0.000	𢻃	dsm	
+0.000	𢻈	tsm	
+0.000	𢻢	rwq	rqq
+0.000	𢻥	vza	
+0.000	𢻬	fau	
+0.000	𢻱	osj	
+0.000	𢻳		baj
+0.000	𢻹	bky/fky	beu/fdj/feu
+0.000	𢼛	iyk/kyk	kyk
+0.000	𢼣	xpt	xit
+0.000	𢽃	aaw	
+0.000	𢽚	tok	tok/tvk
+0.000	𢽝	zpf	
+0.000	𢽣	xpf	
+0.000	𢽱	qap/qwp	
+0.000	𢽴	tvk	
+0.000	𢽻	kyq	
+0.000	𢾇	fjk	fkk
+0.000	𢾐	syq	
+0.000	𢾖	dzu	
+0.000	𢾫	tky	
+0.000	𢾮	dbs	hbs
+0.000	𢿏	fya	
+0.000	𢿜	mzc	
+0.000	𢿣	wya/xxa/xxk	
+0.000	𢿨	szc/sze	
+0.000	𢿱	szc	szc/sze
+0.000	𢿻	rpd	
+0.000	𢿾		vza
+0.000	𢿿	hxz	
+0.000	𣀒	zvx	
+0.000	𣀔	fac	
+0.000	𣀗	rmj	
+0.000	𣀘	dgj	
+0.000	𣀣	bjt	
+0.000	𣀧	szc/sze	
+0.000	𣀩	kun	
+0.000	𣀷	rpu/rwj	rwj
+0.000	𣁜		mzc
+0.000	𣁳	apt/hvt/qvt	
+0.000	𣂁	exa/vsa	oxa
+0.000	𣂞	ryy	
+0.000	𣂯	dsi	
+0.000	𣃍	vfi/vri	
+0.000	𣃘	dos/ewe/tks	
+0.000	𣃧	qar	
+0.000	𣃰	qwr	qqr
+0.000	𣄉	qap/qwr	qqr
+0.000	𣄝	wwv	wqv
+0.000	𣄲	xry	xfy
+0.000	𣄴	rqs	rqs/rqx
+0.000	𣄵	rqx	
+0.000	𣅕	ltt	
+0.000	𣅝	ebt	
+0.000	𣅦	ckk	
+0.000	𣅳	ckk	
+0.000	𣆩	vpk	
+0.000	𣇗	odd	
+0.000	𣇩	qyn	qym
+0.000	𣈯	lfm	
+0.000	𣊓	sst	ncp
+0.000	𣊡	hxe/wlp	hxe
+0.000	𣋞	qzi	qzb
+0.000	𣋲	rwp	rqp
+0.000	𣌧		vpk
+0.000	𣌾	ldc	
+0.000	𣍆	ejj/nxs	nxs
+0.000	𣎛	kgt	idt
+0.000	𣎳	fpm	
+0.000	𣎵	fdc/fpm	
+0.000	𣎼	pzq	
+0.000	𣏕	fpm	
+0.000	𣏟	fpm	
+0.000	𣐈	zku	
+0.000	𣐉	ekn	,em
+0.000	𣐊	kgk	
+0.000	𣐷	koy	
+0.000	𣐽	cee	
+0.000	𣑍	koy	
+0.000	𣑫		tvn
+0.000	𣓀	ced/cee	
+0.000	𣓁	xzd	
+0.000	𣓅	xpr	
+0.000	𣓌	ggu/kza/kzq	kbj/kbu
+0.000	𣓓	sgd	
+0.000	𣓕	qvm	
+0.000	𣓗	hbt	.lt
+0.000	𣔱	sza	
+0.000	𣔳	ezk	
+0.000	𣔴	lgj	lda
+0.000	𣔺	mbk/mzz	mbg/mbk
+0.000	𣔻	dbt	lbt
+0.000	𣔾	jgn	jgi
+0.000	𣕁	qxj/wxj	
+0.000	𣕇	syz	spz
+0.000	𣕍	sge	.de
+0.000	𣖄	vsa	
+0.000	𣖅	dxj	
+0.000	𣖼	sgd	.dd
+0.000	𣖾	bkn	bkg
+0.000	𣘖	kad	
+0.000	𣘘	sed	ses
+0.000	𣘟	xyh	
+0.000	𣘥	bxm	
+0.000	𣘧	baj	bfj
+0.000	𣘪	rya	
+0.000	𣘯	iys	
+0.000	𣘻	dyh/dzj	lyj/lzj
+0.000	𣚏	hfj	.aj
+0.000	𣚓	kfc	
+0.000	𣚕	qap	qsp
+0.000	𣚙	ccd	cxd
+0.000	𣛱	dlr	llr
+0.000	𣛺	vdt	vdk
+0.000	𣜣	zjf	
+0.000	𣜤	svh	
+0.000	𣜦	dzq	
+0.000	𣝁	fpm	
+0.000	𣝂	gbd	yld
+0.000	𣝋	dlp	llp
+0.000	𣝍	bwk	
+0.000	𣝒	dnu	dau
+0.000	𣝕	ccd	cxd
+0.000	𣝗	gbt	ylt
+0.000	𣞈	bsa	
+0.000	𣞐	snu	sau
+0.000	𣞑	mps	mms
+0.000	𣞟	edd/tde	eds/tdw
+0.000	𣞵	jkr	djr
+0.000	𣞷	svw	
+0.000	𣟉	hun	
+0.000	𣟗	ldj	
+0.000	𣟳	jfd	ysd
+0.000	𣟼	cgj/vsa	
+0.000	𣠞	eap/tap	tsp
+0.000	𣠯	sod	
+0.000	𣠺	vsp	
+0.000	𣠼	ryq	
+0.000	𣡖	bmm	
+0.000	𣡠	msd	
+0.000	𣡷	ret	rek
+0.000	𣢆	kjn	kji
+0.000	𣢉	woh	
+0.000	𣢑	hjj	
+0.000	𣢘	odd	ods
+0.000	𣢜	qea/qeq/qgk	qda/qdq
+0.000	𣢝	hsx	
+0.000	𣢧		lfj
+0.000	𣢩	hap	hsp
+0.000	𣢲	faf	
+0.000	𣢺	hlf	
+0.000	𣣉	hxk	;xk
+0.000	𣣏	hbd	.ld
+0.000	𣣲	hap	hsp
+0.000	𣣹	hlp/hzp	
+0.000	𣤇	xok	xy,
+0.000	𣤌	voi	
+0.000	𣤖	exm	
+0.000	𣤦	lsz	
+0.000	𣤩	exk	
+0.000	𣤴	hah	;ah
+0.000	𣤶	cgk/clp/zgk	
+0.000	𣦻	zzd	
+0.000	𣧂	exm	oxi
+0.000	𣧎	ixm	ixi
+0.000	𣧡	hrt	.st
+0.000	𣧵		.st
+0.000	𣧶		btu/bwq
+0.000	𣧺	syd	
+0.000	𣧻	zzc	
+0.000	𣨍	kvk	
+0.000	𣨐	zzj	
+0.000	𣨙	qrh/qrn	qfh/qfn
+0.000	𣩅	xzq	
+0.000	𣩈	cnj/zzh	zzh
+0.000	𣩡	svi	
+0.000	𣩱	qzi	qzb
+0.000	𣩵	pdc	
+0.000	𣪘		kgj/xgj
+0.000	𣪠	xxk	kxg
+0.000	𣪥	hvk	
+0.000	𣪻	cbk	
+0.000	𣫈	gvk	
+0.000	𣫌	nvm	
+0.000	𣫞	zzk	zz,
+0.000	𣫣	rus	
+0.000	𣫴	uxj	yxj
+0.000	𣬕	snu	;au
+0.000	𣬜	evk	ovk
+0.000	𣭲	nfw	
+0.000	𣭷	bbt	blt
+0.000	𣮆	evn	
+0.000	𣮊	tkk	
+0.000	𣮧	pzw	
+0.000	𣮫	kyh	kyj
+0.000	𣯅	kwi	kqi
+0.000	𣯉	dxp	
+0.000	𣯍	nge	
+0.000	𣰊	nos	
+0.000	𣱐	qdc/tkn	qdc
+0.000	𣱓	gyz	gug
+0.000	𣲖	kzj	
+0.000	𣲿	nya	
+0.000	𣳤	tpv	
+0.000	𣳦	nya/sxm	sxm
+0.000	𣴪	psj	
+0.000	𣴵	hbn	
+0.000	𣵹	tww	
+0.000	𣵻	dzy	lzy
+0.000	𣵼	kzc	
+0.000	𣶏	csp	cap
+0.000	𣷾	kty	ktu
+0.000	𣸈	stj/stu	
+0.000	𣸎	hun	hui
+0.000	𣹠	aad	qfd
+0.000	𣹩	hap	hsp
+0.000	𣹮	fxm	fcm
+0.000	𣹲	dxj	
+0.000	𣹵	nap	
+0.000	𣻎	xvj/xvm	
+0.000	𣻑	spt	syt
+0.000	𣻒	css	
+0.000	𣻛	tos	
+0.000	𣻜	baj	bfj
+0.000	𣻣	dap	dsp
+0.000	𣻥	baj	
+0.000	𣽍	gkn	gkb
+0.000	𣽒	sst	
+0.000	𣿆	baj	bfj
+0.000	𣿐	zlk/zlm	zlk
+0.000	𣿒	vby	
+0.000	𣿓	vby	
+0.000	𤀨	dvm	lvm
+0.000	𤀷	lgn	
+0.000	𤁡	dlv	
+0.000	𤁢	cct/csk/czt	
+0.000	𤁪	got	yyt
+0.000	𤁫	eot	
+0.000	𤁰	dyk	
+0.000	𤁳	typ	
+0.000	𤁸	rpq	riq
+0.000	𤁹	.pk	
+0.000	𤂥	dyk	
+0.000	𤂳	sfc/vfi	
+0.000	𤃨	rmv	
+0.000	𤃪	hah	;ah
+0.000	𤃭	csq	
+0.000	𤃱	mkh	mej
+0.000	𤃳	fad	
+0.000	𤃴	hvt	.zt
+0.000	𤃶	els/elx	
+0.000	𤃷	qjr/qlr	qlr
+0.000	𤄎	hxk	;xk
+0.000	𤄒	kpe	
+0.000	𤄕	laj	
+0.000	𤄶	lak	la,
+0.000	𤅊	wwt	wqt
+0.000	𤅢	lak	ls,
+0.000	𤅬	jjf	
+0.000	𤆝	fok	fog
+0.000	𤇯	qld	
+0.000	𤈥	exk	
+0.000	𤈧	gpk	
+0.000	𤈪	xmm	
+0.000	𤉐	zok	
+0.000	𤊽	rwz	
+0.000	𤌉	vyq	vou
+0.000	𤌍	gbk	gz,
+0.000	𤌎	rec	rkc
+0.000	𤍍	mau	
+0.000	𤍕	lgm	
+0.000	𤍙	jaf	
+0.000	𤎟	qxd	qcd
+0.000	𤎡	gzv	
+0.000	𤎢	zsf	
+0.000	𤎥	eaf/ezr	ozr
+0.000	𤎩	jgn	jgi
+0.000	𤏶	qza	qbj
+0.000	𤐧	bjk	bkk
+0.000	𤐨	sse	,se
+0.000	𤐰	uzk	yzk
+0.000	𤑔	nft	
+0.000	𤑕	hgc	
+0.000	𤑹	lsk	lak
+0.000	𤑿	rwe	
+0.000	𤒀	lak	ls,
+0.000	𤒤	rwe	
+0.000	𤒻	dzp	lzp
+0.000	𤓉	nsd	
+0.000	𤓫	jgn	jgi
+0.000	𤓯	taw	
+0.000	𤓷		nyj
+0.000	𤓾	tzz	
+0.000	𤔀		nyj
+0.000	𤔣	bzz	
+0.000	𤕣	kth	
+0.000	𤕷	dxq	lxq
+0.000	𤕺	zdt	zdk
+0.000	𤖻	gsa/osm	
+0.000	𤗈	sxp	
+0.000	𤗎	qwr	qqr
+0.000	𤗚	bjk/fjk	bkk/fkk
+0.000	𤗨	dxp	llp
+0.000	𤗯	sbh	
+0.000	𤗴	dbh	lbh
+0.000	𤘸	eza	laa
+0.000	𤘻	nfw	
+0.000	𤙛	dzj	lzj
+0.000	𤙞	bxu	bcu
+0.000	𤙠	gea	gda
+0.000	𤙡	,ss	.ss
+0.000	𤙰	dlk	
+0.000	𤚩	zdd	zds
+0.000	𤚫	dzs	lzs
+0.000	𤚼	kvm	kvg
+0.000	𤛎	mke/mky	mku/mkw
+0.000	𤛹	wbk	wz,
+0.000	𤛾	nsq	
+0.000	𤛿	rpj	rij
+0.000	𤜂	kri/uai/yri	yqi
+0.000	𤜑	pah	pqh
+0.000	𤜡	gbh	
+0.000	𤜢	sdc	sdx
+0.000	𤜣	dsu/jwu	
+0.000	𤜵	kpc/wxc/wyc	wxc
+0.000	𤜼	zxd	
+0.000	𤜾	kwk	kqk
+0.000	𤝕	mvu	mlu
+0.000	𤝞	ett	ott
+0.000	𤝡	byn	
+0.000	𤝱	qxt	
+0.000	𤟍	tpk	
+0.000	𤟟	qpf/qpv	qmf
+0.000	𤟭	eqk	oqk
+0.000	𤠙	kyh	
+0.000	𤡥	gye/wpd	gye
+0.000	𤡧	gmm	
+0.000	𤡬	hkn	
+0.000	𤡮	nsd	nad
+0.000	𤢍	jfy	
+0.000	𤢘	szm	szg
+0.000	𤢻	esi	eai
+0.000	𤣔	sse	
+0.000	𤣗	sse	,se
+0.000	𤣘	rps	
+0.000	𤣜	nza	nbj
+0.000	𤣠	hqa	
+0.000	𤣥	uxd	
+0.000	𤣴	maw	
+0.000	𤣻	mbt	mlt
+0.000	𤣽	mzz	mbg
+0.000	𤤐	szm	;zg
+0.000	𤤴	kok	
+0.000	𤤺	lsi	lai
+0.000	𤩅	jfd	ysd
+0.000	𤩚	rpk	
+0.000	𤩭	gzz	uzz
+0.000	𤪎	lgj/lgu/lsz	lgj/lgu
+0.000	𤪢	rpk	
+0.000	𤫀	jfd	ysd
+0.000	𤫕	nza	nbj
+0.000	𤫣	wwe	wqe
+0.000	𤫵	xvt	azt
+0.000	𤫶	xpt	xit
+0.000	𤬐	gxs	
+0.000	𤬓	rpr	
+0.000	𤬩		ljk
+0.000	𤬪	dzu/xlf	dzu
+0.000	𤬯	xav	
+0.000	𤬷	not	
+0.000	𤭁	dvs	lvs
+0.000	𤭏	ewk/gwk	eej
+0.000	𤭢	sbn	sbi
+0.000	𤭧	kmj	kmh
+0.000	𤮏	uys	yys
+0.000	𤮚	ruh	
+0.000	𤮜	dsc	
+0.000	𤮰	axj	
+0.000	𤮼	dlm	llm
+0.000	𤯌	xlf	
+0.000	𤯍		gzf/kzf
+0.000	𤯎	gzf/kzf/xlf	
+0.000	𤯷	uzs	yzs
+0.000	𤰇	bkn	bkg
+0.000	𤰈	bkn	bkg
+0.000	𤰝	ixe	ice
+0.000	𤰞	psj	
+0.000	𤰟	hzw	
+0.000	𤰩	laj	
+0.000	𤰮	ixm	ixi
+0.000	𤱩	dxq	lxq
+0.000	𤱾		ixi
+0.000	𤲒	bxs	
+0.000	𤲖	exe	
+0.000	𤲫	eve	
+0.000	𤲬	nfc/nfd/nfe/nvn	nfc/nfd/nfe/nvh
+0.000	𤲰	mlk	
+0.000	𤲳	bjn	
+0.000	𤲸	hgk	htk
+0.000	𤳊		bxs
+0.000	𤳐	tam	
+0.000	𤳖	pzd	
+0.000	𤳯	tam	
+0.000	𤴟	tsi	
+0.000	𤴯	gvc	
+0.000	𤴼	xap	
+0.000	𤴾		hjc
+0.000	𤵝	mvu	mlu
+0.000	𤵺	lsi	lai
+0.000	𤵽	hzi	;zi
+0.000	𤵾	eyh	
+0.000	𤶘	hbt	.lt
+0.000	𤶚	nxt	nck
+0.000	𤶠	dyh/tyh	lyj
+0.000	𤷇	.pk/hjk	.kk/.mk
+0.000	𤷈	npt/nzt	
+0.000	𤷜		qjv
+0.000	𤷾	xwp	
+0.000	𤸅	mkd	
+0.000	𤸌	qjv	
+0.000	𤸑	bgk/bgm/fgm	bgg/bgk/fgg
+0.000	𤸪	esi	xxi
+0.000	𤸫	yjc/yje	yjc
+0.000	𤸵	bzm/fzm	
+0.000	𤸶	bmm	bmg
+0.000	𤹝	bdm	bdi
+0.000	𤹡	cyh	cyj
+0.000	𤹨	rwc	rqc
+0.000	𤺄	dfw	
+0.000	𤺈	dzj	
+0.000	𤺉	yry	yay
+0.000	𤺘	qyy	qyu
+0.000	𤻙	uzk	yzk
+0.000	𤻱	rym	
+0.000	𤻲	rwz/ryk	ry,
+0.000	𤼐	kvc	izc
+0.000	𤼒	lfy	
+0.000	𤼠	roy	
+0.000	𤼣	rrd	
+0.000	𤽊	pxu	
+0.000	𤾕	exm	,cg
+0.000	𤾸	yry	
+0.000	𤿎	fah/fsj	fah
+0.000	𤿙	ban/cwm	ban
+0.000	𤿚	vzj	
+0.000	𤿩	xok	
+0.000	𤿫	ert	
+0.000	𥀁	dzu/tzu	tzu
+0.000	𥀃		gvm
+0.000	𥀈	cpp	cqp
+0.000	𥀜	ckj	
+0.000	𥀣	gok	guk
+0.000	𥁮	dxz	
+0.000	𥁰	mws/mww	mqs/mqw
+0.000	𥁹	dnu	dau
+0.000	𥁺	elr	
+0.000	𥂇	rok	
+0.000	𥂔	kyq	
+0.000	𥂥	zzd	
+0.000	𥂫		zzd
+0.000	𥃎	rpt	
+0.000	𥃏	rpm	
+0.000	𥃐	epp	
+0.000	𥃔	gfj	
+0.000	𥃧	kqq	
+0.000	𥃩	qxa	
+0.000	𥃯	qyq	
+0.000	𥃺	qyq	
+0.000	𥄃	mkt	
+0.000	𥄎	hjk/hrt/mat/vsk	
+0.000	𥄑		baj
+0.000	𥄳	dlp	
+0.000	𥄵	htt	
+0.000	𥅗	vau	
+0.000	𥆊	vfc	
+0.000	𥆌	kvk	
+0.000	𥆗	grd/kvc	
+0.000	𥆛	.sk/.xk	
+0.000	𥇅	mpe	
+0.000	𥇉	xax	
+0.000	𥇖	fjh/pkd	fjh
+0.000	𥇙	.lk	
+0.000	𥇛	kfj	iaj
+0.000	𥈃	svu	
+0.000	𥈄	eox	
+0.000	𥈆	hgk/mzz	.gk/mbg
+0.000	𥈉	hvc	.zc
+0.000	𥈌	etj	
+0.000	𥈔	qpt/qwc/qxe	qpt/qsc/qxe
+0.000	𥈜	hjk	
+0.000	𥈸	hfj	
+0.000	𥈾	axt	act
+0.000	𥉁	ayw/kfm	iam
+0.000	𥉈	exk	oc,
+0.000	𥉑	gzk/lgk	gz,
+0.000	𥉓	msj/mxt	mct
+0.000	𥉘	dxj	lxj
+0.000	𥉨	ekf	
+0.000	𥉴	mkt	met
+0.000	𥉸	xys	
+0.000	𥉺	txt	tck
+0.000	𥉻	ewi/vpt/vxm	vpt
+0.000	𥊕	exk	
+0.000	𥊳	tse	tae
+0.000	𥊴	svi	
+0.000	𥊸	elk	
+0.000	𥊺	gpd	
+0.000	𥊼	dyx	
+0.000	𥋏	tjk	
+0.000	𥋙	wzp	
+0.000	𥋝	mps/mys/myw	
+0.000	𥌄	xbt	
+0.000	𥌊	fpc	bpc/fpc
+0.000	𥌛	rpj	rij
+0.000	𥌨	mxt	
+0.000	𥌭	hfd/uxd/uxe	yxd
+0.000	𥌯	mps	mms
+0.000	𥌺	lak	ls,
+0.000	𥍉	oap	,sp
+0.000	𥍟	.xk	
+0.000	𥍠	hxk	
+0.000	𥍭	tsi	
+0.000	𥍰	xxk	
+0.000	𥍷	vos	
+0.000	𥍸	dnj	
+0.000	𥎋		vos
+0.000	𥎐	lgt	ydt
+0.000	𥎞	cvc/cve/vvc	
+0.000	𥎰	fap	
+0.000	𥎱	bpt	bmt
+0.000	𥎹	tet	tek
+0.000	𥏙	aai	
+0.000	𥏪	xmu	xmy
+0.000	𥏬	dzs	
+0.000	𥏳	jku	
+0.000	𥏻	oas/vas	oas
+0.000	𥐪	ups	yms
+0.000	𥑁	pwf	
+0.000	𥑋	kun	imm
+0.000	𥑷	lfj	
+0.000	𥑻	scd	sld
+0.000	𥓎	rut	
+0.000	𥓔	qby	
+0.000	𥔄	nxt	nck
+0.000	𥕌	zsr	zar
+0.000	𥕗	.ps	
+0.000	𥕸	svi	
+0.000	𥖛	tqk	
+0.000	𥖪	rpk	
+0.000	𥗀	rpq	riq
+0.000	𥗥	myt	
+0.000	𥗫	gfj/kfj	iaj/uaj
+0.000	𥗭	vzp	
+0.000	𥗰	nya	
+0.000	𥗸	nya	
+0.000	𥘓	vyn	
+0.000	𥙫		lgu
+0.000	𥙮	sse	
+0.000	𥚁	gvy	
+0.000	𥚋	sgt	
+0.000	𥛁	xrc	
+0.000	𥛚	exk	
+0.000	𥛛		qdd
+0.000	𥛟	fok	
+0.000	𥜃	lsk	lak
+0.000	𥜒	qar	qsr
+0.000	𥝋	bjn	bji
+0.000	𥝌	kxj/wlm	kcj
+0.000	𥝢		reg
+0.000	𥝤	rem	
+0.000	𥝧	byn	
+0.000	𥝩	jgn	
+0.000	𥞃	efn	
+0.000	𥟁	lgu	
+0.000	𥟕	haf	
+0.000	𥠈	cet	cek
+0.000	𥠥	lsj	lah
+0.000	𥠴	eqx	oqx
+0.000	𥡧	cyh	cyj
+0.000	𥢐		kbj
+0.000	𥢑	gzq	gbu
+0.000	𥢔	tok	ty,
+0.000	𥢶	xoi/xvi	
+0.000	𥢹	gxt	
+0.000	𥣗	nys	
+0.000	𥣙	ztu	
+0.000	𥣚	zvd	
+0.000	𥣪	zvd	
+0.000	𥤗	tzw	
+0.000	𥤼	ogn	
+0.000	𥥈	ayx	
+0.000	𥥉	jgm	jdz
+0.000	𥥊	mww	mqw
+0.000	𥥥		skm
+0.000	𥥦	dlr	
+0.000	𥥸	dyh	lyj
+0.000	𥥿	skf	
+0.000	𥦒	qxz	
+0.000	𥦛	koy	
+0.000	𥦠	lfu	
+0.000	𥧑	dxd	
+0.000	𥧬	xxe	xce
+0.000	𥧮	tyk	
+0.000	𥨒	vvi	
+0.000	𥨲	naj	
+0.000	𥩠	tpf	
+0.000	𥪂	rwp	
+0.000	𥪋	bgk/rok	bjk
+0.000	𥪥	sfj	
+0.000	𥪰	gwx	gqx
+0.000	𥪺	wah	
+0.000	𥫵	exm	oxi
+0.000	𥬇	ssz	
+0.000	𥬓		qiz
+0.000	𥬬	nwp	
+0.000	𥬰	vpk	
+0.000	𥬲	dvy	dvy/toh
+0.000	𥬸	dvy/toh	
+0.000	𥭓	bok/vok	bp,
+0.000	𥭖	pok	
+0.000	𥭘	ekh	eej
+0.000	𥮍	ldf	ljf
+0.000	𥮒	zcd/zsf	
+0.000	𥮓	zcd	
+0.000	𥮚	szc/szd	
+0.000	𥯕	dzw/ezw	lzw
+0.000	𥯖	dzm	dzg
+0.000	𥯗	sge	.de
+0.000	𥯘	lnj	laj
+0.000	𥯥	ewp	
+0.000	𥯦	zpp	
+0.000	𥯩	tak	
+0.000	𥰢	osc	oac
+0.000	𥰨	dzf	lzf
+0.000	𥰭	cyy/zzh	zzh
+0.000	𥰳	scc	scx
+0.000	𥱩		kgk
+0.000	𥱻	exm	
+0.000	𥲃	xvm	
+0.000	𥲄	dzr	lzr
+0.000	𥲊	rpa	
+0.000	𥲖	xbh	
+0.000	𥲩	kgk	
+0.000	𥳎	gfs/xfs/xgs	gfs/xfs
+0.000	𥳐	xse	
+0.000	𥳑	kpe	
+0.000	𥳒	kpr	kmr
+0.000	𥳔	dvy	lvy
+0.000	𥳙	dfh	
+0.000	𥳚	nsd	nad
+0.000	𥳞	rec	rkc
+0.000	𥳟	cse	
+0.000	𥳧	smj	
+0.000	𥳺	svw	
+0.000	𥴡	rpu	riu
+0.000	𥴤	gad	
+0.000	𥴧	gaj/kau	gaj
+0.000	𥴨	qlm	qli
+0.000	𥴬	bxm	bxg
+0.000	𥴭	xyt	
+0.000	𥴲	mke	mee
+0.000	𥴶	tlr	
+0.000	𥵊	xoi	
+0.000	𥵦	syq	
+0.000	𥶓	pah	pqh
+0.000	𥶢	rwp	
+0.000	𥶵	hry	.ay
+0.000	𥶽	yri	yqi
+0.000	𥷕	dxp	lxp
+0.000	𥷚		kgk
+0.000	𥷛	cgk	
+0.000	𥷤	kgk	
+0.000	𥷼		cgk
+0.000	𥸭	krc	
+0.000	𥸸	rpt	
+0.000	𥹃	faj	ffj
+0.000	𥹜	kya	kpa
+0.000	𥹭	rqs	
+0.000	𥺋	exz	
+0.000	𥻅	bjk	bkk
+0.000	𥻇	gpr	gmr
+0.000	𥻤	vtj	voj
+0.000	𥻧	kxf	ixf
+0.000	𥻨	swk	sqk
+0.000	𥻩	mxc	mcc
+0.000	𥼚	cok	cp,
+0.000	𥼶	osk	oak
+0.000	𥼺	vby	
+0.000	𥽂	ajn	
+0.000	𥽒	pjc	
+0.000	𥽗	rpk	rp,
+0.000	𥽘	mzt	
+0.000	𥽽	spe/vpe	
+0.000	𥾛	vbt	
+0.000	𥾣	tsj	
+0.000	𥾩	jku	
+0.000	𥿄	txj	tcj
+0.000	𥿆	jjj/zdj	jjj
+0.000	𥿇	sqj/xau	sqj/squ
+0.000	𥿫	ldm	
+0.000	𥿬	wwk	wqk
+0.000	𥿯	fpm	fpg
+0.000	𦀒	hfj/hfu	.aj/.au
+0.000	𦀖	kap/kwp/qwp	kap
+0.000	𦀘	fdj/pxj	fdj/pcj
+0.000	𦀚	exs	oxs
+0.000	𦁍	sjf	
+0.000	𦁐	aat/kgt	kgt
+0.000	𦁕	hbt	.lt
+0.000	𦂀	dlp	
+0.000	𦂁	jgn	jgi
+0.000	𦂇	kwe	kqe
+0.000	𦂌	pow/pvw	pvw
+0.000	𦂗	sok	sp,
+0.000	𦃇	rpj	
+0.000	𦃈	vgj	
+0.000	𦃊	ret	rek
+0.000	𦃌	ssf	saf
+0.000	𦃕	hbe	
+0.000	𦃖	ezr	ozr
+0.000	𦃘	dkn	lem
+0.000	𦃢	xge	
+0.000	𦄼	sfu/sfw/sgu	
+0.000	𦆀	ese/jse	jae
+0.000	𦆄	set	sek
+0.000	𦆞	mam	
+0.000	𦆻		ryp
+0.000	𦇎	vvs	
+0.000	𦇏	uxe	
+0.000	𦇕	szc	
+0.000	𦇧	kwi	kqi
+0.000	𦇲	osj	
+0.000	𦉕	dsc	dac
+0.000	𦉥	qvx	qvs
+0.000	𦉭		sdm
+0.000	𦉹	txk	tx,
+0.000	𦊓	rpw	
+0.000	𦊔	npr	
+0.000	𦊼	rqm	
+0.000	𦋅	uxj	yxj
+0.000	𦋞	sok	sp,
+0.000	𦋰	kxf	ixf
+0.000	𦌔	sfc/sfe/syc	sfc/sfe
+0.000	𦌕	rym	ryg
+0.000	𦌡	mke	
+0.000	𦌫	npr	
+0.000	𦌻	sfe	
+0.000	𦌿	sqj	
+0.000	𦍒	ezt	ozt
+0.000	𦍶	lgu	
+0.000	𦍻	dvs	lvs
+0.000	𦎣	qdd/qpd/qxj	qdd/qid
+0.000	𦎦	mam	mfm
+0.000	𦎧	dgd	
+0.000	𦎫		dgd
+0.000	𦎷	cdc	
+0.000	𦎸	csm/zsm	csg/zsg
+0.000	𦏊	gvd	yzd
+0.000	𦏖	god	ypd
+0.000	𦏴	yrj	yaj
+0.000	𦐃	nlr	
+0.000	𦐇	ezp	ozp
+0.000	𦐊	osm	
+0.000	𦐋	hrt	.wt
+0.000	𦐛	kfu	gfj/kfu
+0.000	𦐦	fzk	
+0.000	𦐹	sed	ses
+0.000	𦑌	.pk	.kk/.mk
+0.000	𦑍	hjk	
+0.000	𦑜	kpk	kmk
+0.000	𦑣	eap	
+0.000	𦑲	dzp	
+0.000	𦑹	baj	
+0.000	𦒓	gqa	
+0.000	𦒔	lgt	ydt
+0.000	𦒜	hwd	
+0.000	𦒧	.yk	
+0.000	𦓤	rrt	
+0.000	𦓴	syq/syz	spz
+0.000	𦓾	rte	
+0.000	𦔅	dbt	lbt
+0.000	𦔥	lsk/osk	lak/oak
+0.000	𦔩	pqa	paa
+0.000	𦔫	ejk	
+0.000	𦔯	syn	
+0.000	𦔷	qxa	
+0.000	𦔼	sxp	
+0.000	𦔾	baj	
+0.000	𦕀	vxm	vcg
+0.000	𦕑	tde	
+0.000	𦖞		mjd
+0.000	𦖥	wun	
+0.000	𦖩	rpp	
+0.000	𦖪	svu	
+0.000	𦖫	mjd	
+0.000	𦗂	ntk	
+0.000	𦗐	wmm	
+0.000	𦗕	mah/may/mkh	mah/may
+0.000	𦗖	rpa/rya	ria/ruj
+0.000	𦗡	dlf	llf
+0.000	𦗢	tse	tae
+0.000	𦗣	gbt	
+0.000	𦗳	nos	
+0.000	𦗾	kvt	izt
+0.000	𦘍	upt	
+0.000	𦘔	cdd	cds
+0.000	𦙍	ldc	
+0.000	𦙮	kgt	
+0.000	𦙼	vsj	
+0.000	𦙽	szd	
+0.000	𦚢	aaj	
+0.000	𦚤	lfj	
+0.000	𦚧	ege	
+0.000	𦚨	dsi	gxi
+0.000	𦚪	ylu	
+0.000	𦚻	szd	
+0.000	𦛔	jfc/lfd	ysc
+0.000	𦛖	eap	
+0.000	𦛝	dyh	lyj
+0.000	𦛠	nxt	nck
+0.000	𦜉	bsj	
+0.000	𦜖	qyn	qym
+0.000	𦜵	ggj/hgj	ggj
+0.000	𦝜	gxm	gxi
+0.000	𦝠	roy	
+0.000	𦝢	gth/udj	udj/uej
+0.000	𦝨	kmj/xpu	kmh
+0.000	𦝭	rtn	
+0.000	𦝮	mje	
+0.000	𦝲	qwi	qqi
+0.000	𦞚	sct	sck
+0.000	𦞤	sdm	
+0.000	𦞦	hvk/hzk	hz,
+0.000	𦞩	ldc	
+0.000	𦞿	qvc	
+0.000	𦟘	ldd	lds
+0.000	𦟛	ers	
+0.000	𦟞	hxa	
+0.000	𦠅	jjf	
+0.000	𦠆	sbe/zrc	zrc
+0.000	𦠡	ssk	sak
+0.000	𦡴	dtj/dtu	dtj
+0.000	𦡸	nkn	
+0.000	𦢨	jaf	
+0.000	𦣀	nap	nsp
+0.000	𦣛	raj	
+0.000	𦣝	ljj	
+0.000	𦣞		ljj
+0.000	𦣴	god	ypd
+0.000	𦤘	lfs	
+0.000	𦤙	upt	
+0.000	𦤡	qap	
+0.000	𦤢	fkn	fem
+0.000	𦤦	hzi/hzt	hzt
+0.000	𦤧	dyi	
+0.000	𦤬	hyi	
+0.000	𦤶	tkn	
+0.000	𦤻	tet	tek
+0.000	𦤼	qvk	
+0.000	𦤿		qvk
+0.000	𦥊	ekm/ekn	eeg
+0.000	𦥐	dkn	deg
+0.000	𦥑	kfk/kgk	kgk
+0.000	𦥘	pwr	
+0.000	𦥝	lgj/lsq	
+0.000	𦥠		knu
+0.000	𦥨	lsq	
+0.000	𦥭	fzk	
+0.000	𦥻	tfn	
+0.000	𦦇	tfn	
+0.000	𦦔	bjn	bji
+0.000	𦦖	ctt	
+0.000	𦦣	vvi	
+0.000	𦧇	jwu	
+0.000	𦧝	exd	
+0.000	𦧠	got	yyt
+0.000	𦧭	ezp	ozp
+0.000	𦧴	dxd/ezd	
+0.000	𦨁		yzs
+0.000	𦨇	wkt	
+0.000	𦨈	bgk	bjk
+0.000	𦨖	vyz	vpz
+0.000	𦨳	wzj	
+0.000	𦨴	dvs	lvs
+0.000	𦨼	wzj	uzj
+0.000	𦩋	bmm	
+0.000	𦩌	sxp	
+0.000	𦩎	dkr	lkr
+0.000	𦩗	dkr	
+0.000	𦩣	xxm	xxi
+0.000	𦩤	dbt	lbt
+0.000	𦩨	cdd	
+0.000	𦪉	cdd	cds
+0.000	𦪙	ezp	
+0.000	𦫙	byn	
+0.000	𦫬	hxj	
+0.000	𦫰	mgs	mjs
+0.000	𦫳	ipu/koy/kuh	
+0.000	𦫵	ojs	
+0.000	𦫶	fya/kgj	kgj
+0.000	𦬔	cyq	cuu
+0.000	𦬘	tfs	ifs
+0.000	𦬸	dtt	
+0.000	𦬺	.ww	
+0.000	𦭮	dwi	lqb
+0.000	𦭲	gsj	
+0.000	𦭶	sce	sle
+0.000	𦭺	kea	kda
+0.000	𦭼	bsq	bsq/bwq
+0.000	𦭿	lnj	laj
+0.000	𦮃	kuh	iij
+0.000	𦮌	ixd	
+0.000	𦮸	yku	wju
+0.000	𦮹	bgj	
+0.000	𦮾	nkp	
+0.000	𦯏	qok	
+0.000	𦯔	dxj	lcj
+0.000	𦯖	nxt	nck
+0.000	𦯪	gxq	txq
+0.000	𦰫	nxu	ncu
+0.000	𦰮		bgj
+0.000	𦰳	lnj	laj
+0.000	𦰾	hok	
+0.000	𦰿	tzh	
+0.000	𦱁	gxd	gcd
+0.000	𦱃	yrj	yaj
+0.000	𦱊	zps	
+0.000	𦱏	mav	
+0.000	𦱒	mgk	mjk
+0.000	𦱔	pxj	pcj
+0.000	𦱛	mls	
+0.000	𦱧	hgt	
+0.000	𦲯	mav	
+0.000	𦳅	lfu	
+0.000	𦳆		lfe
+0.000	𦳇	dxf	lxf
+0.000	𦳋	kun	kui
+0.000	𦳌	kjp	kkp
+0.000	𦳏	cyh	cyj
+0.000	𦳖	uxw	yxw
+0.000	𦳝	eqs/ezs	ozs
+0.000	𦳤	bqq	baq
+0.000	𦳭	rru	
+0.000	𦳮	tsk	
+0.000	𦳯	ltt	
+0.000	𦵐	nxt	
+0.000	𦵡	xgs	
+0.000	𦵩	cza/zgj	cbj/zgj
+0.000	𦵱	sct	sck
+0.000	𦵿		ffu
+0.000	𦶁	bjd	
+0.000	𦶋	osc	oac
+0.000	𦶌	txa	tca
+0.000	𦶍	gjp	
+0.000	𦶎	.pj	
+0.000	𦶑	ezp	ozp
+0.000	𦶗	kgk	
+0.000	𦷛	tzh	
+0.000	𦸁	ezf	ozf
+0.000	𦸈	kvt	izt
+0.000	𦸉	xpt	xit
+0.000	𦸌	gbd	
+0.000	𦸓	vdt	vdk
+0.000	𦸗	vxk	vc,
+0.000	𦸜	ckj/clj	ckj
+0.000	𦸝	sdt	sdk
+0.000	𦸦	bbt	blt
+0.000	𦸺	cfh	
+0.000	𦹬	apj	
+0.000	𦹾	mzz	
+0.000	𦺆	kza	
+0.000	𦺋	stj/szq	
+0.000	𦺖	kgt/mye	idt
+0.000	𦺩	kwk	
+0.000	𦺲	dfe	
+0.000	𦺴	zjp	zlp
+0.000	𦺸	rec	rkc
+0.000	𦻃		yzd
+0.000	𦻝	kwk	kqk
+0.000	𦼉	gvd	
+0.000	𦼧	szt	
+0.000	𦼪	mvm	mtm
+0.000	𦼭	bwk	
+0.000	𦼯	jgn	jgi
+0.000	𦽀	wzq	
+0.000	𦽏	baj	bfj
+0.000	𦾱	vya	
+0.000	𦾶	zsr	zar
+0.000	𦾷	rtk	re,
+0.000	𦾺	lsa	laa
+0.000	𦾽	dlp	llp
+0.000	𦿀	dqj	
+0.000	𦿁	pgk	pjk
+0.000	𦿃	syq	
+0.000	𦿆	dzx	
+0.000	𦿌	roh/rpa	roh
+0.000	𦿍	fzk	
+0.000	𦿏	mvs	
+0.000	𦿐	zct	
+0.000	𦿒	zed	
+0.000	𧀄	eqx	oqx
+0.000	𧀆	tlx	
+0.000	𧀩	ssm	ssg
+0.000	𧀬	sdt	sdk
+0.000	𧀴	paj	pqj
+0.000	𧀵	spr	
+0.000	𧀺	gxt	gct
+0.000	𧂄	dlr	llr
+0.000	𧂇	dlf	llf
+0.000	𧂈	cxq	
+0.000	𧂐	csm	csg
+0.000	𧂒	cok	cp,
+0.000	𧂗	dlf	
+0.000	𧂛	mps	mms
+0.000	𧃔	dok	lp,
+0.000	𧃝	egu	agu
+0.000	𧃠	lfj	
+0.000	𧃡	czq	
+0.000	𧄍	gsa	
+0.000	𧄔	daj/taj	taj
+0.000	𧄗	cqj	
+0.000	𧄹	ojk	;jk
+0.000	𧅙	wjn	wji
+0.000	𧅱	cxj	
+0.000	𧆉	pgs	pjf
+0.000	𧆌	cxj	ccj
+0.000	𧆖	nzd	
+0.000	𧇠	wqz	
+0.000	𧇣	zzm	
+0.000	𧇱	wpf	wmf
+0.000	𧇼	gzq	
+0.000	𧇿		zzm
+0.000	𧈅	spk	
+0.000	𧈑	kpk	
+0.000	𧈩	dlk	llk
+0.000	𧈪	ewe	oqe
+0.000	𧈱	dlk	
+0.000	𧉅	qdj	
+0.000	𧉍	cdt	
+0.000	𧉟	elj	olj
+0.000	𧉠	vjm	
+0.000	𧉫	tpp	
+0.000	𧊇	elk	
+0.000	𧊔	lse	lae
+0.000	𧊕	sgs	,gs
+0.000	𧊥	sgt	.dt
+0.000	𧋐	sxk	
+0.000	𧋕	xtd	
+0.000	𧋘	dxj	lcj
+0.000	𧌈	bgu	bju
+0.000	𧌔	tsj	ksj
+0.000	𧌗	ctu	cou
+0.000	𧍓	stt	egi
+0.000	𧍕	ayk/gak	gak
+0.000	𧍘	qea	qda
+0.000	𧍢	lse	lae
+0.000	𧍧	hpf	
+0.000	𧍩	kxt	kct
+0.000	𧍪	wfj	
+0.000	𧍵	gzj	
+0.000	𧎢	dlk	llk
+0.000	𧎥	osc	oac
+0.000	𧎮	czq	
+0.000	𧎰	twe	tqe
+0.000	𧎹	cvi	
+0.000	𧎿	zdt	zdk
+0.000	𧏹	wmm	
+0.000	𧏺	hfm	
+0.000	𧏿	dtk	le,
+0.000	𧐶	vxk	vc,
+0.000	𧑍	goh	yyj
+0.000	𧑐	jtt/lgt	ydt
+0.000	𧒕	vxk	
+0.000	𧒖	kvh/kvn	izh/izn
+0.000	𧒗	skk	ejk
+0.000	𧓉	zdj	
+0.000	𧓴	dxs	lxs
+0.000	𧓷	cst	
+0.000	𧔊	dwd	dqd
+0.000	𧔢	zsd	zad
+0.000	𧕆	hah	;ah
+0.000	𧕇	sse	sae
+0.000	𧕈	ajn	qgi
+0.000	𧕋	lak	ls,
+0.000	𧕏	wwt	
+0.000	𧕡	flk	
+0.000	𧕯	rwj/swj	rwj
+0.000	𧕾		cst
+0.000	𧖀	trt	
+0.000	𧖔	rec	rkc
+0.000	𧖛	eky	
+0.000	𧖻	ipk	imk
+0.000	𧗂	nxk	
+0.000	𧗘		cqj
+0.000	𧗜	dlv	
+0.000	𧗝	kty	ktu
+0.000	𧗳	uxc	ycc
+0.000	𧗿	stt	egt
+0.000	𧘑	tak	ts,
+0.000	𧘘	yrj	yaj
+0.000	𧘝	pqq	paq
+0.000	𧘨	txa	
+0.000	𧘽	nyh	nyj
+0.000	𧙁	cwm	
+0.000	𧙂	pjn	pji
+0.000	𧙆	hfj	
+0.000	𧙥	ros	
+0.000	𧙧	kpc	
+0.000	𧚊	txf/txp	txp
+0.000	𧚍	ggj	ujj
+0.000	𧚨	cjp/vjp	
+0.000	𧚫	vcc	vcx
+0.000	𧚭	pyw	
+0.000	𧛒	exm	oxi
+0.000	𧛔	tbk/tzz	
+0.000	𧛢	twu	
+0.000	𧛿		rpk
+0.000	𧜁	smm	syi
+0.000	𧜠	stt	egt
+0.000	𧝃	ixt	ict
+0.000	𧝋	dbh	
+0.000	𧝍	evn	lvn/ovn
+0.000	𧝑	twc	tqc
+0.000	𧝒	uys	yys
+0.000	𧝷	ajn	
+0.000	𧞍	npt	
+0.000	𧞢	kbe	
+0.000	𧞣	qar	
+0.000	𧞧	pqq	paq
+0.000	𧞩	cct	
+0.000	𧟌	ryn	
+0.000	𧟨	uxd	
+0.000	𧠜	osj	
+0.000	𧠠	mxj	
+0.000	𧠥		vdj
+0.000	𧠪	vxk	
+0.000	𧠫	dxk	
+0.000	𧠵	vdj	
+0.000	𧡋	wmu	
+0.000	𧡡	gbd/yjc	yjc/yld
+0.000	𧡩	.ae/gve	yze
+0.000	𧡪	dlr/ejf/tlf	dlr/tlf
+0.000	𧡬	ekv	okf
+0.000	𧡷	lsz	
+0.000	𧡸		tvj
+0.000	𧢌	kza	
+0.000	𧢗	tvj	
+0.000	𧢘	fdc	
+0.000	𧢞	xpd	kpd
+0.000	𧢢	lak/lsz	la,
+0.000	𧢦	ajh/gth	xgh
+0.000	𧢮	rpm	
+0.000	𧢸	kos/tfs	kos
+0.000	𧢺	nok	np,
+0.000	𧣚		np,
+0.000	𧣡	kvk	
+0.000	𧣪	syq	
+0.000	𧣸	krt	
+0.000	𧣺	nok	
+0.000	𧤑	kfk	
+0.000	𧤛	cee	
+0.000	𧤽	yak	
+0.000	𧤾	ixt	ict
+0.000	𧥍	pqa	paa
+0.000	𧥛	xae	
+0.000	𧥜	wae	
+0.000	𧥺	kgc/yed	idc
+0.000	𧦪	bwe	
+0.000	𧦭	evh	
+0.000	𧦮	nyh	nyj
+0.000	𧧏	nnm	
+0.000	𧧒	vsm	vsg
+0.000	𧧢	.aw/.zs/.zw	.zs/.zw
+0.000	𧧮	.aw/.zs	
+0.000	𧧹		hxu
+0.000	𧧻		zyg
+0.000	𧨀	svh	
+0.000	𧨁	cnj	
+0.000	𧨃	hxk	
+0.000	𧨍	hxu	
+0.000	𧨫	hyx	
+0.000	𧩪	vvx	
+0.000	𧩮	svu/sxq	scq
+0.000	𧩶	xyn	
+0.000	𧩼	ekn/tku	eeg
+0.000	𧪘	vpm	
+0.000	𧪜	szm	;zg
+0.000	𧪞	gzp/kzp/sgt	gzp/kzp
+0.000	𧪠	zdt	zdk
+0.000	𧪡	edj	
+0.000	𧪦	ezp	ozp
+0.000	𧪮	hoh	
+0.000	𧫒	hyn	
+0.000	𧫗	vyn	
+0.000	𧫚	dxm	dxi
+0.000	𧫝	soy	
+0.000	𧫣	svk	
+0.000	𧫷		svk
+0.000	𧬁	gzz	
+0.000	𧬅	tyh	
+0.000	𧬇	qxm	qci
+0.000	𧬈	hjp	
+0.000	𧬌	wpf	wmf
+0.000	𧬪	kbc	
+0.000	𧬭	ipj	iyh
+0.000	𧬮	eyn/kon	iym
+0.000	𧭤	pyz	py,
+0.000	𧭥	ryk	ry,
+0.000	𧮑	dzp	lzp
+0.000	𧮯	ups	yms
+0.000	𧮸	hzk	
+0.000	𧯈	xwk	xqk
+0.000	𧯌	hza	
+0.000	𧯦	krc/uae	gfe/krc
+0.000	𧯩	vtk	
+0.000	𧰉	rya	
+0.000	𧰥	els	
+0.000	𧰲	esu	
+0.000	𧱁	dvs	lvs
+0.000	𧱅	jdu	
+0.000	𧱓	tvm	
+0.000	𧱘	mmm	
+0.000	𧱛	zru	
+0.000	𧱝	ggt/kgc/kgt/krt	
+0.000	𧱦	tvm	
+0.000	𧱫	dvn	lvn
+0.000	𧱲	hjn	hji
+0.000	𧱳	hun	
+0.000	𧲂	red	rkd
+0.000	𧲌	syp	
+0.000	𧲎	mgs	mjs
+0.000	𧲔	yri	yqi
+0.000	𧲚	lfh	ysj
+0.000	𧲛	ccc	clc
+0.000	𧲝	yri	yqi
+0.000	𧳆	evs	ovs
+0.000	𧳋	dpu	lpu
+0.000	𧳙	gjm/sdm	sdg
+0.000	𧳛	spp	
+0.000	𧳜	tgu	
+0.000	𧳦	nzq	nbu
+0.000	𧳨	nsq	
+0.000	𧴎	bqq	
+0.000	𧴤	fok	fog
+0.000	𧴭	oar	
+0.000	𧴮	dlk	
+0.000	𧵊	hzf/hzv	
+0.000	𧵏	oar	
+0.000	𧵣	.ss/uxs	
+0.000	𧶅	hby	.lu
+0.000	𧶆	rec	rkc
+0.000	𧶇	tyt	
+0.000	𧶜	oas	;as
+0.000	𧶲	gve	
+0.000	𧷎	gyt/xbt	gyt
+0.000	𧷗	lgk	lfk
+0.000	𧸖	dpv	
+0.000	𧸘	rwv	rqv
+0.000	𧸩	sgc	
+0.000	𧹭	hjk	
+0.000	𧺡	bzt	
+0.000	𧺢	evm	
+0.000	𧻀	vnm	
+0.000	𧻓	pyx	
+0.000	𧻲	glj	
+0.000	𧻵	syp	
+0.000	𧻸	dsi	
+0.000	𧼏	gxd	gcd
+0.000	𧼐	wge/xge	xge
+0.000	𧼙	erk/erw	erk
+0.000	𧼪	ewi	
+0.000	𧼭	stj/stk	
+0.000	𧼮	ezs	ozs
+0.000	𧼰	zpp	
+0.000	𧼳	eyk	
+0.000	𧽐	xwd	xqd
+0.000	𧽟	zau	
+0.000	𧽮	det	
+0.000	𧽻	kgt	idt
+0.000	𧽼	dlf	llf
+0.000	𧾍	dwd/twd	dqd/tqd
+0.000	𧾎	hfd	.sd
+0.000	𧾛	upk	
+0.000	𧾢	kdt/zct	
+0.000	𧾣	.ai/.xc/hfe/kgt	.cc/.se/idt
+0.000	𧾩	jfc/jgd	
+0.000	𧾯	kxt	kst
+0.000	𧾱	gfj	uaj
+0.000	𧾻	gez	
+0.000	𧿅	sjp	
+0.000	𧿲	tdu	
+0.000	𧿹	mvu	mlu
+0.000	𧿻	kgk	
+0.000	𨀜	evs	ovs
+0.000	𨀢	szd	
+0.000	𨀨	czt	
+0.000	𨁀	ogk	
+0.000	𨁃	exj	ocj
+0.000	𨁈	gzs	
+0.000	𨁸	rut	
+0.000	𨂁	qlp/qpp	qlp
+0.000	𨂝	byf	
+0.000	𨂣	mam	mfm
+0.000	𨂫	ezk	
+0.000	𨂰	ewi	
+0.000	𨃘	ctj	coj
+0.000	𨃤	xzz	
+0.000	𨄞	svk	
+0.000	𨅎	vvi	
+0.000	𨅔	zlf/zlp	zlf
+0.000	𨅗	pkt	ptt
+0.000	𨆁	exe	
+0.000	𨆪	xss/xxx	axx/xss
+0.000	𨆫	tkn	teg
+0.000	𨆮	zsk	zak
+0.000	𨆳	sct	
+0.000	𨇃	zzh	
+0.000	𨇆	ryi	
+0.000	𨇈	tkn	
+0.000	𨇙	kri	
+0.000	𨇧	ear	
+0.000	𨇨	sct	
+0.000	𨈈	dxp	llp
+0.000	𨈋	lak	la,
+0.000	𨈘	syq	
+0.000	𨈛	tsj	ksj
+0.000	𨊼	uxe	
+0.000	𨋐	fpt	
+0.000	𨋑	kfw	
+0.000	𨋙	ldc	
+0.000	𨋚	nwe	nqe
+0.000	𨋩	bgk	bjk
+0.000	𨋪	hos	
+0.000	𨋱	ebh	
+0.000	𨌅	vdj/zdj/zpj	
+0.000	𨌈	dxd	
+0.000	𨌗	xtn	
+0.000	𨌥	bgk	bjk
+0.000	𨍇	gyk	
+0.000	𨍋	kvh	izh
+0.000	𨍌	mde	
+0.000	𨍫	ret	rek
+0.000	𨍴	dzs	lzs
+0.000	𨍿	gwk	
+0.000	𨎌	tkn	teb
+0.000	𨎥	jgn	
+0.000	𨎬	kxz	
+0.000	𨎹	rmr	
+0.000	𨏒	ryk	
+0.000	𨏔	rok	
+0.000	𨐁	dxp	llp
+0.000	𨐔	sed	ses
+0.000	𨑊	now/nrs/nvw	nrs/nvw
+0.000	𨑥	hbt/mjt	.lt/mjt
+0.000	𨑪	vfs	
+0.000	𨒬	edj	
+0.000	𨓤	ebn	,bi
+0.000	𨓳	qxa	
+0.000	𨕐	lsd	
+0.000	𨕤	gjp	gkp
+0.000	𨕨	ccd	
+0.000	𨖏	kgm	kgj
+0.000	𨖮	zok	
+0.000	𨖷	zpp	
+0.000	𨖹	tet	tek
+0.000	𨗋	kgm	
+0.000	𨘇	gvi/gxc	gzi
+0.000	𨘌	gvy	
+0.000	𨙂	lgj/lsa	lda/lsa
+0.000	𨙔	trm	
+0.000	𨙙	vsd	vad
+0.000	𨙦	ers	
+0.000	𨙬	gjm	
+0.000	𨙹	csq/osq	;sq
+0.000	𨙻	nzy	
+0.000	𨚔	fya/pza	fuj/pbj
+0.000	𨚙	gza/yqa	gaa/gza
+0.000	𨚯	dvs	lvs
+0.000	𨚲	zbd	zld
+0.000	𨚶		ncs
+0.000	𨛍	syz	spz
+0.000	𨛖	xpm	
+0.000	𨛫	rpj	rij
+0.000	𨛬	blj	blh
+0.000	𨛲	nxd/nxs	
+0.000	𨛳	jsk	
+0.000	𨛴	gzq	gbu
+0.000	𨛸	gzu	
+0.000	𨜒	kxm	kxi
+0.000	𨜓	dws/tws	tws
+0.000	𨜖	wfj	
+0.000	𨜙		ngj
+0.000	𨜛	stj	
+0.000	𨜳	dbs	hbs
+0.000	𨜴	gzp/kzp/xzi	gzp/kzp/xzb
+0.000	𨜻	gwd	gqd
+0.000	𨜿	sgt	
+0.000	𨝋	cmm	cyi
+0.000	𨝑	kvc	
+0.000	𨝫	hjp	
+0.000	𨝭	bgs	bjs
+0.000	𨝰	kqq	kaq
+0.000	𨝲	kza	
+0.000	𨝴	uzs	yzs
+0.000	𨝸	dlf	llf
+0.000	𨞜	kfj	iaj
+0.000	𨞯	mgs	mjs
+0.000	𨟀		rej
+0.000	𨟏	ldf	
+0.000	𨟠	xak/xrd	
+0.000	𨟲		llm
+0.000	𨟼	kzw	
+0.000	𨠦	gya	gpa
+0.000	𨠾	dlm	
+0.000	𨡫	gbe	
+0.000	𨡭	mgj/mzj	mgj
+0.000	𨢋		gvk
+0.000	𨢐	pzs	
+0.000	𨢡	bxm	bci
+0.000	𨢦	spm	
+0.000	𨢧	cyn	
+0.000	𨢬	tft	
+0.000	𨢹	tss	
+0.000	𨣇	kpc	
+0.000	𨣉		kpc
+0.000	𨣘	mvs	
+0.000	𨣧	zxm	zcm
+0.000	𨣱	mzt	
+0.000	𨣻	qaf	
+0.000	𨣼	vvs	
+0.000	𨤐	msj	
+0.000	𨤩	ers	
+0.000	𨥦	zxj	ccj/zcj
+0.000	𨥳	cxj/zxj	
+0.000	𨦂	rmu	
+0.000	𨦃	tvy	
+0.000	𨦄	xwf	
+0.000	𨦭	rya	ruj
+0.000	𨩪	ewe	oqe
+0.000	𨪉	dxj	lxj
+0.000	𨪎	qgk	ajk
+0.000	𨪴	kxj	kcj
+0.000	𨫔	bxm/sst	;st
+0.000	𨫖	ezx	
+0.000	𨬕	kzj	
+0.000	𨭖	tse	tae
+0.000	𨮱	dri	
+0.000	𨯝	dby	
+0.000	𨰉	zyt	
+0.000	𨰟	pah	pqh
+0.000	𨱧	qxq	qcq
+0.000	𨱵	dzq/dzz/nzq/nzz	
+0.000	𨱿	sgs	,gs
+0.000	𨲂	nxq	
+0.000	𨲠	cnj	
+0.000	𨲭	gqq	
+0.000	𨳌	dec	
+0.000	𨳗	tfs	ifs
+0.000	𨳝		oxw
+0.000	𨳮	aps	
+0.000	𨳳	erm	
+0.000	𨴒	axt	
+0.000	𨴖	vtk	
+0.000	𨴗	txt	tck
+0.000	𨴙	rec	
+0.000	𨵊	zwt	
+0.000	𨵨	hjk	.dt
+0.000	𨵪	gxt	gct
+0.000	𨶈	dzs	lzs
+0.000	𨶪	kxq/rtj	
+0.000	𨷓	zcc	
+0.000	𨷚	fdc	
+0.000	𨷭	dwd	dqd
+0.000	𨷱	tfe	
+0.000	𨷲	lak	la,
+0.000	𨷳		zlc
+0.000	𨷹	fjd	
+0.000	𨷺	keq/kgj	
+0.000	𨸜	hlj	
+0.000	𨸭	fzh	
+0.000	𨸰	kgk	
+0.000	𨸱	exv/nxr	
+0.000	𨹃	tvh/tvy	
+0.000	𨹄	tvh/tvy	tvy
+0.000	𨹆	uxe	
+0.000	𨺅	bgm	
+0.000	𨻼	fxj/pxj	fcj/pcj
+0.000	𨻾	ruy	
+0.000	𨼍	gza	gbj
+0.000	𨼑	dyh	
+0.000	𨼮	zpv	
+0.000	𨼰	evy	ovy
+0.000	𨽍	dvk	lvk
+0.000	𨽴	qpm	qpg
+0.000	𨽼	sdm	
+0.000	𨽿	dlu	llu
+0.000	𨾂	yjn	
+0.000	𨾉	kgu	iju
+0.000	𨾎		uej
+0.000	𨾗	gth	
+0.000	𨾚	kfh	isj
+0.000	𨾴	ixj	
+0.000	𨿐	vgy	
+0.000	𨿯	rpj	rij
+0.000	𨿿	efw	
+0.000	𩀋	ngd	
+0.000	𩀑	lfk	
+0.000	𩀝	tsk	
+0.000	𩀼		szc/sze
+0.000	𩁘	nzd	
+0.000	𩁣	nzd	
+0.000	𩁧	gvc	
+0.000	𩁺	spf	sqf
+0.000	𩂆	fgu	fju
+0.000	𩂢	wjf/wmj/wpj	wjf
+0.000	𩂥	qdc	
+0.000	𩂻	ewp	
+0.000	𩃗	qwr	qqr
+0.000	𩃙	iys	
+0.000	𩃢	csf/spf	
+0.000	𩃾	.jy	
+0.000	𩄀	rps	
+0.000	𩄁	.jy	hgy
+0.000	𩄚	cdj	
+0.000	𩅟	bok	buk
+0.000	𩅦	qod	
+0.000	𩅼	csf/cyv/rwv	rqv
+0.000	𩅿	fak	
+0.000	𩆊		mac
+0.000	𩆵	scc/ssj	
+0.000	𩆸	dok	lp,
+0.000	𩇯	bjh/bkn	
+0.000	𩈉	tlv	
+0.000	𩈎	vyq	
+0.000	𩈡	hsx	
+0.000	𩈣	hlf	
+0.000	𩈬	qoc	
+0.000	𩈶	nye	
+0.000	𩈹	mxc	mcc
+0.000	𩈻	cyv/zzf	
+0.000	𩉥	uxe	
+0.000	𩉺	dzh	lzh
+0.000	𩉼	odd	ods
+0.000	𩊙	bgk	bjk
+0.000	𩊞	tdm	tdg
+0.000	𩊬		bzm
+0.000	𩊯		spk
+0.000	𩋄	vtu	
+0.000	𩋆	xpd	xid
+0.000	𩋏	nxp	
+0.000	𩋡	odt	;dk
+0.000	𩋢	.ac	
+0.000	𩋦	dve	
+0.000	𩋩	dkn	deg
+0.000	𩋪	nxu	ncu
+0.000	𩌄	vtu	
+0.000	𩌏	bvm/pzk	pzk
+0.000	𩌥	hok	
+0.000	𩌦	spu/swm/swu	sqn/sqy
+0.000	𩌨	dfs	
+0.000	𩌰	spf/syf	smf/syf
+0.000	𩌱	svj	
+0.000	𩍃	mpj	
+0.000	𩍆	ssk	sak
+0.000	𩍕	tst	tat
+0.000	𩍙	skk	ejk
+0.000	𩍜	dzk	lzk
+0.000	𩍲	tsj	
+0.000	𩍴	zvd	
+0.000	𩎀	kad	
+0.000	𩎉	swu	esu
+0.000	𩎌	hxc	
+0.000	𩎓		bkg
+0.000	𩎔	kya	
+0.000	𩎕	sjp/slp	slp
+0.000	𩎧	bgk	bjk
+0.000	𩏇	dve/eve	dve
+0.000	𩏚	jgn	ydi
+0.000	𩏠	tyx	
+0.000	𩏩	haf/hwr	hqr
+0.000	𩏪	dyk	lyk
+0.000	𩐌	dbn	lbi
+0.000	𩐒	cxj	
+0.000	𩐟	pok	pp,
+0.000	𩐠	hvs	
+0.000	𩐭	nxp	
+0.000	𩐱	lap	
+0.000	𩐵	dvx	
+0.000	𩑐	vpj	
+0.000	𩑔	xbe/xbt	
+0.000	𩑗	qxa	
+0.000	𩑢	blj/bmj	blj
+0.000	𩑤	wzq	
+0.000	𩑦	mbt/qbt	mlt
+0.000	𩑱		pat
+0.000	𩑳	xwr	
+0.000	𩑹	uxc	ycc
+0.000	𩒉	tdc	
+0.000	𩒝	txe	
+0.000	𩒣	zkr	
+0.000	𩒥	xar	
+0.000	𩒱	xbc/xbd	xbc
+0.000	𩓏	asw	
+0.000	𩓡	kfh	
+0.000	𩓧	sfd	
+0.000	𩓬	duh	
+0.000	𩓸	kfh	
+0.000	𩔀	wun	
+0.000	𩔁	hbn	
+0.000	𩔂	dbc	lbc
+0.000	𩔃	yae	
+0.000	𩔇	ryq	
+0.000	𩔈	fzk	
+0.000	𩔝	xjv	
+0.000	𩔴	hfk	
+0.000	𩕊	tse	tae
+0.000	𩕍	gza	
+0.000	𩕔	rec/ree	rkc
+0.000	𩕖	sfd	.sd
+0.000	𩕡	skk	ejk
+0.000	𩕧	sbc	
+0.000	𩕯	tza	
+0.000	𩕰	msd	
+0.000	𩖄	xjr	
+0.000	𩖉	.ls	
+0.000	𩖛	bea/bvs	
+0.000	𩖣	jjf	
+0.000	𩖶	hrt	
+0.000	𩗄	hvs	
+0.000	𩗯	qbh	
+0.000	𩘅	kmj	kmh
+0.000	𩘎	gbs	
+0.000	𩘐	hgt	
+0.000	𩘑	qww	
+0.000	𩘡	rpm	rpb
+0.000	𩘹	sgk/stk	sd,/se,
+0.000	𩘽	tys	
+0.000	𩙅	lgt	ydt
+0.000	𩙒	fsa	
+0.000	𩙚	sxa	sca
+0.000	𩙽	god	ypd
+0.000	𩚛	nzp	
+0.000	𩚬	qpk/qyk	qpk
+0.000	𩚭	bvj	
+0.000	𩚯	nkh	nej
+0.000	𩚴	aat/qgt	aat
+0.000	𩛁	pyq	
+0.000	𩛌	zkm	
+0.000	𩛎	mzr	
+0.000	𩛠	caj	
+0.000	𩛿	jss	
+0.000	𩜁	hjx/rks	rks
+0.000	𩜉	onu	oau
+0.000	𩜮	ejm	
+0.000	𩜯	stj	
+0.000	𩜰	fjk	fkk
+0.000	𩜼	ddm	
+0.000	𩜿		puu
+0.000	𩝢	ryy	
+0.000	𩝣	tzp	
+0.000	𩝨	.pj	
+0.000	𩝰	pyq	
+0.000	𩝸	aad	qfd
+0.000	𩞃	oaw	
+0.000	𩞐	zos	
+0.000	𩞧	oaw	
+0.000	𩞿	hlv	
+0.000	𩟇	qzz	qbg
+0.000	𩟗	csr	
+0.000	𩟙		zxt
+0.000	𩟦	zct	
+0.000	𩠞	ljj	
+0.000	𩡔	hzt	
+0.000	𩡝	dlf	llf
+0.000	𩡺	kmm	kpi
+0.000	𩡻	qxq	
+0.000	𩢏	tkp	
+0.000	𩢕	bzm	
+0.000	𩢮	hgj	,gj
+0.000	𩢰	bgk	bjk
+0.000	𩢲	skm	
+0.000	𩢳	gfj	
+0.000	𩢺	.xd	
+0.000	𩢾	rwt	rqi/rqt
+0.000	𩣡	bbt/bok	blt
+0.000	𩣸		bgu
+0.000	𩤠	gmj	gmh
+0.000	𩤡		.ad
+0.000	𩤥	gpf	gmf
+0.000	𩤽	exj	oxj
+0.000	𩥆	rqm	
+0.000	𩥇	twc	tqc
+0.000	𩥑	ezp	ozp
+0.000	𩥓	eza	obj
+0.000	𩥮	spe	;ye
+0.000	𩦠	baw	
+0.000	𩦢	wfj	uaj
+0.000	𩦶	dbs/dvs	
+0.000	𩧋	rpj	rij
+0.000	𩧐	ezk/ryk	ezk
+0.000	𩨭	aaj	
+0.000	𩨴	lsq	
+0.000	𩨷	aaj	
+0.000	𩨾	woh	
+0.000	𩩌	kbe	ibe
+0.000	𩩱	xyn	
+0.000	𩪉	hfk	
+0.000	𩪐	ipk	imk
+0.000	𩪕	wza	
+0.000	𩪲	gpt	
+0.000	𩫀	xzi	
+0.000	𩫥	zza	
+0.000	𩫿	zys	
+0.000	𩬙	paj/pam	pfj/pfm
+0.000	𩬜	kgk	
+0.000	𩬠	elj	olj
+0.000	𩬳	tby	
+0.000	𩬶	sdm	sdg
+0.000	𩭿	nyt	
+0.000	𩮀	cvs/cvw	cvs
+0.000	𩮁	kyt/xpt	xpt
+0.000	𩮂	hyt	
+0.000	𩮙		nfs
+0.000	𩮜	exk/osk	oxk
+0.000	𩮰		cvw
+0.000	𩮶	svj	
+0.000	𩯄	cbc	
+0.000	𩯅	fgk/fgm	fjg/fjk
+0.000	𩯋	kwk	kqk
+0.000	𩯭	pdc	
+0.000	𩯰	cct/csi/cst	
+0.000	𩯳	cvt/czc/cze	
+0.000	𩯷	csi	
+0.000	𩰗		fdc
+0.000	𩰞		msu/nxu
+0.000	𩰟		fjd
+0.000	𩰫	kvh	
+0.000	𩰬	kvh	
+0.000	𩰳	uxj	yxj
+0.000	𩱈	vyq	vou
+0.000	𩱚	bbt	blt
+0.000	𩱛	cvw	
+0.000	𩱜	nfk	
+0.000	𩱝	xpk	
+0.000	𩱡	kad	knd
+0.000	𩱦	vyq	vou
+0.000	𩱨		nfk
+0.000	𩱲	lak	ls,
+0.000	𩱴	hqa	;aa
+0.000	𩱷	mxt/mzt	mxt
+0.000	𩲏	hon	.yn
+0.000	𩳍	qxw	
+0.000	𩳔	wyz	
+0.000	𩴓	nzh	
+0.000	𩵌	sxq	
+0.000	𩵏	hon	.yn
+0.000	𩵢	hzp	
+0.000	𩶁	bpw	byw
+0.000	𩶆	zxu	
+0.000	𩶇	ojr	
+0.000	𩶤	sce	sle
+0.000	𩷎	dxk	lxk
+0.000	𩹄	hzi	
+0.000	𩹈	dkn	deg
+0.000	𩹏	byn	
+0.000	𩹶	dzs	lzs
+0.000	𩺵	sed	ses
+0.000	𩺽	bok	
+0.000	𩻜	red	rkd
+0.000	𩼅	nfx	
+0.000	𩼈	qzz	qbg
+0.000	𩼼	twd	tqd
+0.000	𩽁	pqa	
+0.000	𩽜	kwe	kqe
+0.000	𩾔	vdm	
+0.000	𩾗	csa/txa	txa
+0.000	𩾜	rkk	
+0.000	𩾞	gvd	yzd
+0.000	𩾳	bkp/gwp/kjp	
+0.000	𩾷	kvh	ivh
+0.000	𩾺	tlv	
+0.000	𩾼	ssk	
+0.000	𩾾	hya	
+0.000	𩿇	gzu	uzu
+0.000	𩿡	dlj	llj
+0.000	𩿢	dvu/evu	evu
+0.000	𩿧	paj	pfj
+0.000	𪀕	lsi	lai
+0.000	𪀗	kry/wry	kfy/wfy
+0.000	𪀚	sgs	,gs
+0.000	𪀠	jgd	ydd
+0.000	𪀡	rqk	
+0.000	𪀦	ekk	okk
+0.000	𪀩	xjj	
+0.000	𪁪	mbw/mow	
+0.000	𪂅	tsj	ksj
+0.000	𪂆		mkd
+0.000	𪂈	laf	
+0.000	𪃓	bgu	bju
+0.000	𪃯	mkd	
+0.000	𪄆	fxj	fcj
+0.000	𪄑	sgk	
+0.000	𪄭	vdt	vdk
+0.000	𪄮	gzu	yzu
+0.000	𪄱	txk/tyk	txk
+0.000	𪅄	sbt	
+0.000	𪅮	mkt	met
+0.000	𪅲	hjp	
+0.000	𪅺	hvj	
+0.000	𪆯	nos	
+0.000	𪆰	qyt	
+0.000	𪇆	dvk	
+0.000	𪇠	nzd	
+0.000	𪇰	bzz/pbk/pok/pvk	bz,/py,/pz,
+0.000	𪇱	ryk	ry,
+0.000	𪇹	rmp/ryp	ryp
+0.000	𪈁	tjf	kdf
+0.000	𪈟	kyt	
+0.000	𪈥	uxj	yxj
+0.000	𪈩	hvd	.zd
+0.000	𪈮	myd	mod
+0.000	𪈻	grd	uqd
+0.000	𪈿	mld	
+0.000	𪉜	tpf/tpv	
+0.000	𪉦	kpv/kzv	
+0.000	𪊆	zxm	
+0.000	𪊇	ezv	
+0.000	𪊉	guh/quh	guh
+0.000	𪊨	kky	
+0.000	𪋎	qgj	
+0.000	𪋯	nfj/sfj	,fj/nfj
+0.000	𪌜	evu	
+0.000	𪌯	sbt	
+0.000	𪍑	eaq	
+0.000	𪍛	sbt	
+0.000	𪍦	rwe	rqe
+0.000	𪍴	rpd	
+0.000	𪍶	dse	dae
+0.000	𪍺	goe	
+0.000	𪎨	dvj	lvj
+0.000	𪎽	ebx/egs	ebs/egs
+0.000	𪏂	dwf	lqf
+0.000	𪏆	ebd/evd	ebd/tvd
+0.000	𪏉	twf	
+0.000	𪏓	uys	yys
+0.000	𪏚	yje	
+0.000	𪏤	kbn	ilg
+0.000	𪏴	kje	
+0.000	𪐂	aae	xfe
+0.000	𪐏	twk/tyk	
+0.000	𪐝	dzi	lzi
+0.000	𪑝	hjk/qgk/ykk	.kk/ajk/ykk
+0.000	𪑧	dxp/rpp	lxp
+0.000	𪑩	dxc	dlc
+0.000	𪑪	myd	
+0.000	𪑬	dkx	
+0.000	𪒑	vxk	
+0.000	𪒒	ers	
+0.000	𪒘	dkx	
+0.000	𪒜	mpt	
+0.000	𪒠	qyr/qyv	
+0.000	𪒴	dlj/tlj	dlj
+0.000	𪒹	kpf	kmf
+0.000	𪒿	dvs	
+0.000	𪓌	cbn	cbi
+0.000	𪓙	dqa	
+0.000	𪓞	gfj	gfj/kvj
+0.000	𪓟	kvj	
+0.000	𪓬	mxj	
+0.000	𪓵	vgj	
+0.000	𪓿	osj	,sj
+0.000	𪔊	jfi	
+0.000	𪔗	qkd	qed
+0.000	𪔜		lvs
+0.000	𪔝	dvs	lvs
+0.000	𪔧	exp	
+0.000	𪔰	yev	
+0.000	𪕋	rtu	rtj/rtu
+0.000	𪕚	rtj	
+0.000	𪕯	gxk/gxt	gct
+0.000	𪕹	dzs	lzs
+0.000	𪖎	zpf	
+0.000	𪖐	wgm/wxz	
+0.000	𪖛	xgm	
+0.000	𪖪	hay	
+0.000	𪖵	qvx	qvs
+0.000	𪖶	sbt	
+0.000	𪗂	zpf	zqf
+0.000	𪗍	zxj	zcj
+0.000	𪗛	wae	
+0.000	𪗨	zet	
+0.000	𪗪	ojj	
+0.000	𪗭	tyh	
+0.000	𪗾	gyt/hyt	gpt/hpt
+0.000	𪘁	elp/glp	glp
+0.000	𪘏	vok/vtk	vrk
+0.000	𪘧	vet/zbt	zbt
+0.000	𪘨	tmj	
+0.000	𪘩	wge	
+0.000	𪘲	wpj	
+0.000	𪙇	vct	
+0.000	𪙉	vwj	
+0.000	𪙊	wav/wpf/wwf	
+0.000	𪙌	vct	
+0.000	𪙝	vas	
+0.000	𪙻	vpt	
+0.000	𪚕		xlf
+0.000	𪚦	kth	ikj
+0.000	𪚰	csa	
+0.000	𪺾		wpj
+0.000	𫏎	cvt	
+0.000	姬	kjj/ljj	
+0.000	災	clj	
+0.000	甾	ckj	
+0.000	䊠	hjn	
+0.000			zss

@@ -25,6 +25,26 @@ public partial interface ISvcDks{
 	
 	public str ToDks(Tswg上古漢語音節 z);
 	
+	/// 步驟 1′（Dks2 用，取代 SaffesToDkz）：布之道擬音 → dkz。
+	/// 讀 Cfg.布之道DictPath 的表，碼欄形如 `ASCII*IPA`，只取 `*` 之後的 IPA 段，
+	/// 用 Mk上古漢語音節From布之道 適配成本方案音節，把 Full 寫進 dkz 的碼欄。
+	/// 單字過濾與表頭與 SaffesToDkz 一致，好讓後續步驟（dkp 覆蓋、dkz→dks）原樣沿用。
+	/// 例：包 prXu*prˤu → 音節（聲母 p、介腹 r'u、尾調空）⇒ dkz 行「包」+Tab+「pr'u」。
+	Task<nil> 布之道ToDkz(IFnCtx Ctx, CT Ct);
+
+	/// 步驟 3′（Dks2 用，取代 UpdateDks）：dkz → dks，走查表而非規則。
+	/// 每行碼先用 Dkp拼式Parser 解成音節（布之道來的行是純音；dkp 併入的行可能帶義符字形），
+	/// 再用 ToDks 查三層鍵位表得小寫三拼碼；表頭與 UpdateDks 相同（name: dks + import_tables）。
+	/// 例：dkz 行「辣	rˤat」⇒ 音節（聲母空、介腹 r'a、尾調 t）⇒ dks 行「辣	ryt」。
+	Task<nil> DkzToDks(IFnCtx Ctx, CT Ct);
+	
+	/// 步驟 4′（Dks3 用）：回退缺音。
+	/// 讀 Dks2 產出的那份 dks（UserDataDir/dks.dict.yaml）與舊 Dks 流程產出的那份（入參路徑）：
+	/// 凡「布之道側缺音」的字——即在 Dks2 那份裏不存在、或存在但全部碼都是空——改用舊那份裏該字的行；
+	/// 其餘一律保留 Dks2 的行與原序，回退行追加在末尾。寫回 dks.dict.yaml，並同樣做三鍵產出驗證。
+	/// 例：你、個 這類布之道表裏沒有的字 ⇒ 用舊流程的 nku、kzn。
+	Task<nil> 回退缺音(IFnCtx Ctx, str 舊Dks路徑, CT Ct);
+
 	#region 全部不合格！爲甚麼不用TextReader/TextWriter之類的當輸入輸出?搞個Task<nil>是幾個意思?你tm會不會寫代碼的 有你這麼拉屎的嗎?
 	/// 步驟 1：saffes → dkz。
 	/// 讀 saffes.dict.yaml，碼轉大寫後套用 SaffesToOc 規則，寫出 dkz.dict.yaml（供後續步驟讀取）。

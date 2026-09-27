@@ -51,6 +51,15 @@ internal static partial class Program{
 			case nameof(Dks):
 				await Dks.Main(Ctx, Args[1..], Ct);
 				break;
+			case nameof(Dks2):
+				await Dks2.Main(Ctx, Args[1..], Ct);
+				break;
+			case nameof(AuditDks):
+				await AuditDks.Main(Ctx, Args[1..], Ct);
+				break;
+			case nameof(Dks3):
+				await Dks3.Main(Ctx, Args[1..], Ct);
+				break;
 			default:
 				throw new ArgumentException($"Unknown script: {Args[0]}.", nameof(Args));
 		}
@@ -59,7 +68,7 @@ internal static partial class Program{
 	/// 列出可由 dotnet run -- <entry> 呼叫的命令名稱。
 	private static void PrintUsage(){
 		Console.Error.WriteLine("Usage: dotnet run --project proj/RimeTools.Scripts -- <entry>");
-		Console.Error.WriteLine("Entries: Test, TestAotWin, Dks");
+		Console.Error.WriteLine("Entries: Test, TestAotWin, Dks, Dks2, Dks3, AuditDks");
 	}
 
 	/// 讓編譯器提供命令源文件路徑，故命令不依賴啟動時的當前目錄。

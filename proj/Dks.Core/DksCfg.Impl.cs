@@ -9,6 +9,7 @@ public sealed partial class DksCfg{
 		//         入口（Scripts.Dks）可依參數覆寫 UserDataDir/SrcTableDir。
 		UserDataDir = DefaultUserDataDir;
 		SrcTableDir = DefaultSrcTableDir;
+		布之道DictPath = Default布之道DictPath;
 
 		// step 2: 默認用公用內存實現；WordFreq 指向 UserDataDir/essay.txt。
 		Parser = new DictYamlParser();

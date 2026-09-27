@@ -23,9 +23,9 @@ public static partial class Dkp拼式Parser{
 			韻 = Normalize(聲符音) + 韻[1..];
 		}
 
-		// step 3: 仍無聲母（拼式整串就是音的場合）→ 取「最短可行」的前綴當聲母。
-		//   短的優先令介音 r 歸介腹：rˁat ⇒ 聲母空、介腹 rˁa（三拼 ryt，與 dks 表一致）；
-		//   ŋˁak 因介腹 ŋˁa 不在表內，故退到聲母 ŋ、介腹 ˁa（三拼 wzk，亦與 dks 表一致）。
+		// step 3: 仍無聲母（拼式整串就是音的場合）→ 取「最長可行」的前綴當聲母。
+		//   長的優先令 r 歸**聲母**：rˁat ⇒ 聲母 r、介腹 ˁa（ToDks 再把介腹取帶 r 那一形，
+		//   得次鍵 Y，三拼 ryt，與 dks 表一致）；kʷrˁaŋʔ ⇒ 聲母 kʷ、介腹 rˁa（三拼 iyw）。
 		if(聲母.Length == 0){
 			for(var i = 0; i <= 韻.Length; i++){
 				var 前 = Normalize(韻[..i]);
@@ -34,9 +34,9 @@ public static partial class Dkp拼式Parser{
 				}
 				var (介腹Try, 尾調Try) = 切韻(韻[i..]);
 				if(DksKeyboard.次鍵Of介腹.ContainsKey(介腹Try) && DksKeyboard.末鍵Of尾調.ContainsKey(尾調Try)){
+					// 取最長：不中斷，一路把可行者覆蓋上去，最後留下的就是最長前綴。
 					聲母 = 前;
 					韻 = 韻[i..];
-					break;
 				}
 			}
 		}

@@ -16,6 +16,9 @@ public sealed partial class DksCfg{
 	/// 默認原表目錄（對應 ngaq 的原表目錄）。
 	public const str DefaultSrcTableDir = "e:/_code/ngaq/src/backend/dict/原表";
 
+	/// 默認布之道原表路徑（Dks2 的輸入側）。
+	public const str Default布之道DictPath = "D:/Program Files/Rime/User_Data/OC_msoegDK.dict.yaml";
+
 	/// Rime 用戶目錄：dks/dkn/dks_v/dkp/dkz/dks_phrase 的輸出目標目錄；essay.txt 的默認所在目錄。
 	/// 例：D:/Program Files/Rime/User_Data。
 	public str UserDataDir { get; set; }
@@ -23,6 +26,11 @@ public sealed partial class DksCfg{
 	/// 原表目錄：saffes/dkp/dkz/cangjie 等源碼表所在目錄（流水線的輸入側）。
 	/// 例：e:/_code/ngaq/src/backend/dict/原表。
 	public str SrcTableDir { get; set; }
+
+	/// 布之道（msoeg 體系）原表路徑：Dks2 的輸入側。
+	/// 該表碼欄形如 `ASCII*IPA`（例：包	prXu*prˤu），轉換只取 `*` 之後的 IPA 段。
+	/// 例：D:/Program Files/Rime/User_Data/OC_msoegDK.dict.yaml。
+	public str 布之道DictPath { get; set; }
 
 	/// dict.yaml 解析器（可換；默認內存實現 DictYamlParser）。
 	public IDictYamlParser Parser { get; set; }
