@@ -7,6 +7,18 @@ using Tsinswreng.CsCtx;
 /// 配置（路徑、可換後端）由實現在構造時注入 DksCfg，方法體內不再各帶配置參數。
 public partial interface ISvcDks{
 	
+	[Doc(@$"把 布之道 的上古漢語擬音 適配成 {nameof(Tswg上古漢語音節)}
+	規則:
+	- 非三等標記、清化、元音韻尾就不說了, 自己看 Tswg上古漢語音節 的文檔
+	- ɫ 改成 j
+	- 小括號及內容刪掉 如 b(r)u -> bu
+	- 中括號刪掉 保內容 如 l[a]u -> lau
+	- 去聲標記(即音節末尾的h)改成 s
+	- ɬ原樣保留。 {nameof(ToDks)}的時候ɬ應對應s
+	")]
+	public Tswg上古漢語音節 Mk上古漢語音節From布之道(str 布之道Spelling);
+	
+	
 	[Doc(@$"從Dkp.dict.yaml的拼式解析得 {nameof(Tswg上古漢語音節)}")]
 	public Tswg上古漢語音節 Mk上古漢語音節FromDkp(str DkpSpelling);
 	

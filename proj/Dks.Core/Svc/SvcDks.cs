@@ -13,6 +13,28 @@ using Tsinswreng.CsCtx;
 /// 每一步直接操作 DksCfg 指向的目錄：原表目錄(SrcTableDir)是中間產物的家，
 /// 用戶目錄(UserDataDir)是最終產物的家。
 public class SvcDks(DksCfg Cfg):ISvcDks{
+	// ---- 音節：拼式 ↔ 三拼碼（純查表，無模式匹配）----
+
+	public Tswg上古漢語音節 Mk上古漢語音節FromDkp(str DkpSpelling){
+		// 義符表查首字得聲母、聲符表查聲符字形得韻，再按最後一個元音切成介腹/尾調。
+		return Dkp拼式Parser.Parse(DkpSpelling);
+	}
+
+	public str ToDks(Tswg上古漢語音節 z){
+		// 三段各查一張鍵位表（DksKeyboard）；任何一段查不到即視為無法編碼，回空串。
+		if(!DksKeyboard.首鍵Of聲母.TryGetValue(z.聲母, out var 首鍵)){
+			return "";
+		}
+		if(!DksKeyboard.次鍵Of介腹.TryGetValue(z.介腹, out var 次鍵)){
+			return "";
+		}
+		if(!DksKeyboard.末鍵Of尾調.TryGetValue(z.尾調, out var 末鍵)){
+			return "";
+		}
+		// dks.dict.yaml 的碼欄是小寫，故這裏統一轉小寫。
+		return $"{首鍵}{次鍵}{末鍵}".ToLowerInvariant();
+	}
+
 	// ---- 步驟 1：saffes → dkz ----
 
 	public async Task<nil> SaffesToDkz(IFnCtx Ctx, CT Ct){
