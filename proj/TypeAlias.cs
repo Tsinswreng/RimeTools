@@ -5,6 +5,7 @@
 #endif
 
 #pragma warning disable CS8981
+global using Tsinswreng.CsCore;
 global using u8 = System.Byte;
 global using i8 = System.SByte;
 global using u16 = System.UInt16;

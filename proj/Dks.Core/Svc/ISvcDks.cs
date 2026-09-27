@@ -6,6 +6,14 @@ using Tsinswreng.CsCtx;
 /// 所有方法的第一個參數統一為 IFnCtx（函數上下文袋），與 Ngan.Dict 的 Svc 規範一致。
 /// 配置（路徑、可換後端）由實現在構造時注入 DksCfg，方法體內不再各帶配置參數。
 public partial interface ISvcDks{
+	
+	[Doc(@$"從Dkp.dict.yaml的拼式解析得 {nameof(Tswg上古漢語音節)}")]
+	public Tswg上古漢語音節 Mk上古漢語音節FromDkp(str DkpSpelling);
+	
+	
+	public str ToDks(Tswg上古漢語音節 z);
+	
+	#region 全部不合格！爲甚麼不用TextReader/TextWriter之類的當輸入輸出?搞個Task<nil>是幾個意思?你tm會不會寫代碼的 有你這麼拉屎的嗎?
 	/// 步驟 1：saffes → dkz。
 	/// 讀 saffes.dict.yaml，碼轉大寫後套用 SaffesToOc 規則，寫出 dkz.dict.yaml（供後續步驟讀取）。
 	Task<nil> SaffesToDkz(IFnCtx Ctx, CT Ct);
@@ -30,4 +38,5 @@ public partial interface ISvcDks{
 	/// 按頻率降序寫出 dks_phrase.dict.yaml（columns: text/code/weight）。
 	/// 例：詞「一個」（頻 374279）→ 一個	qkkn	374279
 	Task<nil> MkDksPhrase(IFnCtx Ctx, CT Ct);
+	#endregion 全部不合格！
 }

@@ -5,7 +5,7 @@ namespace RimeTools.Shared.Dict.Models;
 /// 例：
 ///   var line = new DictLine{ ["text"]="一個", ["code"]="qkkn", ["weight"]="374279" };
 /// 訪問: line.text 走 DictLineExtn → "一個"。
-public sealed partial class DictLine:Dictionary<obj,obj?>,IDictLine{
+public partial class DictLine:Dictionary<obj,obj?>,IDictLine{
 	/// 創建空行。
 	public partial DictLine();
 }
