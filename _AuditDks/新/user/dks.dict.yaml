@@ -29,6 +29,14 @@ import_tables:
 因	qds
 煙	qcs
 印	qdx
+寫	snu
+買	mpu
+賣	mpm
+所	squ
+𠩄	squ
+齭	squ
+㫹	sqm
+齭	vqu
 硅	.yk
 硅	ixj
 矽	ixj
@@ -12338,7 +12346,6 @@ import_tables:
 飵	zzg
 秨	zzg
 𧧻	zyg
-寫	sau
 𣞐	sau
 䉣	sag
 𩍆	sak
@@ -12880,9 +12887,6 @@ import_tables:
 禦	wau
 蘌	wau
 御	wam
-所	;qu
-𠩄	;qu
-齭	;qu
 圉	wau
 馭	wam
 䛩	qzu
@@ -19585,12 +19589,10 @@ import_tables:
 欏	ryh
 囉	ryh
 鑼	ryh
-買	myy
 嘪	myy
 蕒	myy
 㵋	myy
 鷶	myy
-賣	myn
 罹	rqh
 羆	pqh
 𨰟	pqh

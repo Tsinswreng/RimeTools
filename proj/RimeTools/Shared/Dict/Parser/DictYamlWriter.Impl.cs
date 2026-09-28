@@ -22,7 +22,7 @@ public partial class DictYamlWriter : IDictYamlWriter{
 				}
 			}
 			else{
-				writer.WriteLine($"{item.Key}: {item.Scalar}");
+				writer.WriteLine($"{item.Key}: {MkScalar(item.Scalar)}");
 			}
 		}
 		writer.WriteLine("...");
@@ -46,4 +46,20 @@ public partial class DictYamlWriter : IDictYamlWriter{
 
 	/// 默認三列語義。
 	private static readonly IReadOnlyList<str> DefaultColumns = ["text", "code", "weight"];
+
+	/// 寫一個 YAML 標量的字面。
+	/// 空串必須寫成 `""`：Rime 的 DictSettings::LoadDictHeader 要求 name/version 非 null，
+	/// 而 `version: `（空標量）在 YAML 裏是 null ⇒ 報 "incomplete dict header" ⇒ 整張表編譯失敗
+	/// （實測：dks/dks_v/dkn/dkz/dks_phrase 全部因此編譯不過，部署後一直沿用舊表）。
+	/// 另：含 YAML 特殊字符（# : " ' 或首尾空白）者也加雙引號，免得被當成註釋或映射。
+	private static str MkScalar(str? Scalar){
+		var v = Scalar ?? "";
+		if(v.Length == 0){
+			return "\"\"";
+		}
+		if(v.Contains('#') || v.Contains(':') || v.Contains('"') || v.Contains('\'') || v != v.Trim()){
+			return "\"" + v.Replace("\\", "\\\\").Replace("\"", "\\\"") + "\"";
+		}
+		return v;
+	}
 }

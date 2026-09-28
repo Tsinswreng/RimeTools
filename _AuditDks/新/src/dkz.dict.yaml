@@ -26,6 +26,14 @@ use_preset_vocabulary: true
 因	ʔiŋ
 煙	ʔˁiŋ
 印	ʔiŋs
+寫	sAʔ
+買	mrˁeʔ	
+賣	mrˁes	
+所	sraʔ	
+𠩄	sraʔ	
+齭	sraʔ	
+㫹	sras	
+齭	tsʰraʔ	
 硅	hʷrˁak
 硅	kʷˁe	
 矽	kʷˁe	
@@ -12335,7 +12343,6 @@ use_preset_vocabulary: true
 飵	dz'aks
 秨	dz'aks
 𧧻	dzr'aks
-寫	saʔ
 𣞐	saʔ
 䉣	saks
 𩍆	sak
@@ -12877,9 +12884,6 @@ use_preset_vocabulary: true
 禦	ŋaʔ
 蘌	ŋaʔ
 御	ŋas
-所	ŋʰraʔ
-𠩄	ŋʰraʔ
-齭	ŋʰraʔ
 圉	ŋaʔ
 馭	ŋas
 䛩	ʔ'aʔ
@@ -19582,12 +19586,10 @@ use_preset_vocabulary: true
 欏	r'aj
 囉	r'aj
 鑼	r'aj
-買	mr'ajʔ
 嘪	mr'ajʔ
 蕒	mr'ajʔ
 㵋	mr'ajʔ
 鷶	mr'ajʔ
-賣	mr'ajs
 罹	raj
 羆	praj
 𨰟	praj

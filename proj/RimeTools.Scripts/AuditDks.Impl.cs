@@ -73,11 +73,18 @@ internal static partial class AuditDks{
 		var (字頻率, 總頻) = Mk字頻率(詞頻路徑);
 
 		// step 7: 收有變化的字，按頻率降序（同頻按字序）排出，寫報告並打印。
+		//         凡 dkp 覆蓋到的字一律不列：兩條流程都用 dkp 的那幾行，差別沒有意義（要改就去改 dkp）。
+		var dkp字 = Mk字集(System.IO.Path.Combine(Core.DefaultSrcTableDir, "dkp.dict.yaml"));
 		var 變化 = new List<(str 字, str 舊碼, str 新碼, double 頻率)>();
+		var 略過dkp = 0;
 		foreach(var 字 in 舊表.Keys.Union(新表.Keys)){
 			var 舊碼 = 舊表.TryGetValue(字, out var a) ? string.Join("/", a) : "";
 			var 新碼 = 新表.TryGetValue(字, out var b) ? string.Join("/", b) : "";
 			if(舊碼 == 新碼){
+				continue;
+			}
+			if(dkp字.Contains(字)){
+				略過dkp++;
 				continue;
 			}
 			變化.Add((字, 舊碼, 新碼, 字頻率.TryGetValue(字, out var f) ? f : 0.0));
@@ -90,7 +97,7 @@ internal static partial class AuditDks{
 		var 報告 = new System.Text.StringBuilder();
 		報告.AppendLine("dks 對比：舊 Dks 流程 vs 新 Dks2 流程（只列有變化的字，按漢字頻率降序）");
 		報告.AppendLine($"頻率定義：該字在 essay.txt 的單字條目頻數 ÷ 全部單字條目頻數之和（合計 {總頻}），再乘 100000");
-		報告.AppendLine($"舊表 {舊表.Count} 字、新表 {新表.Count} 字、有變化 {變化.Count} 字");
+		報告.AppendLine($"舊表 {舊表.Count} 字、新表 {新表.Count} 字、有變化 {變化.Count} 字（另有 {略過dkp} 個字有差異但被 dkp 覆蓋，未列入）");
 		報告.AppendLine("頻率(十萬分之,3位小數)\t字\t舊碼(Dks)\t新碼(Dks2)");
 		foreach(var (字, 舊碼, 新碼, 頻率) in 變化){
 			報告.AppendLine($"{頻率 * 100000:F3}\t{字}\t{舊碼}\t{新碼}");
@@ -99,6 +106,22 @@ internal static partial class AuditDks{
 		System.IO.File.WriteAllText(報告路徑, 報告.ToString(), new System.Text.UTF8Encoding(false));
 		Console.WriteLine($"報告已寫: {報告路徑}");
 		Console.Write(報告.ToString());
+	}
+
+	/// 讀一張 dict.yaml，取首列字（跳過空行與註釋）——用來收集 dkp 覆蓋到的字。
+	private static HashSet<str> Mk字集(str 路徑){
+		var ans = new HashSet<str>();
+		foreach(var line in System.IO.File.ReadAllLines(路徑)){
+			if(line.Length == 0 || line[0] == '#'){
+				continue;
+			}
+			var c = line.Split('\t');
+			if(c.Length < 2 || c[0].Length == 0){
+				continue;
+			}
+			ans.Add(c[0]);
+		}
+		return ans;
 	}
 
 	/// 讀一份 dks.dict.yaml，取 字 → 碼集（同一字的碼去重後升序；含空碼）。

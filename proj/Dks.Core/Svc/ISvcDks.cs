@@ -45,6 +45,19 @@ public partial interface ISvcDks{
 	/// 例：你、個 這類布之道表裏沒有的字 ⇒ 用舊流程的 nku、kzn。
 	Task<nil> 回退缺音(IFnCtx Ctx, str 舊Dks路徑, CT Ct);
 
+	/// 步驟 4″（Dks4 用）：按字頻擇源（保證不缺字）。
+	/// 讀 Dks2 產出的那份 dks（UserDataDir/dks.dict.yaml）與中古倒推（舊 Dks）產出的那份（入參路徑），
+	/// 逐字決定採用哪一側的讀音：
+	///   ① dkp 覆蓋到的字 → 保留 Dks2 那份（dkp 最優先，不受頻率影響）；
+	///   ② 布之道沒有、中古倒推有的字 → 用中古倒推那份（不能缺字）；
+	///   ③ 其餘的字，在 essay.txt 的**漢字頻率排名** ≤ 名次上限者 → 用中古倒推那份；
+	///   ④ 其餘（排名在上限之外，或 essay.txt 裏沒有該字）→ 保留 Dks2 那份（布之道擬音）。
+	/// 舊側缺該字時仍用新側（例：布之道有、saffes 沒有的字）。
+	/// 寫回 dks.dict.yaml，並同樣做三鍵產出驗證。
+	/// 例：名次上限 5000 時，買／個 這類高頻字走中古倒推的碼，罕見字走布之道擬音的碼，
+	///     而布之道缺音的字（如 鼸、馱）一律由中古倒推補上，不會從表裏消失。
+	Task<nil> 按頻擇源(IFnCtx Ctx, str 舊Dks路徑, i32 高頻名次上限, CT Ct);
+
 	#region 全部不合格！爲甚麼不用TextReader/TextWriter之類的當輸入輸出?搞個Task<nil>是幾個意思?你tm會不會寫代碼的 有你這麼拉屎的嗎?
 	/// 步驟 1：saffes → dkz。
 	/// 讀 saffes.dict.yaml，碼轉大寫後套用 SaffesToOc 規則，寫出 dkz.dict.yaml（供後續步驟讀取）。

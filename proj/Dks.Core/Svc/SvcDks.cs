@@ -6,6 +6,7 @@ using Dks.Core;
 using RimeTools.Shared.Dict.Lookup;
 using RimeTools.Shared.Dict.Models;
 using RimeTools.Shared.Dict.Parser;
+using RimeTools.Shared.Freq;
 using RimeTools.Shared.Phrase;
 using RimeTools.Tools;
 using Tsinswreng.CsCtx;
@@ -271,6 +272,143 @@ public class SvcDks(DksCfg Cfg):ISvcDks{
 		var header = MakeDksHeader();
 		await Cfg.Writer.Write(UserPath("dks.dict.yaml"), header, ToAsy(body), Ct);
 		return NIL;
+	}
+
+	// ---- Dks4：按字頻擇源 ----
+
+	public async Task<nil> 按頻擇源(IFnCtx Ctx, str 舊Dks路徑, i32 高頻名次上限, CT Ct){
+		// step 1: 讀新側（Dks2 產物：布之道擬音 + dkp 覆蓋）與舊側（中古倒推 + dkp 覆蓋）。
+		var 新行 = new List<IDictLine>();
+		var 新Doc = await Cfg.Parser.Parse(UserPath("dks.dict.yaml"), Ct);
+		await foreach(var line in 新Doc.Body.WithCancellation(Ct)){
+			新行.Add(line);
+		}
+		var 舊行 = new List<IDictLine>();
+		var 舊Doc = await Cfg.Parser.Parse(舊Dks路徑, Ct);
+		await foreach(var line in 舊Doc.Body.WithCancellation(Ct)){
+			舊行.Add(line);
+		}
+
+		// step 2: dkp 覆蓋到的字（最優先，不受頻率影響）與 essay.txt 的前 N 名漢字。
+		var dkp字 = Mk字集(SrcPath("dkp.dict.yaml"));
+		var 高頻字 = await Mk高頻字集(Cfg.WordFreq, 高頻名次上限, Ct);
+
+		// step 3: 兩側都按字分組（同一字可有多個讀音）。
+		var 新組 = Mk行分組(新行);
+		var 舊組 = Mk行分組(舊行);
+
+		// step 4: 逐字定來源（走兩側字的併集，**保證不缺字**）：
+		//   ① dkp 覆蓋者 → 新側（dkp 解出的碼），不受頻率影響；
+		//   ② 否則新側沒有該字（布之道缺音）→ 舊側（中古倒推）——布之道沒有的字不能就此丟掉；
+		//   ③ 否則字頻排名 ≤ 上限且有舊讀音 → 舊側（中古倒推）；
+		//   ④ 其餘 → 新側（布之道擬音）。
+		var 取舊 = new HashSet<str>();
+		foreach(var 字 in 新組.Keys.Union(舊組.Keys)){
+			if(dkp字.Contains(字)){
+				continue;
+			}
+			if(!舊組.ContainsKey(字)){
+				continue; // 舊側也沒這字 → 只能留在新側
+			}
+			var 新側無 = !新組.ContainsKey(字);
+			var 高頻 = 高頻字.Contains(字);
+			if(新側無 || 高頻){
+				取舊.Add(字);
+			}
+		}
+
+		// step 5: 組最終行——先按新側原序（跳過改用舊側讀音的字），再把那些字的舊行追加在末尾。
+		var 終 = new List<DictLine>();
+		foreach(var line in 新行){
+			if(!string.IsNullOrEmpty(line.text) && 取舊.Contains(line.text)){
+				continue;
+			}
+			終.Add(MkCopy(line));
+		}
+		foreach(var 字 in 取舊){
+			foreach(var line in 舊組[字]){
+				終.Add(line);
+			}
+		}
+
+		// step 6: 產出驗證（與 DkzToDks 同一把尺），再寫回 dks.dict.yaml。
+		var 鍵集 = MkDks鍵集();
+		var 問題行 = new List<str>();
+		foreach(var line in 終){
+			var 原因 = Mk碼問題(line.code ?? "", 鍵集);
+			if(原因 is not null){
+				問題行.Add($"{line.text}\t碼=[{line.code}]\t{原因}");
+			}
+		}
+		if(問題行.Count > 0){
+			throw new InvalidOperationException(
+				$"dks 產出驗證失敗(按頻擇源後): 共 {問題行.Count} 行的碼不是合法的三鍵碼。\n"
+				+ string.Join("\n", 問題行.OrderBy(x => x, StringComparer.Ordinal)));
+		}
+		var header = MakeDksHeader();
+		await Cfg.Writer.Write(UserPath("dks.dict.yaml"), header, ToAsy(終), Ct);
+		return NIL;
+	}
+
+	/// 複製一行（DictLine 是字典，直接 AddRange 會共用引用；這裏逐鍵拷貝）。
+	private static DictLine MkCopy(IDictLine Line){
+		var ans = new DictLine();
+		foreach(var kv in Line){
+			ans[kv.Key] = kv.Value;
+		}
+		return ans;
+	}
+
+	/// 把一串行按首列字分組（同一字的多個讀音保序）。
+	private static Dictionary<str, List<DictLine>> Mk行分組(IEnumerable<IDictLine> Lines){
+		var ans = new Dictionary<str, List<DictLine>>();
+		foreach(var line in Lines){
+			var 字 = line.text;
+			if(string.IsNullOrEmpty(字)){
+				continue;
+			}
+			if(!ans.TryGetValue(字, out var list)){
+				list = new List<DictLine>();
+				ans[字] = list;
+			}
+			list.Add(MkCopy(line));
+		}
+		return ans;
+	}
+
+	/// 讀一張 dict.yaml 的首列字（跳過空行與註釋）——用於收集 dkp 覆蓋到的字。
+	private static HashSet<str> Mk字集(str 路徑){
+		var ans = new HashSet<str>();
+		foreach(var line in System.IO.File.ReadAllLines(路徑)){
+			if(line.Length == 0 || line[0] == '#'){
+				continue;
+			}
+			var c = line.Split('\t');
+			if(c.Length < 2 || c[0].Length == 0){
+				continue;
+			}
+			ans.Add(c[0]);
+		}
+		return ans;
+	}
+
+	/// 從詞頻源取「漢字頻率排名前 N」的字集：按頻數降序枚舉，數到第 N 個**單字**條目為止。
+	/// 例：Limit=5000 ⇒ 取 essay.txt 裏頻數最高的 5000 個單字（詞條不佔名次）。
+	private static async Task<HashSet<str>> Mk高頻字集(IWordFreqSource Freq, i32 Limit, CT Ct){
+		var ans = new HashSet<str>();
+		if(Limit <= 0){
+			return ans;
+		}
+		await foreach(var wf in Freq.Enumerate(Ct)){
+			if(TextUtil.SplitByRune(wf.Text).Count != 1){
+				continue;
+			}
+			ans.Add(wf.Text);
+			if(ans.Count >= Limit){
+				break;
+			}
+		}
+		return ans;
 	}
 
 	/// dks 方案「用到的鍵」集（小寫）= 三張鍵位表裏出現過的全部鍵。

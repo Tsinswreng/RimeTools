@@ -1,13 +1,12 @@
 dks 對比：舊 Dks 流程 vs 新 Dks2 流程（只列有變化的字，按漢字頻率降序）
 頻率定義：該字在 essay.txt 的單字條目頻數 ÷ 全部單字條目頻數之和（合計 47138505），再乘 100000
-舊表 21334 字、新表 17491 字、有變化 8678 字
+舊表 21334 字、新表 17492 字、有變化 8669 字（另有 2 個字有差異但被 dkp 覆蓋，未列入）
 頻率(十萬分之,3位小數)	字	舊碼(Dks)	新碼(Dks2)
 2064.083	你	nku	
 522.412	個	kzn	
 521.139	看	xzc/xzd	xzc
 388.916	等	tlu/tlw	tlw
 328.581	做	czm	
-214.549	買	mpu	myy
 167.349	找	cyq	
 165.616	及	gjp	gkp
 139.158	喫	xxk	
@@ -16,11 +15,7 @@ dks 對比：舊 Dks 流程 vs 新 Dks2 流程（只列有變化的字，按漢�
 115.441	哈	hlp/wlp	
 103.994	走	cvm/cvu	cvu
 96.146	您	nkf	
-95.453	所	squ	;qu
-88.749	寫	snu	sau
-87.644	啥	jqj	jaj
 86.418	搞	kyq	
-77.569	賣	mpm	myn
 67.314	卡	xyy	
 65.842	幫	pzs	
 60.000	改	klu	ilu
@@ -361,7 +356,6 @@ dks 對比：舊 Dks 流程 vs 新 Dks2 流程（只列有變化的字，按漢�
 1.899	褚	equ/tqu	
 1.894	鍍	dzj/dzm	dzg
 1.888	撬	xxz	
-1.888	絃	gcd/hʰcc	gcd/hcc
 1.888	鉑	bzk	
 1.884	俐	rem	
 1.882	胚	flj	
@@ -3517,7 +3511,6 @@ dks 對比：舊 Dks 流程 vs 新 Dks2 流程（只列有變化的字，按漢�
 0.600	蓻	cjp	
 0.600	釱	dxm/dzi	lxi/lzi
 0.600	鷧	qkn	qei
-0.600	齭	squ/vqu	;qu
 0.598	儩	ssm	ssg
 0.598	咅	evm	
 0.598	婣	qdd	
@@ -4973,7 +4966,6 @@ dks 對比：舊 Dks 流程 vs 新 Dks2 流程（只列有變化的字，按漢�
 0.000	㫃	qae/qwe	
 0.000	㫍	lsa	
 0.000	㫚	hbt	.lt
-0.000	㫹	sqm	
 0.000	㬄	eyc	
 0.000	㬊	gve	yze
 0.000	㬎	hxe/wlp	
@@ -6323,7 +6315,6 @@ dks 對比：舊 Dks 流程 vs 新 Dks2 流程（只列有變化的字，按漢�
 0.000	𠨲	lak	
 0.000	𠨴	kmm	kpi
 0.000	𠩃	lak	
-0.000	𠩄	squ	;qu
 0.000	𠩘	kyp	
 0.000	𠩧	xlp	
 0.000	𠩰	tbh	
