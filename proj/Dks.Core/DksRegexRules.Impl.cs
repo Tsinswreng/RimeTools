@@ -7,26 +7,33 @@ public static partial class DksRegexRules{
 	// 資源名: Dks.Core 程序集內嵌資源的邏輯名 = 預設命名空間.Rules.檔案名
 	// (csproj 的 EmbeddedResource Include="Rules/*.txt" 無 LogicalName, 故路徑轉點)。
 
-	public static partial IReadOnlyList<SrRule> SaffesToOc()
-		=> LoadRules("saffesToOcRegex.txt");
+	public static partial IReadOnlyList<SrRule> SaffesToOc(){
+		return LoadRules("saffesToOcRegex.txt");
+	}
 
-	public static partial IReadOnlyList<SrRule> OcToOc3()
-		=> LoadRules("ocToOc3.txt");
+	public static partial IReadOnlyList<SrRule> OcToOc3(){
+		return LoadRules("ocToOc3.txt");
+	}
 
-	public static partial IReadOnlyList<SrRule> Cangjie()
-		=> LoadRules("cangjie.txt");
+	public static partial IReadOnlyList<SrRule> Cangjie(){
+		return LoadRules("cangjie.txt");
+	}
 
-	public static partial IReadOnlyDictionary<str, str> ShengFu()
-		=> LoadTable("聲符.txt");
+	public static partial IReadOnlyDictionary<str, str> ShengFu(){
+		return LoadTable("聲符.txt");
+	}
 
-	public static partial IReadOnlyDictionary<str, str> YiFu()
-		=> LoadTable("義符.txt");
+	public static partial IReadOnlyDictionary<str, str> YiFu(){
+		return LoadTable("義符.txt");
+	}
 
-	public static partial IReadOnlyList<SrRule> ShengFuRules()
-		=> ToRules(ShengFu(), isYiFu: false);
+	public static partial IReadOnlyList<SrRule> ShengFuRules(){
+		return ToRules(ShengFu(), isYiFu: false);
+	}
 
-	public static partial IReadOnlyList<SrRule> YiFuRules()
-		=> ToRules(YiFu(), isYiFu: true);
+	public static partial IReadOnlyList<SrRule> YiFuRules(){
+		return ToRules(YiFu(), isYiFu: true);
+	}
 
 	/// 把「字 → 音」表轉成帶錨規則：義符用首錨 `^字`（碼首是義符字形），聲符用尾錨 `字$`（碼尾是聲符字形）。
 	private static IReadOnlyList<SrRule> ToRules(IReadOnlyDictionary<str, str> Table, bool isYiFu){

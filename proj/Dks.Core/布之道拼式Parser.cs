@@ -16,7 +16,7 @@ namespace Dks.Core;
 ///   8. 聲母段緊跟輔音的 w → 上標 ʷ：kwrˤaŋʔ → kʷrˤaŋʔ（msoeg 的圓脣寫法）
 /// 原樣保留、不歸併的：ɬ（ToDks 時走 s 鍵）、hl/hm/hn/hŋ/hr（msoeg 的清化流音鼻音）、
 /// ʍ／w̥（清化圓脣半元音）、ml（本擬音同樣寫 ml）。
-/// 例：m̥(r)uk → mʰruk ⇒ 聲母 mʰ、介腹 ru、尾調 k ⇒ 三拼 .tk。
+/// 例：m̥(r)uk → mʰuk（小括號連內容刪掉）⇒ 聲母 mʰ、介腹 u、尾調 k ⇒ 三拼 .gk。
 /// 例：dˤiuk → dˤiwk ⇒ 聲母 d、介腹 ˤi、尾調 wk ⇒ 三拼 dc,。
 public static partial class 布之道拼式Parser{
 	/// 適配並解析；返回音節（形態與 Mk上古漢語音節FromDkp 的結果一致，Full 用本方案正規寫法）。

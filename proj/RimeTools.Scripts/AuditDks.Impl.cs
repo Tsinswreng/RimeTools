@@ -1,80 +1,54 @@
 namespace RimeTools.Scripts;
 
-using Core = global::Dks.Core.DksCfg;
-using SvcDks = global::Dks.Core.Svc.SvcDks;
-using RimeTools.Shared.Freq;
 using RimeTools.Tools;
 using Tsinswreng.CsCtx;
 
 internal static partial class AuditDks{
 	internal static async partial Task Main(ISCtx Ctx, str[] Args, CT Ct){
-		// step 1: 輸出根（工作區內；默認 <倉庫根>/_AuditDks），四條目錄一次建好。
+		// step 1: 輸出根（工作區內；默認 <倉庫根>/_AuditDks）；其後可選參數與 Dks 命令同序，
+		//         用來覆寫默認路徑集合（UserDataDir、SrcTableDir、布之道DictPath）。
 		var 根 = Args.Length >= 1 && !string.IsNullOrEmpty(Args[0])
 			? Args[0]
 			: System.IO.Path.Combine(Ctx.RootDir, "_AuditDks");
-		var 舊根 = System.IO.Path.Combine(根, "舊");
-		var 新根 = System.IO.Path.Combine(根, "新");
-		var 舊原表 = System.IO.Path.Combine(舊根, "src");
-		var 舊用戶 = System.IO.Path.Combine(舊根, "user");
-		var 新原表 = System.IO.Path.Combine(新根, "src");
-		var 新用戶 = System.IO.Path.Combine(新根, "user");
-		foreach(var d in new[]{舊原表, 舊用戶, 新原表, 新用戶}){
-			System.IO.Directory.CreateDirectory(d);
-		}
-
-		// step 2: 各流程只備自己會讀的原表——saffes 只有舊流程要，dkp 兩邊都要；
-		//         布之道原表由 Cfg.布之道DictPath 直接指向真 User_Data，不複製。
-		var 真原表 = Core.DefaultSrcTableDir;
-		System.IO.File.Copy(System.IO.Path.Combine(真原表, "saffes.dict.yaml"), System.IO.Path.Combine(舊原表, "saffes.dict.yaml"), true);
-		System.IO.File.Copy(System.IO.Path.Combine(真原表, "dkp.dict.yaml"), System.IO.Path.Combine(舊原表, "dkp.dict.yaml"), true);
-		System.IO.File.Copy(System.IO.Path.Combine(真原表, "dkp.dict.yaml"), System.IO.Path.Combine(新原表, "dkp.dict.yaml"), true);
-
+		var P = DksPaths.FromArgs(Args.Length > 1 ? Args[1..] : []);
 		using IFnCtx fnCtx = new FnCtx();
-		var 詞頻路徑 = System.IO.Path.Combine(Core.DefaultUserDataDir, "essay.txt");
 
-		// step 3: 舊 Dks 流程構建 dks（SaffesToDkz → dkp 覆蓋 → UpdateDks）。
-		var 舊Cfg = new Core{
-			UserDataDir = 舊用戶,
-			SrcTableDir = 舊原表,
-			WordFreq = new EssayWordFreqSource(詞頻路徑),
+		// step 2: 兩側各寫自己的目錄，互不相干故併行（舊側要 40 秒上下，串行等它純屬浪費）：
+		//   舊側 = 舊 Dks 流程整套（內部自備 src/user，複製 saffes·dkp）
+		//          → <根>/舊/user/dks.dict.yaml；
+		//   新側 = 布之道前段 → dkz → dks（只備 dkp）→ <根>/新/user/dks.dict.yaml。
+		var 新路徑 = new DksPaths{
+			UserDataDir = System.IO.Path.Combine(根, "新", "user"),
+			SrcTableDir = System.IO.Path.Combine(根, "新", "src"),
+			布之道Dict = P.布之道Dict,
 		};
-		var 舊Svc = new SvcDks(舊Cfg);
 		var 錶 = System.Diagnostics.Stopwatch.StartNew();
-		await 舊Svc.SaffesToDkz(fnCtx, Ct);
-		await 舊Svc.UpdateDkzFile(fnCtx, Ct);
-		await 舊Svc.UpdateDks(fnCtx, Ct);
-		Console.WriteLine($"舊 Dks 流程構建 dks 完成: {錶.ElapsedMilliseconds}ms");
-
-		// step 4: 新 Dks2 流程構建 dks（布之道ToDkz → dkp 覆蓋 → DkzToDks）。
-		//         產出驗證不過就打印問題清單並中止對比（新流程不會寫出半成品）。
-		var 新Cfg = new Core{
-			UserDataDir = 新用戶,
-			SrcTableDir = 新原表,
-			WordFreq = new EssayWordFreqSource(詞頻路徑),
-		};
-		var 新Svc = new SvcDks(新Cfg);
-		錶.Restart();
+		var 舊任務 = DksPipeline.跑舊流程到目錄(System.IO.Path.Combine(根, "舊"), P, fnCtx, Ct);
+		var 新任務 = Mk新側(新路徑, P, fnCtx, Ct);
+		var 舊Dks = await 舊任務;
+		IReadOnlySet<str> dkp字;
 		try{
-			await 新Svc.布之道ToDkz(fnCtx, Ct);
-			await 新Svc.UpdateDkzFile(fnCtx, Ct);
-			await 新Svc.DkzToDks(fnCtx, Ct);
+			// 產出驗證不過就打印問題清單並中止對比（新流程不會留下半成品）。
+			dkp字 = await 新任務;
 		}catch(InvalidOperationException ex){
 			Console.WriteLine("新 Dks2 流程構建失敗（產出驗證）——先修好再對比：");
 			Console.WriteLine(ex.Message);
 			return;
 		}
-		Console.WriteLine($"新 Dks2 流程構建 dks 完成: {錶.ElapsedMilliseconds}ms");
+		Console.WriteLine($"兩側構建 dks 完成: {錶.ElapsedMilliseconds}ms");
+		Console.WriteLine($"  舊側(Dks):  {舊Dks}");
+		Console.WriteLine($"  新側(Dks2): {新路徑.Dks}");
 
-		// step 5: 讀兩份 dks，取 字 → 碼集（去重、升序），行序不計。
-		var 舊表 = Mk字到碼集(System.IO.Path.Combine(舊用戶, "dks.dict.yaml"));
-		var 新表 = Mk字到碼集(System.IO.Path.Combine(新用戶, "dks.dict.yaml"));
+		// step 3: 讀兩份 dks，取 字 → 碼集（去重、升序），行序不計。
+		var 舊表 = Mk字到碼集(舊Dks);
+		var 新表 = Mk字到碼集(新路徑.Dks);
 
-		// step 6: essay.txt 的漢字頻率。
-		var (字頻率, 總頻) = Mk字頻率(詞頻路徑);
+		// step 4: essay.txt 的漢字頻率（詞頻源路徑由 DksPaths 統一給）。
+		var (字頻率, 總頻) = Mk字頻率(P.Essay);
 
-		// step 7: 收有變化的字，按頻率降序（同頻按字序）排出，寫報告並打印。
+		// step 5: 收有變化的字，按頻率降序（同頻按字序）排出，寫報告並打印。
 		//         凡 dkp 覆蓋到的字一律不列：兩條流程都用 dkp 的那幾行，差別沒有意義（要改就去改 dkp）。
-		var dkp字 = Mk字集(System.IO.Path.Combine(Core.DefaultSrcTableDir, "dkp.dict.yaml"));
+		//         dkp字 直接用新側前段回傳的覆蓋字集（同一份 dkp 解析結果，不再重讀一遍）。
 		var 變化 = new List<(str 字, str 舊碼, str 新碼, double 頻率)>();
 		var 略過dkp = 0;
 		foreach(var 字 in 舊表.Keys.Union(新表.Keys)){
@@ -108,20 +82,15 @@ internal static partial class AuditDks{
 		Console.Write(報告.ToString());
 	}
 
-	/// 讀一張 dict.yaml，取首列字（跳過空行與註釋）——用來收集 dkp 覆蓋到的字。
-	private static HashSet<str> Mk字集(str 路徑){
-		var ans = new HashSet<str>();
-		foreach(var line in System.IO.File.ReadAllLines(路徑)){
-			if(line.Length == 0 || line[0] == '#'){
-				continue;
-			}
-			var c = line.Split('\t');
-			if(c.Length < 2 || c[0].Length == 0){
-				continue;
-			}
-			ans.Add(c[0]);
-		}
-		return ans;
+	/// 新側：在 新 指定的目錄下跑「布之道 → dkz →（dkp 覆蓋）→ dks」；
+	/// 只複製 dkp（新流程不讀 saffes），回傳 dkp 覆蓋到的字集。
+	private static async Task<IReadOnlySet<str>> Mk新側(DksPaths 新, DksPaths 源, IFnCtx fnCtx, CT Ct){
+		DksPipeline.備目錄(新.SrcTableDir, 新.UserDataDir);
+		System.IO.File.Copy(源.Dkp, 新.Dkp, true);
+		var svc = DksPipeline.MkSvc(新);
+		var dkp字 = await DksPipeline.跑新前段(新, svc, fnCtx, Ct);
+		await DksPipeline.跑一步(新.Dkz, 新.Dks, (r, w) => svc.DkzToDks(fnCtx, r, w, Ct), Ct);
+		return dkp字;
 	}
 
 	/// 讀一份 dks.dict.yaml，取 字 → 碼集（同一字的碼去重後升序；含空碼）。

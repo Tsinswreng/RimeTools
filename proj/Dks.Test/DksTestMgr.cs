@@ -1,4 +1,5 @@
 using Dks.Test.Domains.Dict;
+using Dks.Test.Domains.DksCore;
 using Dks.Test.Domains.Freq;
 using Dks.Test.Domains.Phrase;
 using Dks.Test.Domains.Tools;
@@ -17,16 +18,23 @@ public class DksTestMgr:DiEtTestMgr{
 		this.RegisterTester<TestCartesian>();
 		this.RegisterTester<TestSrsReplacer>();
 		this.RegisterTester<TestRuleResourcesVsRegex>();
-		// Dict 領域測試（文檔模型 + 解析 round-trip + 反查索引）。
+		// Dict 領域測試（文檔模型 + 解析/寫出 + 反查索引）。
 		this.RegisterTester<TestIDictLine>();
 		this.RegisterTester<TestRimeDictHeader>();
 		this.RegisterTester<TestDictYamlRoundTrip>();
+		this.RegisterTester<TestDictYamlParser>();
+		this.RegisterTester<TestDictYamlWriter>();
 		this.RegisterTester<TestMemoryCharCodeLookup>();
 		// Freq 領域測試。
 		this.RegisterTester<TestEssayWordFreqSource>();
 		// Phrase 領域測試（造詞策略 + 造詞主流程）。
 		this.RegisterTester<TestPhraseMkrHeadEtTail>();
 		this.RegisterTester<TestPhraseMaker>();
+		// Dks 領域測試（三層鍵位表 + 兩支拼式解析器 + Dks 流水線服務各步）。
+		this.RegisterTester<TestDksKeyboard>();
+		this.RegisterTester<TestDkp拼式Parser>();
+		this.RegisterTester<Test布之道拼式Parser>();
+		this.RegisterTester<TestSvcDks>();
 		return Node;
 	}
 }

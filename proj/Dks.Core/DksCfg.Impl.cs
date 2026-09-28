@@ -1,19 +1,13 @@
 namespace Dks.Core;
 
 using RimeTools.Shared.Dict.Parser;
-using RimeTools.Shared.Freq;
 
 public sealed partial class DksCfg{
 	public partial DksCfg(){
-		// step 1: 默認路徑集中於此（對應 Dks.sh 的默認 rime_dir / ngaq 原表目錄），
-		//         入口（Scripts.Dks）可依參數覆寫 UserDataDir/SrcTableDir。
-		UserDataDir = DefaultUserDataDir;
-		SrcTableDir = DefaultSrcTableDir;
-		布之道DictPath = Default布之道DictPath;
-
-		// step 2: 默認用公用內存實現；WordFreq 指向 UserDataDir/essay.txt。
+		// step 1: 默認策略：純文本解析/寫出（只認 reader/writer，不碰文件系統）。
 		Parser = new DictYamlParser();
 		Writer = new DictYamlWriter();
-		WordFreq = new EssayWordFreqSource(Path.Combine(UserDataDir, "essay.txt"));
+		// step 2: 詞頻源不在此給默認值——庫不知道路徑，由端點按自己的目錄約定注入
+		//         （見 DksCfg.WordFreq 的文檔：只有造詞與按頻擇源兩步會用到它）。
 	}
 }

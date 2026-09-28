@@ -1,6 +1,6 @@
 ---
 name: dks
-version: 
+version: ""
 sort: by_weight
 use_preset_vocabulary: true
 import_tables:
@@ -29,6 +29,14 @@ import_tables:
 因	qds
 煙	qcs
 印	qdx
+寫	snu
+買	mpu
+賣	mpm
+所	squ
+𠩄	squ
+齭	squ
+㫹	sqm
+齭	vqu
 硅	.yk
 硅	ixj
 矽	ixj
@@ -7534,8 +7542,6 @@ import_tables:
 褚	equ
 褚	tqu
 濋	vqu
-齭	vqu
-齭	squ
 𪓐	vqu
 齼	vqu
 亍	erk
@@ -15335,7 +15341,6 @@ import_tables:
 㦟	mmj
 𩍃	mpj
 霾	mmj
-買	mpu
 蕒	mpu
 嘪	mpu
 鷶	mpu
@@ -15346,7 +15351,6 @@ import_tables:
 𧖴	mpk
 勱	myi
 嘜	mpk
-賣	mpm
 邁	myi
 𧱘	mmm
 𧷗	lgk
@@ -19556,7 +19560,6 @@ import_tables:
 𠊪	dfm
 術	jtt
 尌	dfm
-㫹	sqm
 裋	dfu
 竪	dfu
 腧	ofm
@@ -20055,8 +20058,6 @@ import_tables:
 縮	stk
 𤂳	vfi
 𤂳	sfc
-𠩄	squ
-所	squ
 𧴪	svy
 䣔	svy
 𢱢	szk
@@ -22233,7 +22234,6 @@ import_tables:
 讗	uxj
 讗	ipk
 龤	gmj
-寫	snu
 𣞐	snu
 灺	jnu
 𢗊	hmm

@@ -1,3 +1,12 @@
 bin/
 obj/
 *.sln
+
+# 命令跑出來的臨時/中間產物（都不該進版本庫）：
+# 臨時跑整套流程的輸出，如 _Dks3臨時/{src,user}、_Dks4臨時/{src,user}
+_Dks3臨時/
+_Dks4臨時/
+# AuditDks 的輸出根（舊/新兩側的 dks 與 差異.txt）
+_AuditDks/
+# 手工鏡像跑（工作區內複製一份原表與 essay 來試跑命令）的落點
+_Run/

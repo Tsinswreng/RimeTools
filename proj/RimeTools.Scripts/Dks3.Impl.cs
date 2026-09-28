@@ -1,72 +1,46 @@
 namespace RimeTools.Scripts;
 
-using Core = global::Dks.Core.DksCfg;
 using SvcDks = global::Dks.Core.Svc.SvcDks;
 using Tsinswreng.CsCtx;
 
+/// Dks3 命令的流程實現：布之道擬音為主，布之道缺音的字用中古倒推回退（保證不缺字）。
+/// 舊側整套跑到工作區臨時目錄，不動正式產物；新舊兩側互不相干故併行。
 internal static partial class Dks3{
 	internal static async partial Task Main(ISCtx Ctx, str[] Args, CT Ct){
-		// step 1: 依參數(可空)覆寫默認路徑；第三個參數是布之道原表。
-		var cfg = new Core();
-		if(Args.Length >= 1 && !string.IsNullOrEmpty(Args[0])){
-			cfg.UserDataDir = Args[0];
-		}
-		if(Args.Length >= 2 && !string.IsNullOrEmpty(Args[1])){
-			cfg.SrcTableDir = Args[1];
-		}
-		if(Args.Length >= 3 && !string.IsNullOrEmpty(Args[2])){
-			cfg.布之道DictPath = Args[2];
-		}
-
+		// step 1: 參數 → 路徑集合；建 Svc。
+		var P = DksPaths.FromArgs(Args);
 		using IFnCtx fnCtx = new FnCtx();
-		var svc = new SvcDks(cfg);
-
-		// step 2: 先按 Dks2 的步子跑出正式 dks（布之道 → dkp 覆蓋 → 查表轉三拼）。
-		await svc.布之道ToDkz(fnCtx, Ct);
-		await svc.UpdateDkzFile(fnCtx, Ct);
-		await svc.DkzToDks(fnCtx, Ct);
-
-		// step 3: 舊 Dks 流程跑到工作區內的臨時目錄，拿「原來的讀音」——不碰正式產物。
-		//         該流程要讀 saffes 與 dkp，故先把這兩張表複製進臨時原表目錄。
-		var 臨時根 = System.IO.Path.Combine(Ctx.RootDir, "_Dks3臨時");
-		var 臨時原表 = System.IO.Path.Combine(臨時根, "src");
-		var 臨時用戶 = System.IO.Path.Combine(臨時根, "user");
-		System.IO.Directory.CreateDirectory(臨時原表);
-		System.IO.Directory.CreateDirectory(臨時用戶);
-		System.IO.File.Copy(System.IO.Path.Combine(cfg.SrcTableDir, "saffes.dict.yaml"), System.IO.Path.Combine(臨時原表, "saffes.dict.yaml"), true);
-		System.IO.File.Copy(System.IO.Path.Combine(cfg.SrcTableDir, "dkp.dict.yaml"), System.IO.Path.Combine(臨時原表, "dkp.dict.yaml"), true);
-		var 臨時Cfg = new Core{
-			UserDataDir = 臨時用戶,
-			SrcTableDir = 臨時原表,
-			WordFreq = cfg.WordFreq,
-			布之道DictPath = cfg.布之道DictPath,
-		};
-		var 舊Svc = new SvcDks(臨時Cfg);
+		var svc = DksPipeline.MkSvc(P);
 		var 錶 = System.Diagnostics.Stopwatch.StartNew();
-		await 舊Svc.SaffesToDkz(fnCtx, Ct);
-		await 舊Svc.UpdateDkzFile(fnCtx, Ct);
-		await 舊Svc.UpdateDks(fnCtx, Ct);
-		Console.WriteLine($"舊 Dks 流程（臨時目錄）完成: {錶.ElapsedMilliseconds}ms");
 
-		// step 4: 回退缺音——缺音字改用舊讀音，寫回正式 dks 並再做一次產出驗證。
+		// step 2: 兩側併行（互不相干，且舊側慢得多，串行等它純屬浪費）：
+		//   新側 = 布之道 → dkz →（dkp 覆蓋）→ dks，落正式目錄（P.Dks）；
+		//   舊側 = saffes → dkz →（dkp 覆蓋）→ dks，落 <倉庫根>/_Dks3臨時/user（跑完留著便於查）。
+		var 臨時根 = System.IO.Path.Combine(Ctx.RootDir, "_Dks3臨時");
+		var 新側 = Mk新側(P, svc, fnCtx, Ct);
+		var 舊側 = DksPipeline.跑舊流程到目錄(臨時根, P, fnCtx, Ct);
+		await Task.WhenAll(新側, 舊側);
+		var 舊Dks = await 舊側;
+		Console.WriteLine($"新舊兩側完成: {錶.ElapsedMilliseconds}ms（舊讀音取自 {舊Dks}）");
+
+		// step 3: 回退缺音——新側「無此行、或此行全部碼皆空」的字改用舊側，其餘保留新側；
+		//         輸入含輸出同一個檔，DksPipeline 自動走「臨時檔＋改名」。
 		錶.Restart();
-		await svc.回退缺音(fnCtx, System.IO.Path.Combine(臨時用戶, "dks.dict.yaml"), Ct);
-		Console.WriteLine($"回退缺音完成: {錶.ElapsedMilliseconds}ms（舊讀音取自 {System.IO.Path.Combine(臨時用戶, "dks.dict.yaml")}）");
+		await DksPipeline.跑兩入一步(P.Dks, 舊Dks, P.Dks, (新, 舊, w) => svc.回退缺音(fnCtx, 新, 舊, w, Ct), Ct);
+		Console.WriteLine($"回退缺音完成: {錶.ElapsedMilliseconds}ms");
 
-		// step 5: 後段併行——四件只讀 dks（外加倉頡表、詞頻源、拷貝來源），彼此不相干。
-		await Task.WhenAll(
-			svc.AttachCangjie(fnCtx, Ct),
-			svc.ToDkn(fnCtx, Ct),
-			svc.MkDksPhrase(fnCtx, Ct),
-			svc.CopyDkpDkz(fnCtx, Ct)
-		);
+		// step 4: 後段四件併行 + 彙報產物。
+		await DksPipeline.跑後段(P, svc, fnCtx, Ct);
+		Console.WriteLine($"全部完成: {錶.ElapsedMilliseconds}ms");
+		foreach(var f in DksPipeline.產物清單(P)){
+			Console.WriteLine($"已產出: {f}");
+		}
+	}
 
-		// step 6: 匯報產物。
-		Console.WriteLine($"已產出: {System.IO.Path.Combine(cfg.UserDataDir, "dks.dict.yaml")}");
-		Console.WriteLine($"已產出: {System.IO.Path.Combine(cfg.UserDataDir, "dks_v.dict.yaml")}");
-		Console.WriteLine($"已產出: {System.IO.Path.Combine(cfg.UserDataDir, "dkn.dict.yaml")}");
-		Console.WriteLine($"已產出: {System.IO.Path.Combine(cfg.UserDataDir, "dkp.dict.yaml")}");
-		Console.WriteLine($"已產出: {System.IO.Path.Combine(cfg.UserDataDir, "dkz.dict.yaml")}");
-		Console.WriteLine($"已產出: {System.IO.Path.Combine(cfg.UserDataDir, "dks_phrase.dict.yaml")}");
+	/// 新側：布之道 → dkz →（dkp 覆蓋）→ dks，寫進 P 指的產物目錄；回傳 dkp 覆蓋到的字集。
+	private static async Task<IReadOnlySet<str>> Mk新側(DksPaths P, SvcDks svc, IFnCtx fnCtx, CT Ct){
+		var dkp字 = await DksPipeline.跑新前段(P, svc, fnCtx, Ct);
+		await DksPipeline.跑一步(P.Dkz, P.Dks, (r, w) => svc.DkzToDks(fnCtx, r, w, Ct), Ct);
+		return dkp字;
 	}
 }

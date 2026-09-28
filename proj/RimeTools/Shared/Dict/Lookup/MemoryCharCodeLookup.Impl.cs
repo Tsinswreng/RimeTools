@@ -7,8 +7,8 @@ public partial class MemoryCharCodeLookup : ICharCodeLookup{
 		var lookup = new MemoryCharCodeLookup();
 		// step 1: 消費一遍 Body 流，按 text 聚合全部 code。
 		await foreach(var line in Doc.Body.WithCancellation(Ct)){
-			var text = line.TryGetValue("text", out var t) ? t as str : null;
-			var code = line.TryGetValue("code", out var c) ? c as str : null;
+			var text = line.TryGetValue(DictColumns.Text, out var t) ? t as str : null;
+			var code = line.TryGetValue(DictColumns.Code, out var c) ? c as str : null;
 			if(string.IsNullOrEmpty(text) || string.IsNullOrEmpty(code)){
 				continue;
 			}

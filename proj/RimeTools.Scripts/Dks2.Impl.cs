@@ -1,45 +1,30 @@
 namespace RimeTools.Scripts;
 
-using Core = global::Dks.Core.DksCfg;
-using SvcDks = global::Dks.Core.Svc.SvcDks;
 using Tsinswreng.CsCtx;
 
+/// Dks2 命令的流程實現（布之道擬音源）：骨架與 Dks 同一條，只換前段——布之道 → dkz → dks。
+/// 一切文件操作走 DksPipeline。
 internal static partial class Dks2{
 	internal static async partial Task Main(ISCtx Ctx, str[] Args, CT Ct){
-		// step 1: 依參數(可空)覆寫默認路徑；第三個參數是布之道原表。
-		var cfg = new Core();
-		if(Args.Length >= 1 && !string.IsNullOrEmpty(Args[0])){
-			cfg.UserDataDir = Args[0];
-		}
-		if(Args.Length >= 2 && !string.IsNullOrEmpty(Args[1])){
-			cfg.SrcTableDir = Args[1];
-		}
-		if(Args.Length >= 3 && !string.IsNullOrEmpty(Args[2])){
-			cfg.布之道DictPath = Args[2];
-		}
-
-		// step 2: 前段必須串行——布之道→dkz、dkp 覆蓋、dkz→dks，後一步都要讀前一步的產物。
+		// step 1: 參數 → 路徑集合；建 Svc（注入解析/寫出/詞頻源策略）。
+		var P = DksPaths.FromArgs(Args);
 		using IFnCtx fnCtx = new FnCtx();
-		var svc = new SvcDks(cfg);
-		await svc.布之道ToDkz(fnCtx, Ct);
-		await svc.UpdateDkzFile(fnCtx, Ct);
-		await svc.DkzToDks(fnCtx, Ct);
+		var svc = DksPipeline.MkSvc(P);
 
-		// step 3: 後段併行——四件都只讀 dks（外加倉頡表、詞頻源、拷貝來源），彼此不相干：
-		//         dks_v 接倉頡、dkn 取首尾碼、dks_phrase 造詞、拷 dkp/dkz 到 User_Data。
-		await Task.WhenAll(
-			svc.AttachCangjie(fnCtx, Ct),
-			svc.ToDkn(fnCtx, Ct),
-			svc.MkDksPhrase(fnCtx, Ct),
-			svc.CopyDkpDkz(fnCtx, Ct)
-		);
+		// step 2: 前段三步必須串行（後一步讀前一步的產物）：
+		//   ① 布之道擬音 → dkz；② dkp 覆蓋（就地改寫 dkz）；③ dkz → dks（查三層鍵位表 + 三鍵產出驗證）。
+		var 錶 = System.Diagnostics.Stopwatch.StartNew();
+		await DksPipeline.跑新前段(P, svc, fnCtx, Ct);
+		await DksPipeline.跑一步(P.Dkz, P.Dks, (r, w) => svc.DkzToDks(fnCtx, r, w, Ct), Ct);
+		Console.WriteLine($"dks 產出: {錶.ElapsedMilliseconds}ms");
 
-		// step 4: 匯報產物。
-		Console.WriteLine($"已產出: {System.IO.Path.Combine(cfg.UserDataDir, "dks.dict.yaml")}");
-		Console.WriteLine($"已產出: {System.IO.Path.Combine(cfg.UserDataDir, "dks_v.dict.yaml")}");
-		Console.WriteLine($"已產出: {System.IO.Path.Combine(cfg.UserDataDir, "dkn.dict.yaml")}");
-		Console.WriteLine($"已產出: {System.IO.Path.Combine(cfg.UserDataDir, "dkp.dict.yaml")}");
-		Console.WriteLine($"已產出: {System.IO.Path.Combine(cfg.UserDataDir, "dkz.dict.yaml")}");
-		Console.WriteLine($"已產出: {System.IO.Path.Combine(cfg.UserDataDir, "dks_phrase.dict.yaml")}");
+		// step 3: 後段四件併行（dks_v／dkn／dks_phrase／拷 dkp·dkz）。
+		await DksPipeline.跑後段(P, svc, fnCtx, Ct);
+		Console.WriteLine($"全部完成: {錶.ElapsedMilliseconds}ms");
+
+		// step 4: 彙報產物。
+		foreach(var f in DksPipeline.產物清單(P)){
+			Console.WriteLine($"已產出: {f}");
+		}
 	}
 }

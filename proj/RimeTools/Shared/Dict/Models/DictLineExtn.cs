@@ -6,22 +6,22 @@ namespace RimeTools.Shared.Dict.Models;
 public static class DictLineExtn{
 	/// 擴展接收者：任意 IDictLine 都帶上下列便捷屬性。
 	extension(IDictLine z){
-		/// text 鍵：詞或字。等價 z["text"]；無鍵返回 ""。
+		/// text 鍵：詞或字。等價 z[DictColumns.Text]；無鍵返回 ""。
 		public str text{
-			get => z.TryGetValue("text", out var v) ? v as str ?? "" : "";
-			set => z["text"] = value;
+			get => z.TryGetValue(DictColumns.Text, out var v) ? v as str ?? "" : "";
+			set => z[DictColumns.Text] = value;
 		}
 
 		/// code 鍵：編碼。例：一個→qkkn；essay 兩列表無此鍵 → ""。
 		public str code{
-			get => z.TryGetValue("code", out var v) ? v as str ?? "" : "";
-			set => z["code"] = value;
+			get => z.TryGetValue(DictColumns.Code, out var v) ? v as str ?? "" : "";
+			set => z[DictColumns.Code] = value;
 		}
 
 		/// weight 鍵：權重字符串（"10000%" / "374279"）；無鍵返回 null。
 		public str? weight{
-			get => z.TryGetValue("weight", out var v) ? v as str : null;
-			set => z["weight"] = value;
+			get => z.TryGetValue(DictColumns.Weight, out var v) ? v as str : null;
+			set => z[DictColumns.Weight] = value;
 		}
 	}
 }

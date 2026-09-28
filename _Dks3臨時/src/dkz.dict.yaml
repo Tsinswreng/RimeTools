@@ -1,6 +1,6 @@
 ---
 name: dkz
-version: 
+version: ""
 sort: by_weight
 use_preset_vocabulary: true
 ...
@@ -26,6 +26,14 @@ use_preset_vocabulary: true
 因	ʔiŋ
 煙	ʔˁiŋ
 印	ʔiŋs
+寫	sAʔ
+買	mrˁeʔ	
+賣	mrˁes	
+所	sraʔ	
+𠩄	sraʔ	
+齭	sraʔ	
+㫹	sras	
+齭	tsʰraʔ	
 硅	hʷrˁak
 硅	kʷˁe	
 矽	kʷˁe	
@@ -7531,8 +7539,6 @@ use_preset_vocabulary: true
 褚	tʰraʔ
 褚	traʔ
 濋	tsʰraʔ
-齭	tsʰraʔ
-齭	sraʔ
 𪓐	tsʰraʔ
 齼	tsʰraʔ
 亍	tʰrok
@@ -15332,7 +15338,6 @@ use_preset_vocabulary: true
 㦟	mrˁə
 𩍃	mrˁe
 霾	mrˁə
-買	mrˁeʔ
 蕒	mrˁeʔ
 嘪	mrˁeʔ
 鷶	mrˁeʔ
@@ -15343,7 +15348,6 @@ use_preset_vocabulary: true
 𧖴	mrˁek
 勱	mrˁats
 嘜	mrˁek
-賣	mrˁes
 邁	mrˁats
 𧱘	mrˁəs
 𧷗	luk
@@ -19553,7 +19557,6 @@ use_preset_vocabulary: true
 𠊪	dos
 術	ʑut
 尌	dos
-㫹	sras
 裋	doʔ
 竪	doʔ
 腧	ɕos
@@ -20052,8 +20055,6 @@ use_preset_vocabulary: true
 縮	sruk
 𤂳	tsʰots
 𤂳	sons
-𠩄	sraʔ
-所	sraʔ
 𧴪	sˁojʔ
 䣔	sˁojʔ
 𢱢	sˁak
@@ -22230,7 +22231,6 @@ use_preset_vocabulary: true
 讗	ɡʷˁe
 讗	kʷrˁek
 龤	ɡrˁə
-寫	sæʔ
 𣞐	sæʔ
 灺	zæʔ
 𢗊	hrˁəs

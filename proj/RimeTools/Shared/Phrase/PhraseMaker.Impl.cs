@@ -56,9 +56,9 @@ public partial class PhraseMaker{
 				var phraseCode = string.Join("", parts);
 				// step 6: 產出詞條（權重 = 頻率字符串）。
 				var line = new DictLine{
-					["text"] = word,
-					["code"] = phraseCode,
-					["weight"] = wf.Freq.ToString(),
+					[DictColumns.Text] = word,
+					[DictColumns.Code] = phraseCode,
+					[DictColumns.Weight] = wf.Freq.ToString(),
 				};
 				yield return line;
 			}

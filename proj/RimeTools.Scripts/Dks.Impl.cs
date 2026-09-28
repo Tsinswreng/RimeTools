@@ -1,38 +1,32 @@
 namespace RimeTools.Scripts;
 
-using Core = global::Dks.Core.DksCfg;
-using SvcDks = global::Dks.Core.Svc.SvcDks;
 using Tsinswreng.CsCtx;
 
-/// Dks 命令的流程實現：解析路徑參數 → 組 DksCfg → new SvcDks → 依序跑七步 → 打印產物清單。
+/// Dks 命令的流程實現（舊．saffes 中古倒推）：
+/// 前段（saffes→dkz、dkp 覆蓋）→ dkz→dks（規則版）→ 後段四件併行 → 彙報產物。
+/// 一切文件操作都走 DksPipeline（本項目唯一碰文件系統的地方）。
 internal static partial class Dks{
 	internal static async partial Task Main(ISCtx Ctx, str[] Args, CT Ct){
-		// step 1: 依參數(可空)覆寫默認路徑。
-		var cfg = new Core();
-		if(Args.Length >= 1 && !string.IsNullOrEmpty(Args[0])){
-			cfg.UserDataDir = Args[0];
-		}
-		if(Args.Length >= 2 && !string.IsNullOrEmpty(Args[1])){
-			cfg.SrcTableDir = Args[1];
-		}
-
-		// step 2: 建服務並依 Dks.sh 順序跑七步。
+		// step 1: 參數 → 路徑集合；建 Svc（注入解析/寫出/詞頻源策略）。
+		var P = DksPaths.FromArgs(Args);
 		using IFnCtx fnCtx = new FnCtx();
-		var svc = new SvcDks(cfg);
-		await svc.SaffesToDkz(fnCtx, Ct);
-		await svc.UpdateDkzFile(fnCtx, Ct);
-		await svc.UpdateDks(fnCtx, Ct);
-		await svc.AttachCangjie(fnCtx, Ct);
-		await svc.CopyDkpDkz(fnCtx, Ct);
-		await svc.ToDkn(fnCtx, Ct);
-		await svc.MkDksPhrase(fnCtx, Ct);
+		var svc = DksPipeline.MkSvc(P);
 
-		// step 3: 匯報產物（與 Dks.sh 完成後的 User_Data 對拍用）。
-		Console.WriteLine($"已產出: {System.IO.Path.Combine(cfg.UserDataDir, "dks.dict.yaml")}");
-		Console.WriteLine($"已產出: {System.IO.Path.Combine(cfg.UserDataDir, "dks_v.dict.yaml")}");
-		Console.WriteLine($"已產出: {System.IO.Path.Combine(cfg.UserDataDir, "dkn.dict.yaml")}");
-		Console.WriteLine($"已產出: {System.IO.Path.Combine(cfg.UserDataDir, "dkp.dict.yaml")}");
-		Console.WriteLine($"已產出: {System.IO.Path.Combine(cfg.UserDataDir, "dkz.dict.yaml")}");
-		Console.WriteLine($"已產出: {System.IO.Path.Combine(cfg.UserDataDir, "dks_phrase.dict.yaml")}");
+		// step 2: 前段 —— saffes 表 + dkp 覆蓋，得到 dkz 中介表。
+		var 錶 = System.Diagnostics.Stopwatch.StartNew();
+		await DksPipeline.跑舊前段(P, svc, fnCtx, Ct);
+
+		// step 3: dkz → dks（套 OcToOc3 規則、碼轉小寫）。
+		await DksPipeline.跑一步(P.Dkz, P.Dks, (r, w) => svc.UpdateDks(fnCtx, r, w, Ct), Ct);
+		Console.WriteLine($"dks 產出: {錶.ElapsedMilliseconds}ms");
+
+		// step 4: 後段四件併行（dks_v/ dkn/ dks_phrase/ 拷 dkp·dkz）。
+		await DksPipeline.跑後段(P, svc, fnCtx, Ct);
+		Console.WriteLine($"全部完成: {錶.ElapsedMilliseconds}ms");
+
+		// step 5: 彙報產物（與 Dks.sh 完成後的 User_Data 對拍用）。
+		foreach(var f in DksPipeline.產物清單(P)){
+			Console.WriteLine($"已產出: {f}");
+		}
 	}
 }

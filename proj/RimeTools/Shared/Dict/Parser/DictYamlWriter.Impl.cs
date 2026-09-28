@@ -4,31 +4,24 @@ using RimeTools.Shared.Dict.Models;
 
 public partial class DictYamlWriter : IDictYamlWriter{
 	public partial async Task<nil> Write(
-		str Path, RimeDictHeader Header, IAsyncEnumerable<IDictLine> Body, CT Ct){
-		// step 1: 確保目錄存在。
-		var dir = System.IO.Path.GetDirectoryName(Path);
-		if(!string.IsNullOrEmpty(dir)){
-			System.IO.Directory.CreateDirectory(dir);
-		}
-
-		// step 2: 寫表頭（`---` 起、`...` 收）。
-		using var writer = new StreamWriter(Path, false, new System.Text.UTF8Encoding(false));
-		writer.WriteLine("---");
+		TextWriter Writer, RimeDictHeader Header, IAsyncEnumerable<IDictLine> Body, CT Ct){
+		// step 1: 寫表頭（`---` 起、`...` 收）。
+		await Writer.WriteLineAsync("---");
 		foreach(var item in Header.Items){
 			if(item.List is not null){
-				writer.WriteLine($"{item.Key}:");
+				await Writer.WriteLineAsync($"{item.Key}:");
 				foreach(var v in item.List){
-					writer.WriteLine($"  - {v}");
+					await Writer.WriteLineAsync($"  - {v}");
 				}
 			}
 			else{
-				writer.WriteLine($"{item.Key}: {MkScalar(item.Scalar)}");
+				await Writer.WriteLineAsync($"{item.Key}: {MkScalar(item.Scalar)}");
 			}
 		}
-		writer.WriteLine("...");
+		await Writer.WriteLineAsync("...");
 
-		// step 3: 以 Header.Columns（缺省三列）為列序，逐行取鍵拼 Tab；尾列缺失不補空。
-		var colNames = Header.Columns ?? DefaultColumns;
+		// step 2: 以 Header.Columns（缺省三列 text/code/weight）為列序，逐行取鍵拼 Tab；尾列缺失不補空。
+		var colNames = Header.Columns ?? DictColumns.Default;
 		await foreach(var line in Body.WithCancellation(Ct)){
 			var cells = new List<str>();
 			foreach(var col in colNames){
@@ -38,14 +31,11 @@ public partial class DictYamlWriter : IDictYamlWriter{
 				}
 				cells.Add(v.ToString()!);
 			}
-			writer.WriteLine(string.Join("\t", cells));
+			await Writer.WriteLineAsync(string.Join("\t", cells));
 		}
-		await writer.FlushAsync(Ct);
+		await Writer.FlushAsync(Ct);
 		return NIL;
 	}
-
-	/// 默認三列語義。
-	private static readonly IReadOnlyList<str> DefaultColumns = ["text", "code", "weight"];
 
 	/// 寫一個 YAML 標量的字面。
 	/// 空串必須寫成 `""`：Rime 的 DictSettings::LoadDictHeader 要求 name/version 非 null，
