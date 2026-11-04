@@ -12,6 +12,13 @@
 	</ItemGroup>
 
 	<ItemGroup>
+		<!-- Tables/Dk.cs 是「綜合字表源」DSL 的手寫樣本：內容是 top-level 語句（Dks.Core 是 lib，
+		     參與編譯會 CS8805），且 CsTbl 命令產出的 .cs＋.csproj 才是正式載體，故此檔先排除出編譯。
+		     它仍留在原處供對照；日後要納入編譯，需改成 exe 專案或非 top-level 形狀。 -->
+		<Compile Remove="Tables/Dk.cs" />
+	</ItemGroup>
+
+	<ItemGroup>
 		<!-- RimeTools 公用域（Dict/Phrase/Freq/Tools）。 -->
 		<ProjectReference Include="../RimeTools/RimeTools.csproj" />
 	</ItemGroup>

@@ -89,6 +89,15 @@ internal static partial class Program{
 				await AuditDks.Main(Ctx, Args[1..], Ct);
 				break;
 
+			// CsTbl（綜合字表源）：讀九張來源表（dkp／zyenpheng／廣韻形聲考主字表／白沙官方 TSV／
+			//   msoeg／許思萊／鄭張／斯塔羅斯金／廣韻字表），抽出「字 → 各家讀音與欄位」，
+			//   在指定文件夾裏寫出三份文本：Program.cs（只放數據）／Dsl.cs（只放結構：定義與運行時）／
+			//   <表名>.csproj（零依賴工程）；使用者 cd 進去 dotnet run 即導出 <表名>.json。
+			//   參數：CsTbl <目標文件夾> [表名=（默認 Dk）]。
+			case nameof(CsTbl):
+				await CsTbl.Main(Ctx, Args[1..], Ct);
+				break;
+
 			default:
 				throw new ArgumentException($"Unknown script: {Args[0]}.", nameof(Args));
 		}
@@ -97,13 +106,14 @@ internal static partial class Program{
 	/// 列出可由 dotnet run -- <entry> 呼叫的命令名稱（各自職責見 Main 的分派註釋）。
 	private static void PrintUsage(){
 		Console.Error.WriteLine("Usage: dotnet run --project proj/RimeTools.Scripts -- <entry>");
-		Console.Error.WriteLine("Entries: Test, TestAotWin, Dks, Dks2, Dks3, Dks4, AuditDks");
+		Console.Error.WriteLine("Entries: Test, TestAotWin, Dks, Dks2, Dks3, Dks4, AuditDks, CsTbl");
 		Console.Error.WriteLine("  Test/TestAotWin : 跑測試 / 先 AOT 發布再跑測試");
 		Console.Error.WriteLine("  Dks             : 中古倒推（saffes）→ dks/dks_v/dkn/dks_phrase");
 		Console.Error.WriteLine("  Dks2            : 布之道擬音 → dks/…（換掉第一段）");
 		Console.Error.WriteLine("  Dks3            : Dks2 + 布之道缺音者回退舊讀音");
 		Console.Error.WriteLine("  Dks4            : dkp 最優先；其餘按漢字頻率前 5000 用中古倒推、其餘用布之道");
 		Console.Error.WriteLine("  AuditDks        : 舊 Dks 與 Dks2 的 dks 對比（只讀，報告在 _AuditDks/差異.txt）");
+		Console.Error.WriteLine("  CsTbl           : 九張來源表 → 綜合字表源（Program.cs ＋ Dsl.cs ＋ <表名>.csproj；cd 進去 dotnet run 出 JSON）");
 	}
 
 	/// 讓編譯器提供命令源文件路徑，故命令不依賴啟動時的當前目錄。
