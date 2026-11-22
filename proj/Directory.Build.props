@@ -1,4 +1,7 @@
 <Project>
+	<!-- 本地庫路徑屬性 TswgLibsDir，定義在同目錄 TswgLibs.props。
+		 必須放在使用它的 ItemGroup 之前：MSBuild 逐行求值，導入晚了屬性就是空的。 -->
+	<Import Project="$(MSBuildThisFileDirectory)TswgLibs.props" />
 	<PropertyGroup>
 		<TargetFramework>net10.0</TargetFramework>
 		<ImplicitUsings>enable</ImplicitUsings>
@@ -7,7 +10,9 @@
 		<AllowUnsafeBlocks>true</AllowUnsafeBlocks>
 	</PropertyGroup>
 	<ItemGroup>
-		<PackageReference Include="Tsinswreng.CsCore" Version="0.0.1-alpha" />
+		<!-- 先用本地引用（Tsinswreng.CsCore 走下面的 ProjectReference），
+		     NuGet 上的 alpha 版與工作區裏演進中的本地版 API 已對不上。 -->
+		<!-- <PackageReference Include="Tsinswreng.CsCore" Version="0.0.1-alpha" /> -->
 		<Compile Include="../TypeAlias.cs" />
 	</ItemGroup>
 	<ItemGroup>
@@ -15,5 +20,24 @@
 		<PackageReference Include="Microsoft.Extensions.Logging" Version="10.0.0" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="10.0.1" />
 		<PackageReference Include="Microsoft.Extensions.Logging.Console" Version="10.0.0" />
+	</ItemGroup>
+
+	<!-- ── 本地基礎庫 ──
+		 TswgLib 搬家（原本散在倉庫根的 Tsinswreng.* 目錄）之後，引用一律以 TswgLibsDir 開頭，
+		 不再寫「上溯到某個固定深度的相對路徑」——那種寫法每個專案深度不同就要各自數 `../`，
+		 搬一次庫就集體失效（本目錄原本正是如此：兩個 csproj 都還指著 Tsinswreng.CsCtx\ 舊位置）。
+
+		 路徑一律寫成 $(TswgLibsDir) + 庫目錄名，故 TswgLib 改名或搬家時只需改 TswgLibs.props。
+
+		 為甚麼集中寫在這裏而不是各 csproj：這些是所有專案共用的地基，換版本、加庫都只改一處，
+		 不會出現「某個專案還引用舊路徑」這種漂移（與 TswgCsTpl_App/proj/Directory.Build.props 同款）。
+
+		 目前 RimeTools 只用到兩個：
+		 - CsCore：TypeAlias.cs 的 `global using Tsinswreng.CsCore;` 與 Nil；
+		 - CsCtx：Svc 方法首參 IFnCtx、FnCtx（見 Dks.Core 與 RimeTools.Scripts）。
+		 其餘（CsSh、CsTreeTest）仍是 NuGet 包，暫不本地化。 -->
+	<ItemGroup>
+		<ProjectReference Include="$(TswgLibsDir)CsCore/proj/Tsinswreng.CsCore/Tsinswreng.CsCore.csproj" />
+		<ProjectReference Include="$(TswgLibsDir)CsCtx/proj/Tsinswreng.CsCtx/Tsinswreng.CsCtx.csproj" />
 	</ItemGroup>
 </Project>

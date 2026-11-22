@@ -1,15 +1,14 @@
 namespace RimeTools.Scripts;
 
-/// Dks 方案流水線命令（舊流程：saffes 中古倒推）。
-/// 流程骨架全在本類的 Impl 裏，文件操作（開檔/關檔/建目錄/複製/同檔改寫）全在 DksPipeline：
-///   ① saffes → dkz；② dkp 覆蓋 dkz；③ dkz → dks（規則版）；④ 後段四件併行（dks_v／dkn／dks_phrase／拷 dkp·dkz）。
-/// 注意：本類名 Dks 與命名空間 Dks 同前綴，類內引用 Dks.Core 類型一律走 using 別名。
-/// 可選參數（依序）：[UserDataDir] [SrcTableDir]，缺省用 DksPaths 默認值：
-///   UserDataDir = "D:/Program Files/Rime/User_Data"
-///   SrcTableDir = "e:/_code/ngaq/src/backend/dict/原表"
-/// 例：dotnet run --project proj/RimeTools.Scripts -- Dks
-///     或用自定義路徑：-- Dks D:/Rime/User_Data e:/tables
+/// Dks 命令（新）：讀事實源的四張 csx 表，按整字優先級合併，再生成 dks／dks_v／dkn／dks_phrase。
+///
+/// 合併優先級（同字整組取最高那層）：
+///   TswgOcModed（魔改） > TswgOc（正音） > PaasTvLuuq（布之道） > ZhongGuDaoTui（中古倒推）。
+/// 魔改表內未改的讀音已在表裏標「未改」；本命令不看 Tags，只取字／音／權重。
+///
+/// 參數：`-i <真相源目錄>`、`-o <產物目錄>`；省略時用 DksFactPaths 的默認值。
+/// 例：dotnet run --project proj/RimeTools.Scripts -- Dks -i D:/Facts -o D:/out
 internal static partial class Dks{
-	/// Args 是去除命令名後的剩餘參數（0~2 個，依序為 UserDataDir、SrcTableDir）。
+	/// Args 是去除命令名後的剩餘參數（只有 `-i`／`-o` 兩種）。
 	internal static partial Task Main(ISCtx Ctx, str[] Args, CT Ct);
 }

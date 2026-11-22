@@ -7,8 +7,8 @@ namespace RimeTools.Scripts;
 ///   ③ `<表名>.csproj`：零外部依賴的 net10.0 主控台工程。
 /// 之後使用者 `cd` 到該文件夾 `dotnet run`，即導出 `<表名>.json`（頂層帶 schemaVer；校驗不過不落盤）。
 ///
-/// 參數：`CsTbl &lt;目標文件夾&gt; [表名]`；目標文件夾必填，表名默認 Dk。
-/// 例：dotnet run --project proj/RimeTools.Scripts -- CsTbl E:/_code/Ngan/RimeTools/_CsTbl/gen/Dk
+/// 參數：`CsTbl &lt;目標文件夾&gt; [表名]`；目標文件夾必填（相對路徑按當前工作目錄解析），表名默認 Dk。
+/// 九張來源表的位置集中在 `CsTblFacts`（本命令不在別處散落路徑）。
 internal static partial class CsTbl{
 	/// Args 是去除命令名後的剩餘參數（0~2 個：目標文件夾、表名）。
 	internal static partial Task Main(ISCtx Ctx, str[] Args, CT Ct);

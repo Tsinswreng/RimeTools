@@ -5,9 +5,8 @@
 		<RootNamespace>RimeTools</RootNamespace>
 	</PropertyGroup>
 
-	<ItemGroup>
-		<!-- 本地引用 Tsinswreng.CsCtx：後續 DictLine 的鍵/上下文操作可能用到 ICtxKey/CtxKey。 -->
-		<ProjectReference Include="../../../Tsinswreng.CsCtx/proj/Tsinswreng.CsCtx/Tsinswreng.CsCtx.csproj" />
-	</ItemGroup>
+	<!-- Tsinswreng.CsCtx（DictLine 的鍵/上下文操作可能用到 ICtxKey/CtxKey）由
+	     ../Directory.Build.props 統一引用，走工作區本地庫 TswgLib\CsCtx；此處不再各自寫相對路徑，
+	     免得 TswgLib 搬家時又要逐個專案數 `../`。 -->
 
 </Project>

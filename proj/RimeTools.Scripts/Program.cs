@@ -53,9 +53,9 @@ internal static partial class Program{
 				await TestAotWin.Main(Ctx, Ct);
 				break;
 
-			// Dks（舊．中古倒推）：讀 saffes 的中古三拼鍵位碼，倒推成上古完整拼式 → dkp 優先覆蓋
-			//   → 轉上古三拼 dks → dks_v（接倉頡輔助碼）／dkn（首尾雙碼）／dks_phrase（造詞）。
-			//   實現用規則檔（Rules/*.txt）+ 自研替換引擎 SrsReplacer。可選參數：UserDataDir、SrcTableDir。
+			// Dks（事實源合併）：讀四張 csx 表（TswgOcModed > TswgOc > PaasTvLuuq > ZhongGuDaoTui），
+			//   按整字優先級合併 → 上古三拼 dks → dks_v（接倉頡輔助碼）／dkn（首尾雙碼）／dks_phrase（造詞）。
+			//   參數：-i 真相源目錄、-o 產物目錄；省略則用 DksFactPaths 默認值。
 			case nameof(Dks):
 				await Dks.Main(Ctx, Args[1..], Ct);
 				break;
@@ -108,7 +108,7 @@ internal static partial class Program{
 		Console.Error.WriteLine("Usage: dotnet run --project proj/RimeTools.Scripts -- <entry>");
 		Console.Error.WriteLine("Entries: Test, TestAotWin, Dks, Dks2, Dks3, Dks4, AuditDks, CsTbl");
 		Console.Error.WriteLine("  Test/TestAotWin : 跑測試 / 先 AOT 發布再跑測試");
-		Console.Error.WriteLine("  Dks             : 中古倒推（saffes）→ dks/dks_v/dkn/dks_phrase");
+		Console.Error.WriteLine("  Dks             : 事實源四層合併（魔改>正音>布之道>中古倒推）→ dks/dks_v/dkn/dks_phrase；-i/-o 可選");
 		Console.Error.WriteLine("  Dks2            : 布之道擬音 → dks/…（換掉第一段）");
 		Console.Error.WriteLine("  Dks3            : Dks2 + 布之道缺音者回退舊讀音");
 		Console.Error.WriteLine("  Dks4            : dkp 最優先；其餘按漢字頻率前 5000 用中古倒推、其餘用布之道");

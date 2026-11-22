@@ -12,9 +12,11 @@ using SvcCsTbl = global::Dks.Core.Tables.CsTbl.SvcCsTbl;
 /// CsTbl 命令的實現。
 /// 分工：本類只做「開檔／寫檔／改名／彙報」；抽取、校驗、文本組裝全在 Dks.Core 的 SvcCsTbl（庫不認路徑）。
 internal static partial class CsTbl{
+	/// 本命令刻意不用 `Ctx`：事實源位置由 CsTblFacts 集中決定（不隨倉庫根走），
+	/// 產物位置由命令列參數決定；留著參數只是為了與 dispatcher 的其他命令同形。
 	internal static async partial Task Main(ISCtx Ctx, str[] Args, CT Ct){
 		// step 1: 參數 → 路徑集合。目標文件夾必填（使用者要求「輸出時指定文件夾」）。
-		var P = CsTblPaths.FromArgs(Ctx, Args);
+		var P = CsTblPaths.FromArgs(Args);
 		if(P.OutDir.Length == 0){
 			throw new ArgumentException("CsTbl 需要指定目標文件夾。用法：CsTbl <目標文件夾> [表名]");
 		}
